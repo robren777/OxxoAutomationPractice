@@ -1,0 +1,413 @@
+package RMS.promocionesComplejasCol;
+
+import static org.testng.Assert.assertFalse;
+import static org.testng.Assert.assertTrue;
+
+import java.awt.Robot;
+import java.io.File;
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import org.sikuli.script.Pattern;
+import org.testng.annotations.Test;
+
+import RMS.util.Queries;
+import RMS.util.PageObject.PromocionesComplejas;
+import modelo.BaseExecution;
+import utils.SikuliUtil;
+import utils.selenium.IETest;
+import utils.selenium.SeleniumUtil;
+import utils.sql.SQLResult;
+import utils.sql.SQLUtil;import RMS.util.GlobalVariables;import RMS.util.JobUtil;
+
+public class CrearPromocionesComplejas3132Col extends BaseExecution {
+	
+	@Test(dataProvider = "data-provider")
+	public void ATC_FT_007_Crear_Promociones_Complejas_Trantype_31_32_COL(HashMap<String, String> data) throws Exception {
+		
+		
+		SQLUtil dbRms = new SQLUtil(GlobalVariables.DB_HOST_BDRMSCQA, GlobalVariables.DB_USER_BDRMSCQA,
+				GlobalVariables.DB_PASSWORD_BDRMSCQA);
+		
+		
+		//SeleniumUtil u = new SeleniumUtil(new ChromeTest(), true);
+		SeleniumUtil su = new SeleniumUtil(new IETest(), true);
+		SikuliUtil sk = new SikuliUtil();		
+		String pathImg = sk.PatternPath("RMS\\"+"RMSS");
+		File Fol = new File(pathImg);	
+		HashMap<String, Pattern> ImgPatter = new HashMap<String, Pattern>();
+		ArrayList<Pattern> patterns = new ArrayList<Pattern>();
+		ArrayList<String> ListImage = new ArrayList<String>();
+		Pattern pathimg = new Pattern();
+		PromocionesComplejas p = new PromocionesComplejas(sk, su, new Robot(),
+				pathimg, ListImage, ImgPatter, patterns, Fol, pathImg, dbRms, data, testCase);
+		JobUtil job = new JobUtil(su, testCase, data);
+		
+		System.out.println(dbRms.getHost());		
+		
+		// PASO 0
+		if (data.get("setExecution").equals("false")) {
+            System.out.println("SetExecution False");
+            return;
+        }
+		
+		
+		//PASO 1
+		addStep(data.get("paso1"));
+		System.out.println("PASO 1");
+		
+		p.loginRMS();
+		String promotion = p.CreateNewPromo();
+		p.confPromoCompleja();
+		p.submitPromo();
+
+		p.minimizar();
+				
+		// Ejecucion de los jobs para poder aprobar la promo
+		// Job previo
+		String resultadoEjecucion = job.ejecutar("rr_setup.sh_2");		
+		boolean ejecucionCorrectaJob = job.fueEjecutadoCorrectamente(resultadoEjecucion);
+		
+		assertTrue(ejecucionCorrectaJob, "El job rr_setup.sh_2 no se ejecuto correctamente");
+		
+		//Job que permite aprobar la promo cambiando el estatus en la bd
+		resultadoEjecucion = job.ejecutar("pcovrlpq");
+		ejecucionCorrectaJob = job.fueEjecutadoCorrectamente(resultadoEjecucion);
+		
+		assertTrue(ejecucionCorrectaJob, "El job pcovrlpq no se ejecuto correctamente");
+		
+		p.loginRMS();
+		
+		p.viewPromo(promotion);
+		p.aprobarPromo();
+		
+		su.close();		
+	    
+		
+		// PASO 2
+		addStep("Revisar la promoci�n en las tablas de RMS PROMHEAD (Status A), PROMSTORE, "
+				+ "PROM_THRESHOLD_HEAD, PROM_THRESHOLD_DETAIL y PROM_THRESHOLD_SKU");
+		System.out.println("PASO 2");
+
+		// valida tabla PROMHEAD
+		String promheadPromotion = String.format(Queries.PROMHEAD_STATUS_A, promotion); // cambia %s por valor de promotion
+		System.out.println(promheadPromotion);
+
+		SQLResult executeQuery = executeQuery(dbRms, promheadPromotion);
+
+		boolean statusQuery = executeQuery.isEmpty();
+		if (!statusQuery) {
+			testCase.addQueryEvidenceCurrentStep(executeQuery);
+		}
+
+		assertFalse(statusQuery, "No se encontraron registros con promotion = " + promotion + " y status = 'A' en PROMHEAD");
+
+		// valida tabla PROMSTORE
+		String promstorePromotion = String.format(Queries.PROMSTORE, promotion);
+		System.out.println(promstorePromotion);
+
+		executeQuery = executeQuery(dbRms, promstorePromotion);
+				
+		statusQuery = executeQuery.isEmpty();
+		if (!statusQuery) {
+			testCase.addQueryEvidenceCurrentStep(executeQuery);
+		}
+
+		assertFalse(statusQuery, "No se encontraron registros con PROMOTION = " + promotion + "en PROMSTORE");
+		
+		// valida tabla PROM_THRESHOLD_HEAD
+		String promThresholdHeadPromotion = String.format(Queries.PROM_THRESHOLD_HEAD, promotion);
+		System.out.println(promThresholdHeadPromotion);
+
+		executeQuery = executeQuery(dbRms, promThresholdHeadPromotion);
+
+		statusQuery = executeQuery.isEmpty();
+		if (!statusQuery) {
+			testCase.addQueryEvidenceCurrentStep(executeQuery);
+		}
+
+		assertFalse(statusQuery, "No se encontraron registros con PROMOTION = " + promotion + " en PROM_THRESHOLD_HEAD");
+		
+		// valida tabla PROM_THRESHOLD_DETAIL
+		String promThresholdDetailPromotion = String.format(Queries.PROM_THRESHOLD_DETAIL, promotion);
+		System.out.println(promThresholdDetailPromotion);
+
+		executeQuery = executeQuery(dbRms, promThresholdDetailPromotion);
+
+		statusQuery = executeQuery.isEmpty();
+		if (!statusQuery) {
+			testCase.addQueryEvidenceCurrentStep(executeQuery);
+		}
+
+		assertFalse(statusQuery, "No se encontraron registros con PROMOTION = " + promotion + " en PROM_THRESHOLD_DETAIL");
+		
+		// valida tabla PROM_THRESHOLD_SKU
+		String promThresholdSkuPromotion = String.format(Queries.PROM_THRESHOLD_SKU, promotion);
+		System.out.println(promThresholdSkuPromotion);
+
+		executeQuery = executeQuery(dbRms, promThresholdSkuPromotion);
+
+		statusQuery = executeQuery.isEmpty();
+		if (!statusQuery) {
+			testCase.addQueryEvidenceCurrentStep(executeQuery);
+		}
+
+		assertFalse(statusQuery, "No se encontraron registros con PROMOTION = " + promotion + " en PROM_THRESHOLD_SKU");
+				
+		// PASO 3
+		addStep("Ejecutar xxfc_pre_prmext en Control M");
+		System.out.println("PASO 3");
+
+		resultadoEjecucion = job.ejecutar("xxfc_pre_prmext");
+		ejecucionCorrectaJob = job.fueEjecutadoCorrectamente(resultadoEjecucion);
+		
+		assertTrue(ejecucionCorrectaJob, "El job xxfc_pre_prmext no se ejecuto correctamente");
+					
+		
+		// PASO 4
+		addStep("Revisar en la tabla XXFC.XXFC_PROMO_PRMEXT_T las promociones que fueron validadas "
+				+ "por el job xxfc_pre_prmext y que ser extra�das por el prmext_col");
+		System.out.println("PASO 4");
+		
+		String prmextPromotion = String.format(Queries.XXFC_PROMO_PRMEXT_T, promotion);
+		System.out.println(prmextPromotion);
+
+		executeQuery = executeQuery(dbRms, prmextPromotion);
+
+		statusQuery = executeQuery.isEmpty();
+		if (!statusQuery) {
+			testCase.addQueryEvidenceCurrentStep(executeQuery);
+		}
+
+		assertFalse(statusQuery, "No se encontraron registros con PROMOTION = " + promotion +" en la tabla XXFC.XXFC_PROMO_PRMEXT_T");
+
+		
+		// PASO 5
+		addStep("Se ejecuta el job PRMEXT_COL, postprmext");
+		System.out.println("PASO 5");
+		
+		// PRMEXT_COL
+		resultadoEjecucion = job.ejecutar("prmextcol");
+		ejecucionCorrectaJob = job.fueEjecutadoCorrectamente(resultadoEjecucion);
+		
+		assertTrue(ejecucionCorrectaJob, "El job prmext_col no se ejecuto correctamente");
+
+		// postprmext
+		resultadoEjecucion = job.ejecutar("postprmext");
+		ejecucionCorrectaJob = job.fueEjecutadoCorrectamente(resultadoEjecucion);
+		
+		assertTrue(ejecucionCorrectaJob, "El job postprmext no se ejecuto correctamente");
+		
+		
+		// PASO 6
+		addStep("Validar que las promociones hayan sido extra�das por el prmext_col y que se hayan "
+				+ "insertado en las tablas POS_MODS (alta y baja) y POS_PROM_DETAIL_COL");
+		System.out.println("PASO 6");
+						
+		String tranType = data.get("tran_type");
+		
+		// valida tabla XXFC_POS_MODS_PRM_TEMP 31 y 32
+		String posModsPrmTempTranPromotion = String.format(Queries.POS_MODS_31, promotion, tranType);
+		System.out.println(posModsPrmTempTranPromotion);
+		String[] tiendasCompletas = p.obtenerTiendas("completas");
+		String[] tiendasIncompletas = p.obtenerTiendas("incompletas");
+		
+		executeQuery = executeQuery(dbRms, posModsPrmTempTranPromotion);
+
+		statusQuery = executeQuery.isEmpty();
+		if (!statusQuery) {
+			testCase.addQueryEvidenceCurrentStep(executeQuery);
+			
+			boolean existeEnTabla = false;			
+			testCase.addBoldTextEvidenceCurrentStep("TIENDAS CON LIGAS COMPLETAS");
+			for (int i = 0; i < tiendasCompletas.length; i++) {
+				existeEnTabla = p.validarLigas(tiendasCompletas[i], executeQuery);
+				
+				if (existeEnTabla) {
+					testCase.addTextEvidenceCurrentStep(tiendasCompletas[i]);
+				}
+				
+				assertTrue(existeEnTabla, "La tienda " + tiendasCompletas[i] + " tiene ligas completas"
+						+ " y no existe en XXFC_POS_MODS_PRM_TEMP");
+			}		
+			
+			testCase.addBoldTextEvidenceCurrentStep("TIENDAS CON LIGAS INCOMPLETAS");
+			for (int i = 0; i < tiendasIncompletas.length; i++) {
+				existeEnTabla = p.validarLigas(tiendasIncompletas[i], executeQuery);
+				
+				if (!existeEnTabla) {
+					testCase.addTextEvidenceCurrentStep(tiendasIncompletas[i]);
+				}
+				
+				assertFalse(existeEnTabla, "La tienda " + tiendasIncompletas[i] + " tiene ligas incompletas"
+						+ " y existe en XXFC_POS_MODS_PRM_TEMP");
+
+			}
+
+		}
+
+		assertFalse(statusQuery, "No se encontraron registros con PROMOTION = " + promotion + " y TRAN_TYPE = '" + tranType + "' en XXFC.XXFC_POS_MODS_PRM_TEMP");
+		
+		// valida tabla POS_PROM_DETAIL_COL
+		String posPromDetailPromotion = String.format(Queries.POS_PROM_DETAIL_COL, promotion);
+		System.out.println(posPromDetailPromotion);
+
+		executeQuery = executeQuery(dbRms, posPromDetailPromotion);
+
+		statusQuery = executeQuery.isEmpty();
+		if (!statusQuery) {
+			testCase.addQueryEvidenceCurrentStep(executeQuery);			
+		}
+
+		assertFalse(statusQuery, "No se encontraron registros con PROMOTION = " + promotion + " en POS_PROM_DETAIL_COL");	
+		 
+
+		String statusTarget = data.get("status_target"); 
+
+		// PASO 7
+		addStep("Revisar que el prmext_col actualiza campo extract_status a " + statusTarget + " en la tabla promstore.");
+		System.out.println("PASO 7");
+
+		promstorePromotion = String.format(Queries.PROMSTORE_STATUS, promotion, statusTarget);
+		System.out.println(promstorePromotion);
+
+		executeQuery = executeQuery(dbRms, promstorePromotion);
+
+		statusQuery = executeQuery.isEmpty();
+		if (!statusQuery) {
+			testCase.addQueryEvidenceCurrentStep(executeQuery);
+		}
+
+		assertFalse(statusQuery, "No se encontraron registros con PROMOTION = " + promotion + " EXTRACT_STATUS = '" 
+		+ statusTarget + "' en PROMSTORE");
+
+		
+		// PASO 8
+		addStep("Validar que el job Postprmext actualiza campo status a " + statusTarget + "en la tabla promhead.");
+		System.out.println("PASO 8");
+
+		promheadPromotion = String.format(Queries.PROMHEAD_STATUS, promotion, statusTarget);
+		System.out.println(promheadPromotion);
+
+		executeQuery = executeQuery(dbRms, promheadPromotion);
+
+		statusQuery = executeQuery.isEmpty();
+		if (!statusQuery) {
+			testCase.addQueryEvidenceCurrentStep(executeQuery);
+		}
+		
+		assertFalse(statusQuery, "No se encontraron registros con PROMOTION = " + promotion + " STATUS = '" + statusTarget + "' en PROMHEAD");
+		
+		
+		// PASO 9
+		addStep("Validar en tabla XXFC.XXFC_POS_MODS_TEMP_COL");
+		System.out.println("PASO 9");
+		
+		// valida tabla XXFC_POS_MODS_PRM_TEMP
+		String posModsTempPromotion = String.format(Queries.XXFC_POS_MODS_TEMP_COL, promotion);
+		System.out.println(posModsPrmTempTranPromotion);
+		
+		executeQuery = executeQuery(dbRms, posModsTempPromotion);
+
+		statusQuery = executeQuery.isEmpty();
+		if (!statusQuery) {
+			testCase.addQueryEvidenceCurrentStep(executeQuery);
+		}
+
+		assertFalse(statusQuery, "No se encontraron registros con PROMOTION = " + promotion + " en XXFC.XXFC_POS_MODS_TEMP_COL");
+		
+		
+		// PASO 10
+		addStep("Se ejecuta el job loadPR26Data_COL e inserta en las tablas staging de Colombia.");
+		System.out.println("PASO 10");
+		
+		resultadoEjecucion = job.ejecutar("loadPR26Data_COL");
+		ejecucionCorrectaJob = job.fueEjecutadoCorrectamente(resultadoEjecucion);
+		
+		assertTrue(ejecucionCorrectaJob, "El job loadPR26Data_COL no se ejecuto correctamente");
+		
+		// PASO 11
+		addStep("Se valida que se haya generado el Batch_Id de la ejecuci�n la tabla "
+				+ "WMUSER.POS_ITM_PRM_HEAD_COL");
+		System.out.println("PASO 11");
+		
+		System.out.println(Queries.WM_POS_ITM_PRM_HEAD_COL);
+
+		executeQuery = executeQuery(dbRms, Queries.WM_POS_ITM_PRM_HEAD_COL);
+		
+		statusQuery = executeQuery.isEmpty();
+		if (!statusQuery) {
+			testCase.addQueryEvidenceCurrentStep(executeQuery);
+		}
+
+		assertFalse(statusQuery, "No se encontraron registros en WMUSER.POS_ITM_PRM_HEAD_COL");
+
+		
+		// PASO 12
+		addStep("Se valida que la promoci�n se encuentre en las tablas staging de "
+				+ "Colombia WMUSER.FEM_POS_MODS_STG_COL y WMUSER.FEM_POS_PROM_DETAIL_STG_COL");
+		System.out.println("PASO 11");
+		
+		// valida WMUSER.FEM_POS_MODS_STG_COL
+		String wmPosModsPromotion = String.format(Queries.WM_FEM_POS_MODS_PRM_STG_COL, promotion);
+		System.out.println(wmPosModsPromotion);
+
+		executeQuery = executeQuery(dbRms, wmPosModsPromotion);
+
+		statusQuery = executeQuery.isEmpty();
+		if (!statusQuery) {			
+			testCase.addQueryEvidenceCurrentStep(executeQuery);			
+		}
+
+		assertFalse(statusQuery, "No se encontraron registros con PROMOTION = " + promotion + " en WMUSER.FEM_POS_MODS_PRM_STG");
+		
+		// valida WMUSER.FEM_POS_PROM_DETAIL_STG_COL		
+		String wmPospromDetailStgPromotion = String.format(Queries.WM_FEM_POS_PROM_DETAIL_STG_COL, promotion);
+		System.out.println(wmPospromDetailStgPromotion);
+		
+		executeQuery = executeQuery(dbRms, wmPospromDetailStgPromotion);
+
+		statusQuery = executeQuery.isEmpty();
+		if (!statusQuery) {
+			testCase.addQueryEvidenceCurrentStep(executeQuery);
+		}
+
+		assertFalse(statusQuery, "No se encontraron registros con PROMOTION = " + promotion + " en WMUSER.FEM_POS_PROM_DETAIL_STG");		
+						
+		//u.close(); 		
+		
+		testCase.setTest_Description("Construido. " + data.get("description") + "\n"
+				+ "DB: " + dbRms.getHost() + "\n"
+				+ "JOBS:\t" + data.get("jobs") + "\n"
+				+ "CASOS DE PRUEBA QUE CUMPLE: " + data.get("casos"));
+	}
+
+	@Override
+	public void beforeTest() {}
+
+	@Override
+	public String setPrerequisites() {
+		return null;
+	}
+
+	@Override
+	public String setTestDescription() {
+		return "";
+	}
+
+	@Override
+	public String setTestDesigner() {
+		return "Guerrero Vargas - Equipo RMS";
+	}
+
+	@Override
+	public String setTestFullName() {
+		return "ATC_FT_007_Crear_Promociones_Complejas_Trantype_31_32_COL";
+	}
+
+	@Override
+	public String setTestInstanceID() {
+		return null;
+	}
+
+}

@@ -1,0 +1,100 @@
+name: Ejecución Appium on demand
+
+run-name: >-
+  ${{ inputs.runner }} | ${{ inputs.device_udid }} | ${{ github.ref_name }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      runner:
+        description: "Runner de ejecución (con dispositivo/emulador conectado)"
+        required: true
+        type: string
+        default: ""
+      azure_org:
+        description: 'Azure DevOps Organization'
+        required: true
+        default: 'OXXOSWD'
+      azure_project_name:
+        description: 'Azure DevOps Project Name'
+        required: true
+        default: ''
+      test_suite_plan_list:
+        description: "Lista suite-plan (ej: 228109-228107,228200-228198)"
+        required: true
+        default: "228109-228107"
+      device_udid:
+        description: "UDID del dispositivo Android (adb devices). Ej: emulator-5554"
+        required: true
+        default: "emulator-5554"
+      appium_port:
+        description: "Puerto del servidor Appium"
+        required: false
+        default: "4723"
+      rerun_failing_tests_count:
+        description: "Numero de reintentos para tests fallidos (flaky)"
+        required: false
+        default: "1"
+
+      gh_repository_tests:
+        description: 'GitHub Repository for Tests'
+        required: true
+        default: 'OXXO-AUTOM-QA/OxxoAutomation'
+      tester_name:
+        type: string
+        description: 'Nombre del tester para ejecuciones'
+        required: false
+        default: ""
+
+jobs:
+
+  build-matrix:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set.outputs.matrix }}
+    steps:
+      - name: Parsear lista de suites y planes
+        id: set
+        shell: bash
+        run: |
+          input="${{ inputs.test_suite_plan_list }}"
+
+          json=$(jq -R -s -c '
+            gsub("[\r\n]"; "")                         # elimina CR/LF reales
+            | split(",")
+            | map(
+                gsub("^\\s+|\\s+$"; "")                # trim del elemento completo
+                | split("-")
+                | {
+                    suite: (.[0] | gsub("^\\s+|\\s+$"; "")),
+                    plan:  (.[1] | gsub("^\\s+|\\s+$"; ""))
+                  }
+              )
+            | { include: . }
+          ' <<< "$input")
+
+          echo "matrix=$json" >> "$GITHUB_OUTPUT"
+
+  run-appium-tests:
+    needs: build-matrix
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.build-matrix.outputs.matrix) }}
+      max-parallel: 1   # EJECUCIÓN SECUENCIAL (un dispositivo por runner)
+
+    uses: ./.github/workflows/appium-testing-workflow.yml
+    with:
+      runner: ${{ inputs.runner }}
+      azure_org: ${{ inputs.azure_org }}
+      azure_project_name: ${{ inputs.azure_project_name }}
+      test_suite_id: ${{ matrix.suite }}
+      test_plan_id: ${{ matrix.plan }}
+      device_udid: ${{ inputs.device_udid }}
+      appium_port: ${{ inputs.appium_port }}
+      gh_repository_tests: ${{ inputs.gh_repository_tests }}
+      gh_branch_tests: ${{ github.head_ref || github.ref_name }}
+      tester_name: ${{ inputs.tester_name }}
+      rerun_failing_tests_count: ${{ inputs.rerun_failing_tests_count }}
+    secrets:
+      gh_token_tests: ${{ secrets.GIT_HUB_NUGET_PUSH_TOKEN }}
+      azure_pat: ${{ secrets.AZURE_PAT }}

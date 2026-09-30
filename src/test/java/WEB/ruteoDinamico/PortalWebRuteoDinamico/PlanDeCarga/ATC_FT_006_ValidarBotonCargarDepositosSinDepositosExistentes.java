@@ -1,0 +1,146 @@
+package WEB.ruteoDinamico.PortalWebRuteoDinamico.PlanDeCarga;
+
+import static org.testng.Assert.assertTrue;
+
+import java.util.HashMap;
+
+import org.testng.annotations.Test;
+
+import WEB.util.PortalWebRuteoDinamico.POMLoginPortal;
+import WEB.util.PortalWebRuteoDinamico.POMPlanDeCarga;
+import modelo.BaseExecution;
+import utils.selenium.MEdgeTest;
+import utils.selenium.SeleniumUtil;
+
+/**
+ * PREREQUISITOS: 1.- Tener instalado navegador web (Chrome, Firefox o Microsoft Edge)
+				  2.- Acceso al servidor WEB (VPN, Puertos)
+ * 
+ * 
+ * DESCRIPCION: Validar que al dar clic en "Cargar Depositos" con alguna fecha inicial y final 
+ * 				que no tengan depositos del cedis seleccionado mande un mensaje de error
+ * @author cristhian.m.gonzalez@accenture.com
+ */
+
+public class ATC_FT_006_ValidarBotonCargarDepositosSinDepositosExistentes extends BaseExecution {
+	
+	@Test(dataProvider = "data-provider")
+	public void ATC_FT_006_ValidarBotonCargarDepositosSinDepositosExistentes_test(HashMap<String, String> data) throws Exception {
+		/*
+		 * VARIABLES
+		 */
+		String cedis = data.get("cedis");
+		String mensajeCampos = data.get("mensajeCampos");
+		String mensajeDepositos = data.get("mensajeDepositos");
+		
+		/*
+		 * UTILERIAS
+		 */
+		SeleniumUtil u = new SeleniumUtil(new MEdgeTest(), true);
+		POMLoginPortal pomLP = new POMLoginPortal(u, testCase);
+		POMPlanDeCarga pomPDC = new POMPlanDeCarga(u, testCase);
+		
+		/*
+		 * PASOS DEL CASO DE PRUEBA
+		 */
+		
+		// PASO 1
+		addStep("Hacer login en Portal Web Ruteo Dinamico");
+		System.out.println("PASO 1");
+		
+		assertTrue(pomLP.loginAccessControl(), "No se pudo iniciar sesion");
+		
+		// PASO 2
+		addStep("Clic en icono PORTAL RUTEO DINAMICO");
+		System.out.println("PASO 2");
+		
+		pomLP.clickPortalRuteoDinamico();
+		
+		// PASO 3
+		addStep("Clic en \"Plan de Carga\"");
+		System.out.println("PASO 3");
+		
+		pomPDC.clickPlanDeCarga();
+		
+		// PASO 4
+		addStep("Clic en menu desplegable \"Lista de Cedis\" y seleccionar cedis");
+		System.out.println("PASO 4");
+		
+		pomPDC.seleccionarCedis(cedis);
+		
+		// PASO 5
+		addStep("Clic en \"Cargar Depositos\"");
+		System.out.println("PASO 5");
+		
+		pomPDC.clickCargarDepositos();
+		
+		// PASO 6
+		addStep("Validar mensaje de campos faltantes a establecer");
+		System.out.println("PASO 6");
+		
+		pomPDC.validarMensajeLlenarCamposFechas(mensajeCampos);
+		
+		// PASO 7
+		addStep("Establecer fecha inicial y fecha final");
+		System.out.println("PASO 7");
+		
+		pomPDC.establecerFechas();
+		
+		// PASO 8
+		addStep("Clic en \"Cargar Depositos\"");
+		System.out.println("PASO 8");
+		
+		pomPDC.clickCargarDepositos();
+		
+		// PASO 9
+		addStep("Validar cerrar mensaje de depositos no existentes");
+		System.out.println("PASO 9");
+		
+		assertTrue(pomPDC.validarCargarDepositosSinDeposito(mensajeDepositos), "No se mostro mensaje de depositos no existente");
+		
+		// CERRAR WEB
+		System.out.println("Cerrando Portal Web Ruteo Dinamico");
+		
+		u.quit();
+	}
+
+	@Override
+	public void beforeTest() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String setPrerequisites() {
+		// TODO Auto-generated method stub
+		return "1.- Tener instalado navegador web (Chrome, Firefox o Microsoft Edge)\r\n"
+				+ "2.- Acceso al servidor WEB (VPN, Puertos)";
+	}
+
+	@Override
+	public String setTestDescription() {
+		// TODO Auto-generated method stub
+		return "Validar que al dar clic en \"Cargar Depositos\" con alguna fecha"
+				+ " inicial y final que no tengan depositos del cedis seleccionado"
+				+ " mande un mensaje de error";
+	}
+
+	@Override
+	public String setTestDesigner() {
+		// TODO Auto-generated method stub
+		return "cristhian.m.gonzalez@accenture.com";
+	}
+
+	@Override
+	public String setTestFullName() {
+		// TODO Auto-generated method stub
+		return "ATC_FT_006_ValidarBotonCargarDepositosSinDepositosExistentes_test";
+	}
+
+	@Override
+	public String setTestInstanceID() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,245 @@
+name: SonarQube Scan Local y Archivos Modificados
+ 
+on: 
+  pull_request:
+    branches:
+      - 'proyecto.**'
+ 
+jobs:
+  sonar_and_diff:
+    name: SonarQube Local + Diff Files
+    runs-on: self-hosted
+ 
+    env:
+      SONAR_HOST: ${{ vars.SONAR_HOST }}
+      SONAR_TOKEN: ${{ secrets.SONARQUBE_TOKEN }}
+      SONAR_PROJECT_KEY: "${{ github.base_ref }}:${{ github.head_ref }}"
+      SONAR_SOURCES: 'src/test/java'
+ 
+    steps:
+      - name: Habilitar long paths para Git
+        run: |
+         git config --system core.longpaths true
+         git config --global core.longpaths true
+
+      - name: Check version Maven y Java
+        run: mvn -version
+
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+        
+      - name: Obtener archivos Java modificados en el PR
+        id: get_diff
+        shell: powershell
+        run: |
+          $base = '${{ github.event.pull_request.base.sha }}'
+          $head = '${{ github.event.pull_request.head.sha }}'
+          Write-Host "Base SHA: $base"
+          Write-Host "Head SHA: $head"
+ 
+          $diff = git diff --name-only --diff-filter=AM $base $head |
+                  Where-Object { $_ -match '^src/test/java/.*\.java$' }
+ 
+          if ($diff) {
+            $list = $diff -join ','
+          } else {
+            $list = ''
+          }
+ 
+          Write-Host "Archivos Java modificados: $list"
+          "modified_files=$list" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+
+      - name: Remover BOM UTF-8 de Java modificados
+        shell: powershell
+        run: |
+          $files = "${{ steps.get_diff.outputs.modified_files }}" -split ',' | Where-Object { $_ -and $_.Trim() -ne '' }
+          if (-not $files) {
+            Write-Host "No hay archivos Java modificados para normalizar."
+            exit 0
+          }
+
+          foreach ($file in $files) {
+            $path = $file.Trim()
+            if (-not (Test-Path $path)) {
+              Write-Warning "Archivo no encontrado en workspace: $path"
+              continue
+            }
+
+            $bytes = [System.IO.File]::ReadAllBytes($path)
+            if ($bytes.Length -ge 3 -and $bytes[0] -eq 0xEF -and $bytes[1] -eq 0xBB -and $bytes[2] -eq 0xBF) {
+              $cleanBytes = if ($bytes.Length -gt 3) { $bytes[3..($bytes.Length - 1)] } else { [byte[]]@() }
+              [System.IO.File]::WriteAllBytes($path, $cleanBytes)
+              Write-Host "BOM removido: $path"
+            } else {
+              Write-Host "Sin BOM: $path"
+            }
+          }
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+         distribution: 'temurin'
+         java-version: '17'
+   
+      - name: Compilar proyecto con Maven
+        env:
+          JAVA_TOOL_OPTIONS: "-Dfile.encoding=UTF-8"
+       # run: mvn -B clean test-compile
+        run: mvn -U -B "-Dmaven.repo.local=C:\Users\admin01\.m2\repository" clean test-compile
+ 
+      - name: Generar inclusions.txt y batch dinámicamente
+        shell: powershell
+        run: |
+          "${{ steps.get_diff.outputs.modified_files }}" | Out-File -FilePath inclusions.txt -Encoding utf8
+ 
+          @"
+          @echo off
+          setlocal enabledelayedexpansion
+ 
+          rem Variables provenientes del job
+          set "SONAR_HOST=%SONAR_HOST%"
+          set "SONAR_TOKEN=%SONAR_TOKEN%"
+          set "SONAR_PROJECT_KEY=%SONAR_PROJECT_KEY%"
+          set "SONAR_SOURCES=%SONAR_SOURCES%"
+ 
+          rem Leer inclusiones en una sola línea
+          set /p INCLUSIONS=<inclusions.txt
+ 
+          echo Ejecutando analisis SonarQube para %SONAR_PROJECT_KEY%
+          echo Inclusions: !INCLUSIONS!
+ 
+          mvn org.sonarsource.scanner.maven:sonar-maven-plugin:4.0.0.4121:sonar ^
+            -Dsonar.host.url=%SONAR_HOST% ^
+            -Dsonar.login=%SONAR_TOKEN% ^
+            -Dsonar.projectKey=%SONAR_PROJECT_KEY% ^
+            -Dsonar.projectName=%SONAR_PROJECT_KEY% ^
+            -Dsonar.projectVersion=1.0-SNAPSHOT ^
+            -Dproject.build.sourceEncoding=UTF-8 ^
+            -Dsonar.sourceEncoding=UTF-8 ^
+            -Dsonar.sources=%SONAR_SOURCES% ^
+            -Dsonar.tests= ^
+            -Dsonar.inclusions=!INCLUSIONS! ^
+            -Dsonar.coverage.exclusions="**/*.java" ^
+            -Dsonar.test.exclusions=**/*.java ^
+            -Dsonar.java.binaries=target/test-classes ^
+            -Dsonar.qualitygate.wait=true
+          "@ | Out-File -FilePath run.sonar.bat -Encoding utf8
+ 
+      - name: Ejecutar SonarQube y capturar URL
+        id: sonar_scan
+        shell: powershell
+        run: |
+          Write-Host "Running SonarQube analysis..." -ForegroundColor Cyan
+ 
+          # Ejecuta el batch (aunque devuelva error por el Quality Gate, seguimos)
+          $output = cmd /c .\run.sonar.bat 2>&1
+ 
+          # Imprime todo el log
+          foreach ($line in $output) {
+            Write-Host $line
+          }
+ 
+          # Valor por defecto
+          $url = 'none'
+ 
+          # 1) Intentar capturar la URL del mensaje normal de ANALYSIS SUCCESSFUL
+          foreach ($line in $output) {
+            if ($line -match 'ANALYSIS SUCCESSFUL.*at: (.+)') {
+              $url = $matches[1].Trim()
+              break
+            }
+          }
+ 
+          # 2) Si no se encontró, intentar con el mensaje de QUALITY GATE STATUS FAILED
+          if ($url -eq 'none') {
+            foreach ($line in $output) {
+              if ($line -match 'QUALITY GATE STATUS: FAILED - View details on (.+)') {
+                $url = $matches[1].Trim()
+                break
+              }
+            }
+          }
+ 
+          Write-Host "SonarQube URL extracted: $url"
+ 
+          # Exportar al contexto de GitHub Actions
+          Add-Content -Path $env:GITHUB_OUTPUT -Value "sonar_url=$url" -Encoding utf8
+ 
+          # Aunque el Quality Gate falle o sea NONE, no queremos romper el workflow
+          # (comentario en PowerShell, NO usar 'rem')
+          # Aunque el Quality Gate falle, seguimos para poder comentar en el PR
+          exit 0
+ 
+      - name: Obtener estado y métricas de SonarQube
+        id: sonar_metrics
+        if: steps.sonar_scan.outputs.sonar_url != 'none'
+        shell: powershell
+        run: |
+          $projectKey = $env:SONAR_PROJECT_KEY
+          Write-Host "ProjectKey: $projectKey"
+ 
+          # Auth básica con token
+          $pair  = "$($env:SONAR_TOKEN):"
+          $b64   = [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes($pair))
+          $headers = @{ Authorization = "Basic $b64" }
+ 
+          # 1) Quality Gate
+          $qgUrl = "$env:SONAR_HOST/api/qualitygates/project_status?projectKey=$projectKey"
+          Write-Host "→ GET $qgUrl"
+          try {
+            $qgResp = Invoke-RestMethod -Uri $qgUrl -Headers $headers -ErrorAction Stop
+            $rawStatus = $qgResp.projectStatus.status  # OK, ERROR, NONE...
+          } catch {
+            Write-Warning "Error al consultar Quality Gate: $_"
+            $rawStatus = 'UNKNOWN'
+          }
+ 
+          switch ($rawStatus) {
+            'OK'    { $statusLabel = 'Passed ✅' }
+            'ERROR' { $statusLabel = 'Failed ❌' }
+            'NONE'  { $statusLabel = 'Not computed yet (first analysis?)' }
+            default { $statusLabel = $rawStatus }
+          }
+ 
+          # 2) Métricas de overall code
+          $metricsList = 'bugs,vulnerabilities,code_smells,files'
+          $measUrl = "$env:SONAR_HOST/api/measures/component?component=$projectKey&metricKeys=$metricsList"
+          Write-Host "→ GET $measUrl"
+ 
+          $metrics = @{}
+          try {
+            $measResp = Invoke-RestMethod -Uri $measUrl -Headers $headers -ErrorAction Stop
+            foreach ($m in $measResp.component.measures) {
+              $metrics[$m.metric] = $m.value
+            }
+          } catch {
+            Write-Warning "Error al obtener métricas: $_"
+          }
+ 
+          $timestamp = (Get-Date).ToString('yyyy-MM-dd HH:mm:ss')
+ 
+          Add-Content -Path $env:GITHUB_OUTPUT -Value "quality_gate_raw=$rawStatus" -Encoding utf8
+          Add-Content -Path $env:GITHUB_OUTPUT -Value "quality_gate_label=$statusLabel" -Encoding utf8
+          Add-Content -Path $env:GITHUB_OUTPUT -Value "timestamp=$timestamp" -Encoding utf8
+ 
+          foreach ($k in $metricsList -split ',') {
+            $v = if ($metrics.ContainsKey($k)) { $metrics[$k] } else { 'N/A'
+            }
+            Add-Content -Path $env:GITHUB_OUTPUT -Value "$k=$v" -Encoding utf8
+          }
+ 
+      - name: Comentar resultados de SonarQube en el PR
+        if: steps.sonar_scan.outputs.sonar_url != 'none'
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: SonarQube Analysis
+          message: |
+            **Análisis de SonarQube completado** (${{ steps.sonar_metrics.outputs.timestamp }})
+            **Quality Gate:** ${{ steps.sonar_metrics.outputs.quality_gate_label }}  
+            **Bugs:** ${{ steps.sonar_metrics.outputs.bugs }}  
+            **Vulnerabilities:** ${{ steps.sonar_metrics.outputs.vulnerabilities }}  
+            **Code Smells:** ${{ steps.sonar_metrics.outputs.code_smells }}  
+            **Files Scanned:** ${{ steps.sonar_metrics.outputs.files }}  
+            [👉 Ver reporte completo](${{ steps.sonar_scan.outputs.sonar_url }})

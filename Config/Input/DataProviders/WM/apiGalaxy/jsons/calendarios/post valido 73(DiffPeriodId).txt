@@ -1,0 +1,30 @@
+[
+  {
+    "finalDate": "2026-02-20",
+    "initialDate": "2026-01-12",
+    "periodsId": 75,
+    "periodName": "P3",
+    "position": 1,
+    "projectionPercentage": 27,
+    "isShortPeriods": "false",
+    "yearCalendar": 2027,
+    "type": "local",
+    "activityName": "Enviar listado convenios",
+    "nDays": -16,
+    "nDate": "2026-02-17"
+  },
+  {
+    "finalDate": "2026-12-19",
+    "initialDate": "2026-07-09",
+    "periodsId": 76,
+    "periodName": "P3",
+    "position": 1,
+    "projectionPercentage": 6,
+    "isShortPeriods": "true",
+    "yearCalendar": 2026,
+    "type": "Nacional",
+    "activityName": "Enviar listado convenios",
+    "nDays": -19,
+    "nDate": "2026-08-22"
+  }
+]

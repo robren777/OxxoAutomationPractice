@@ -1,0 +1,175 @@
+package RDM.conectaFase2;
+
+import static org.testng.Assert.assertFalse;
+import static org.testng.Assert.assertTrue;
+
+import java.util.HashMap;
+
+import org.json.JSONObject;
+import org.testng.annotations.Test;
+import modelo.BaseExecution; import RDM.util.GlobalVariables;import RDM.util.Conecta.SFTPUtil;
+import config.Constants;
+
+import utils.controlm.ControlM;
+import utils.controlm.pageObject.Control_mInicio;
+import utils.selenium.ChromeTest;
+import utils.selenium.SeleniumUtil;
+import utils.sql.SQLResult;
+import utils.sql.SQLUtil;
+
+public class ATC_FT_001_Validarcolumnasdeinformaciondelarchivogeneradoporteamcore extends BaseExecution {
+	
+	@Test(dataProvider = "data-provider")
+	public void ATC_FT_001_Validarcolumnasdeinformaciondelarchivogeneradoporteamcore_test(HashMap<String, String> data) throws Exception {
+		
+
+		/*
+		 * VARIABLES
+		 */
+		// nombre del archivo
+		String filename = data.get("filename");
+		
+		// vars ftp
+		String pathDestinoFtp = data.get("pathDestino");
+		
+		// var local
+		String pathDestinoLocal = Constants.DATA_PROVIDER_PATH + "TeamCoreFiles";
+	
+		// vars CONTROL-M
+		String controlMUser = GlobalVariables.usuarioRicardoControlM;
+		String controlMPass = GlobalVariables.contrasenaRicardoControlM;
+		String controlMServer = GlobalVariables.serverControlM;
+		
+		/*
+		 * UTILERIAS
+		 */
+		SQLUtil dbConecta = new SQLUtil(GlobalVariables.DB_HOST_FCREPQA, 
+				GlobalVariables.DB_USER_FCREPQA,
+				GlobalVariables.DB_PASSWORD_FCREPQA);
+		SeleniumUtil u = new SeleniumUtil(new ChromeTest());
+		SFTPUtil sftp = new SFTPUtil();
+		
+		/*
+		 * PASOS DEL CASO DE PRUEBA
+		 */
+		
+		// PASO 1
+		addStep("Subir archivo csv con columnas incompletas a la ruta "
+				+ "/u26/reple/bin/export/conecta/archivos/RECIBIDOS");
+		System.out.println("PASO 1");
+		
+		sftp.conectar();
+		
+		sftp.copiarArchivoLocalAFTP(filename, pathDestinoLocal, pathDestinoFtp);
+		boolean existeArchivo = sftp.existeArchivoEnSFtp(pathDestinoFtp, filename);
+		assertTrue(existeArchivo, "No existe el archivo: " + filename + " en la ruta del "
+		+ "SFTP: " + pathDestinoFtp);
+		
+		// PASO 2
+		addStep("Ejecutar el siguiente job: xxfc_conecta_procesar.sh");
+		System.out.println("PASO 2");
+		
+		JSONObject obj = new JSONObject(data.get("xxfc_conecta_procesar"));
+		Control_mInicio cm = new Control_mInicio(u, controlMUser, controlMPass);
+		
+		u.get(controlMServer);
+		u.waitForLoadPage();		
+		cm.logOn();
+
+		ControlM control = new ControlM(u, testCase, obj); 
+		control.searchJob(); // busca el job
+		
+		String resultadoEjecucion = control.executeJob(); 
+
+		assertTrue(resultadoEjecucion.equals("Ended OK") || resultadoEjecucion.equals("Wait Condition"), 
+				"El job xxfc_conecta_procesar no se ejecuto correctamente");	
+		
+		// PASO 3
+		addStep("Validar que se inserte la informacion en la tabla XXFC_CONECTA_FORECAST_HDR "
+				+ "con ID_ESTATUS_PROCESADO con valor de 30");
+		System.out.println("PASO 3");
+		
+		String forecastHdr = String.format("SELECT * FROM RMSREPLE.XXFC_CONECTA_FORECAST_HDR "
+				+ "WHERE ARCHIVO_TEAMCORE = '%s' "
+				+ "AND ID_ESTATUS_PROCESO = 30", filename);
+		System.out.println(forecastHdr);
+
+		SQLResult executeQuery = executeQuery(dbConecta, forecastHdr);
+		String idArchivoCargado = "";
+		
+		boolean statusQuery = executeQuery.isEmpty();
+		if (!statusQuery) {
+			testCase.addQueryEvidenceCurrentStep(executeQuery);
+			idArchivoCargado = executeQuery.getData(0, "ID_ARCHIVO_CARGADO");
+			
+		}
+
+		assertFalse(statusQuery, "No se encontraron registros en: XXFC_CONECTA_FORECAST_HDR con "
+				+ "ARCHIVO_TEAMCORE = " + filename + " "
+				+ "ID_ESTATUS_PROCESADO = 30");
+		
+		// PASO 4
+		addStep("Validar que no se muestre cargado el csv en la tabla "
+				+ "RMSREPLE.XXFC_CONECTA_FORECAST_LOAD");
+		System.out.println("PASO 4");
+		
+		String forecastLoad = String.format("SELECT ID_ARCHIVO_CARGADO, NUM_REGISTRO, CLIENTE "
+				+ "FROM RMSREPLE.XXFC_CONECTA_FORECAST_LOAD "
+				+ "WHERE ID_ARCHIVO_CARGADO = %s", idArchivoCargado);
+		System.out.println(forecastLoad);
+
+		executeQuery = executeQuery(dbConecta, forecastLoad);
+
+		statusQuery = executeQuery.isEmpty();
+		if (statusQuery) {
+			testCase.addQueryEvidenceCurrentStep(executeQuery);
+		}
+
+		assertTrue(statusQuery, "Se encontraron registros en: XXFC_CONECTA_FORECAST_LOAD con "
+				+ "ID_ARCHIVO_CARGADO = " + idArchivoCargado);
+		
+		// PASO 5
+		addStep("Validar que se muestre el csv en la ruta de errores "
+				+ "/u26/reple/bin/export/conecta/archivos/ERROR");
+		System.out.println("PASO 5");
+		
+		existeArchivo = sftp.existeArchivoEnSFtp(pathDestinoFtp, filename);
+		
+		assertTrue(existeArchivo, "No existe el archivo: " + filename + " en la ruta del "
+				+ "SFTP: " + pathDestinoFtp);
+		
+		sftp.desconectar();
+		u.close();
+			
+	}
+	
+	@Override
+	public void beforeTest() {}
+
+	@Override
+	public String setPrerequisites() {
+		return null;
+	}
+
+	@Override
+	public String setTestDescription() {
+		return "Subir archivo csv con columnas incompletas"
+			    + "Construido. Validar el formato del archivo generado";
+	}
+
+	@Override
+	public String setTestDesigner() {
+		return "ricardo.palacios@neoris.com";
+	}
+
+	@Override
+	public String setTestFullName() {
+		return "ATC_FT_001_Validarcolumnasdeinformaciondelarchivogeneradoporteamcore_test";
+	}
+
+	@Override
+	public String setTestInstanceID() {
+		return null;
+	}
+
+}

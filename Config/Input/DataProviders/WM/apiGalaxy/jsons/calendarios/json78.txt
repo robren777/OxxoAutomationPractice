@@ -1,0 +1,18 @@
+{
+  "promotionalCalendar":[
+  {
+    "finalDate": "2026-02-20",
+    "initialDate": "2026-07-12",
+    "periodsId": 78,
+    "periodName": "P3",
+    "position": 1,
+    "projectionPercentage": 27,
+    "isShortPeriods": false,
+    "yearCalendar": 2027,
+    "type": "local",
+    "activityName": "Enviar listado convenios",
+    "nDays": -16,
+    "nDate": "2026-02-17"
+  }
+] 
+}

@@ -1,0 +1,84 @@
+{
+    "method": "POST",
+    "headers": {
+        "x-functions-key": "ScPhqviIcwKd_JT0r-JDxqRTHyDQ_ytiIsLNLXK3bNEeAzFueWTHsg==",
+        "Authorization": "Bearer eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjEwOCwidXR5cGlkIjoyLCJpYXQiOjE3Nzk3MzI0NDEsImV4cCI6MTc3OTczNjA0MX0.7BcRQhAoL4D6qXsd_sA94or_zZOCivOtmLdK-Aj4AaU\n"
+    },
+    "url": "https://mcstaging.oxxoespacios.com/rest/all/V1/oxxo/ebs-bonustypesbonification/create",
+    "body": {
+        "bonusTypesBonification": [
+            {
+                "id_tipo_bonificacion": 9708,
+                "descripcion": "Renta de Espacio POP",
+                "concepto_factura": "Renta Espacio POP",
+                "concepto": "POP Espacio",
+                "id_tipo_negociacion": 382,
+                "tipo_bonificacion": "L"
+            },
+            {
+                "id_tipo_bonificacion": 10066,
+                "descripcion": "POP Espacio",
+                "concepto_factura": "Renta Espacio POP",
+                "concepto": "POP Espacio",
+                "id_tipo_negociacion": 382,
+                "tipo_bonificacion": "C"
+            },
+            {
+                "id_tipo_bonificacion": 9589,
+                "descripcion": "Renta de Publicidad POP",
+                "concepto_factura": "Renta de Publicidad POP",
+                "concepto": "POP Publicidad",
+                "id_tipo_negociacion": 390,
+                "tipo_bonificacion": "L"
+            },
+            {
+                "id_tipo_bonificacion": 9504,
+                "descripcion": "Cenefa grande Parrilla de Koxka",
+                "concepto_factura": "Cenefa grande Parrilla de Koxka",
+                "concepto": "Cenefa grande Parrilla de Koxka",
+                "id_tipo_negociacion": 390,
+                "tipo_bonificacion": "L"
+            },
+            {
+                "id_tipo_bonificacion": 9433,
+                "descripcion": "Renta de Publicidad POP",
+                "concepto_factura": "Renta de Publicidad POP",
+                "concepto": "POP Publicidad",
+                "id_tipo_negociacion": 390,
+                "tipo_bonificacion": "C"
+            },
+            {
+                "id_tipo_bonificacion": 9396,
+                "descripcion": "Cenefa grande Parrilla de Koxka",
+                "concepto_factura": "Cenefa grande Parrilla de Koxka",
+                "concepto": "Cenefa grande Parrilla de Koxka",
+                "id_tipo_negociacion": 390,
+                "tipo_bonificacion": "C"
+            },
+            {
+                "id_tipo_bonificacion": 11211,
+                "descripcion": "Exhibidor Adicional PDQ",
+                "concepto_factura": "Exhibidor Adicional PDQ",
+                "concepto": "Exhibidor Adicional PDQ",
+                "id_tipo_negociacion": 382,
+                "tipo_bonificacion": "L"
+            },
+            {
+                "id_tipo_bonificacion": 11212,
+                "descripcion": "Exhibidor Adicional PDQ",
+                "concepto_factura": "Exhibidor Adicional PDQ",
+                "concepto": "Exhibidor Adicional PDQ",
+                "id_tipo_negociacion": 382,
+                "tipo_bonificacion": "C"
+            },
+            {
+                "id_tipo_bonificacion": 11213,
+                "descripcion": "Exhibidor botana sobre hielera",
+                "concepto_factura": "Exhibidor botana sobre hielera",
+                "concepto": "Exhibidor botana sobre hielera",
+                "id_tipo_negociacion": 382,
+                "tipo_bonificacion": "L"
+            }
+        ]
+    }
+}

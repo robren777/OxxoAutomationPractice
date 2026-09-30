@@ -1,0 +1,902 @@
+{
+    "method": "POST",
+    "headers": {
+        "x-functions-key": "ScPhqviIcwKd_JT0r-JDxqRTHyDQ_ytiIsLNLXK3bNEeAzFueWTHsg==",
+        "Authorization": "Bearer eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjEwOCwidXR5cGlkIjoyLCJpYXQiOjE3Nzk3MzI0OTksImV4cCI6MTc3OTczNjA5OX0.krLTOfDc3dazZwmxtomuFsV2W7Td1QHM3TgtWp9FQPo"
+    },
+    "url": "https://mcstaging.oxxoespacios.com/rest/all/V1/oxxo/ebs-division/create",
+    "body": {
+        "divisions": [
+            {
+                "division": 18,
+                "div_name": "Fruta y Verdura",
+                "id_supergrupo": 10
+            },
+            {
+                "division": 18,
+                "div_name": "Fruta y Verdura",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 18,
+                "div_name": "Fruta y Verdura",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 18,
+                "div_name": "Fruta y Verdura",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 22,
+                "div_name": "Galletas",
+                "id_supergrupo": 30
+            },
+            {
+                "division": 22,
+                "div_name": "Galletas",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 22,
+                "div_name": "Galletas",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 22,
+                "div_name": "Galletas",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 40,
+                "div_name": "Gasolinas",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 40,
+                "div_name": "Gasolinas",
+                "id_supergrupo": 10
+            },
+            {
+                "division": 40,
+                "div_name": "Gasolinas",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 40,
+                "div_name": "Gasolinas",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 15,
+                "div_name": "Gasolinas y Diesel",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 15,
+                "div_name": "Gasolinas y Diesel",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 15,
+                "div_name": "Gasolinas y Diesel",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 15,
+                "div_name": "Gasolinas y Diesel",
+                "id_supergrupo": 10
+            },
+            {
+                "division": 23,
+                "div_name": "Helados",
+                "id_supergrupo": 30
+            },
+            {
+                "division": 23,
+                "div_name": "Helados",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 23,
+                "div_name": "Helados",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 23,
+                "div_name": "Helados",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 7,
+                "div_name": "Hielo",
+                "id_supergrupo": 40
+            },
+            {
+                "division": 7,
+                "div_name": "Hielo",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 7,
+                "div_name": "Hielo",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 7,
+                "div_name": "Hielo",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 8,
+                "div_name": "Higiene Hogar",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 8,
+                "div_name": "Higiene Hogar",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 8,
+                "div_name": "Higiene Hogar",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 8,
+                "div_name": "Higiene Hogar",
+                "id_supergrupo": 10
+            },
+            {
+                "division": 9,
+                "div_name": "Higiene y salud pers",
+                "id_supergrupo": 110
+            },
+            {
+                "division": 9,
+                "div_name": "Higiene y salud pers",
+                "id_supergrupo": 10
+            },
+            {
+                "division": 9,
+                "div_name": "Higiene y salud pers",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 9,
+                "div_name": "Higiene y salud pers",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 9,
+                "div_name": "Higiene y salud pers",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 31,
+                "div_name": "Jugos",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 31,
+                "div_name": "Jugos",
+                "id_supergrupo": 20
+            },
+            {
+                "division": 31,
+                "div_name": "Jugos",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 31,
+                "div_name": "Jugos",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 36,
+                "div_name": "Leche",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 36,
+                "div_name": "Leche",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 36,
+                "div_name": "Leche",
+                "id_supergrupo": 20
+            },
+            {
+                "division": 36,
+                "div_name": "Leche",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 10,
+                "div_name": "Mercancias generales",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 10,
+                "div_name": "Mercancias generales",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 10,
+                "div_name": "Mercancias generales",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 10,
+                "div_name": "Mercancias generales",
+                "id_supergrupo": 110
+            },
+            {
+                "division": 10,
+                "div_name": "Mercancias generales",
+                "id_supergrupo": 30
+            },
+            {
+                "division": 10,
+                "div_name": "Mercancias generales",
+                "id_supergrupo": 10
+            },
+            {
+                "division": 25,
+                "div_name": "No usar",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 25,
+                "div_name": "No usar",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 25,
+                "div_name": "No usar",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 25,
+                "div_name": "No usar",
+                "id_supergrupo": 50
+            },
+            {
+                "division": 38,
+                "div_name": "Pan tost y tortillas",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 38,
+                "div_name": "Pan tost y tortillas",
+                "id_supergrupo": 30
+            },
+            {
+                "division": 38,
+                "div_name": "Pan tost y tortillas",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 38,
+                "div_name": "Pan tost y tortillas",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 38,
+                "div_name": "Pan tost y tortillas",
+                "id_supergrupo": 10
+            },
+            {
+                "division": 11,
+                "div_name": "Productos de Diario",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 11,
+                "div_name": "Productos de Diario",
+                "id_supergrupo": 10
+            },
+            {
+                "division": 11,
+                "div_name": "Productos de Diario",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 11,
+                "div_name": "Productos de Diario",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 32,
+                "div_name": "Refrescos",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 32,
+                "div_name": "Refrescos",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 32,
+                "div_name": "Refrescos",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 32,
+                "div_name": "Refrescos",
+                "id_supergrupo": 20
+            },
+            {
+                "division": 24,
+                "div_name": "Reposteria",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 24,
+                "div_name": "Reposteria",
+                "id_supergrupo": 30
+            },
+            {
+                "division": 24,
+                "div_name": "Reposteria",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 24,
+                "div_name": "Reposteria",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 42,
+                "div_name": "Servicios",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 42,
+                "div_name": "Servicios",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 42,
+                "div_name": "Servicios",
+                "id_supergrupo": 70
+            },
+            {
+                "division": 42,
+                "div_name": "Servicios",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 13,
+                "div_name": "Tabaco",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 13,
+                "div_name": "Tabaco",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 13,
+                "div_name": "Tabaco",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 13,
+                "div_name": "Tabaco",
+                "id_supergrupo": 10
+            },
+            {
+                "division": 14,
+                "div_name": "Telefonia",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 14,
+                "div_name": "Telefonia",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 14,
+                "div_name": "Telefonia",
+                "id_supergrupo": 110
+            },
+            {
+                "division": 14,
+                "div_name": "Telefonia",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 14,
+                "div_name": "Telefonia",
+                "id_supergrupo": 70
+            },
+            {
+                "division": 27,
+                "div_name": "Vinos y Licores",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 27,
+                "div_name": "Vinos y Licores",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 27,
+                "div_name": "Vinos y Licores",
+                "id_supergrupo": 110
+            },
+            {
+                "division": 27,
+                "div_name": "Vinos y Licores",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 27,
+                "div_name": "Vinos y Licores",
+                "id_supergrupo": 40
+            },
+            {
+                "division": 41,
+                "div_name": "Yoghurt",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 41,
+                "div_name": "Yoghurt",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 41,
+                "div_name": "Yoghurt",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 41,
+                "div_name": "Yoghurt",
+                "id_supergrupo": 20
+            },
+            {
+                "division": 1,
+                "div_name": "Abarrotes Comestible",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 1,
+                "div_name": "Abarrotes Comestible",
+                "id_supergrupo": 10
+            },
+            {
+                "division": 1,
+                "div_name": "Abarrotes Comestible",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 1,
+                "div_name": "Abarrotes Comestible",
+                "id_supergrupo": 110
+            },
+            {
+                "division": 1,
+                "div_name": "Abarrotes Comestible",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 28,
+                "div_name": "Agua Purificada",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 28,
+                "div_name": "Agua Purificada",
+                "id_supergrupo": 20
+            },
+            {
+                "division": 28,
+                "div_name": "Agua Purificada",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 28,
+                "div_name": "Agua Purificada",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 45,
+                "div_name": "Agua en Garrafon",
+                "id_supergrupo": 20
+            },
+            {
+                "division": 45,
+                "div_name": "Agua en Garrafon",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 45,
+                "div_name": "Agua en Garrafon",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 45,
+                "div_name": "Agua en Garrafon",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 2,
+                "div_name": "Alim. Refrig. y Fres",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 2,
+                "div_name": "Alim. Refrig. y Fres",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 2,
+                "div_name": "Alim. Refrig. y Fres",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 2,
+                "div_name": "Alim. Refrig. y Fres",
+                "id_supergrupo": 10
+            },
+            {
+                "division": 9000,
+                "div_name": "Arts. No Vendibles",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 9000,
+                "div_name": "Arts. No Vendibles",
+                "id_supergrupo": 10
+            },
+            {
+                "division": 9000,
+                "div_name": "Arts. No Vendibles",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 9000,
+                "div_name": "Arts. No Vendibles",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 17,
+                "div_name": "Arts. Promocionales",
+                "id_supergrupo": 10
+            },
+            {
+                "division": 17,
+                "div_name": "Arts. Promocionales",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 17,
+                "div_name": "Arts. Promocionales",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 17,
+                "div_name": "Arts. Promocionales",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 16,
+                "div_name": "Arts. a Consignacion",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 16,
+                "div_name": "Arts. a Consignacion",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 16,
+                "div_name": "Arts. a Consignacion",
+                "id_supergrupo": 10
+            },
+            {
+                "division": 16,
+                "div_name": "Arts. a Consignacion",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 4,
+                "div_name": "Bebidas Alcoholicas",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 4,
+                "div_name": "Bebidas Alcoholicas",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 4,
+                "div_name": "Bebidas Alcoholicas",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 4,
+                "div_name": "Bebidas Alcoholicas",
+                "id_supergrupo": 40
+            },
+            {
+                "division": 29,
+                "div_name": "Bebidas Alternativas",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 29,
+                "div_name": "Bebidas Alternativas",
+                "id_supergrupo": 20
+            },
+            {
+                "division": 29,
+                "div_name": "Bebidas Alternativas",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 29,
+                "div_name": "Bebidas Alternativas",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 5,
+                "div_name": "Bebidas Refrescantes",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 5,
+                "div_name": "Bebidas Refrescantes",
+                "id_supergrupo": 20
+            },
+            {
+                "division": 5,
+                "div_name": "Bebidas Refrescantes",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 5,
+                "div_name": "Bebidas Refrescantes",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 20,
+                "div_name": "Botanas",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 20,
+                "div_name": "Botanas",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 20,
+                "div_name": "Botanas",
+                "id_supergrupo": 30
+            },
+            {
+                "division": 20,
+                "div_name": "Botanas",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 26,
+                "div_name": "Cerveza",
+                "id_supergrupo": 40
+            },
+            {
+                "division": 26,
+                "div_name": "Cerveza",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 26,
+                "div_name": "Cerveza",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 26,
+                "div_name": "Cerveza",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 39,
+                "div_name": "Cigarros",
+                "id_supergrupo": 110
+            },
+            {
+                "division": 39,
+                "div_name": "Cigarros",
+                "id_supergrupo": 40
+            },
+            {
+                "division": 39,
+                "div_name": "Cigarros",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 39,
+                "div_name": "Cigarros",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 39,
+                "div_name": "Cigarros",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 6,
+                "div_name": "Comida Rapida",
+                "id_supergrupo": 50
+            },
+            {
+                "division": 6,
+                "div_name": "Comida Rapida",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 6,
+                "div_name": "Comida Rapida",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 6,
+                "div_name": "Comida Rapida",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 48,
+                "div_name": "Complementos Reunion",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 48,
+                "div_name": "Complementos Reunion",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 48,
+                "div_name": "Complementos Reunion",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 48,
+                "div_name": "Complementos Reunion",
+                "id_supergrupo": 40
+            },
+            {
+                "division": 30,
+                "div_name": "Concentrados Bebidas",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 30,
+                "div_name": "Concentrados Bebidas",
+                "id_supergrupo": 10
+            },
+            {
+                "division": 30,
+                "div_name": "Concentrados Bebidas",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 30,
+                "div_name": "Concentrados Bebidas",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 21,
+                "div_name": "Dulces",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 21,
+                "div_name": "Dulces",
+                "id_supergrupo": 30
+            },
+            {
+                "division": 21,
+                "div_name": "Dulces",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 21,
+                "div_name": "Dulces",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 12,
+                "div_name": "Entretenimiento",
+                "id_supergrupo": 30
+            },
+            {
+                "division": 12,
+                "div_name": "Entretenimiento",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 12,
+                "div_name": "Entretenimiento",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 12,
+                "div_name": "Entretenimiento",
+                "id_supergrupo": 110
+            },
+            {
+                "division": 12,
+                "div_name": "Entretenimiento",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 44,
+                "div_name": "Envases",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 44,
+                "div_name": "Envases",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 44,
+                "div_name": "Envases",
+                "id_supergrupo": 20
+            },
+            {
+                "division": 44,
+                "div_name": "Envases",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 34,
+                "div_name": "Fast Food Alimentos",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 34,
+                "div_name": "Fast Food Alimentos",
+                "id_supergrupo": 60
+            },
+            {
+                "division": 34,
+                "div_name": "Fast Food Alimentos",
+                "id_supergrupo": 50
+            },
+            {
+                "division": 34,
+                "div_name": "Fast Food Alimentos",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 33,
+                "div_name": "Fast Food Bebidas",
+                "id_supergrupo": 100
+            },
+            {
+                "division": 33,
+                "div_name": "Fast Food Bebidas",
+                "id_supergrupo": 110
+            },
+            {
+                "division": 33,
+                "div_name": "Fast Food Bebidas",
+                "id_supergrupo": 50
+            },
+            {
+                "division": 33,
+                "div_name": "Fast Food Bebidas",
+                "id_supergrupo": 80
+            },
+            {
+                "division": 33,
+                "div_name": "Fast Food Bebidas",
+                "id_supergrupo": 60
+            }
+        ]
+    }
+}

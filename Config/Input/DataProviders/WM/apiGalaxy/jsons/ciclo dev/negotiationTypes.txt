@@ -1,0 +1,412 @@
+{
+    "method": "POST",
+    "headers": {
+        "x-functions-key": "ScPhqviIcwKd_JT0r-JDxqRTHyDQ_ytiIsLNLXK3bNEeAzFueWTHsg==",
+        "Authorization": "Bearer \"eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjQwLCJ1dHlwaWQiOjIsImlhdCI6MTc3MDI2NTk0OSwiZXhwIjoxNzcwMjY5NTQ5fQ.Z0YrDy9j1khFWbAa2J_CI1_o__BXvPOiNpHI3ZQ1E-Q\""
+    },
+    "url": "https://oxzfuncpepromd01.azurewebsites.net/api/rest/all/V1/oxxo/ebs-negotiationtypesneg/create",
+    "body": {
+        "negotiationTypes": [
+            {
+                "id_tipo_negociacion": 303,
+                "tipo_negociacion": "Banner Exterior"
+            },
+            {
+                "id_tipo_negociacion": 305,
+                "tipo_negociacion": "Cabecera"
+            },
+            {
+                "id_tipo_negociacion": 471,
+                "tipo_negociacion": "Cedis"
+            },
+            {
+                "id_tipo_negociacion": 578,
+                "tipo_negociacion": "Compra por Volumen"
+            },
+            {
+                "id_tipo_negociacion": 699,
+                "tipo_negociacion": "DATA ANALYTICS DAY"
+            },
+            {
+                "id_tipo_negociacion": 703,
+                "tipo_negociacion": "Destruccion 2"
+            },
+            {
+                "id_tipo_negociacion": 701,
+                "tipo_negociacion": "Estadia tarifa 1 2"
+            },
+            {
+                "id_tipo_negociacion": 702,
+                "tipo_negociacion": "Estadia tarifa 2 2"
+            },
+            {
+                "id_tipo_negociacion": 307,
+                "tipo_negociacion": "Islas"
+            },
+            {
+                "id_tipo_negociacion": 484,
+                "tipo_negociacion": "Logistica Inversa"
+            },
+            {
+                "id_tipo_negociacion": 704,
+                "tipo_negociacion": "Logistica inversa 2"
+            },
+            {
+                "id_tipo_negociacion": 606,
+                "tipo_negociacion": "Logistico Cedis"
+            },
+            {
+                "id_tipo_negociacion": 581,
+                "tipo_negociacion": "Maniobra"
+            },
+            {
+                "id_tipo_negociacion": 577,
+                "tipo_negociacion": "No Utilizacion de Recursos"
+            },
+            {
+                "id_tipo_negociacion": 384,
+                "tipo_negociacion": "POP Espacio"
+            },
+            {
+                "id_tipo_negociacion": 309,
+                "tipo_negociacion": "POP PROMOBARA"
+            },
+            {
+                "id_tipo_negociacion": 395,
+                "tipo_negociacion": "POP Publicidad"
+            },
+            {
+                "id_tipo_negociacion": 400,
+                "tipo_negociacion": "RATI"
+            },
+            {
+                "id_tipo_negociacion": 509,
+                "tipo_negociacion": "Sanciones"
+            },
+            {
+                "id_tipo_negociacion": 579,
+                "tipo_negociacion": "Varios Logisticos"
+            },
+            {
+                "id_tipo_negociacion": 616,
+                "tipo_negociacion": null
+            },
+            {
+                "id_tipo_negociacion": 610,
+                "tipo_negociacion": null
+            },
+            {
+                "id_tipo_negociacion": 238,
+                "tipo_negociacion": "Aniversario"
+            },
+            {
+                "id_tipo_negociacion": 211,
+                "tipo_negociacion": "Aperturas"
+            },
+            {
+                "id_tipo_negociacion": 533,
+                "tipo_negociacion": "Apoyo FF"
+            },
+            {
+                "id_tipo_negociacion": 240,
+                "tipo_negociacion": "Apoyo GMK"
+            },
+            {
+                "id_tipo_negociacion": 401,
+                "tipo_negociacion": "Apoyo GMK IEPS 6%"
+            },
+            {
+                "id_tipo_negociacion": 402,
+                "tipo_negociacion": "Apoyo GMK IEPS 8%"
+            },
+            {
+                "id_tipo_negociacion": 693,
+                "tipo_negociacion": "Apoyo promocional Anual"
+            },
+            {
+                "id_tipo_negociacion": 697,
+                "tipo_negociacion": "Apoyo promocional Anual IEPS 26.5%"
+            },
+            {
+                "id_tipo_negociacion": 698,
+                "tipo_negociacion": "Apoyo promocional Anual IEPS 53%"
+            },
+            {
+                "id_tipo_negociacion": 695,
+                "tipo_negociacion": "Apoyo promocional Anual IEPS 6%"
+            },
+            {
+                "id_tipo_negociacion": 696,
+                "tipo_negociacion": "Apoyo promocional Anual IEPS 8%"
+            },
+            {
+                "id_tipo_negociacion": 283,
+                "tipo_negociacion": "Banner Exterior"
+            },
+            {
+                "id_tipo_negociacion": 285,
+                "tipo_negociacion": "Banner Interior"
+            },
+            {
+                "id_tipo_negociacion": 313,
+                "tipo_negociacion": "Bonificaciones"
+            },
+            {
+                "id_tipo_negociacion": 315,
+                "tipo_negociacion": "Bonificaciones Cervezas"
+            },
+            {
+                "id_tipo_negociacion": 555,
+                "tipo_negociacion": "Bonificaciones IEPS 26.5%"
+            },
+            {
+                "id_tipo_negociacion": 524,
+                "tipo_negociacion": "Bonificaciones IEPS 53%"
+            },
+            {
+                "id_tipo_negociacion": 407,
+                "tipo_negociacion": "Bonificaciones IEPS 6%"
+            },
+            {
+                "id_tipo_negociacion": 408,
+                "tipo_negociacion": "Bonificaciones IEPS 8%"
+            },
+            {
+                "id_tipo_negociacion": 709,
+                "tipo_negociacion": "Bonificaciones pantallas"
+            },
+            {
+                "id_tipo_negociacion": 287,
+                "tipo_negociacion": "Cabecera"
+            },
+            {
+                "id_tipo_negociacion": 218,
+                "tipo_negociacion": "Cajeros Automaticos"
+            },
+            {
+                "id_tipo_negociacion": 507,
+                "tipo_negociacion": "Cambio Precio"
+            },
+            {
+                "id_tipo_negociacion": 241,
+                "tipo_negociacion": "Cambio Precio"
+            },
+            {
+                "id_tipo_negociacion": 421,
+                "tipo_negociacion": "Cambio Precio IEPS 6%"
+            },
+            {
+                "id_tipo_negociacion": 493,
+                "tipo_negociacion": "Cambio Precio IEPS 6%"
+            },
+            {
+                "id_tipo_negociacion": 422,
+                "tipo_negociacion": "Cambio Precio IEPS 8%"
+            },
+            {
+                "id_tipo_negociacion": 494,
+                "tipo_negociacion": "Cambio Precio IEPS 8%"
+            },
+            {
+                "id_tipo_negociacion": 346,
+                "tipo_negociacion": "Casetas Telefonicas"
+            },
+            {
+                "id_tipo_negociacion": 517,
+                "tipo_negociacion": "Comisiones retiro efvo"
+            },
+            {
+                "id_tipo_negociacion": 348,
+                "tipo_negociacion": "Corresponsalias"
+            },
+            {
+                "id_tipo_negociacion": 691,
+                "tipo_negociacion": "Descuentos modelo"
+            },
+            {
+                "id_tipo_negociacion": 700,
+                "tipo_negociacion": "Dinamica Promocion Metrorrey"
+            },
+            {
+                "id_tipo_negociacion": 225,
+                "tipo_negociacion": "Distribucion"
+            },
+            {
+                "id_tipo_negociacion": 231,
+                "tipo_negociacion": "Enfriamiento"
+            },
+            {
+                "id_tipo_negociacion": 475,
+                "tipo_negociacion": "Expulsion"
+            },
+            {
+                "id_tipo_negociacion": 542,
+                "tipo_negociacion": "FONDO ANTOJO"
+            },
+            {
+                "id_tipo_negociacion": 546,
+                "tipo_negociacion": "FONDO ANTOJO VARIOS"
+            },
+            {
+                "id_tipo_negociacion": 540,
+                "tipo_negociacion": "FONDO FAST FOOD"
+            },
+            {
+                "id_tipo_negociacion": 544,
+                "tipo_negociacion": "FONDO FAST FOOD VARIOS"
+            },
+            {
+                "id_tipo_negociacion": 543,
+                "tipo_negociacion": "FONDO GMK"
+            },
+            {
+                "id_tipo_negociacion": 541,
+                "tipo_negociacion": "FONDO SED"
+            },
+            {
+                "id_tipo_negociacion": 545,
+                "tipo_negociacion": "FONDO SED VARIOS"
+            },
+            {
+                "id_tipo_negociacion": 710,
+                "tipo_negociacion": "Gestion compra centralizada"
+            },
+            {
+                "id_tipo_negociacion": 548,
+                "tipo_negociacion": "Incentivo"
+            },
+            {
+                "id_tipo_negociacion": 463,
+                "tipo_negociacion": "Incentivo Especial"
+            },
+            {
+                "id_tipo_negociacion": 243,
+                "tipo_negociacion": "Incentivo por Volumen"
+            },
+            {
+                "id_tipo_negociacion": 707,
+                "tipo_negociacion": "Incentivo por Volumen IEPS 53%"
+            },
+            {
+                "id_tipo_negociacion": 435,
+                "tipo_negociacion": "Incentivo por Volumen IEPS 6%"
+            },
+            {
+                "id_tipo_negociacion": 436,
+                "tipo_negociacion": "Incentivo por Volumen IEPS 8%"
+            },
+            {
+                "id_tipo_negociacion": 490,
+                "tipo_negociacion": "Ingreso fuera de Tienda"
+            },
+            {
+                "id_tipo_negociacion": 529,
+                "tipo_negociacion": "Ingreso por Comisiones"
+            },
+            {
+                "id_tipo_negociacion": 245,
+                "tipo_negociacion": "Introduccion"
+            },
+            {
+                "id_tipo_negociacion": 363,
+                "tipo_negociacion": "No Aplica"
+            },
+            {
+                "id_tipo_negociacion": 692,
+                "tipo_negociacion": "POP DIGITAL OXXO"
+            },
+            {
+                "id_tipo_negociacion": 382,
+                "tipo_negociacion": "POP Espacio"
+            },
+            {
+                "id_tipo_negociacion": 289,
+                "tipo_negociacion": "POP PROMOXXO"
+            },
+            {
+                "id_tipo_negociacion": 390,
+                "tipo_negociacion": "POP Publicidad"
+            },
+            {
+                "id_tipo_negociacion": 247,
+                "tipo_negociacion": "Plan Crecimiento"
+            },
+            {
+                "id_tipo_negociacion": 449,
+                "tipo_negociacion": "Plan Crecimiento IEPS 6%"
+            },
+            {
+                "id_tipo_negociacion": 450,
+                "tipo_negociacion": "Plan Crecimiento IEPS 8%"
+            },
+            {
+                "id_tipo_negociacion": 685,
+                "tipo_negociacion": "Programa de Lealtad Spin"
+            },
+            {
+                "id_tipo_negociacion": 618,
+                "tipo_negociacion": "Prom Programa Lealtad"
+            },
+            {
+                "id_tipo_negociacion": 612,
+                "tipo_negociacion": "Publicidad Local Negociada"
+            },
+            {
+                "id_tipo_negociacion": 705,
+                "tipo_negociacion": "Publicidad Retina Media"
+            },
+            {
+                "id_tipo_negociacion": 366,
+                "tipo_negociacion": "RAC"
+            },
+            {
+                "id_tipo_negociacion": 375,
+                "tipo_negociacion": "RADET"
+            },
+            {
+                "id_tipo_negociacion": 688,
+                "tipo_negociacion": "Recepcion de Pagos"
+            },
+            {
+                "id_tipo_negociacion": 327,
+                "tipo_negociacion": "Renta Espacio"
+            },
+            {
+                "id_tipo_negociacion": 694,
+                "tipo_negociacion": "Renta Espacios Digitales Delivery MI OXXO"
+            },
+            {
+                "id_tipo_negociacion": 329,
+                "tipo_negociacion": "Renta Publicidad"
+            },
+            {
+                "id_tipo_negociacion": 708,
+                "tipo_negociacion": "Retina media bonificaciones"
+            },
+            {
+                "id_tipo_negociacion": 249,
+                "tipo_negociacion": "Sanciones"
+            },
+            {
+                "id_tipo_negociacion": 706,
+                "tipo_negociacion": "Servicios Conecta"
+            },
+            {
+                "id_tipo_negociacion": 562,
+                "tipo_negociacion": "Servicios Digitales"
+            },
+            {
+                "id_tipo_negociacion": 349,
+                "tipo_negociacion": "Servicios en Tienda"
+            },
+            {
+                "id_tipo_negociacion": 563,
+                "tipo_negociacion": "Servicios replenishment Sinergia Directos"
+            },
+            {
+                "id_tipo_negociacion": 368,
+                "tipo_negociacion": "Varios"
+            }
+        ]
+    }
+}

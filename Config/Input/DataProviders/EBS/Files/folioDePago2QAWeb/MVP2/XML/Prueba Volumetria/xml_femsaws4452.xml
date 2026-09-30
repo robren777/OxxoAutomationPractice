@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:mx="mx.com.oxxo.ws.facturaElectronica">
+<soap:Body>
+<mx:recepcionFacturaElectronica>
+<wsinput>
+<node><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?>
+<Comprobante Fecha="2025-05-15T03:49:38" Folio="904e6a19454" MetodoPago="PPD" Serie="1bbe" SubTotal="1920.32" TipoDeComprobante="I" Total="1073.94">
+<Emisor RegimenFiscal="601" Rfc="DAT040526MY8"/>
+<Receptor Nombre="CADENA COMERCIAL OXXO" Rfc="CCO8605231N4" UsoCFDI="G01"/>
+<Impuestos TotalImpuestosTrasladados="153.62">
+<Traslados>
+<Traslado Importe="153.62" Impuesto="IEPS" Tasa="0.080000"/>
+<Traslado Importe="0.00" Impuesto="IVA" Tasa="0.000000"/>
+</Traslados>
+</Impuestos>
+<Complemento>
+<TimbreFiscalDigital UUID="96845BD1-3E26-11EE-810F-B33DE3724452"/>
+</Complemento>
+<Addenda>
+<oxxo:AddendaOXXO claseDoc="1" importeTotal="1073.94" locType="T" noVersAdd="1" plaza="10MON" tipoProv="05" tipoValidacion="3" xmlns:oxxo="http://www.buzonfiscal.com/schema/xsd/oxxo">
+<oxxo:Articulos>
+<oxxo:Detalle ImporteNeto="1073.94"/>
+</oxxo:Articulos>
+</oxxo:AddendaOXXO>
+</Addenda>
+</Comprobante>
+]]></node>
+</wsinput>
+</mx:recepcionFacturaElectronica>
+</soap:Body>
+</soap:Envelope>

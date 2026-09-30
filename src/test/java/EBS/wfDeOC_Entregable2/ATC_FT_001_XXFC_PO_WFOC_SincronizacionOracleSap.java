@@ -1,0 +1,189 @@
+package EBS.wfDeOC_Entregable2;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import org.sikuli.script.Pattern;
+import org.testng.annotations.Test;
+
+import EBS.tools.LoginTool;
+import EBS.util.GlobalVariables;
+import EBS.util.appletsMethods.MetodosSikuli;
+import EBS.util.pageObjectModel.EBSPaginaInicial;
+import modelo.BaseExecution;
+import utils.SikuliUtil;
+import utils.password.PasswordUtil;
+import utils.selenium.IETest;
+import utils.selenium.SeleniumUtil;
+import utils.sql.SQLResult;
+
+public class ATC_FT_001_XXFC_PO_WFOC_SincronizacionOracleSap extends BaseExecution {
+
+	@Test(dataProvider = "data-provider")
+	public void ATC_FT_001_XXFC_PO_WFOC_SincronizacionOracleSap_Test(HashMap<String, String> data) throws Exception {
+
+		/*
+		 * VARIABLES
+		 */
+		String ebsUrl = data.get("server");
+		String userName = data.get("userName");
+		String password = PasswordUtil.decryptPassword(data.get("password"));
+		String responsabilidad = data.get("responsabilidad");
+		String nombre = data.get("nombre");
+		String nombre2 = data.get("nombre2");
+
+		/*
+		 * Queries
+		 */
+		String query1 = "SELECT DISTINCT " + "T1.ID_PUESTO_TITULAR," + "T1.ID_EMPLEADO_TITULAR,"
+				+ "(SELECT SAP.NAME||' '||SAP.LAST_NAME1||' '||SAP.LAST_NAME2 AS NOMBRE "
+				+ "FROM XXFC.XXFC_PO_BUYERS_SAP SAP "
+				+ "WHERE SAP.EMPLOYEE_ID = T1.ID_EMPLEADO_TITULAR) NOMBRE_EMPLEADO,"
+				+ "(SELECT EMPLOYEE_POSITION FROM XXFC.XXFC_PO_BUYERS_SAP SAP "
+				+ "WHERE SAP.EMPLOYEE_POSITION_ID = T1.ID_PUESTO_TITULAR) DESCRIPCION_POSICION "
+				+ "FROM XXFC.XXFC_PO_WFOC_APROBADORES T1 " + "WHERE 1=1 " + "AND VIGENTE = 'Y' "
+				+ "AND t1.id_puesto_titular = 90342";
+
+		String query2 = "SELECT SAP.EMPLOYEE_ID EMPLEADO_ID,"
+				+ "SAP.NAME||' '||SAP.LAST_NAME1||' '||SAP.LAST_NAME2 NOMBRE_EMPLEADO,"
+				+ "SAP. EMPLOYEE_POSITION POSICION_EMPLEADO\r\n" + "FROM XXFC.XXFC_PO_BUYERS_SAP SAP "
+				+ "WHERE SAP.EMPLOYEE_POSITION_ID = 90342";
+
+		String query3 = "SELECT DISTINCT " + "T1.ID_PUESTO_TITULAR," + "T1.ID_EMPLEADO_TITULAR,"
+				+ "(SELECT SAP.NAME||' '||SAP.LAST_NAME1||' '||SAP.LAST_NAME2 AS NOMBRE "
+				+ "FROM XXFC.XXFC_PO_BUYERS_SAP SAP "
+				+ "WHERE SAP.EMPLOYEE_ID = T1.ID_EMPLEADO_TITULAR) NOMBRE_EMPLEADO,"
+				+ "(SELECT EMPLOYEE_POSITION FROM XXFC.XXFC_PO_BUYERS_SAP SAP "
+				+ "WHERE SAP.EMPLOYEE_POSITION_ID = T1.ID_PUESTO_TITULAR) DESCRIPCION_POSICION "
+				+ "FROM XXFC.XXFC_PO_WFOC_APROBADORES T1 " + "WHERE 1=1 " + "AND VIGENTE = 'Y' "
+				+ "AND T1.ID_PUESTO_TITULAR = 90342";
+		/*
+		 * UTILERIAS
+		 */
+		SeleniumUtil u = new SeleniumUtil(new IETest(), true);
+		LoginTool inicio = new LoginTool(u, testCase, ebsUrl, userName, password);
+		EBSPaginaInicial paginaInicial = new EBSPaginaInicial(u, testCase);
+		SikuliUtil sk = new SikuliUtil();
+		String pathImg = sk.PatternPath("EBS\\"+"EBS");
+		Pattern pathimg = new Pattern();
+		ArrayList<String> ListImage = new ArrayList<String>();
+		HashMap<String, Pattern> ImgPatter = new HashMap<String, Pattern>();
+		ArrayList<Pattern> patterns = new ArrayList<Pattern>();
+		File Fol = new File(pathImg);
+		MetodosSikuli p = new MetodosSikuli(sk, u, pathimg, ListImage, ImgPatter, patterns, Fol);
+		utils.sql.SQLUtil dbAvebqa = new utils.sql.SQLUtil(GlobalVariables.DB_HOST_AVEBQA,
+				GlobalVariables.DB_USER_AVEBQA, GlobalVariables.DB_PASSWORD_AVEBQA);
+		/*
+		 * PASOS DEL CASO DE PRUEBA
+		 */
+
+		// PASO 1
+		addStep("Ingresar a EBS AVEBQA");
+		logger.info("EBS URL: " + ebsUrl);
+		logger.info("User Name: " + userName);
+		inicio.login();
+
+		// PASO 2
+		addStep("Ingresar a la Responsabilidad MXOXXO-POXXXXX-Super Usuario.");
+		paginaInicial.clickOnResponsabilidad(responsabilidad);
+
+		// PASO 3
+		addStep("Ingresar a la pantalla de Ejecucion de concurrentes: ");
+		paginaInicial.runSolicitudesElement.click();
+		u.hardWait(7);
+		p.clickNuevaSolicitud();
+		p.ingresarNombreAcentos(nombre, nombre2);
+		p.ejecutar();
+		p.enter();
+		p.otraSolicitud();
+		p.encontrar();
+
+		// PASO 4
+		addStep("Validar que la ejecucion del concurrente finalice de manera Normal.");
+		p.estadoNormal();
+
+		// PASO 5
+		addStep("Validar el que en el Output se muestre la informacion de las actualizaciones que se realizaron con la ejecucion del proceso. ");
+		p.visualizaRegistro();
+		u.hardWait(3);
+		p.cerrarNavegador();
+
+		// PASO 6
+		addStep("Validar a nivel BD que se muestren las actualizaciones correspondientes.");
+		System.out.println(GlobalVariables.DB_HOST_AVEBQA);
+		System.out.println(query1);
+		SQLResult ValidChangeExec = dbAvebqa.executeQuery(query1);
+
+		boolean ValidChangeRes = ValidChangeExec.isEmpty();
+		if (!ValidChangeRes) {
+			testCase.addQueryEvidenceCurrentStep(ValidChangeExec);
+		} else if (ValidChangeRes) {
+			testCase.addTextEvidenceCurrentStep("No se encontraron datos en la consulta /n" + query1);
+			testCase.addQueryEvidenceCurrentStep(ValidChangeExec);
+		}
+
+		System.out.println(GlobalVariables.DB_HOST_AVEBQA);
+		System.out.println(query2);
+		SQLResult ValidChangeExec2 = dbAvebqa.executeQuery(query2);
+
+		boolean ValidChangeRes2 = ValidChangeExec2.isEmpty();
+		if (!ValidChangeRes2) {
+			testCase.addQueryEvidenceCurrentStep(ValidChangeExec2);
+		} else if (ValidChangeRes2) {
+			testCase.addTextEvidenceCurrentStep("No se encontraron datos en la consulta /n" + query2);
+			testCase.addQueryEvidenceCurrentStep(ValidChangeExec2);
+		}
+
+		System.out.println(GlobalVariables.DB_HOST_AVEBQA);
+		System.out.println(query3);
+		SQLResult ValidChangeExec3 = dbAvebqa.executeQuery(query3);
+
+		boolean ValidChangeRes3 = ValidChangeExec3.isEmpty();
+		if (!ValidChangeRes3) {
+			testCase.addQueryEvidenceCurrentStep(ValidChangeExec3);
+		} else if (ValidChangeRes3) {
+			testCase.addTextEvidenceCurrentStep("No se encontraron datos en la consulta /n" + query3);
+			testCase.addQueryEvidenceCurrentStep(ValidChangeExec3);
+		}
+		p.cerrarApplet();
+		u.close();
+	}
+
+	@Override
+	public void beforeTest() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public String setPrerequisites() {
+		// TODO Auto-generated method stub
+		return "Acceso a las responsabilidades: -MXOXXO-POXXXXX-Super Usuario." + "Acceso a BD de instancia AVEBQA";
+	}
+
+	@Override
+	public String setTestDescription() {
+		// TODO Auto-generated method stub
+		return "Ejecutar proceso de Sincronizacion XXFC - PO WFOC Sincronizacion Oracle Sap para que actualice el cambio de empleado para un puesto."
+				+ "Prerequisitos: Acceso a las responsabilidades: -MXOXXO-POXXXXX-Super Usuario."
+				+ "Acceso a BD de instancia AVEBQA";
+	}
+
+	@Override
+	public String setTestDesigner() {
+		// TODO Auto-generated method stub
+		return "edwin.ramirez@neoris.com";
+	}
+
+	@Override
+	public String setTestFullName() {
+		return "ATC_FT_001_XXFC_PO_WFOC_SincronizacionOracleSap_Test";
+	}
+
+	@Override
+	public String setTestInstanceID() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

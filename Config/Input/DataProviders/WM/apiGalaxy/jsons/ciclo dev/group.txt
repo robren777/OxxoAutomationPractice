@@ -1,0 +1,1727 @@
+{
+    "method": "POST",
+    "headers": {
+        "x-functions-key": "ScPhqviIcwKd_JT0r-JDxqRTHyDQ_ytiIsLNLXK3bNEeAzFueWTHsg==",
+        "Authorization": "Bearer \"eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjQwLCJ1dHlwaWQiOjIsImlhdCI6MTc3MDI2NTk0OSwiZXhwIjoxNzcwMjY5NTQ5fQ.Z0YrDy9j1khFWbAa2J_CI1_o__BXvPOiNpHI3ZQ1E-Q\""
+    },
+    "url": "https://oxzfuncpepromd01.azurewebsites.net/api/rest/all/V1/oxxo/ebs-group/create",
+    "body": {
+        "group": [
+            {
+                "group_no": 285,
+                "group_name": "Bolsas Desechables",
+                "division": 8
+            },
+            {
+                "group_no": 286,
+                "group_name": "Envoltura p/comida",
+                "division": 8
+            },
+            {
+                "group_no": 294,
+                "group_name": "Jugos",
+                "division": 33
+            },
+            {
+                "group_no": 300,
+                "group_name": "TiempoAireElectronic",
+                "division": 14
+            },
+            {
+                "group_no": 312,
+                "group_name": "Alimentos liquidos",
+                "division": 36
+            },
+            {
+                "group_no": 317,
+                "group_name": "Especias y Condiment",
+                "division": 1
+            },
+            {
+                "group_no": 318,
+                "group_name": "Consomes Y Caldos",
+                "division": 1
+            },
+            {
+                "group_no": 319,
+                "group_name": "Salsas Abarrotes",
+                "division": 1
+            },
+            {
+                "group_no": 320,
+                "group_name": "Carnes Envasadas Ab",
+                "division": 1
+            },
+            {
+                "group_no": 321,
+                "group_name": "Frutas y Veget Env",
+                "division": 1
+            },
+            {
+                "group_no": 322,
+                "group_name": "Frijol Procesado",
+                "division": 1
+            },
+            {
+                "group_no": 323,
+                "group_name": "Pescados Y Mariscos",
+                "division": 1
+            },
+            {
+                "group_no": 103,
+                "group_name": "No usar",
+                "division": 33
+            },
+            {
+                "group_no": 112,
+                "group_name": "Alta Graduacion",
+                "division": 27
+            },
+            {
+                "group_no": 108,
+                "group_name": "No usar",
+                "division": 38
+            },
+            {
+                "group_no": 109,
+                "group_name": "No usar",
+                "division": 38
+            },
+            {
+                "group_no": 113,
+                "group_name": "Baja Graduacion",
+                "division": 27
+            },
+            {
+                "group_no": 114,
+                "group_name": "NO USAR",
+                "division": 27
+            },
+            {
+                "group_no": 115,
+                "group_name": "Vinos de Mesa",
+                "division": 27
+            },
+            {
+                "group_no": 177,
+                "group_name": "Conos",
+                "division": 23
+            },
+            {
+                "group_no": 178,
+                "group_name": "Copas",
+                "division": 23
+            },
+            {
+                "group_no": 179,
+                "group_name": "Litros",
+                "division": 23
+            },
+            {
+                "group_no": 180,
+                "group_name": "Med. Litro",
+                "division": 23
+            },
+            {
+                "group_no": 181,
+                "group_name": "Paleta",
+                "division": 23
+            },
+            {
+                "group_no": 182,
+                "group_name": "Pasteles",
+                "division": 23
+            },
+            {
+                "group_no": 183,
+                "group_name": "Sandwich",
+                "division": 23
+            },
+            {
+                "group_no": 184,
+                "group_name": "Bolis",
+                "division": 23
+            },
+            {
+                "group_no": 185,
+                "group_name": "Otros helados",
+                "division": 23
+            },
+            {
+                "group_no": 186,
+                "group_name": "Complem. p/helados",
+                "division": 23
+            },
+            {
+                "group_no": 190,
+                "group_name": "Aceite Comestibles",
+                "division": 1
+            },
+            {
+                "group_no": 191,
+                "group_name": "Aderezos y Condiment",
+                "division": 1
+            },
+            {
+                "group_no": 192,
+                "group_name": "Alimentos Envasados",
+                "division": 1
+            },
+            {
+                "group_no": 193,
+                "group_name": "Azucar y sustitutos",
+                "division": 1
+            },
+            {
+                "group_no": 194,
+                "group_name": "Cafes y Tes",
+                "division": 1
+            },
+            {
+                "group_no": 195,
+                "group_name": "Cereales",
+                "division": 1
+            },
+            {
+                "group_no": 196,
+                "group_name": "Concent.de bebidas",
+                "division": 1
+            },
+            {
+                "group_no": 197,
+                "group_name": "Granos y Semillas",
+                "division": 1
+            },
+            {
+                "group_no": 198,
+                "group_name": "Harinas y complement",
+                "division": 1
+            },
+            {
+                "group_no": 199,
+                "group_name": "Leche",
+                "division": 1
+            },
+            {
+                "group_no": 200,
+                "group_name": "Mascotas",
+                "division": 1
+            },
+            {
+                "group_no": 201,
+                "group_name": "Merm.miel y cajeta",
+                "division": 1
+            },
+            {
+                "group_no": 202,
+                "group_name": "Postres no refrig.",
+                "division": 1
+            },
+            {
+                "group_no": 203,
+                "group_name": "Modifica. de Leche",
+                "division": 1
+            },
+            {
+                "group_no": 204,
+                "group_name": "Cremas Sopas Pastas",
+                "division": 1
+            },
+            {
+                "group_no": 237,
+                "group_name": "Lectura",
+                "division": 12
+            },
+            {
+                "group_no": 238,
+                "group_name": "Coleccionables",
+                "division": 12
+            },
+            {
+                "group_no": 239,
+                "group_name": "Musica",
+                "division": 12
+            },
+            {
+                "group_no": 240,
+                "group_name": "Video",
+                "division": 12
+            },
+            {
+                "group_no": 241,
+                "group_name": "Sorteos",
+                "division": 12
+            },
+            {
+                "group_no": 242,
+                "group_name": "Vta Boletos Eventos",
+                "division": 12
+            },
+            {
+                "group_no": 267,
+                "group_name": "Jugo y Nectar",
+                "division": 31
+            },
+            {
+                "group_no": 268,
+                "group_name": "Jugo y Nectar Infant",
+                "division": 31
+            },
+            {
+                "group_no": 269,
+                "group_name": "Beb Refrescantes",
+                "division": 31
+            },
+            {
+                "group_no": 270,
+                "group_name": "Beb Refr y Naran Inf",
+                "division": 31
+            },
+            {
+                "group_no": 271,
+                "group_name": "Jugo Tomate y Almeja",
+                "division": 31
+            },
+            {
+                "group_no": 275,
+                "group_name": "Agua en Garrafon",
+                "division": 45
+            },
+            {
+                "group_no": 276,
+                "group_name": "Refill Garrafon",
+                "division": 45
+            },
+            {
+                "group_no": 287,
+                "group_name": "Salsas",
+                "division": 2
+            },
+            {
+                "group_no": 289,
+                "group_name": "Desechables",
+                "division": 48
+            },
+            {
+                "group_no": 290,
+                "group_name": "Carbon",
+                "division": 48
+            },
+            {
+                "group_no": 291,
+                "group_name": "Mezcladores",
+                "division": 48
+            },
+            {
+                "group_no": 298,
+                "group_name": "Andatti espresso",
+                "division": 33
+            },
+            {
+                "group_no": 9004,
+                "group_name": "Multibebida FF",
+                "division": 33
+            },
+            {
+                "group_no": 313,
+                "group_name": "Adas",
+                "division": 32
+            },
+            {
+                "group_no": 314,
+                "group_name": "Colas",
+                "division": 32
+            },
+            {
+                "group_no": 315,
+                "group_name": "MezcladoresRefre",
+                "division": 32
+            },
+            {
+                "group_no": 316,
+                "group_name": "Sabores",
+                "division": 32
+            },
+            {
+                "group_no": 106,
+                "group_name": "No usar",
+                "division": 42
+            },
+            {
+                "group_no": 142,
+                "group_name": "No Usar",
+                "division": 25
+            },
+            {
+                "group_no": 143,
+                "group_name": "No Usar",
+                "division": 25
+            },
+            {
+                "group_no": 144,
+                "group_name": "No Usar",
+                "division": 25
+            },
+            {
+                "group_no": 145,
+                "group_name": "No Usar",
+                "division": 25
+            },
+            {
+                "group_no": 146,
+                "group_name": "No Usar",
+                "division": 25
+            },
+            {
+                "group_no": 147,
+                "group_name": "No Usar",
+                "division": 25
+            },
+            {
+                "group_no": 148,
+                "group_name": "No Usar",
+                "division": 25
+            },
+            {
+                "group_no": 163,
+                "group_name": "Frituras",
+                "division": 20
+            },
+            {
+                "group_no": 164,
+                "group_name": "Cacahuates/semillas",
+                "division": 20
+            },
+            {
+                "group_no": 165,
+                "group_name": "Palomitas microondas",
+                "division": 20
+            },
+            {
+                "group_no": 166,
+                "group_name": "Carne Seca",
+                "division": 20
+            },
+            {
+                "group_no": 167,
+                "group_name": "Dips",
+                "division": 20
+            },
+            {
+                "group_no": 168,
+                "group_name": "Otras Botanas",
+                "division": 20
+            },
+            {
+                "group_no": 169,
+                "group_name": "Salsas Botaneras",
+                "division": 20
+            },
+            {
+                "group_no": 170,
+                "group_name": "NO USAR",
+                "division": 20
+            },
+            {
+                "group_no": 171,
+                "group_name": "Botanas art promoc",
+                "division": 20
+            },
+            {
+                "group_no": 172,
+                "group_name": "No Usar",
+                "division": 34
+            },
+            {
+                "group_no": 173,
+                "group_name": "Preparados on Site",
+                "division": 33
+            },
+            {
+                "group_no": 205,
+                "group_name": "Electronica",
+                "division": 10
+            },
+            {
+                "group_no": 206,
+                "group_name": "Juguetes",
+                "division": 10
+            },
+            {
+                "group_no": 207,
+                "group_name": "Ferreteria y Hogar",
+                "division": 10
+            },
+            {
+                "group_no": 208,
+                "group_name": "Papeleria",
+                "division": 10
+            },
+            {
+                "group_no": 209,
+                "group_name": "Regalos y Decoracion",
+                "division": 10
+            },
+            {
+                "group_no": 210,
+                "group_name": "Ropa",
+                "division": 10
+            },
+            {
+                "group_no": 211,
+                "group_name": "Deportes",
+                "division": 10
+            },
+            {
+                "group_no": 212,
+                "group_name": "Enseres Domesticos",
+                "division": 10
+            },
+            {
+                "group_no": 213,
+                "group_name": "NO USAR",
+                "division": 10
+            },
+            {
+                "group_no": 214,
+                "group_name": "Energia",
+                "division": 10
+            },
+            {
+                "group_no": 215,
+                "group_name": "Velas y Veladoras",
+                "division": 10
+            },
+            {
+                "group_no": 216,
+                "group_name": "Automotriz",
+                "division": 10
+            },
+            {
+                "group_no": 217,
+                "group_name": "NO USAR",
+                "division": 10
+            },
+            {
+                "group_no": 226,
+                "group_name": "Articulos rasurar",
+                "division": 9
+            },
+            {
+                "group_no": 227,
+                "group_name": "Belleza e higiene",
+                "division": 9
+            },
+            {
+                "group_no": 228,
+                "group_name": "Cuidado bucal",
+                "division": 9
+            },
+            {
+                "group_no": 229,
+                "group_name": "Cuidado del bebe",
+                "division": 9
+            },
+            {
+                "group_no": 230,
+                "group_name": "Cuidado del cabello",
+                "division": 9
+            },
+            {
+                "group_no": 231,
+                "group_name": "Jabones de tocador",
+                "division": 9
+            },
+            {
+                "group_no": 232,
+                "group_name": "Antibacteriales",
+                "division": 9
+            },
+            {
+                "group_no": 233,
+                "group_name": "Panuelos desechables",
+                "division": 9
+            },
+            {
+                "group_no": 234,
+                "group_name": "Papel higienico",
+                "division": 9
+            },
+            {
+                "group_no": 235,
+                "group_name": "Proteccion femenina",
+                "division": 9
+            },
+            {
+                "group_no": 236,
+                "group_name": "Farmacia",
+                "division": 9
+            },
+            {
+                "group_no": 252,
+                "group_name": "No usar",
+                "division": 21
+            },
+            {
+                "group_no": 253,
+                "group_name": "No usar",
+                "division": 21
+            },
+            {
+                "group_no": 261,
+                "group_name": "Yogurt Bebible",
+                "division": 41
+            },
+            {
+                "group_no": 262,
+                "group_name": "Yogurt Batido",
+                "division": 41
+            },
+            {
+                "group_no": 278,
+                "group_name": "Pan Pa Ya",
+                "division": 46
+            },
+            {
+                "group_no": 281,
+                "group_name": "Insumos comestibles",
+                "division": 47
+            },
+            {
+                "group_no": 282,
+                "group_name": "Insumos no comestib.",
+                "division": 47
+            },
+            {
+                "group_no": 296,
+                "group_name": "BARRA ESPRESSO",
+                "division": 33
+            },
+            {
+                "group_no": 297,
+                "group_name": "Agua s Sabor Fmiliar",
+                "division": 45
+            },
+            {
+                "group_no": 299,
+                "group_name": "Tarjetas Telefonia",
+                "division": 14
+            },
+            {
+                "group_no": 301,
+                "group_name": "articulo promocional",
+                "division": 2
+            },
+            {
+                "group_no": 305,
+                "group_name": "Capuchino andatti es",
+                "division": 33
+            },
+            {
+                "group_no": 306,
+                "group_name": "Leches Vegetales",
+                "division": 36
+            },
+            {
+                "group_no": 9001,
+                "group_name": "Hieleras",
+                "division": 48
+            },
+            {
+                "group_no": 9002,
+                "group_name": "Acces Cigarros",
+                "division": 10
+            },
+            {
+                "group_no": 307,
+                "group_name": "Accesorios para Bebe",
+                "division": 10
+            },
+            {
+                "group_no": 308,
+                "group_name": "Acces VinosyLicores",
+                "division": 10
+            },
+            {
+                "group_no": 309,
+                "group_name": "Accesorios Mascota",
+                "division": 10
+            },
+            {
+                "group_no": 310,
+                "group_name": "Maquillaje",
+                "division": 10
+            },
+            {
+                "group_no": 311,
+                "group_name": "Termos",
+                "division": 10
+            },
+            {
+                "group_no": 9005,
+                "group_name": "Celulares",
+                "division": 10
+            },
+            {
+                "group_no": 104,
+                "group_name": "No usar",
+                "division": 12
+            },
+            {
+                "group_no": 105,
+                "group_name": "No usar",
+                "division": 10
+            },
+            {
+                "group_no": 107,
+                "group_name": "No usar",
+                "division": 38
+            },
+            {
+                "group_no": 116,
+                "group_name": "Envases Cerveza",
+                "division": 44
+            },
+            {
+                "group_no": 152,
+                "group_name": "Galleta Dulce",
+                "division": 22
+            },
+            {
+                "group_no": 153,
+                "group_name": "Galleta Saladas",
+                "division": 22
+            },
+            {
+                "group_no": 154,
+                "group_name": "Art Promo Galletas",
+                "division": 22
+            },
+            {
+                "group_no": 248,
+                "group_name": "Plato",
+                "division": 23
+            },
+            {
+                "group_no": 249,
+                "group_name": "No usar",
+                "division": 21
+            },
+            {
+                "group_no": 250,
+                "group_name": "No usar",
+                "division": 21
+            },
+            {
+                "group_no": 254,
+                "group_name": "Chicles",
+                "division": 21
+            },
+            {
+                "group_no": 255,
+                "group_name": "Chocolate Golosina",
+                "division": 21
+            },
+            {
+                "group_no": 256,
+                "group_name": "Pastilla Refrescante",
+                "division": 21
+            },
+            {
+                "group_no": 257,
+                "group_name": "Otras Golosinas",
+                "division": 21
+            },
+            {
+                "group_no": 258,
+                "group_name": "Tamarindos/Aciditos",
+                "division": 21
+            },
+            {
+                "group_no": 259,
+                "group_name": "Leche  Blanca",
+                "division": 36
+            },
+            {
+                "group_no": 260,
+                "group_name": "Leche  Saborizada",
+                "division": 36
+            },
+            {
+                "group_no": 288,
+                "group_name": "Comida Deshidratada",
+                "division": 34
+            },
+            {
+                "group_no": 302,
+                "group_name": "Agua Familiar",
+                "division": 45
+            },
+            {
+                "group_no": 303,
+                "group_name": "Agua Familiar 10 Lt",
+                "division": 45
+            },
+            {
+                "group_no": 304,
+                "group_name": "Puntos de Entrega",
+                "division": 42
+            },
+            {
+                "group_no": 324,
+                "group_name": "Acce de Telefonia",
+                "division": 10
+            },
+            {
+                "group_no": 1,
+                "group_name": "No usar",
+                "division": 1
+            },
+            {
+                "group_no": 96,
+                "group_name": "No usar",
+                "division": 10
+            },
+            {
+                "group_no": 100,
+                "group_name": "No usar",
+                "division": 10
+            },
+            {
+                "group_no": 2,
+                "group_name": "No usar",
+                "division": 1
+            },
+            {
+                "group_no": 3,
+                "group_name": "No usar",
+                "division": 1
+            },
+            {
+                "group_no": 4,
+                "group_name": "No usar",
+                "division": 1
+            },
+            {
+                "group_no": 5,
+                "group_name": "No usar",
+                "division": 1
+            },
+            {
+                "group_no": 6,
+                "group_name": "No usar",
+                "division": 1
+            },
+            {
+                "group_no": 7,
+                "group_name": "No usar",
+                "division": 1
+            },
+            {
+                "group_no": 8,
+                "group_name": "No usar",
+                "division": 1
+            },
+            {
+                "group_no": 9,
+                "group_name": "No usar",
+                "division": 1
+            },
+            {
+                "group_no": 10,
+                "group_name": "No usar",
+                "division": 1
+            },
+            {
+                "group_no": 11,
+                "group_name": "No usar",
+                "division": 1
+            },
+            {
+                "group_no": 12,
+                "group_name": "No usar",
+                "division": 1
+            },
+            {
+                "group_no": 13,
+                "group_name": "No usar",
+                "division": 1
+            },
+            {
+                "group_no": 14,
+                "group_name": "No usar",
+                "division": 1
+            },
+            {
+                "group_no": 15,
+                "group_name": "No usar",
+                "division": 1
+            },
+            {
+                "group_no": 16,
+                "group_name": "No usar",
+                "division": 1
+            },
+            {
+                "group_no": 17,
+                "group_name": "No usar",
+                "division": 1
+            },
+            {
+                "group_no": 18,
+                "group_name": "No usar",
+                "division": 1
+            },
+            {
+                "group_no": 19,
+                "group_name": "No usar",
+                "division": 1
+            },
+            {
+                "group_no": 20,
+                "group_name": "No usar",
+                "division": 2
+            },
+            {
+                "group_no": 21,
+                "group_name": "No usar",
+                "division": 2
+            },
+            {
+                "group_no": 22,
+                "group_name": "No usar",
+                "division": 2
+            },
+            {
+                "group_no": 23,
+                "group_name": "Fruta y verdura",
+                "division": 18
+            },
+            {
+                "group_no": 24,
+                "group_name": "No usar",
+                "division": 19
+            },
+            {
+                "group_no": 25,
+                "group_name": "No usar",
+                "division": 41
+            },
+            {
+                "group_no": 26,
+                "group_name": "No usar",
+                "division": 20
+            },
+            {
+                "group_no": 27,
+                "group_name": "No usar",
+                "division": 21
+            },
+            {
+                "group_no": 28,
+                "group_name": "No usar",
+                "division": 22
+            },
+            {
+                "group_no": 29,
+                "group_name": "No usar",
+                "division": 23
+            },
+            {
+                "group_no": 30,
+                "group_name": "No usar",
+                "division": 24
+            },
+            {
+                "group_no": 31,
+                "group_name": "No usar",
+                "division": 26
+            },
+            {
+                "group_no": 32,
+                "group_name": "No usar",
+                "division": 27
+            },
+            {
+                "group_no": 33,
+                "group_name": "No usar",
+                "division": 28
+            },
+            {
+                "group_no": 34,
+                "group_name": "No usar",
+                "division": 29
+            },
+            {
+                "group_no": 35,
+                "group_name": "No usar",
+                "division": 1
+            },
+            {
+                "group_no": 36,
+                "group_name": "No usar",
+                "division": 31
+            },
+            {
+                "group_no": 37,
+                "group_name": "Refrescos",
+                "division": 32
+            },
+            {
+                "group_no": 38,
+                "group_name": "No usar",
+                "division": 33
+            },
+            {
+                "group_no": 39,
+                "group_name": "No usar",
+                "division": 33
+            },
+            {
+                "group_no": 40,
+                "group_name": "No usar",
+                "division": 34
+            },
+            {
+                "group_no": 41,
+                "group_name": "No usar",
+                "division": 34
+            },
+            {
+                "group_no": 42,
+                "group_name": "No usar",
+                "division": 34
+            },
+            {
+                "group_no": 43,
+                "group_name": "No usar",
+                "division": 34
+            },
+            {
+                "group_no": 44,
+                "group_name": "No usar",
+                "division": 34
+            },
+            {
+                "group_no": 45,
+                "group_name": "No usar",
+                "division": 34
+            },
+            {
+                "group_no": 46,
+                "group_name": "Hielo",
+                "division": 7
+            },
+            {
+                "group_no": 47,
+                "group_name": "No usar",
+                "division": 8
+            },
+            {
+                "group_no": 48,
+                "group_name": "No usar",
+                "division": 8
+            },
+            {
+                "group_no": 49,
+                "group_name": "No usar",
+                "division": 8
+            },
+            {
+                "group_no": 50,
+                "group_name": "No usar",
+                "division": 8
+            },
+            {
+                "group_no": 51,
+                "group_name": "No usar",
+                "division": 8
+            },
+            {
+                "group_no": 52,
+                "group_name": "No usar",
+                "division": 8
+            },
+            {
+                "group_no": 53,
+                "group_name": "No usar",
+                "division": 8
+            },
+            {
+                "group_no": 54,
+                "group_name": "No usar",
+                "division": 8
+            },
+            {
+                "group_no": 55,
+                "group_name": "No usar",
+                "division": 8
+            },
+            {
+                "group_no": 56,
+                "group_name": "No usar",
+                "division": 9
+            },
+            {
+                "group_no": 57,
+                "group_name": "No usar",
+                "division": 9
+            },
+            {
+                "group_no": 58,
+                "group_name": "No usar",
+                "division": 9
+            },
+            {
+                "group_no": 59,
+                "group_name": "No usar",
+                "division": 9
+            },
+            {
+                "group_no": 60,
+                "group_name": "No usar",
+                "division": 9
+            },
+            {
+                "group_no": 61,
+                "group_name": "No usar",
+                "division": 9
+            },
+            {
+                "group_no": 62,
+                "group_name": "No usar",
+                "division": 9
+            },
+            {
+                "group_no": 63,
+                "group_name": "No usar",
+                "division": 9
+            },
+            {
+                "group_no": 64,
+                "group_name": "No usar",
+                "division": 9
+            },
+            {
+                "group_no": 65,
+                "group_name": "No usar",
+                "division": 9
+            },
+            {
+                "group_no": 66,
+                "group_name": "No usar",
+                "division": 10
+            },
+            {
+                "group_no": 67,
+                "group_name": "No usar",
+                "division": 10
+            },
+            {
+                "group_no": 68,
+                "group_name": "No usar",
+                "division": 10
+            },
+            {
+                "group_no": 69,
+                "group_name": "No usar",
+                "division": 10
+            },
+            {
+                "group_no": 70,
+                "group_name": "No usar",
+                "division": 10
+            },
+            {
+                "group_no": 71,
+                "group_name": "No usar",
+                "division": 10
+            },
+            {
+                "group_no": 72,
+                "group_name": "No usar",
+                "division": 10
+            },
+            {
+                "group_no": 73,
+                "group_name": "No usar",
+                "division": 10
+            },
+            {
+                "group_no": 74,
+                "group_name": "No usar",
+                "division": 10
+            },
+            {
+                "group_no": 75,
+                "group_name": "No usar",
+                "division": 10
+            },
+            {
+                "group_no": 77,
+                "group_name": "No usar",
+                "division": 10
+            },
+            {
+                "group_no": 78,
+                "group_name": "No usar",
+                "division": 10
+            },
+            {
+                "group_no": 79,
+                "group_name": "No usar",
+                "division": 10
+            },
+            {
+                "group_no": 80,
+                "group_name": "No usar",
+                "division": 10
+            },
+            {
+                "group_no": 81,
+                "group_name": "No usar",
+                "division": 35
+            },
+            {
+                "group_no": 82,
+                "group_name": "No usar",
+                "division": 36
+            },
+            {
+                "group_no": 83,
+                "group_name": "No usar",
+                "division": 37
+            },
+            {
+                "group_no": 84,
+                "group_name": "Tortillas",
+                "division": 38
+            },
+            {
+                "group_no": 85,
+                "group_name": "No usar",
+                "division": 12
+            },
+            {
+                "group_no": 86,
+                "group_name": "No usar",
+                "division": 12
+            },
+            {
+                "group_no": 87,
+                "group_name": "No usar",
+                "division": 12
+            },
+            {
+                "group_no": 88,
+                "group_name": "No usar",
+                "division": 12
+            },
+            {
+                "group_no": 89,
+                "group_name": "No usar",
+                "division": 39
+            },
+            {
+                "group_no": 90,
+                "group_name": "No usar",
+                "division": 14
+            },
+            {
+                "group_no": 91,
+                "group_name": "Gasolinas",
+                "division": 40
+            },
+            {
+                "group_no": 92,
+                "group_name": "Diesel",
+                "division": 15
+            },
+            {
+                "group_no": 93,
+                "group_name": "Art. Nuevos Consigna",
+                "division": 16
+            },
+            {
+                "group_no": 94,
+                "group_name": "Periodicos Consigna",
+                "division": 16
+            },
+            {
+                "group_no": 9000,
+                "group_name": "Consumo Interno",
+                "division": 9000
+            },
+            {
+                "group_no": 1000,
+                "group_name": "Arts. Dummy",
+                "division": 1000
+            },
+            {
+                "group_no": 102,
+                "group_name": "No usar",
+                "division": 41
+            },
+            {
+                "group_no": 95,
+                "group_name": "Arts. Promocion",
+                "division": 17
+            },
+            {
+                "group_no": 97,
+                "group_name": "Serv Prepago Consign",
+                "division": 16
+            },
+            {
+                "group_no": 98,
+                "group_name": "Lectura Consignacion",
+                "division": 16
+            },
+            {
+                "group_no": 101,
+                "group_name": "Entreten. Consignaci",
+                "division": 16
+            },
+            {
+                "group_no": 99,
+                "group_name": "No usar",
+                "division": 25
+            },
+            {
+                "group_no": 127,
+                "group_name": "Env.Agua Garrafon",
+                "division": 44
+            },
+            {
+                "group_no": 128,
+                "group_name": "Envases Refrescos",
+                "division": 44
+            },
+            {
+                "group_no": 139,
+                "group_name": "Pan",
+                "division": 38
+            },
+            {
+                "group_no": 140,
+                "group_name": "Tostadas",
+                "division": 38
+            },
+            {
+                "group_no": 141,
+                "group_name": "Art Promo Tost y Pan",
+                "division": 38
+            },
+            {
+                "group_no": 149,
+                "group_name": "Reposteria C/Relleno",
+                "division": 24
+            },
+            {
+                "group_no": 150,
+                "group_name": "Reposteria S/Relleno",
+                "division": 24
+            },
+            {
+                "group_no": 151,
+                "group_name": "Art Promo Reposter",
+                "division": 24
+            },
+            {
+                "group_no": 159,
+                "group_name": "Accesorios Telefonia",
+                "division": 14
+            },
+            {
+                "group_no": 160,
+                "group_name": "Chips",
+                "division": 14
+            },
+            {
+                "group_no": 161,
+                "group_name": "Telefonia Fija",
+                "division": 14
+            },
+            {
+                "group_no": 162,
+                "group_name": "Telefonia Celular",
+                "division": 14
+            },
+            {
+                "group_no": 187,
+                "group_name": "Accesorios Cigarros",
+                "division": 39
+            },
+            {
+                "group_no": 188,
+                "group_name": "Cigarrillos",
+                "division": 39
+            },
+            {
+                "group_no": 189,
+                "group_name": "Puros y Tabacos",
+                "division": 39
+            },
+            {
+                "group_no": 251,
+                "group_name": "No usar",
+                "division": 21
+            },
+            {
+                "group_no": 272,
+                "group_name": "Agua sin Sabor",
+                "division": 28
+            },
+            {
+                "group_no": 273,
+                "group_name": "Agua con Sabor",
+                "division": 28
+            },
+            {
+                "group_no": 274,
+                "group_name": "Agua Lig Gasificada",
+                "division": 28
+            },
+            {
+                "group_no": 279,
+                "group_name": "Comida caliente",
+                "division": 34
+            },
+            {
+                "group_no": 280,
+                "group_name": "No Usar",
+                "division": 34
+            },
+            {
+                "group_no": 283,
+                "group_name": "Nieve",
+                "division": 33
+            },
+            {
+                "group_no": 292,
+                "group_name": "NO USAR",
+                "division": 8
+            },
+            {
+                "group_no": 293,
+                "group_name": "NO USAR",
+                "division": 8
+            },
+            {
+                "group_no": 295,
+                "group_name": "Arts. Promo OXXO GAS",
+                "division": 17
+            },
+            {
+                "group_no": 9003,
+                "group_name": "Sistemas Alternativo",
+                "division": 39
+            },
+            {
+                "group_no": 110,
+                "group_name": "Cerveza No retornab",
+                "division": 26
+            },
+            {
+                "group_no": 111,
+                "group_name": "Cerveza Retornable",
+                "division": 26
+            },
+            {
+                "group_no": 117,
+                "group_name": "Americano",
+                "division": 33
+            },
+            {
+                "group_no": 118,
+                "group_name": "Capuchino",
+                "division": 33
+            },
+            {
+                "group_no": 119,
+                "group_name": "Frappe",
+                "division": 33
+            },
+            {
+                "group_no": 120,
+                "group_name": "Aguas frescas",
+                "division": 33
+            },
+            {
+                "group_no": 121,
+                "group_name": "Insumos Bebidas",
+                "division": 33
+            },
+            {
+                "group_no": 122,
+                "group_name": "Te frio",
+                "division": 33
+            },
+            {
+                "group_no": 123,
+                "group_name": "Te Caliente",
+                "division": 33
+            },
+            {
+                "group_no": 124,
+                "group_name": "Refresco Maquina",
+                "division": 33
+            },
+            {
+                "group_no": 125,
+                "group_name": "Malteada",
+                "division": 33
+            },
+            {
+                "group_no": 126,
+                "group_name": "Atole",
+                "division": 33
+            },
+            {
+                "group_no": 129,
+                "group_name": "Roller",
+                "division": 34
+            },
+            {
+                "group_no": 130,
+                "group_name": "Koxka",
+                "division": 34
+            },
+            {
+                "group_no": 131,
+                "group_name": "Quesera",
+                "division": 34
+            },
+            {
+                "group_no": 132,
+                "group_name": "Panera",
+                "division": 34
+            },
+            {
+                "group_no": 133,
+                "group_name": "Plancha/Freidora",
+                "division": 34
+            },
+            {
+                "group_no": 134,
+                "group_name": "NO USAR",
+                "division": 34
+            },
+            {
+                "group_no": 135,
+                "group_name": "Warmer",
+                "division": 34
+            },
+            {
+                "group_no": 136,
+                "group_name": "Insumos Alimentos",
+                "division": 34
+            },
+            {
+                "group_no": 137,
+                "group_name": "Comida china",
+                "division": 34
+            },
+            {
+                "group_no": 138,
+                "group_name": "Paq.promocionales",
+                "division": 34
+            },
+            {
+                "group_no": 155,
+                "group_name": "Recepcion de Pagos",
+                "division": 42
+            },
+            {
+                "group_no": 156,
+                "group_name": "Soluciones en tienda",
+                "division": 42
+            },
+            {
+                "group_no": 157,
+                "group_name": "Servicio Financiero",
+                "division": 42
+            },
+            {
+                "group_no": 158,
+                "group_name": "Servicios prepago",
+                "division": 42
+            },
+            {
+                "group_no": 174,
+                "group_name": "No usar",
+                "division": 10
+            },
+            {
+                "group_no": 175,
+                "group_name": "No usar",
+                "division": 32
+            },
+            {
+                "group_no": 176,
+                "group_name": "No usar",
+                "division": 32
+            },
+            {
+                "group_no": 218,
+                "group_name": "Aromatizantes",
+                "division": 8
+            },
+            {
+                "group_no": 219,
+                "group_name": "Articulos limpieza",
+                "division": 8
+            },
+            {
+                "group_no": 220,
+                "group_name": "Cuidado del calzado",
+                "division": 8
+            },
+            {
+                "group_no": 221,
+                "group_name": "Detergentes Ropa",
+                "division": 8
+            },
+            {
+                "group_no": 222,
+                "group_name": "Detergentes Trastes",
+                "division": 8
+            },
+            {
+                "group_no": 223,
+                "group_name": "Insecticid y venenos",
+                "division": 8
+            },
+            {
+                "group_no": 224,
+                "group_name": "Limpiadores",
+                "division": 8
+            },
+            {
+                "group_no": 225,
+                "group_name": "Suavizantes de tela",
+                "division": 8
+            },
+            {
+                "group_no": 243,
+                "group_name": "Huevo Fresco",
+                "division": 2
+            },
+            {
+                "group_no": 244,
+                "group_name": "Carnes Frias",
+                "division": 2
+            },
+            {
+                "group_no": 245,
+                "group_name": "Carniceria",
+                "division": 2
+            },
+            {
+                "group_no": 246,
+                "group_name": "Congelados",
+                "division": 2
+            },
+            {
+                "group_no": 247,
+                "group_name": "Lacteos y Derivados",
+                "division": 2
+            },
+            {
+                "group_no": 263,
+                "group_name": "Energeticos",
+                "division": 29
+            },
+            {
+                "group_no": 264,
+                "group_name": "Isotonicos",
+                "division": 29
+            },
+            {
+                "group_no": 265,
+                "group_name": "Te LPB",
+                "division": 29
+            },
+            {
+                "group_no": 266,
+                "group_name": "Funcionales",
+                "division": 29
+            },
+            {
+                "group_no": 277,
+                "group_name": "Videojuegos",
+                "division": 12
+            },
+            {
+                "group_no": 284,
+                "group_name": "Servilletas",
+                "division": 8
+            },
+            {
+                "group_no": 327,
+                "group_name": "Comercio Electronico",
+                "division": 42
+            },
+            {
+                "group_no": 325,
+                "group_name": "OXXO PREMIA",
+                "division": 49
+            },
+            {
+                "group_no": 326,
+                "group_name": "Gourmet",
+                "division": 33
+            },
+            {
+                "group_no": 9011,
+                "group_name": "Coleccionables",
+                "division": 10
+            },
+            {
+                "group_no": 9012,
+                "group_name": "Lectura",
+                "division": 10
+            },
+            {
+                "group_no": 9013,
+                "group_name": "Musica",
+                "division": 10
+            },
+            {
+                "group_no": 9014,
+                "group_name": "Sorteos",
+                "division": 10
+            },
+            {
+                "group_no": 9015,
+                "group_name": "Video",
+                "division": 10
+            },
+            {
+                "group_no": 9016,
+                "group_name": "Vta Boletos Eventos",
+                "division": 10
+            },
+            {
+                "group_no": 9006,
+                "group_name": "CELULARES",
+                "division": 14
+            },
+            {
+                "group_no": 9017,
+                "group_name": "PRUEBA CEL",
+                "division": 14
+            },
+            {
+                "group_no": 328,
+                "group_name": "OXXO CEL",
+                "division": 14
+            },
+            {
+                "group_no": 329,
+                "group_name": "GNG Comida Instantan",
+                "division": 34
+            }
+        ]
+    }
+}

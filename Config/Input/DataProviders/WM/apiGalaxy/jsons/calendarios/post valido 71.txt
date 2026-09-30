@@ -1,0 +1,117 @@
+{
+  "promotionalCalendar": [
+    {
+      "finalDate": "2025-01-02",
+      "initialDate": "2025-01-22",
+      "periodsId": 71,
+      "periodName": "P1",
+      "position": 1,
+      "projectionPercentage": 4,
+      "isShortPeriods": true,
+      "yearCalendar": 2025,
+      "type": "cortas vigencias",
+      "activityName": "PRUEBA 2",
+      "nDays": -15,
+      "nDate": "2024-12-18"
+    },
+    {
+      "finalDate": "2025-01-02",
+      "initialDate": "2025-01-22",
+      "periodsId": 71,
+      "periodName": "P1",
+      "position": 1,
+      "projectionPercentage": 4,
+      "isShortPeriods": true,
+      "yearCalendar": 2025,
+      "type": "cortas vigencias",
+      "activityName": "PRUEBA 3",
+      "nDays": -2,
+      "nDate": "2024-12-31"
+    },
+    {
+      "finalDate": "2025-01-02",
+      "initialDate": "2025-01-22",
+      "periodsId": 71,
+      "periodName": "P1",
+      "position": 1,
+      "projectionPercentage": 4,
+      "isShortPeriods": true,
+      "yearCalendar": 2025,
+      "type": "cortas vigencias",
+      "activityName": "PRUEBA 4",
+      "nDays": -20,
+      "nDate": "2024-12-13"
+    },
+    {
+      "finalDate": "2025-01-02",
+      "initialDate": "2025-01-22",
+      "periodsId": 71,
+      "periodName": "P1",
+      "position": 1,
+      "projectionPercentage": 4,
+      "isShortPeriods": true,
+      "yearCalendar": 2025,
+      "type": "cortas vigencias",
+      "activityName": "Enviar articulos a imprenta",
+      "nDays": 23,
+      "nDate": "2025-01-25"
+    },
+    {
+      "finalDate": "2025-01-02",
+      "initialDate": "2025-01-22",
+      "periodsId": 71,
+      "periodName": "P1",
+      "position": 1,
+      "projectionPercentage": 4,
+      "isShortPeriods": true,
+      "yearCalendar": 2025,
+      "type": "cortas vigencias",
+      "activityName": "Envio información para scorecard",
+      "nDays": 43,
+      "nDate": "2025-02-14"
+    },
+
+    {
+      "finalDate": "2025-07-01",
+      "initialDate": "2025-07-31",
+      "periodsId": 71,
+      "periodName": "P2",
+      "position": 2,
+      "projectionPercentage": 6,
+      "isShortPeriods": true,
+      "yearCalendar": 2025,
+      "type": "cortas vigencias",
+      "activityName": "PRUEBA 2",
+      "nDays": -15,
+      "nDate": "2025-06-16"
+    },
+    {
+      "finalDate": "2025-07-01",
+      "initialDate": "2025-07-31",
+      "periodsId": 71,
+      "periodName": "P2",
+      "position": 2,
+      "projectionPercentage": 6,
+      "isShortPeriods": true,
+      "yearCalendar": 2025,
+      "type": "cortas vigencias",
+      "activityName": "Enviar articulos a imprenta",
+      "nDays": 23,
+      "nDate": "2025-07-24"
+    },
+    {
+      "finalDate": "2025-07-01",
+      "initialDate": "2025-07-31",
+      "periodsId": 71,
+      "periodName": "P2",
+      "position": 2,
+      "projectionPercentage": 6,
+      "isShortPeriods": true,
+      "yearCalendar": 2025,
+      "type": "cortas vigencias",
+      "activityName": "Envio información para scorecard",
+      "nDays": 43,
+      "nDate": "2025-08-13"
+    }
+  ]
+}

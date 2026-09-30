@@ -1,0 +1,810 @@
+{
+    "method": "POST",
+    "headers": {
+        "x-functions-key": "ScPhqviIcwKd_JT0r-JDxqRTHyDQ_ytiIsLNLXK3bNEeAzFueWTHsg==",
+        "Authorization": "Bearer \"eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjQwLCJ1dHlwaWQiOjIsImlhdCI6MTc3MDI2NTk0OSwiZXhwIjoxNzcwMjY5NTQ5fQ.Z0YrDy9j1khFWbAa2J_CI1_o__BXvPOiNpHI3ZQ1E-Q\""
+    },
+    "url": "https://oxzfuncpepromd01.azurewebsites.net/api/rest/all/V1/oxxo/ebs-businessplaces/create",
+    "body": {
+        "bussinesPlaces": [
+            {
+                "CR_PLAZA": "10DAS",
+                "DESCRIPCION": "Dark Store",
+                "CR_DISTRITO": null,
+                "SHUTTLE": "83|10DAS|Dark Store|"
+            },
+            {
+                "CR_PLAZA": "10DAS",
+                "DESCRIPCION": "Dark Store",
+                "CR_DISTRITO": null,
+                "SHUTTLE": "83|10DAS|Dark Store|"
+            },
+            {
+                "CR_PLAZA": "10DAS",
+                "DESCRIPCION": "Dark Store",
+                "CR_DISTRITO": null,
+                "SHUTTLE": "83|10DAS|Dark Store|"
+            },
+            {
+                "CR_PLAZA": "10PCK",
+                "DESCRIPCION": "Distrito 1",
+                "CR_DISTRITO": "32IAH",
+                "SHUTTLE": "83|10PCK|Distrito 1|32IAH"
+            },
+            {
+                "CR_PLAZA": "10MEX",
+                "DESCRIPCION": "10MEX Cuauhtemoc",
+                "CR_DISTRITO": "32NJD",
+                "SHUTTLE": "83|10MEX|10MEX Cuauhtemoc|32NJD"
+            },
+            {
+                "CR_PLAZA": "10MEX",
+                "DESCRIPCION": "Mexico Reforma",
+                "CR_DISTRITO": "32NUN",
+                "SHUTTLE": "83|10MEX|Mexico Reforma|32NUN"
+            },
+            {
+                "CR_PLAZA": "10ZAI",
+                "DESCRIPCION": "Distrito 3",
+                "CR_DISTRITO": "32JMI",
+                "SHUTTLE": "83|10ZAI|Distrito 3|32JMI"
+            },
+            {
+                "CR_PLAZA": "10VCZ",
+                "DESCRIPCION": "10VCZ Cordoba",
+                "CR_DISTRITO": "32WUB",
+                "SHUTTLE": "83|10VCZ|10VCZ Cordoba|32WUB"
+            },
+            {
+                "CR_PLAZA": "10MEX",
+                "DESCRIPCION": "10MEX Santa Fe",
+                "CR_DISTRITO": "32UHW",
+                "SHUTTLE": "83|10MEX|10MEX Santa Fe|32UHW"
+            },
+            {
+                "CR_PLAZA": "10MON",
+                "DESCRIPCION": "10MON Juarez",
+                "CR_DISTRITO": "32UAW",
+                "SHUTTLE": "83|10MON|10MON Juarez|32UAW"
+            },
+            {
+                "CR_PLAZA": "10CAN",
+                "DESCRIPCION": "10CAN Campeche",
+                "CR_DISTRITO": "32DIT",
+                "SHUTTLE": "83|10CAN|10CAN Campeche|32DIT"
+            },
+            {
+                "CR_PLAZA": "10QRI",
+                "DESCRIPCION": "Queretaro-Norte",
+                "CR_DISTRITO": "32JOW",
+                "SHUTTLE": "83|10QRI|Queretaro-Norte|32JOW"
+            },
+            {
+                "CR_PLAZA": "10PBI",
+                "DESCRIPCION": "Distrito 4 PBI",
+                "CR_DISTRITO": "32VSQ",
+                "SHUTTLE": "83|10PBI|Distrito 4 PBI|32VSQ"
+            },
+            {
+                "CR_PLAZA": "10DCU",
+                "DESCRIPCION": "Culiacan 2 DCU",
+                "CR_DISTRITO": "32EJJ",
+                "SHUTTLE": "83|10DCU|Culiacan 2 DCU|32EJJ"
+            },
+            {
+                "CR_PLAZA": "10VHT",
+                "DESCRIPCION": "10VHT Costa Istmo",
+                "CR_DISTRITO": "32OCH",
+                "SHUTTLE": "83|10VHT|10VHT Costa Istmo|32OCH"
+            },
+            {
+                "CR_PLAZA": "10UMI",
+                "DESCRIPCION": "10UMI Cd Victoria",
+                "CR_DISTRITO": "32HJR",
+                "SHUTTLE": "83|10UMI|10UMI Cd Victoria|32HJR"
+            },
+            {
+                "CR_PLAZA": "10NLA",
+                "DESCRIPCION": "10NLA Garcia",
+                "CR_DISTRITO": "32XYK",
+                "SHUTTLE": "83|10NLA|10NLA Garcia|32XYK"
+            },
+            {
+                "CR_PLAZA": "10GUD",
+                "DESCRIPCION": "Guadalajara Altos",
+                "CR_DISTRITO": "32GOB",
+                "SHUTTLE": "83|10GUD|Guadalajara Altos|32GOB"
+            },
+            {
+                "CR_PLAZA": "10OBR",
+                "DESCRIPCION": "10OBR LOS CABOS",
+                "CR_DISTRITO": "32YTJ",
+                "SHUTTLE": "83|10OBR|10OBR LOS CABOS|32YTJ"
+            },
+            {
+                "CR_PLAZA": "10MXL",
+                "DESCRIPCION": "10MXL Hermo Sierra",
+                "CR_DISTRITO": "32QAJ",
+                "SHUTTLE": "83|10MXL|10MXL Hermo Sierra|32QAJ"
+            },
+            {
+                "CR_PLAZA": "10MON",
+                "DESCRIPCION": "10MON Guadalupe",
+                "CR_DISTRITO": "32ARG",
+                "SHUTTLE": "83|10MON|10MON Guadalupe|32ARG"
+            },
+            {
+                "CR_PLAZA": "10ZAI",
+                "DESCRIPCION": "10ZAI Mty Centro",
+                "CR_DISTRITO": "32KZE",
+                "SHUTTLE": "83|10ZAI|10ZAI Mty Centro|32KZE"
+            },
+            {
+                "CR_PLAZA": "10LGA",
+                "DESCRIPCION": "10LGA SLP Sur",
+                "CR_DISTRITO": "32JLJ",
+                "SHUTTLE": "83|10LGA|10LGA SLP Sur|32JLJ"
+            },
+            {
+                "CR_PLAZA": "10QRI",
+                "DESCRIPCION": "Queretaro-San Juan",
+                "CR_DISTRITO": "32JEW",
+                "SHUTTLE": "83|10QRI|Queretaro-San Juan|32JEW"
+            },
+            {
+                "CR_PLAZA": "10MON",
+                "DESCRIPCION": "Monterrey Oriente",
+                "CR_DISTRITO": "32XDB",
+                "SHUTTLE": "83|10MON|Monterrey Oriente|32XDB"
+            },
+            {
+                "CR_PLAZA": "10ZAI",
+                "DESCRIPCION": "10ZAI Santa Catarina",
+                "CR_DISTRITO": "32CJZ",
+                "SHUTTLE": "83|10ZAI|10ZAI Santa Catarina|32CJZ"
+            },
+            {
+                "CR_PLAZA": "10ZAI",
+                "DESCRIPCION": "10ZAI Monclova",
+                "CR_DISTRITO": "32GBC",
+                "SHUTTLE": "83|10ZAI|10ZAI Monclova|32GBC"
+            },
+            {
+                "CR_PLAZA": "10UMI",
+                "DESCRIPCION": "10UMI Ciudad Valles",
+                "CR_DISTRITO": "32YXH",
+                "SHUTTLE": "83|10UMI|10UMI Ciudad Valles|32YXH"
+            },
+            {
+                "CR_PLAZA": "10PCK",
+                "DESCRIPCION": "10PCK Zumpango",
+                "CR_DISTRITO": "32WEC",
+                "SHUTTLE": "83|10PCK|10PCK Zumpango|32WEC"
+            },
+            {
+                "CR_PLAZA": "10LCC",
+                "DESCRIPCION": "10LCC Puebla",
+                "CR_DISTRITO": "32ESM",
+                "SHUTTLE": "83|10LCC|10LCC Puebla|32ESM"
+            },
+            {
+                "CR_PLAZA": "10CHI",
+                "DESCRIPCION": "Distrito 1 CHU",
+                "CR_DISTRITO": "32VIT",
+                "SHUTTLE": "83|10CHI|Distrito 1 CHU|32VIT"
+            },
+            {
+                "CR_PLAZA": "10VCZ",
+                "DESCRIPCION": "10VCZ Boca del Rio",
+                "CR_DISTRITO": "32RJA",
+                "SHUTTLE": "83|10VCZ|10VCZ Boca del Rio|32RJA"
+            },
+            {
+                "CR_PLAZA": "10TLC",
+                "DESCRIPCION": "10TLC Morelia Norte",
+                "CR_DISTRITO": "32IBC",
+                "SHUTTLE": "83|10TLC|10TLC Morelia Norte|32IBC"
+            },
+            {
+                "CR_PLAZA": "10QRI",
+                "DESCRIPCION": "Queretaro-Sur",
+                "CR_DISTRITO": "32CBQ",
+                "SHUTTLE": "83|10QRI|Queretaro-Sur|32CBQ"
+            },
+            {
+                "CR_PLAZA": "10MEX",
+                "DESCRIPCION": "Mexico Oriente",
+                "CR_DISTRITO": "31YRO",
+                "SHUTTLE": "83|10MEX|Mexico Oriente|31YRO"
+            },
+            {
+                "CR_PLAZA": "10TLC",
+                "DESCRIPCION": "Distrito 3 Toluca",
+                "CR_DISTRITO": "32ISR",
+                "SHUTTLE": "83|10TLC|Distrito 3 Toluca|32ISR"
+            },
+            {
+                "CR_PLAZA": "10VHT",
+                "DESCRIPCION": "Distrito 2 VHT",
+                "CR_DISTRITO": "32NLK",
+                "SHUTTLE": "83|10VHT|Distrito 2 VHT|32NLK"
+            },
+            {
+                "CR_PLAZA": "10DCU",
+                "DESCRIPCION": "10DCU Vallarta",
+                "CR_DISTRITO": "32XJK",
+                "SHUTTLE": "83|10DCU|10DCU Vallarta|32XJK"
+            },
+            {
+                "CR_PLAZA": "10CUE",
+                "DESCRIPCION": "10CUE Tlalpan",
+                "CR_DISTRITO": "32EEB",
+                "SHUTTLE": "83|10CUE|10CUE Tlalpan|32EEB"
+            },
+            {
+                "CR_PLAZA": "10PBI",
+                "DESCRIPCION": "Distrito 6 PBI",
+                "CR_DISTRITO": "32LFW",
+                "SHUTTLE": "83|10PBI|Distrito 6 PBI|32LFW"
+            },
+            {
+                "CR_PLAZA": "10VHT",
+                "DESCRIPCION": "Distrito 1 VHT",
+                "CR_DISTRITO": "32PNC",
+                "SHUTTLE": "83|10VHT|Distrito 1 VHT|32PNC"
+            },
+            {
+                "CR_PLAZA": "10VCZ",
+                "DESCRIPCION": "10VCZ Xalapa",
+                "CR_DISTRITO": "32DGW",
+                "SHUTTLE": "83|10VCZ|10VCZ Xalapa|32DGW"
+            },
+            {
+                "CR_PLAZA": "10OBR",
+                "DESCRIPCION": "10OBR Mochis",
+                "CR_DISTRITO": "32MML",
+                "SHUTTLE": "83|10OBR|10OBR Mochis|32MML"
+            },
+            {
+                "CR_PLAZA": "10MXL",
+                "DESCRIPCION": "10MXL Hermosillo Sur",
+                "CR_DISTRITO": "32JVG",
+                "SHUTTLE": "83|10MXL|10MXL Hermosillo Sur|32JVG"
+            },
+            {
+                "CR_PLAZA": "10GTO",
+                "DESCRIPCION": "10GTO Irapuato",
+                "CR_DISTRITO": "32AED",
+                "SHUTTLE": "83|10GTO|10GTO Irapuato|32AED"
+            },
+            {
+                "CR_PLAZA": "10DCU",
+                "DESCRIPCION": "10DCU Tepic Centro",
+                "CR_DISTRITO": "32OWJ",
+                "SHUTTLE": "83|10DCU|10DCU Tepic Centro|32OWJ"
+            },
+            {
+                "CR_PLAZA": "10CUE",
+                "DESCRIPCION": "10CUE Chilpancingo",
+                "CR_DISTRITO": "32DGB",
+                "SHUTTLE": "83|10CUE|10CUE Chilpancingo|32DGB"
+            },
+            {
+                "CR_PLAZA": "10OBR",
+                "DESCRIPCION": "10OBR ObregonGuaymas",
+                "CR_DISTRITO": "32XTA",
+                "SHUTTLE": "83|10OBR|10OBR ObregonGuaymas|32XTA"
+            },
+            {
+                "CR_PLAZA": "10OBR",
+                "DESCRIPCION": "10OBR Baja Sur",
+                "CR_DISTRITO": "32AUI",
+                "SHUTTLE": "83|10OBR|10OBR Baja Sur|32AUI"
+            },
+            {
+                "CR_PLAZA": "10NLA",
+                "DESCRIPCION": "10NLA Piedras Negras",
+                "CR_DISTRITO": "32BXA",
+                "SHUTTLE": "83|10NLA|10NLA Piedras Negras|32BXA"
+            },
+            {
+                "CR_PLAZA": "10UMI",
+                "DESCRIPCION": "Matamoros UMI",
+                "CR_DISTRITO": "32WPF",
+                "SHUTTLE": "83|10UMI|Matamoros UMI|32WPF"
+            },
+            {
+                "CR_PLAZA": "10VHT",
+                "DESCRIPCION": "10VHT Tuxtla",
+                "CR_DISTRITO": "32OVI",
+                "SHUTTLE": "83|10VHT|10VHT Tuxtla|32OVI"
+            },
+            {
+                "CR_PLAZA": "10GTO",
+                "DESCRIPCION": "10GTO Zacatecas",
+                "CR_DISTRITO": "32GTN",
+                "SHUTTLE": "83|10GTO|10GTO Zacatecas|32GTN"
+            },
+            {
+                "CR_PLAZA": "10MXL",
+                "DESCRIPCION": "Distrito 3 Mxl",
+                "CR_DISTRITO": "32HKX",
+                "SHUTTLE": "83|10MXL|Distrito 3 Mxl|32HKX"
+            },
+            {
+                "CR_PLAZA": "10MXL",
+                "DESCRIPCION": "Distrito 2 Mxl",
+                "CR_DISTRITO": "32ZUA",
+                "SHUTTLE": "83|10MXL|Distrito 2 Mxl|32ZUA"
+            },
+            {
+                "CR_PLAZA": "10ZAI",
+                "DESCRIPCION": "Distrito 1",
+                "CR_DISTRITO": "32YUD",
+                "SHUTTLE": "83|10ZAI|Distrito 1|32YUD"
+            },
+            {
+                "CR_PLAZA": "10SMP",
+                "DESCRIPCION": "10SMP OXSmart GDL",
+                "CR_DISTRITO": "32VFK",
+                "SHUTTLE": "83|10SMP|10SMP OXSmart GDL|32VFK"
+            },
+            {
+                "CR_PLAZA": "10LGA",
+                "DESCRIPCION": "10LGA SLP Norte",
+                "CR_DISTRITO": "32AHO",
+                "SHUTTLE": "83|10LGA|10LGA SLP Norte|32AHO"
+            },
+            {
+                "CR_PLAZA": "10GUD",
+                "DESCRIPCION": "Chapala Dsto 2",
+                "CR_DISTRITO": "32HBI",
+                "SHUTTLE": "83|10GUD|Chapala Dsto 2|32HBI"
+            },
+            {
+                "CR_PLAZA": "10TIJ",
+                "DESCRIPCION": "Distrito 1 Tijuana",
+                "CR_DISTRITO": "32EVH",
+                "SHUTTLE": "83|10TIJ|Distrito 1 Tijuana|32EVH"
+            },
+            {
+                "CR_PLAZA": "10VCZ",
+                "DESCRIPCION": "10VCZ Poza Rica",
+                "CR_DISTRITO": "32SGR",
+                "SHUTTLE": "83|10VCZ|10VCZ Poza Rica|32SGR"
+            },
+            {
+                "CR_PLAZA": "10UMI",
+                "DESCRIPCION": "10UMI Tampico",
+                "CR_DISTRITO": "32RNA",
+                "SHUTTLE": "83|10UMI|10UMI Tampico|32RNA"
+            },
+            {
+                "CR_PLAZA": "10MON",
+                "DESCRIPCION": "Monterrey Sur",
+                "CR_DISTRITO": "32VEI",
+                "SHUTTLE": "83|10MON|Monterrey Sur|32VEI"
+            },
+            {
+                "CR_PLAZA": "10MON",
+                "DESCRIPCION": "10MON Reynosa",
+                "CR_DISTRITO": "32GEE",
+                "SHUTTLE": "83|10MON|10MON Reynosa|32GEE"
+            },
+            {
+                "CR_PLAZA": "10GTO",
+                "DESCRIPCION": "10GTO Ags Sur",
+                "CR_DISTRITO": "32SJD",
+                "SHUTTLE": "83|10GTO|10GTO Ags Sur|32SJD"
+            },
+            {
+                "CR_PLAZA": "10CAN",
+                "DESCRIPCION": "10CAN Merida",
+                "CR_DISTRITO": "32ZJO",
+                "SHUTTLE": "83|10CAN|10CAN Merida|32ZJO"
+            },
+            {
+                "CR_PLAZA": "10GUD",
+                "DESCRIPCION": "Guadalajara Chapala",
+                "CR_DISTRITO": "32MZR",
+                "SHUTTLE": "83|10GUD|Guadalajara Chapala|32MZR"
+            },
+            {
+                "CR_PLAZA": "10TIJ",
+                "DESCRIPCION": "10TIJ Tijuana Este",
+                "CR_DISTRITO": "32ECK",
+                "SHUTTLE": "83|10TIJ|10TIJ Tijuana Este|32ECK"
+            },
+            {
+                "CR_PLAZA": "10SMP",
+                "DESCRIPCION": "10SMP OXSmart QRO",
+                "CR_DISTRITO": "32EZG",
+                "SHUTTLE": "83|10SMP|10SMP OXSmart QRO|32EZG"
+            },
+            {
+                "CR_PLAZA": "10PCK",
+                "DESCRIPCION": "10PCK Naucalpan",
+                "CR_DISTRITO": "32BPE",
+                "SHUTTLE": "83|10PCK|10PCK Naucalpan|32BPE"
+            },
+            {
+                "CR_PLAZA": "10MXL",
+                "DESCRIPCION": "10MXL San Luis RC",
+                "CR_DISTRITO": "32MWI",
+                "SHUTTLE": "83|10MXL|10MXL San Luis RC|32MWI"
+            },
+            {
+                "CR_PLAZA": "10GUD",
+                "DESCRIPCION": "10GUD Zapopan",
+                "CR_DISTRITO": "32TFD",
+                "SHUTTLE": "83|10GUD|10GUD Zapopan|32TFD"
+            },
+            {
+                "CR_PLAZA": "10CUE",
+                "DESCRIPCION": "10CUE Iztapalapa",
+                "CR_DISTRITO": "32TFT",
+                "SHUTTLE": "83|10CUE|10CUE Iztapalapa|32TFT"
+            },
+            {
+                "CR_PLAZA": "10PBI",
+                "DESCRIPCION": "Distrito 1 PBI",
+                "CR_DISTRITO": "32UXL",
+                "SHUTTLE": "83|10PBI|Distrito 1 PBI|32UXL"
+            },
+            {
+                "CR_PLAZA": "10LGA",
+                "DESCRIPCION": "Distrito 2",
+                "CR_DISTRITO": "32EQU",
+                "SHUTTLE": "83|10LGA|Distrito 2|32EQU"
+            },
+            {
+                "CR_PLAZA": "10LGA",
+                "DESCRIPCION": "Distrito 1",
+                "CR_DISTRITO": "32ZOW",
+                "SHUTTLE": "83|10LGA|Distrito 1|32ZOW"
+            },
+            {
+                "CR_PLAZA": "10TLC",
+                "DESCRIPCION": "10TLC Toluca Metepec",
+                "CR_DISTRITO": "32RVM",
+                "SHUTTLE": "83|10TLC|10TLC Toluca Metepec|32RVM"
+            },
+            {
+                "CR_PLAZA": "10PCK",
+                "DESCRIPCION": "10PCK Izcalli",
+                "CR_DISTRITO": "32EQA",
+                "SHUTTLE": "83|10PCK|10PCK Izcalli|32EQA"
+            },
+            {
+                "CR_PLAZA": "10SQR",
+                "DESCRIPCION": "10SQR OXSmart QRO",
+                "CR_DISTRITO": "32RUZ",
+                "SHUTTLE": "83|10SQR|10SQR OXSmart QRO|32RUZ"
+            },
+            {
+                "CR_PLAZA": "10PCK",
+                "DESCRIPCION": "10PCK Tecamac",
+                "CR_DISTRITO": "32OBQ",
+                "SHUTTLE": "83|10PCK|10PCK Tecamac|32OBQ"
+            },
+            {
+                "CR_PLAZA": "10MAN",
+                "DESCRIPCION": "10MAN MIOXXO",
+                "CR_DISTRITO": "32AYA",
+                "SHUTTLE": "83|10MAN|10MAN MIOXXO|32AYA"
+            },
+            {
+                "CR_PLAZA": "10LGA",
+                "DESCRIPCION": "10LGA Durango",
+                "CR_DISTRITO": "32PWT",
+                "SHUTTLE": "83|10LGA|10LGA Durango|32PWT"
+            },
+            {
+                "CR_PLAZA": "10CAN",
+                "DESCRIPCION": "10CAN Cancun",
+                "CR_DISTRITO": "32FBR",
+                "SHUTTLE": "83|10CAN|10CAN Cancun|32FBR"
+            },
+            {
+                "CR_PLAZA": "10MEX",
+                "DESCRIPCION": "Mexico Ajusco",
+                "CR_DISTRITO": "31AAJ",
+                "SHUTTLE": "83|10MEX|Mexico Ajusco|31AAJ"
+            },
+            {
+                "CR_PLAZA": "10GUD",
+                "DESCRIPCION": "Guadalajara Tequila",
+                "CR_DISTRITO": "32WBK",
+                "SHUTTLE": "83|10GUD|Guadalajara Tequila|32WBK"
+            },
+            {
+                "CR_PLAZA": "10OBR",
+                "DESCRIPCION": "10OBR Guasave",
+                "CR_DISTRITO": "32BWN",
+                "SHUTTLE": "83|10OBR|10OBR Guasave|32BWN"
+            },
+            {
+                "CR_PLAZA": "10MON",
+                "DESCRIPCION": "10MON San Pedro",
+                "CR_DISTRITO": "32MRM",
+                "SHUTTLE": "83|10MON|10MON San Pedro|32MRM"
+            },
+            {
+                "CR_PLAZA": "10GUD",
+                "DESCRIPCION": "10GUD GDL Poniente",
+                "CR_DISTRITO": "32TLM",
+                "SHUTTLE": "83|10GUD|10GUD GDL Poniente|32TLM"
+            },
+            {
+                "CR_PLAZA": "10CHI",
+                "DESCRIPCION": "10CHI Chi Sierra",
+                "CR_DISTRITO": "32YTC",
+                "SHUTTLE": "83|10CHI|10CHI Chi Sierra|32YTC"
+            },
+            {
+                "CR_PLAZA": "10TIJ",
+                "DESCRIPCION": "Distrito 2 Tijuana",
+                "CR_DISTRITO": "32HDP",
+                "SHUTTLE": "83|10TIJ|Distrito 2 Tijuana|32HDP"
+            },
+            {
+                "CR_PLAZA": "10QRI",
+                "DESCRIPCION": "Queretaro-Celaya",
+                "CR_DISTRITO": "32ZXO",
+                "SHUTTLE": "83|10QRI|Queretaro-Celaya|32ZXO"
+            },
+            {
+                "CR_PLAZA": "10MON",
+                "DESCRIPCION": "Monterrey Norte",
+                "CR_DISTRITO": "32VDV",
+                "SHUTTLE": "83|10MON|Monterrey Norte|32VDV"
+            },
+            {
+                "CR_PLAZA": "10MEX",
+                "DESCRIPCION": "Mexico Satelite",
+                "CR_DISTRITO": "31HSW",
+                "SHUTTLE": "83|10MEX|Mexico Satelite|31HSW"
+            },
+            {
+                "CR_PLAZA": "10PBI",
+                "DESCRIPCION": "Distrito 2 PBI",
+                "CR_DISTRITO": "32KLQ",
+                "SHUTTLE": "83|10PBI|Distrito 2 PBI|32KLQ"
+            },
+            {
+                "CR_PLAZA": "10GTO",
+                "DESCRIPCION": "Distrito 2 Leon Fora",
+                "CR_DISTRITO": "32ROR",
+                "SHUTTLE": "83|10GTO|Distrito 2 Leon Fora|32ROR"
+            },
+            {
+                "CR_PLAZA": "10MXL",
+                "DESCRIPCION": "10MXL Nogales",
+                "CR_DISTRITO": "32LIA",
+                "SHUTTLE": "83|10MXL|10MXL Nogales|32LIA"
+            },
+            {
+                "CR_PLAZA": "10CUE",
+                "DESCRIPCION": "10CUE Cuautla",
+                "CR_DISTRITO": "32UEW",
+                "SHUTTLE": "83|10CUE|10CUE Cuautla|32UEW"
+            },
+            {
+                "CR_PLAZA": "10MAN",
+                "DESCRIPCION": "10MAN FDC MTY",
+                "CR_DISTRITO": "32DCY",
+                "SHUTTLE": "83|10MAN|10MAN FDC MTY|32DCY"
+            },
+            {
+                "CR_PLAZA": "10CUE",
+                "DESCRIPCION": "10CUE Acapulco",
+                "CR_DISTRITO": "32MHZ",
+                "SHUTTLE": "83|10CUE|10CUE Acapulco|32MHZ"
+            },
+            {
+                "CR_PLAZA": "10CHI",
+                "DESCRIPCION": "10CHI Jua Antiguo",
+                "CR_DISTRITO": "32XDM",
+                "SHUTTLE": "83|10CHI|10CHI Jua Antiguo|32XDM"
+            },
+            {
+                "CR_PLAZA": "10MON",
+                "DESCRIPCION": "Monterrey Centro",
+                "CR_DISTRITO": "32RYT",
+                "SHUTTLE": "83|10MON|Monterrey Centro|32RYT"
+            },
+            {
+                "CR_PLAZA": "10CUE",
+                "DESCRIPCION": "Distrito 2 CUE",
+                "CR_DISTRITO": "32OXG",
+                "SHUTTLE": "83|10CUE|Distrito 2 CUE|32OXG"
+            },
+            {
+                "CR_PLAZA": "10DCU",
+                "DESCRIPCION": "Culiacan - DCU",
+                "CR_DISTRITO": "32HPX",
+                "SHUTTLE": "83|10DCU|Culiacan - DCU|32HPX"
+            },
+            {
+                "CR_PLAZA": "10NLA",
+                "DESCRIPCION": "10NLA Laredo",
+                "CR_DISTRITO": "32FCF",
+                "SHUTTLE": "83|10NLA|10NLA Laredo|32FCF"
+            },
+            {
+                "CR_PLAZA": "10MAN",
+                "DESCRIPCION": "10MAN D2H MTY",
+                "CR_DISTRITO": "32NBA",
+                "SHUTTLE": "83|10MAN|10MAN D2H MTY|32NBA"
+            },
+            {
+                "CR_PLAZA": "10GTO",
+                "DESCRIPCION": "10GTO Ags Norte",
+                "CR_DISTRITO": "32DPN",
+                "SHUTTLE": "83|10GTO|10GTO Ags Norte|32DPN"
+            },
+            {
+                "CR_PLAZA": "10CHI",
+                "DESCRIPCION": "10CHI Jua Industrial",
+                "CR_DISTRITO": "32GGV",
+                "SHUTTLE": "83|10CHI|10CHI Jua Industrial|32GGV"
+            },
+            {
+                "CR_PLAZA": "10TLC",
+                "DESCRIPCION": "10TLC Morelia Costa",
+                "CR_DISTRITO": "32AIZ",
+                "SHUTTLE": "83|10TLC|10TLC Morelia Costa|32AIZ"
+            },
+            {
+                "CR_PLAZA": "10PCK",
+                "DESCRIPCION": "10PCK GustavoAMadero",
+                "CR_DISTRITO": "32CYV",
+                "SHUTTLE": "83|10PCK|10PCK GustavoAMadero|32CYV"
+            },
+            {
+                "CR_PLAZA": "10TIJ",
+                "DESCRIPCION": "Distrito 3 Ensenada",
+                "CR_DISTRITO": "32UHH",
+                "SHUTTLE": "83|10TIJ|Distrito 3 Ensenada|32UHH"
+            },
+            {
+                "CR_PLAZA": "10TLC",
+                "DESCRIPCION": "Distrito 2 Toluca",
+                "CR_DISTRITO": "32OJE",
+                "SHUTTLE": "83|10TLC|Distrito 2 Toluca|32OJE"
+            },
+            {
+                "CR_PLAZA": "10OBR",
+                "DESCRIPCION": "Distrito 1 OBR",
+                "CR_DISTRITO": "32AHE",
+                "SHUTTLE": "83|10OBR|Distrito 1 OBR|32AHE"
+            },
+            {
+                "CR_PLAZA": "10SZA",
+                "DESCRIPCION": "10SZA OXSmart ZAL",
+                "CR_DISTRITO": "32ISE",
+                "SHUTTLE": "83|10SZA|10SZA OXSmart ZAL|32ISE"
+            },
+            {
+                "CR_PLAZA": "10SMP",
+                "DESCRIPCION": "10SMP OXSmart Mx PTE",
+                "CR_DISTRITO": "32CDE",
+                "SHUTTLE": "83|10SMP|10SMP OXSmart Mx PTE|32CDE"
+            },
+            {
+                "CR_PLAZA": "10SGD",
+                "DESCRIPCION": "10SGD OXSmart GDL",
+                "CR_DISTRITO": "32JKQ",
+                "SHUTTLE": "83|10SGD|10SGD OXSmart GDL|32JKQ"
+            },
+            {
+                "CR_PLAZA": "10DCU",
+                "DESCRIPCION": "10DCU Mazatlan",
+                "CR_DISTRITO": "32UVT",
+                "SHUTTLE": "83|10DCU|10DCU Mazatlan|32UVT"
+            },
+            {
+                "CR_PLAZA": "10VCZ",
+                "DESCRIPCION": "10VCZ Coatzacoalcos",
+                "CR_DISTRITO": "32PFG",
+                "SHUTTLE": "83|10VCZ|10VCZ Coatzacoalcos|32PFG"
+            },
+            {
+                "CR_PLAZA": "10MEX",
+                "DESCRIPCION": "Mexico Valle",
+                "CR_DISTRITO": "32IPC",
+                "SHUTTLE": "83|10MEX|Mexico Valle|32IPC"
+            },
+            {
+                "CR_PLAZA": "10CAN",
+                "DESCRIPCION": "Cancun CAN-1",
+                "CR_DISTRITO": "32XAP",
+                "SHUTTLE": "83|10CAN|Cancun CAN-1|32XAP"
+            },
+            {
+                "CR_PLAZA": "10SZA",
+                "DESCRIPCION": "10SZA OXSmart MTY",
+                "CR_DISTRITO": "32UKF",
+                "SHUTTLE": "83|10SZA|10SZA OXSmart MTY|32UKF"
+            },
+            {
+                "CR_PLAZA": "10MEX",
+                "DESCRIPCION": "10MEX Aeropuerto",
+                "CR_DISTRITO": "32YTK",
+                "SHUTTLE": "83|10MEX|10MEX Aeropuerto|32YTK"
+            },
+            {
+                "CR_PLAZA": "10MAN",
+                "DESCRIPCION": "10MAN FDC TIJ",
+                "CR_DISTRITO": "32WNO",
+                "SHUTTLE": "83|10MAN|10MAN FDC TIJ|32WNO"
+            },
+            {
+                "CR_PLAZA": "10VHT",
+                "DESCRIPCION": "10VHT Oaxaca",
+                "CR_DISTRITO": "32CJD",
+                "SHUTTLE": "83|10VHT|10VHT Oaxaca|32CJD"
+            },
+            {
+                "CR_PLAZA": "10DCU",
+                "DESCRIPCION": "10DCU Colima",
+                "CR_DISTRITO": "32XXA",
+                "SHUTTLE": "83|10DCU|10DCU Colima|32XXA"
+            },
+            {
+                "CR_PLAZA": "10NLA",
+                "DESCRIPCION": "10NLA San Nicolas",
+                "CR_DISTRITO": "32BQS",
+                "SHUTTLE": "83|10NLA|10NLA San Nicolas|32BQS"
+            },
+            {
+                "CR_PLAZA": "10DAS",
+                "DESCRIPCION": "Dark Store",
+                "CR_DISTRITO": null,
+                "SHUTTLE": "83|10DAS|Dark Store|"
+            },
+            {
+                "CR_PLAZA": "10DAS",
+                "DESCRIPCION": "Dark Store",
+                "CR_DISTRITO": null,
+                "SHUTTLE": "83|10DAS|Dark Store|"
+            },
+            {
+                "CR_PLAZA": "10DAS",
+                "DESCRIPCION": "Dark Store",
+                "CR_DISTRITO": null,
+                "SHUTTLE": "83|10DAS|Dark Store|"
+            },
+            {
+                "CR_PLAZA": "10DAS",
+                "DESCRIPCION": "Dark Store",
+                "CR_DISTRITO": null,
+                "SHUTTLE": "83|10DAS|Dark Store|"
+            },
+            {
+                "CR_PLAZA": "10DAS",
+                "DESCRIPCION": "Dark Store",
+                "CR_DISTRITO": null,
+                "SHUTTLE": "83|10DAS|Dark Store|"
+            },
+            {
+                "CR_PLAZA": "10DAS",
+                "DESCRIPCION": "Dark Store",
+                "CR_DISTRITO": null,
+                "SHUTTLE": "83|10DAS|Dark Store|"
+            },
+            {
+                "CR_PLAZA": "10DAS",
+                "DESCRIPCION": "Dark Store",
+                "CR_DISTRITO": null,
+                "SHUTTLE": "83|10DAS|Dark Store|"
+            },
+            {
+                "CR_PLAZA": "10DAS",
+                "DESCRIPCION": "Dark Store",
+                "CR_DISTRITO": null,
+                "SHUTTLE": "83|10DAS|Dark Store|"
+            }
+        ]
+    }
+}

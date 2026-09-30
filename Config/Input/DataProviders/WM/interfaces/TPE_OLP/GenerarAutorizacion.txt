@@ -1,0 +1,7 @@
+http://<<host>>/invoke/TPE.OLP.Pub/request?xmlIn=<?xml version="1.0" encoding="UTF-8"?>
+<TPEDoc version="1.0">
+  <header application="<<application>>" entity="<<entity>>" operation="<<operation>>" source="<<source>>" folio="<<folio>>" plaza="<<plaza>>" tienda="<<tienda>>" caja="<<caja>>" adDate="<<ad_date>>" pvDate="<<pv_date>>" creationDate="<<creationdate>>"/>
+  <request>
+    <service id="<<serviceId>>" idClient="<<idclient>>" accountId="<<accountid>>" ticket="<<ticket>>"  total="<<total>>" entryMode="<<entryMode>>" payType="<<payType>>" payCom="<<payCom>>" />
+  </request>
+</TPEDoc>

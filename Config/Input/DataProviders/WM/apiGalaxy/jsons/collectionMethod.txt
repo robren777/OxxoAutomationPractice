@@ -1,0 +1,21 @@
+{
+    "method": "POST",
+    "headers": {
+        "x-functions-key": "ScPhqviIcwKd_JT0r-JDxqRTHyDQ_ytiIsLNLXK3bNEeAzFueWTHsg==",
+        "Authorization": "Bearer eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjEwOCwidXR5cGlkIjoyLCJpYXQiOjE3Nzk3MzIzNDMsImV4cCI6MTc3OTczNTk0M30.JTQSwpEuvuE5QVvjsJGk6Dxw_5l6s_3yHJ75ki_5iQE"
+    },
+    "disableCertValidation": true,
+    "url": "https://mcstaging.oxxoespacios.com/rest/all/V1/oxxo/ebs-formas-cobro/create",
+    "body": {
+        "collectionMethod": [
+            {
+                "flex_value": "FC_FACT",
+                "description": "Factura"
+            },
+            {
+                "flex_value": "FC_NOTA",
+                "description": "Nota de Crédito"
+            }
+        ]
+    }
+}

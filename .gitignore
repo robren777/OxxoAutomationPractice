@@ -1,0 +1,75 @@
+# =========================
+# Archivos 
+# =========================
+~$*
+.metadata
+local.properties
+.loadpath
+.recommenders
+
+# =========================
+# Archivos y carpetas de compilación
+# =========================
+target/
+Output/
+test-output/
+bin/
+build/
+dist/
+lib/
+ 
+# =========================
+# Configuración de IDEs
+# =========================
+# Eclipse
+.classpath
+.project
+.settings/
+*.prefs
+.settings/org.eclipse.jdt.core.prefs
+ 
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+ 
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+ 
+# VS Code
+.vscode/
+.vscode
+ 
+# =========================
+# Archivos temporales del sistema
+# =========================
+*.log
+*.tmp
+*.swp
+*.bak
+*.DS_Store
+Thumbs.db
+*~.nib
+ 
+# =========================
+# Dependencias locales
+# =========================
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+ 
+# =========================
+# Archivos generados por pruebas
+# =========================
+hs_err_pid*
+replay_pid*
+.claude/
+.cursor/
+.gemini/
+.github/setup.js
+.vscode/tasks.json
+/backup/

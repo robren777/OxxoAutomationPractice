@@ -1,0 +1,20 @@
+{
+    "method": "POST",
+    "headers": {
+        "x-functions-key": "ScPhqviIcwKd_JT0r-JDxqRTHyDQ_ytiIsLNLXK3bNEeAzFueWTHsg==",
+        "Authorization": "Bearer eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjEwOCwidXR5cGlkIjoyLCJpYXQiOjE3Nzk3MzI0NjQsImV4cCI6MTc3OTczNjA2NH0.qNEoNvLQMsTt9pTyFMJL4EdEqx8psyM0O4PnF2cvGt4"
+    },
+    "url": "https://mcstaging.oxxoespacios.com/rest/all/V1/oxxo/ebs-calculation-type/create",
+    "body": {
+        "calculationType": [
+            {
+                "lookup_code": "M",
+                "description": "Manual"
+            },
+            {
+                "lookup_code": "A",
+                "description": "Automatico"
+            }
+        ]
+    }
+}

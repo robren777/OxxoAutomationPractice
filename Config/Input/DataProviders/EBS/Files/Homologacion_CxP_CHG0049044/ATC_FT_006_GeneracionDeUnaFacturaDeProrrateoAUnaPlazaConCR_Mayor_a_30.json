@@ -1,0 +1,63 @@
+{
+  "Entity": {
+    "ID_COMPANIA": "00099",
+    "ORG_ID": "83",
+    "INVOICE_TYPE_LOOKUP_CODE": "STANDARD",
+    "VENDOR_SITE_ID": "10953",
+    "VENDOR_ID": "22537",
+    "INVOICE_NUM": "JM17",
+    "INVOICE_CURRENCY_CODE": "MXN",
+    "AMOUNT": "116.0",
+    "SOURCE": "XPERTAL-PORTAL FI",
+    "DESCRIPTION": "TST QA",
+    "EXISTE_UUID": "S",
+    "FIRMANTES": "JJ MX",
+    "FECHA_EMBARQUE": "2024-10-10 15:27:00",
+    "PRORRATEO": "PR",
+    "ID_PROCESO": "22",
+    "NOMBRE_PROVEEDOR": "ON TIME GRAPHICS SA DE CV",
+    "FECHA_FACT_INICIO": "2024-11-10 15:27:00",
+    "FECHA_FACT_FIN": "2024-10-11 15:27:00",
+    "NIS": "",
+    "lines": [
+      {
+        "LINE_TYPE": "Articulo",
+        "IMPORTE": "100.00",
+        "CODIGO_IMPUESTO": "TGIVAGASTO",
+        "CODIGO_RETENCION": "",
+        "COMBINACION_CONTABLE": "00099.03MTY.36DPC.72SU1207.00000000.000000.00000",
+        "COMENTARIOS": "comments",
+        "ORDEN_SERVICIO": "000000",
+        "SI_LEGACY": "000001",
+        "SI_ORACLE": "000001",
+        "NO_REQUISICION": "000001",
+        "PUESTO": "",
+        "MODELO": "",
+        "ARTICULO": "Arrenda",
+        "PIEZAS": "",
+        "COSTO_UNITARIO": "",
+        "PERIODO": "",
+        "CONCEPTO": "Arrenda",
+        "NOMBRE_CAMPANA": ""
+      }
+    ],
+    "uuids": [
+      {
+        "UUID": "JM17-82AB-11EF-8835-14ENE2025",
+        "RFC": "OTG020305A25",
+        "VENDOR_ID": "22537",
+        "INVOICE_NUM": "JM17",
+        "TIPO_DOCUMENTO": "I",
+        "FOLIO": "JJ",
+        "SERIE": "PR",
+        "FECHA_EMISION_XML": "2025-01-14T15:27:00",
+        "FECHA_RECEPCION_XML": "2024-01-14T09:27:00",
+        "SUBTOTAL": "100.0",
+        "IMPUESTOS": "16.0",
+        "RETENCIONES": "0.00",
+        "TOTAL_XML": "116.0",
+        "MONEDA": "MXN"
+      }
+    ]
+  }
+}

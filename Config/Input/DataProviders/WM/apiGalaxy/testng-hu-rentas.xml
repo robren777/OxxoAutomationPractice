@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<suite name="RentaDeExpacios">
+  <test thread-count="1" name="Test">
+ <packages>
+    <package name="WM.apigalaxy.renta"/>
+</packages>
+
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->

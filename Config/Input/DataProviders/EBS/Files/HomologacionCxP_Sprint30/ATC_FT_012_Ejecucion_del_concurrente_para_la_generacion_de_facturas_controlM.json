@@ -1,0 +1,63 @@
+{
+  "Entity": {
+    "ID_COMPANIA": "00099",
+    "ORG_ID": "85",
+    "INVOICE_TYPE_LOOKUP_CODE": "STANDARD",
+    "VENDOR_SITE_ID": "15307",
+    "VENDOR_ID": "112267",
+    "INVOICE_NUM": "32004",
+    "INVOICE_CURRENCY_CODE": "MXN",
+    "AMOUNT": "1.16",
+    "SOURCE": "XPERTAL-PORTAL FI",
+    "DESCRIPTION": "Jesus32004 Automatizada",
+    "EXISTE_UUID": "Y",
+    "FIRMANTES": "DLR11123",
+    "FECHA_EMBARQUE": "2024-09-10 15:27:00",
+    "PRORRATEO": null,
+    "ID_PROCESO": "21",
+    "NOMBRE_PROVEEDOR": "RIVERO LINDA VISTA SA DE CV",
+    "FECHA_FACT_INICIO": "2024-09-10 15:27:00",
+    "FECHA_FACT_FIN": "2024-09-10 16:27:00",
+    "NIS": null,
+    "lines": [
+      {
+        "LINE_TYPE": "Articulo",
+        "IMPORTE": "1",
+        "CODIGO_IMPUESTO": "TGIVAAFIJO",
+        "CODIGO_RETENCION": null,
+        "COMBINACION_CONTABLE": "00099.01BJX.32YGY.72SU0752.00000000.000000.00000",
+        "COMENTARIOS": "Jesus32004 Automatizada",
+        "ORDEN_SERVICIO": "203",
+        "SI_LEGACY": null,
+        "SI_ORACLE": null,
+        "NO_REQUISICION": null,
+        "PUESTO": "68",
+        "MODELO": "2023",
+        "ARTICULO": "S.01",
+        "PIEZAS": "1",
+        "COSTO_UNITARIO": "1",
+        "PERIODO": null,
+        "CONCEPTO": "068",
+        "NOMBRE_CAMPANA": null
+      }
+    ],
+    "uuids": [
+      {
+        "UUID": "32004Auto-eb00-000c-a0a0-c0db-10sep24",
+        "RFC": "RLV010720452",
+        "VENDOR_ID": "112267",
+        "INVOICE_NUM": "32004",
+        "TIPO_DOCUMENTO": "I",
+        "FOLIO": "2X",
+        "SERIE": "M23",
+        "FECHA_EMISION_XML": "2024-09-10T15:27:00",
+        "FECHA_RECEPCION_XML": "2024-09-10T09:27:00",
+        "SUBTOTAL": "1",
+        "IMPUESTOS": "0.16",
+        "RETENCIONES": "0.00",
+        "TOTAL_XML": "1",
+        "MONEDA": "MXN"
+      }
+    ]
+  }
+}

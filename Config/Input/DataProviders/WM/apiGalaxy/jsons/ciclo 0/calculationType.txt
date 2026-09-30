@@ -1,0 +1,20 @@
+{
+    "method": "POST",
+    "headers": {
+        "x-functions-key": "ScPhqviIcwKd_JT0r-JDxqRTHyDQ_ytiIsLNLXK3bNEeAzFueWTHsg==",
+        "Authorization": "Bearer \"eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjQwLCJ1dHlwaWQiOjIsImlhdCI6MTc3MDI2NTk0OSwiZXhwIjoxNzcwMjY5NTQ5fQ.Z0YrDy9j1khFWbAa2J_CI1_o__BXvPOiNpHI3ZQ1E-Q\""
+    },
+    "url": "https://oxzfuncpepromd01.azurewebsites.net/api/rest/all/V1/oxxo/ebs-calculation-type/create",
+    "body": {
+        "calculationType": [
+            {
+                "LOOKUP_CODE": "M",
+                "DESCRIPTION": "Manual"
+            },
+            {
+                "LOOKUP_CODE": "A",
+                "DESCRIPTION": "Automatico"
+            }
+        ]
+    }
+}

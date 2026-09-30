@@ -1,0 +1,71 @@
+package Mobile.cedis.mvp3.handheld.sprint3;
+
+import static org.testng.Assert.assertFalse;
+
+import java.util.HashMap;
+
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import Mobile.cedis.om.D01_Conexiones_BD;
+import modelo.BaseExecution;
+import utils.sql.SQLResult;
+
+public class ATC_FT_076_VistaCodigoDeLotesCedisAutomatizado extends BaseExecution {
+	@Test(dataProvider = "data-provider", enabled = true)
+	public void ATC_FT_076_VistaCodigoDeLotesCedisAutomatizado_Test(HashMap<String, String> data) throws Exception {
+		D01_Conexiones_BD POM_Conexiones = new D01_Conexiones_BD(testCase, null, this);
+		//Pasos relacionados a crear la conexion con la base de datos de RDM Tlajomulco
+		addStep("Se conecta correctamente a la base de datos mediante SQL Developer", "Validar la conexión exitosa");
+		POM_Conexiones.verificarConexionRDM100();
+
+		//Pasos para hacer la consulta y validar que se encuentren las columnas de: tipo de distribucion, ruta original y ruta dinamica
+		addStep("Se ingresa la siguiente consulta: SELECT TSF_NO, DEST_ID, CONTAINER_ID, ITEM_ID, PICK_TYPE, VERIF_CODE FROM xxfc_verificacion_v WHERE ROWNUM <= 3", "Se ejecuto el query exitosamente y se despliegan la vista correctamente con la informacion requerida");
+		SQLResult Resultado_Consulta_SQL = executeQuery(POM_Conexiones.connectionTlajo, "SELECT TSF_NO, DEST_ID, CONTAINER_ID, ITEM_ID, PICK_TYPE, VERIF_CODE FROM xxfc_verificacion_v WHERE ROWNUM <= 3");
+		testCase.addQueryEvidenceCurrentStep(Resultado_Consulta_SQL);
+		assertFalse(Resultado_Consulta_SQL.isEmpty(), "No se realizó la consulta de manera correcta");
+
+		//Finalizacion del Script y cierre de conexion
+		POM_Conexiones.cerrarConexionRDM100();
+	}
+
+
+
+
+
+
+
+	@Override
+	public String setTestFullName() {
+		return "ATC_FT_076_VistaCodigoDeLotesCedisAutomatizado";
+	}
+
+	@Override
+	public String setTestDescription() {
+		return "Validar que la vista contenga lo siguientes campos: \r\n"
+				+ "xxfc_posterior_embarque_citems: pedido (tsf_no), tienda (dest_id), contenedor (container_id), articulo, (item_id), tipo de pickeo (pick_type).\r\n"
+				+ "item_master: codigo de verificacion (nombre \"verif_code\": item_master_uda11, item_master_uda12).";
+	}
+
+	@Override
+	public String setTestDesigner() {
+		return "Marcelo Gutiérrez";
+	}
+
+	@Override
+	public String setTestInstanceID() {
+		return null;
+	}
+
+	@Override
+	public String setPrerequisites() {
+		return "*Contar con VPN\r\n"
+				+ "*Contar con la BD RDM TLAJOMULCO\r\n"
+				+ "*Contar con el query de la vista\r\n"
+				+ "*Tener la vista disponible para la BD RDM TLAJOMULCO";
+	}
+
+	@BeforeTest
+	public void beforeTest() {
+	}
+}

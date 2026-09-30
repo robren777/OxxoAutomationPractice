@@ -1,0 +1,56 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SipreBara">
+	<test name="RegresionSipreBara">
+		<classes>
+			<class name="SipreBara.ATC_FT_001_AccesoUltimusPlaza" />
+			<class name="SipreBara.ATC_FT_002_AccesoUltimusCategory" />
+			<class name="SipreBara.ATC_FT_003_AccesoUltimusAdmin" />
+			<class name="SipreBara.ATC_FT_004_AccesoPEGAPlaza" />
+			<class name="SipreBara.ATC_FT_005_AccesoPEGACategory" />
+			<class name="SipreBara.ATC_FT_006_AccesoPEGAAdmin" />
+			<class name="SipreBara.ATC_FT_008_ReportePlazaCumplimient" />
+			<class name="SipreBara.ATC_FT_010_ReportePlazaExcepciones" />
+			<class name="SipreBara.ATC_FT_011_ReportePlazaFolioRetek" />
+			<class name="SipreBara.ATC_FT_012_RepPlaazMantPrecios" />
+			<class name="SipreBara.ATC_FT_013_ReportePlazaMonitoreo" />
+			<class name="SipreBara.ATC_FT_014_ReportePlazaPuntosEjecucion" />
+			<class name="SipreBara.ATC_FT_015_ReportePlazaReglasNegocio" />
+			<class
+				name="SipreBara.ATC_FT_016_ReporteCategoryExcepcionesVigentes" />
+			<class name="SipreBara.ATC_FT_017_ReporteCategoryCumplimiento" />
+			<class name="SipreBara.ATC_FT_018_ReporteCategoryReglasNegocio" />
+			<class name="SipreBara.ATC_FT_019_ReporteAdminArticulosSinRegla" />
+			<class name="SipreBara.ATC_FT_021_ReporteAdminAsignacionReglas" />
+			<class name="SipreBara.ATC_FT_022_ReporteAdminCambiosMasivos" />
+			<class name="SipreBara.ATC_FT_024_ReporteAdminCosto" />
+			<class name="SipreBara.ATC_FT_025_ReporteAdminCumplimiento" />
+			<class name="SipreBara.ATC_FT_027_ReporteAdminExcepciones" />
+			<class name="SipreBara.ATC_FT_028_ReporteAdminFolioRetek" />
+			<class name="SipreBara.ATC_FT_029_ReporteAdminMantenimientoPrecios" />
+			<class name="SipreBara.ATC_FT_030_ReporteAdminMonitoreoPrecios" />
+			<class name="SipreBara.ATC_FT_031_ReporteAdminReglasNegocio" />
+			<class name="SipreBara.ATC_FT_034_ReporteAdminPuntosEjecucion" />
+			<class name="SipreBara.ATC_FT_036_ReporteAdminZonasPrecio" />
+			<class
+				name="SipreBara.ATC_FT_038_CambioRangoRechazaExcepcionUltimus" />
+			<class name="SipreBara.ATC_FT_039_CambioRangoEnviaRMSUltimus" />
+			<class name="SipreBara.ATC_FT_040_GeneraCambioPrecioRegular" />
+			<class name="SipreBara.ATC_FT_041_GeneraCambioPrecioMasivo" />
+			<class name="SipreBara.ATC_FT_042_CargaInputReglasNegocio" />
+			<class name="SipreBara.ATC_FT_043_CargaInputPuntosDefault" />
+			<class name="SipreBara.ATC_FT_044_CargaInputMonitoreoCadenas" />
+			<class name="SipreBara.ATC_FT_045_CargaInputMonitoreoItems" />
+			<class name="SipreBara.ATC_FT_046_CargaInputPrecioCompetencia" />
+			<class name="SipreBara.ATC_FT_047_CargaInputZonasPaqReglas" />
+			<class name="SipreBara.ATC_FT_048_CargaInputCategoriasZonasExcluir" />
+			<class name="SipreBara.ATC_FT_049_CargaInputMargenCritico" />
+			<class name="SipreBara.ATC_FT_050_CargaInputPuntosEjecucion" />
+			<class name="SipreBara.ATC_FT_051_CargaInputPrecioVINCRango" />
+			<class name="SipreBara.ATC_FT_053_CargaInputCostoComunicado" />
+			<class name="SipreBara.ATC_FT_054_CargaInputActReglasPreciosEst" />
+			<class name="SipreBara.ATC_FT_057_CargaInputCambiosMasivos" />
+			<class name="SipreBara.ATC_FT_078_CambioRangoRechazaExcepcion" />
+			<class name="SipreBara.ATC_FT_079_CambioRangoEnviaRMS" />
+		</classes>
+	</test>
+</suite>

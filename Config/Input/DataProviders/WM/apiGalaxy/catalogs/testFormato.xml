@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="formato">
+
+  <test thread-count="5" name="Test">
+
+    <classes>
+<class name="WM.apiGalaxy.marketplaceCatalogs.ATC_FT_018_Validacion_De_Formato_De_Envio_Y_Response_De_Catalogo_OUT_260_DER_XXFC_IC_FORMAS_COBRO"/>
+<class name="WM.apiGalaxy.marketplaceCatalogs.ATC_FT_019_Validacion_De_Formato_De_Envio_Y_Response_De_Catalogo_OUT_260_DER_XXFC_IC_FORMAS_PAGO"/>
+<class name="WM.apiGalaxy.marketplaceCatalogs.ATC_FT_020_Validacion_De_Formato_De_Envio_Y_Response_De_Catalogo_OUT_260_DER_XXFC_BON_TIPOS_IMPUESTO"/>
+<class name="WM.apiGalaxy.marketplaceCatalogs.ATC_FT_021_Validacion_De_Formato_De_Envio_Y_Response_De_Catalogo_OUT_260_DER_XXFC_IC_TIPO_BONIFICACION"/>
+<class name="WM.apiGalaxy.marketplaceCatalogs.ATC_FT_022_Validacion_De_Formato_De_Envio_Y_Response_De_Catalogo_OUT_260_DER_XXFC_IC_TIPO_CALCULO"/>
+<class name="WM.apiGalaxy.marketplaceCatalogs.ATC_FT_023_Validacion_De_Formato_De_Envio_Y_Response_De_Catalogo_OUT_260_DER_XXFC_IC_ADMINISTRADOR_SUPERGPO"/>
+<class name="WM.apiGalaxy.marketplaceCatalogs.ATC_FT_024_Validacion_De_Formato_De_Envio_Y_Response_De_Catalogo_OUT_260_DER_XXCO_DIVISION"/>
+<class name="WM.apiGalaxy.marketplaceCatalogs.ATC_FT_025_Validacion_De_Formato_De_Envio_Y_Response_De_Catalogo_OUT_260_DER_XXCO_GROUPS"/>
+<class name="WM.apiGalaxy.marketplaceCatalogs.ATC_FT_026_Validacion_De_Formato_De_Envio_Y_Response_De_Catalogo_OUT_260_DER_XXCO_DEPS"/>
+<class name="WM.apiGalaxy.marketplaceCatalogs.ATC_FT_027_Validacion_De_Formato_De_Envio_Y_Response_De_Catalogo_OUT_260_DER_XXFC_IC_NEGOCIOS_PLAZAS_V"/>
+<class name="WM.apiGalaxy.marketplaceCatalogs.ATC_FT_028_Validacion_De_Formato_De_Envio_Y_Response_De_Catalogo_OUT_260_DER_XXFC_IC_TIPOS_NEGOCIACION"/>
+<class name="WM.apiGalaxy.marketplaceCatalogs.ATC_FT_029_Validacion_De_Formato_De_Envio_Y_Response_De_Catalogo_OUT_260_DER_XXFC_IC_TIPOS_BONIFICACION"/>
+<class name="WM.apiGalaxy.marketplaceCatalogs.ATC_FT_030_Validacion_De_Formato_De_Envio_Y_Response_De_Catalogo_OUT_260_DER_XXFC_IC_TIPOS_APORTACION"/>
+    </classes>
+
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->

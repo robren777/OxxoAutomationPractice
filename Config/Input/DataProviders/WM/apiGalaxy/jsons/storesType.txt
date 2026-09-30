@@ -1,0 +1,24 @@
+{
+    "method": "POST",
+    "headers": {
+        "x-functions-key": "ScPhqviIcwKd_JT0r-JDxqRTHyDQ_ytiIsLNLXK3bNEeAzFueWTHsg==",
+        "Authorization": "Bearer eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjEwOCwidXR5cGlkIjoyLCJpYXQiOjE3Nzk3MzI1ODksImV4cCI6MTc3OTczNjE4OX0.KX_uZZhMcz0TXNIQ07pt_rUiw_RWH0v6iTsR4Qf0CT4"
+    },
+    "url": "https://mcstaging.oxxoespacios.com/rest/all/V1/oxxo/ebs-storestype/create",
+    "body": {
+        "storesType": [
+            {
+                "meaning": "SIN",
+                "description": "Sin alcohol"
+            },
+            {
+                "meaning": "ALTA",
+                "description": "Alta graduacion"
+            },
+            {
+                "meaning": "BAJA",
+                "description": "Baja graduacion"
+            }
+        ]
+    }
+}

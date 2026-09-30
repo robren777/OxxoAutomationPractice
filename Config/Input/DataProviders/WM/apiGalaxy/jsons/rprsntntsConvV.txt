@@ -1,0 +1,26 @@
+{
+    "method": "POST",
+    "headers": {
+        "x-functions-key": "ScPhqviIcwKd_JT0r-JDxqRTHyDQ_ytiIsLNLXK3bNEeAzFueWTHsg==",
+        "Authorization": "Bearer eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjQwLCJ1dHlwaWQiOjIsImlhdCI6MTc4MDk5NDE1MSwiZXhwIjoxNzgwOTk3NzUxfQ.2uDd3Ya_KgoOYVpFSOPGky1zWUPG9pMqII0cMUe-Y_E"
+    },
+    "url": "https://integration-5ojmyuq-6vtvpeodz3zlo.us-a1.magentosite.cloud/rest/all/V1/oxxo/ebs-rprsntntsconvv/create",
+    "body": {
+        "rprsntntsConvV": [
+            {
+                "customer_id": 8312206,
+                "rfc": "MMA1908286AWW",
+                "razon_social": "Ejemplo hoy5",
+                "rep_comercial": "rep dummie",
+                "email_comercial": "2178417dfaijabfuea09193",
+                "tel_comercial": "981397318kfsjaufasfa",
+                "id_representante": 1234,
+                "activo": "Y",
+                "order_id": 2,
+                "fecha_creacion": "2026-06-09 01:00:34.752",
+                "fecha_actualizacion": "2026-06-09 01:00:34.752",
+                "tipo_de_delta": "ALTA"
+            }
+        ]
+    }
+}

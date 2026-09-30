@@ -1,0 +1,115 @@
+	
+package RDM.pmo.EdicionDeRuta;
+
+import static org.testng.Assert.assertTrue;
+
+import java.util.HashMap;
+
+import org.testng.annotations.Test;
+
+import RDM.util.Pmo;
+import modelo.BaseExecution;
+import utils.selenium.IETest;
+import utils.selenium.SeleniumUtil;
+
+public class ATC_FT_001_ValidarEdicionRuta extends BaseExecution {
+
+	@Test(dataProvider = "data-provider")
+	public void ATC_FT_001_ValidarEdicionRuta_Test(HashMap<String, String> data) throws Exception {
+
+		/*
+		 * VARIABLES
+		 */
+		String ruta = data.get("ruta");
+
+		/*
+		 * UTILERIAS
+		 */
+		SeleniumUtil u = new SeleniumUtil(new IETest());
+		Pmo p = new Pmo(u, testCase, data.get("server"));
+		
+
+		/*
+		 * PASOS DEL CASO DE PRUEBA
+		 */
+
+		// PASO 1
+		addStep("Accesar a RDM mediante la liga: http://10.180.49.81:8011/rdm01x.html."
+				+ "Ingresar usuario y contrasena y dar click en el boton Login");
+		System.out.println("PASO 1");
+	
+		p.logIn();
+		
+		// PASO 2
+		addStep("Dar click en las siguientes opciones del menu: Support Functions > Reports > "
+				+ "XXFC-PMO Ruta Horario");
+		System.out.println("PASO 2");
+	
+		p.clickSupportFuntionsRutaHorario();
+		
+		
+		// PASO 3
+		addStep("Capturar las siguiente informacion en los siguientes campos: "
+				+ "- T. Distrib: ALL n"
+				+ "- Plaza: ALL "
+				+ "- Ruta: ALL "
+				+ "- Destino: ALL n"
+				+ "- L. Surtido: ALL "
+				+ "- Tipo Pedido: ALL"
+				+ "Marcar el checkbox del campo para seleccionar todos los dias de la semana. "
+				+ "Marcar el checkbox del campo para seleccionar todos Turnos "
+				+ "Marcar Radiobutton: Gen. Ped "
+				+ "Dar click en el boton [Ejecutar]");
+		System.out.println("PASO 3");
+		
+		//p.ingresarDatosDistribaTipoPedido(distrib, plaza, ruta, destino, surtido, tipoPedido);
+		p.rutaHorarioCapturado();
+		
+		
+		// PASO 4
+		addStep("Dar click en la casilla que se encuentra del lado derecho del nombre de la Ruta "
+				+ "que se aplicaran los cambios "
+				+ "Dar click en el boton Editar Ruta/Hrio");
+		System.out.println("PASO 4");
+		
+		boolean rutaEncontrada = p.buscarRutaEliminar(ruta); 
+				
+		assertTrue(rutaEncontrada, "No se encontro la ruta");
+		
+		
+		// PASO 5	
+		addStep("Capturar los cambios en las actividades sobre un dia de generacion de la ruta "
+				+ "Dar click en el boton [Save] y validar que se hayan guardado los cambios.");
+			
+	}
+
+	@Override
+	public void beforeTest() {
+	}		
+
+	@Override
+	public String setPrerequisites() {
+		return null;
+	}
+
+	@Override
+	public String setTestDescription() {
+		return "Construido. Se valida la edicion de una ruta";
+	}
+
+	@Override
+	public String setTestDesigner() {
+		return "guerrero.vargas@neoris.com";
+	}
+
+	@Override
+	public String setTestFullName() {
+		return "ATC_FT_001_ValidarEdicionRuta_Test";
+	}
+
+	@Override
+	public String setTestInstanceID() {
+		return null;
+	}
+
+}

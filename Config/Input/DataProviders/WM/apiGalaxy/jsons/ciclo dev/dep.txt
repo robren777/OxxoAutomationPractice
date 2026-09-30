@@ -1,0 +1,5752 @@
+{
+    "method": "POST",
+    "headers": {
+        "x-functions-key": "ScPhqviIcwKd_JT0r-JDxqRTHyDQ_ytiIsLNLXK3bNEeAzFueWTHsg==",
+        "Authorization": "Bearer \"eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjQwLCJ1dHlwaWQiOjIsImlhdCI6MTc3MDI2NTk0OSwiZXhwIjoxNzcwMjY5NTQ5fQ.Z0YrDy9j1khFWbAa2J_CI1_o__BXvPOiNpHI3ZQ1E-Q\""
+    },
+    "url": "https://oxzfuncpepromd01.azurewebsites.net/api/rest/all/V1/oxxo/ebs-dep/create",
+    "body": {
+        "dep": [
+            {
+                "dept": 1222,
+                "dept_name": "TAE OXXO CEL",
+                "group_no": 328
+            },
+            {
+                "dept": 1021,
+                "dept_name": "Insumo comestible",
+                "group_no": 329
+            },
+            {
+                "dept": 1220,
+                "dept_name": "CHIP OXXO CEL",
+                "group_no": 328
+            },
+            {
+                "dept": 1023,
+                "dept_name": "Sopas Preparadas",
+                "group_no": 329
+            },
+            {
+                "dept": 1022,
+                "dept_name": "Sopas",
+                "group_no": 329
+            },
+            {
+                "dept": 1221,
+                "dept_name": "CELULARES OXXO CEL",
+                "group_no": 328
+            },
+            {
+                "dept": 1233,
+                "dept_name": "Porcion hielo",
+                "group_no": 118
+            },
+            {
+                "dept": 1223,
+                "dept_name": "Dispositivos",
+                "group_no": 328
+            },
+            {
+                "dept": 100328,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 328
+            },
+            {
+                "dept": 100329,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 329
+            },
+            {
+                "dept": 974,
+                "dept_name": "Bebidas Zumo",
+                "group_no": 278
+            },
+            {
+                "dept": 975,
+                "dept_name": "Cafes",
+                "group_no": 278
+            },
+            {
+                "dept": 1038,
+                "dept_name": "Burritos Mprop",
+                "group_no": 279
+            },
+            {
+                "dept": 1039,
+                "dept_name": "Pizzas Mprop",
+                "group_no": 279
+            },
+            {
+                "dept": 1040,
+                "dept_name": "Tacos Mprop",
+                "group_no": 279
+            },
+            {
+                "dept": 1041,
+                "dept_name": "Tamales Mprop",
+                "group_no": 279
+            },
+            {
+                "dept": 1042,
+                "dept_name": "Tortas Calientes MP",
+                "group_no": 279
+            },
+            {
+                "dept": 9051,
+                "dept_name": "Warmer Mprop",
+                "group_no": 279
+            },
+            {
+                "dept": 9067,
+                "dept_name": "Vaporera",
+                "group_no": 279
+            },
+            {
+                "dept": 9068,
+                "dept_name": "Warmer",
+                "group_no": 279
+            },
+            {
+                "dept": 9088,
+                "dept_name": "Salsas",
+                "group_no": 245
+            },
+            {
+                "dept": 9089,
+                "dept_name": "Verduras",
+                "group_no": 245
+            },
+            {
+                "dept": 9091,
+                "dept_name": "Avena (Col)",
+                "group_no": 261
+            },
+            {
+                "dept": 9105,
+                "dept_name": "Base mezcal",
+                "group_no": 113
+            },
+            {
+                "dept": 1135,
+                "dept_name": "Familiar",
+                "group_no": 267
+            },
+            {
+                "dept": 1137,
+                "dept_name": "Infantil",
+                "group_no": 267
+            },
+            {
+                "dept": 1145,
+                "dept_name": "PET",
+                "group_no": 313
+            },
+            {
+                "dept": 1146,
+                "dept_name": "Lata",
+                "group_no": 313
+            },
+            {
+                "dept": 1147,
+                "dept_name": "PET",
+                "group_no": 314
+            },
+            {
+                "dept": 1151,
+                "dept_name": "Lata",
+                "group_no": 315
+            },
+            {
+                "dept": 9139,
+                "dept_name": "Smartphone",
+                "group_no": 9005
+            },
+            {
+                "dept": 818,
+                "dept_name": "Huevo blanco",
+                "group_no": 243
+            },
+            {
+                "dept": 832,
+                "dept_name": "Carne cerdo",
+                "group_no": 245
+            },
+            {
+                "dept": 836,
+                "dept_name": "Verduras Congeladas",
+                "group_no": 246
+            },
+            {
+                "dept": 838,
+                "dept_name": "Pastas",
+                "group_no": 246
+            },
+            {
+                "dept": 841,
+                "dept_name": "Mantequillas y marga",
+                "group_no": 247
+            },
+            {
+                "dept": 844,
+                "dept_name": "Margarinas (Col)",
+                "group_no": 190
+            },
+            {
+                "dept": 1055,
+                "dept_name": "FF Alim Arts. Promos",
+                "group_no": 288
+            },
+            {
+                "dept": 1060,
+                "dept_name": "Porcion de Agua",
+                "group_no": 288
+            },
+            {
+                "dept": 1167,
+                "dept_name": "Formulas Infantiles",
+                "group_no": 229
+            },
+            {
+                "dept": 1177,
+                "dept_name": "Frijol Procesado",
+                "group_no": 322
+            },
+            {
+                "dept": 478,
+                "dept_name": "Galleta c/Malvavisco",
+                "group_no": 152
+            },
+            {
+                "dept": 512,
+                "dept_name": "Extruido tipo cheeto",
+                "group_no": 163
+            },
+            {
+                "dept": 517,
+                "dept_name": "Cacahuate",
+                "group_no": 164
+            },
+            {
+                "dept": 373,
+                "dept_name": "Licor",
+                "group_no": 112
+            },
+            {
+                "dept": 386,
+                "dept_name": "Blanco",
+                "group_no": 115
+            },
+            {
+                "dept": 498,
+                "dept_name": "Servicios Publicos",
+                "group_no": 158
+            },
+            {
+                "dept": 528,
+                "dept_name": "Dips otros",
+                "group_no": 167
+            },
+            {
+                "dept": 9135,
+                "dept_name": "Almendra",
+                "group_no": 312
+            },
+            {
+                "dept": 9090,
+                "dept_name": "Kumis (Col)",
+                "group_no": 261
+            },
+            {
+                "dept": 1136,
+                "dept_name": "Personal",
+                "group_no": 267
+            },
+            {
+                "dept": 1138,
+                "dept_name": "Multipack",
+                "group_no": 267
+            },
+            {
+                "dept": 1152,
+                "dept_name": "Vidrio",
+                "group_no": 315
+            },
+            {
+                "dept": 834,
+                "dept_name": "Pescados y Mariscos",
+                "group_no": 245
+            },
+            {
+                "dept": 9094,
+                "dept_name": "Remesas",
+                "group_no": 157
+            },
+            {
+                "dept": 9120,
+                "dept_name": "Encendedores",
+                "group_no": 9002
+            },
+            {
+                "dept": 1178,
+                "dept_name": "Frutas Envasadas",
+                "group_no": 321
+            },
+            {
+                "dept": 1181,
+                "dept_name": "Azucar Especialidad",
+                "group_no": 193
+            },
+            {
+                "dept": 886,
+                "dept_name": "Cubierto d Chocolate",
+                "group_no": 255
+            },
+            {
+                "dept": 486,
+                "dept_name": "Galleta Arts. Promos",
+                "group_no": 154
+            },
+            {
+                "dept": 985,
+                "dept_name": "Servicios",
+                "group_no": 278
+            },
+            {
+                "dept": 987,
+                "dept_name": "Tamales",
+                "group_no": 278
+            },
+            {
+                "dept": 383,
+                "dept_name": "Base Vodka",
+                "group_no": 113
+            },
+            {
+                "dept": 487,
+                "dept_name": "Local",
+                "group_no": 155
+            },
+            {
+                "dept": 504,
+                "dept_name": "SIM Card",
+                "group_no": 160
+            },
+            {
+                "dept": 579,
+                "dept_name": "Crema",
+                "group_no": 179
+            },
+            {
+                "dept": 1170,
+                "dept_name": "Especias y Sazonador",
+                "group_no": 317
+            },
+            {
+                "dept": 1058,
+                "dept_name": "Opciones Desayunos",
+                "group_no": 288
+            },
+            {
+                "dept": 480,
+                "dept_name": "Galletas Crackers",
+                "group_no": 153
+            },
+            {
+                "dept": 391,
+                "dept_name": "Barril",
+                "group_no": 116
+            },
+            {
+                "dept": 555,
+                "dept_name": "Tradicionales",
+                "group_no": 172
+            },
+            {
+                "dept": 409,
+                "dept_name": "Malteada. MProv",
+                "group_no": 125
+            },
+            {
+                "dept": 1054,
+                "dept_name": "Mantecas",
+                "group_no": 247
+            },
+            {
+                "dept": 883,
+                "dept_name": "Chocolate Macizo",
+                "group_no": 255
+            },
+            {
+                "dept": 1104,
+                "dept_name": "Tamarindo",
+                "group_no": 258
+            },
+            {
+                "dept": 9066,
+                "dept_name": "Plancha",
+                "group_no": 279
+            },
+            {
+                "dept": 1148,
+                "dept_name": "Lata",
+                "group_no": 314
+            },
+            {
+                "dept": 1176,
+                "dept_name": "Chiles Envasados",
+                "group_no": 321
+            },
+            {
+                "dept": 821,
+                "dept_name": "Salchicha",
+                "group_no": 244
+            },
+            {
+                "dept": 828,
+                "dept_name": "Salchichon",
+                "group_no": 244
+            },
+            {
+                "dept": 833,
+                "dept_name": "Carne pavo",
+                "group_no": 245
+            },
+            {
+                "dept": 835,
+                "dept_name": "Frutas Congeladas",
+                "group_no": 246
+            },
+            {
+                "dept": 1057,
+                "dept_name": "Guisados Preparados",
+                "group_no": 288
+            },
+            {
+                "dept": 1061,
+                "dept_name": "Caldos y Sopas",
+                "group_no": 288
+            },
+            {
+                "dept": 1187,
+                "dept_name": "Merm.miel y cajeta",
+                "group_no": 201
+            },
+            {
+                "dept": 892,
+                "dept_name": "Polvo comprimido",
+                "group_no": 257
+            },
+            {
+                "dept": 893,
+                "dept_name": "Dulces tipicos",
+                "group_no": 257
+            },
+            {
+                "dept": 371,
+                "dept_name": "Crema",
+                "group_no": 112
+            },
+            {
+                "dept": 380,
+                "dept_name": "Base Ron",
+                "group_no": 113
+            },
+            {
+                "dept": 382,
+                "dept_name": "Base Vino",
+                "group_no": 113
+            },
+            {
+                "dept": 414,
+                "dept_name": "Capuchino andatti",
+                "group_no": 118
+            },
+            {
+                "dept": 505,
+                "dept_name": "Larga distancia",
+                "group_no": 161
+            },
+            {
+                "dept": 578,
+                "dept_name": "Agua",
+                "group_no": 178
+            },
+            {
+                "dept": 9108,
+                "dept_name": "Apps",
+                "group_no": 158
+            },
+            {
+                "dept": 1149,
+                "dept_name": "Vidrio",
+                "group_no": 314
+            },
+            {
+                "dept": 1150,
+                "dept_name": "PET",
+                "group_no": 315
+            },
+            {
+                "dept": 1153,
+                "dept_name": "PET",
+                "group_no": 316
+            },
+            {
+                "dept": 1154,
+                "dept_name": "Lata",
+                "group_no": 316
+            },
+            {
+                "dept": 1155,
+                "dept_name": "Vidrio",
+                "group_no": 316
+            },
+            {
+                "dept": 819,
+                "dept_name": "Huevo rojo",
+                "group_no": 243
+            },
+            {
+                "dept": 820,
+                "dept_name": "Jamon",
+                "group_no": 244
+            },
+            {
+                "dept": 840,
+                "dept_name": "Quesos",
+                "group_no": 247
+            },
+            {
+                "dept": 847,
+                "dept_name": "Germicidas",
+                "group_no": 223
+            },
+            {
+                "dept": 1025,
+                "dept_name": "CapuchinoMP.Insum",
+                "group_no": 118
+            },
+            {
+                "dept": 1059,
+                "dept_name": "Paquetes Armados",
+                "group_no": 288
+            },
+            {
+                "dept": 9100,
+                "dept_name": "Capuchino",
+                "group_no": 296
+            },
+            {
+                "dept": 9123,
+                "dept_name": "Higiene y Limpieza",
+                "group_no": 309
+            },
+            {
+                "dept": 1179,
+                "dept_name": "Pesca Y Marisc Env.",
+                "group_no": 323
+            },
+            {
+                "dept": 1184,
+                "dept_name": "Polvo",
+                "group_no": 196
+            },
+            {
+                "dept": 895,
+                "dept_name": "Con juguete",
+                "group_no": 257
+            },
+            {
+                "dept": 896,
+                "dept_name": "Gomitas golosina",
+                "group_no": 257
+            },
+            {
+                "dept": 482,
+                "dept_name": "Gall Salada Integral",
+                "group_no": 153
+            },
+            {
+                "dept": 484,
+                "dept_name": "Galletas Habaneras",
+                "group_no": 153
+            },
+            {
+                "dept": 485,
+                "dept_name": "Galleta Salada Otros",
+                "group_no": 153
+            },
+            {
+                "dept": 515,
+                "dept_name": "Pellet Tipo Sabriton",
+                "group_no": 163
+            },
+            {
+                "dept": 518,
+                "dept_name": "Semillas",
+                "group_no": 164
+            },
+            {
+                "dept": 960,
+                "dept_name": "Envio de dinero",
+                "group_no": 157
+            },
+            {
+                "dept": 986,
+                "dept_name": "Snacks",
+                "group_no": 278
+            },
+            {
+                "dept": 988,
+                "dept_name": "Yogourt",
+                "group_no": 278
+            },
+            {
+                "dept": 369,
+                "dept_name": "Brandy",
+                "group_no": 112
+            },
+            {
+                "dept": 381,
+                "dept_name": "Base Tequila",
+                "group_no": 113
+            },
+            {
+                "dept": 529,
+                "dept_name": "Frut verd deshidrat",
+                "group_no": 168
+            },
+            {
+                "dept": 530,
+                "dept_name": "Botanas mariscos",
+                "group_no": 168
+            },
+            {
+                "dept": 532,
+                "dept_name": "Otros",
+                "group_no": 168
+            },
+            {
+                "dept": 581,
+                "dept_name": "Crema",
+                "group_no": 180
+            },
+            {
+                "dept": 687,
+                "dept_name": "Iluminiacion",
+                "group_no": 207
+            },
+            {
+                "dept": 1173,
+                "dept_name": "Moles / Guisados",
+                "group_no": 317
+            },
+            {
+                "dept": 9002,
+                "dept_name": "Hielo en Barra",
+                "group_no": 9000
+            },
+            {
+                "dept": 9003,
+                "dept_name": "Bolsas de Hielo C.I.",
+                "group_no": 9000
+            },
+            {
+                "dept": 822,
+                "dept_name": "Tocino",
+                "group_no": 244
+            },
+            {
+                "dept": 842,
+                "dept_name": "Quesera.Insumos",
+                "group_no": 131
+            },
+            {
+                "dept": 890,
+                "dept_name": "Caramelo macizo",
+                "group_no": 257
+            },
+            {
+                "dept": 481,
+                "dept_name": "Gall Salada Tradicio",
+                "group_no": 153
+            },
+            {
+                "dept": 483,
+                "dept_name": "Gall Salada Rellena",
+                "group_no": 153
+            },
+            {
+                "dept": 521,
+                "dept_name": "Carne seca salada",
+                "group_no": 166
+            },
+            {
+                "dept": 523,
+                "dept_name": "Dips queso",
+                "group_no": 167
+            },
+            {
+                "dept": 525,
+                "dept_name": "Dips cebolla",
+                "group_no": 167
+            },
+            {
+                "dept": 368,
+                "dept_name": "Aguardiente",
+                "group_no": 112
+            },
+            {
+                "dept": 374,
+                "dept_name": "Ron",
+                "group_no": 112
+            },
+            {
+                "dept": 375,
+                "dept_name": "Tequila",
+                "group_no": 112
+            },
+            {
+                "dept": 378,
+                "dept_name": "Base Brandy",
+                "group_no": 113
+            },
+            {
+                "dept": 395,
+                "dept_name": "Capuchino Nescafe",
+                "group_no": 118
+            },
+            {
+                "dept": 398,
+                "dept_name": "Aguas frescas. MP",
+                "group_no": 120
+            },
+            {
+                "dept": 436,
+                "dept_name": "Barras de Pan",
+                "group_no": 139
+            },
+            {
+                "dept": 488,
+                "dept_name": "Casetas telefonicas",
+                "group_no": 156
+            },
+            {
+                "dept": 489,
+                "dept_name": "Loteria en Linea",
+                "group_no": 156
+            },
+            {
+                "dept": 490,
+                "dept_name": "Espacio de terceros",
+                "group_no": 156
+            },
+            {
+                "dept": 491,
+                "dept_name": "Venta de Boletos",
+                "group_no": 156
+            },
+            {
+                "dept": 494,
+                "dept_name": "Productos",
+                "group_no": 157
+            },
+            {
+                "dept": 497,
+                "dept_name": "Transporte",
+                "group_no": 158
+            },
+            {
+                "dept": 533,
+                "dept_name": "Salsas Botaneras",
+                "group_no": 169
+            },
+            {
+                "dept": 535,
+                "dept_name": "Botanas art promoc",
+                "group_no": 171
+            },
+            {
+                "dept": 556,
+                "dept_name": "Bebidas on Site",
+                "group_no": 173
+            },
+            {
+                "dept": 1064,
+                "dept_name": "Snack",
+                "group_no": 288
+            },
+            {
+                "dept": 1099,
+                "dept_name": "Gomita Enchilada",
+                "group_no": 258
+            },
+            {
+                "dept": 9132,
+                "dept_name": "Vapor",
+                "group_no": 9003
+            },
+            {
+                "dept": 1169,
+                "dept_name": "Aderezos y Condiment",
+                "group_no": 191
+            },
+            {
+                "dept": 1171,
+                "dept_name": "Especias y Condiment",
+                "group_no": 317
+            },
+            {
+                "dept": 1172,
+                "dept_name": "Consomes Y Caldos",
+                "group_no": 318
+            },
+            {
+                "dept": 1174,
+                "dept_name": "Salsas Abarrotes",
+                "group_no": 319
+            },
+            {
+                "dept": 9006,
+                "dept_name": "Arts.Telefonia y Fax",
+                "group_no": 9000
+            },
+            {
+                "dept": 9015,
+                "dept_name": "Arts. mtto. Refrig.",
+                "group_no": 9000
+            },
+            {
+                "dept": 1000,
+                "dept_name": "Arts. Dummy",
+                "group_no": 1000
+            },
+            {
+                "dept": 1113,
+                "dept_name": "Jugos MP",
+                "group_no": 294
+            },
+            {
+                "dept": 439,
+                "dept_name": "Otros Panes",
+                "group_no": 139
+            },
+            {
+                "dept": 108,
+                "dept_name": "Verduras",
+                "group_no": 23
+            },
+            {
+                "dept": 9106,
+                "dept_name": "Electronicos",
+                "group_no": 188
+            },
+            {
+                "dept": 9017,
+                "dept_name": "Productos p/ surtido",
+                "group_no": 9000
+            },
+            {
+                "dept": 420,
+                "dept_name": "Roller. MProv",
+                "group_no": 129
+            },
+            {
+                "dept": 403,
+                "dept_name": "Te frio. MProv",
+                "group_no": 122
+            },
+            {
+                "dept": 411,
+                "dept_name": "Atole. MProv",
+                "group_no": 126
+            },
+            {
+                "dept": 416,
+                "dept_name": "Retornable Personal",
+                "group_no": 128
+            },
+            {
+                "dept": 440,
+                "dept_name": "Tostada",
+                "group_no": 140
+            },
+            {
+                "dept": 441,
+                "dept_name": "Totopo",
+                "group_no": 140
+            },
+            {
+                "dept": 968,
+                "dept_name": "C.I. Perecederos",
+                "group_no": 9000
+            },
+            {
+                "dept": 979,
+                "dept_name": "Jugos",
+                "group_no": 278
+            },
+            {
+                "dept": 9034,
+                "dept_name": "Rollo para Impresora",
+                "group_no": 9000
+            },
+            {
+                "dept": 1030,
+                "dept_name": "Te caliente.Insum",
+                "group_no": 123
+            },
+            {
+                "dept": 1095,
+                "dept_name": "Confitado cn Relleno",
+                "group_no": 254
+            },
+            {
+                "dept": 9042,
+                "dept_name": "CAPUCHINO CALIENTE",
+                "group_no": 296
+            },
+            {
+                "dept": 878,
+                "dept_name": "Chicle Bomba",
+                "group_no": 254
+            },
+            {
+                "dept": 9061,
+                "dept_name": "Freidora",
+                "group_no": 279
+            },
+            {
+                "dept": 1156,
+                "dept_name": "Artesanal/Especialid",
+                "group_no": 110
+            },
+            {
+                "dept": 1163,
+                "dept_name": "Obscura",
+                "group_no": 111
+            },
+            {
+                "dept": 9026,
+                "dept_name": "Te frio.Insum",
+                "group_no": 122
+            },
+            {
+                "dept": 9028,
+                "dept_name": "Refresco Mprov.Insum",
+                "group_no": 124
+            },
+            {
+                "dept": 953,
+                "dept_name": "Videojuegos",
+                "group_no": 277
+            },
+            {
+                "dept": 1065,
+                "dept_name": "Popotes",
+                "group_no": 289
+            },
+            {
+                "dept": 9122,
+                "dept_name": "Acces VinosyLicores",
+                "group_no": 308
+            },
+            {
+                "dept": 983,
+                "dept_name": "Productos de Queso",
+                "group_no": 278
+            },
+            {
+                "dept": 601,
+                "dept_name": "Agua",
+                "group_no": 177
+            },
+            {
+                "dept": 830,
+                "dept_name": "Carne res",
+                "group_no": 245
+            },
+            {
+                "dept": 831,
+                "dept_name": "Carne pollo",
+                "group_no": 245
+            },
+            {
+                "dept": 1056,
+                "dept_name": "Comida Deshidratada",
+                "group_no": 288
+            },
+            {
+                "dept": 1105,
+                "dept_name": "Caramelo Suave",
+                "group_no": 256
+            },
+            {
+                "dept": 9083,
+                "dept_name": "Otras Botanas",
+                "group_no": 168
+            },
+            {
+                "dept": 1182,
+                "dept_name": "Cereales",
+                "group_no": 195
+            },
+            {
+                "dept": 1183,
+                "dept_name": "Liquido",
+                "group_no": 196
+            },
+            {
+                "dept": 1186,
+                "dept_name": "Otros Aliment Mascot",
+                "group_no": 200
+            },
+            {
+                "dept": 891,
+                "dept_name": "Caramelo suave",
+                "group_no": 257
+            },
+            {
+                "dept": 476,
+                "dept_name": "Galletas sin Relleno",
+                "group_no": 152
+            },
+            {
+                "dept": 477,
+                "dept_name": "Galletas Surtidas",
+                "group_no": 152
+            },
+            {
+                "dept": 511,
+                "dept_name": "Cerdo chicharron",
+                "group_no": 163
+            },
+            {
+                "dept": 513,
+                "dept_name": "Maiz Frito",
+                "group_no": 163
+            },
+            {
+                "dept": 516,
+                "dept_name": "Botana Saludable",
+                "group_no": 163
+            },
+            {
+                "dept": 522,
+                "dept_name": "Carne seca condiment",
+                "group_no": 166
+            },
+            {
+                "dept": 984,
+                "dept_name": "Reposteria",
+                "group_no": 278
+            },
+            {
+                "dept": 376,
+                "dept_name": "Vodka",
+                "group_no": 112
+            },
+            {
+                "dept": 379,
+                "dept_name": "Base Malta",
+                "group_no": 113
+            },
+            {
+                "dept": 412,
+                "dept_name": "Americano andatti",
+                "group_no": 117
+            },
+            {
+                "dept": 493,
+                "dept_name": "Servicios en Tienda",
+                "group_no": 156
+            },
+            {
+                "dept": 495,
+                "dept_name": "Corresponsalias",
+                "group_no": 157
+            },
+            {
+                "dept": 507,
+                "dept_name": "Local",
+                "group_no": 161
+            },
+            {
+                "dept": 508,
+                "dept_name": "Tarjeta celular",
+                "group_no": 162
+            },
+            {
+                "dept": 681,
+                "dept_name": "Juguetes para Ninas",
+                "group_no": 206
+            },
+            {
+                "dept": 683,
+                "dept_name": "Preescolar",
+                "group_no": 206
+            },
+            {
+                "dept": 107,
+                "dept_name": "Frutas",
+                "group_no": 23
+            },
+            {
+                "dept": 317,
+                "dept_name": "Diesel",
+                "group_no": 92
+            },
+            {
+                "dept": 9137,
+                "dept_name": "Soya",
+                "group_no": 312
+            },
+            {
+                "dept": 1107,
+                "dept_name": "Esquites-ElotesMProp",
+                "group_no": 279
+            },
+            {
+                "dept": 404,
+                "dept_name": "Te caliente. MP",
+                "group_no": 123
+            },
+            {
+                "dept": 9016,
+                "dept_name": "Arts.mtto. Impresora",
+                "group_no": 9000
+            },
+            {
+                "dept": 1111,
+                "dept_name": "Hamburguesas Mprop",
+                "group_no": 279
+            },
+            {
+                "dept": 837,
+                "dept_name": "Papas a la francesa",
+                "group_no": 246
+            },
+            {
+                "dept": 839,
+                "dept_name": "Cremas",
+                "group_no": 247
+            },
+            {
+                "dept": 9119,
+                "dept_name": "Cerillo",
+                "group_no": 9002
+            },
+            {
+                "dept": 1180,
+                "dept_name": "Vegetales Envasados",
+                "group_no": 321
+            },
+            {
+                "dept": 1185,
+                "dept_name": "Harinas y complement",
+                "group_no": 198
+            },
+            {
+                "dept": 479,
+                "dept_name": "Galleta Wafer(nieve)",
+                "group_no": 152
+            },
+            {
+                "dept": 510,
+                "dept_name": "Papas fritas",
+                "group_no": 163
+            },
+            {
+                "dept": 520,
+                "dept_name": "Palomitas microondas",
+                "group_no": 165
+            },
+            {
+                "dept": 370,
+                "dept_name": "Cognac",
+                "group_no": 112
+            },
+            {
+                "dept": 372,
+                "dept_name": "Ginebra",
+                "group_no": 112
+            },
+            {
+                "dept": 377,
+                "dept_name": "Whisky",
+                "group_no": 112
+            },
+            {
+                "dept": 390,
+                "dept_name": "Vidrio",
+                "group_no": 116
+            },
+            {
+                "dept": 437,
+                "dept_name": "Bolleria",
+                "group_no": 139
+            },
+            {
+                "dept": 492,
+                "dept_name": "Kiosco",
+                "group_no": 156
+            },
+            {
+                "dept": 506,
+                "dept_name": "Internet",
+                "group_no": 161
+            },
+            {
+                "dept": 509,
+                "dept_name": "Tiempo Aire Electron",
+                "group_no": 162
+            },
+            {
+                "dept": 538,
+                "dept_name": "Nacional",
+                "group_no": 155
+            },
+            {
+                "dept": 577,
+                "dept_name": "Crema",
+                "group_no": 178
+            },
+            {
+                "dept": 576,
+                "dept_name": "Crema",
+                "group_no": 177
+            },
+            {
+                "dept": 580,
+                "dept_name": "Agua",
+                "group_no": 179
+            },
+            {
+                "dept": 582,
+                "dept_name": "Agua",
+                "group_no": 180
+            },
+            {
+                "dept": 583,
+                "dept_name": "Crema",
+                "group_no": 181
+            },
+            {
+                "dept": 604,
+                "dept_name": "Manteca",
+                "group_no": 190
+            },
+            {
+                "dept": 682,
+                "dept_name": "Jgos de Aprendizaje",
+                "group_no": 206
+            },
+            {
+                "dept": 1098,
+                "dept_name": "Fruta Deshidratada",
+                "group_no": 258
+            },
+            {
+                "dept": 1100,
+                "dept_name": "Paleta Enchilada",
+                "group_no": 258
+            },
+            {
+                "dept": 316,
+                "dept_name": "Gasolinas",
+                "group_no": 91
+            },
+            {
+                "dept": 320,
+                "dept_name": "Arts. Promos",
+                "group_no": 95
+            },
+            {
+                "dept": 9133,
+                "dept_name": "Calentamiento",
+                "group_no": 9003
+            },
+            {
+                "dept": 9136,
+                "dept_name": "Otros",
+                "group_no": 312
+            },
+            {
+                "dept": 1168,
+                "dept_name": "Aceite Comestibles",
+                "group_no": 190
+            },
+            {
+                "dept": 1175,
+                "dept_name": "Carnes Envasadas",
+                "group_no": 320
+            },
+            {
+                "dept": 9001,
+                "dept_name": "Arti. de Limpieza",
+                "group_no": 9000
+            },
+            {
+                "dept": 9004,
+                "dept_name": "C.I. de Fast Food",
+                "group_no": 9000
+            },
+            {
+                "dept": 9008,
+                "dept_name": "Papeleria de Computo",
+                "group_no": 9000
+            },
+            {
+                "dept": 9009,
+                "dept_name": "Uniformes",
+                "group_no": 9000
+            },
+            {
+                "dept": 9010,
+                "dept_name": "Utencilios Varios",
+                "group_no": 9000
+            },
+            {
+                "dept": 9012,
+                "dept_name": "Arts. de Cafeteria",
+                "group_no": 9000
+            },
+            {
+                "dept": 405,
+                "dept_name": "Te caliente. MProv",
+                "group_no": 123
+            },
+            {
+                "dept": 1108,
+                "dept_name": "Quesadillas Mprop",
+                "group_no": 279
+            },
+            {
+                "dept": 1109,
+                "dept_name": "Plato de Comida MP",
+                "group_no": 279
+            },
+            {
+                "dept": 9079,
+                "dept_name": "Retiros",
+                "group_no": 157
+            },
+            {
+                "dept": 9081,
+                "dept_name": "Koxka NAC1",
+                "group_no": 130
+            },
+            {
+                "dept": 397,
+                "dept_name": "Frappe. MProv",
+                "group_no": 119
+            },
+            {
+                "dept": 496,
+                "dept_name": "Monedero Electronico",
+                "group_no": 157
+            },
+            {
+                "dept": 1001,
+                "dept_name": "Colombia",
+                "group_no": 1000
+            },
+            {
+                "dept": 684,
+                "dept_name": "Pelotas",
+                "group_no": 206
+            },
+            {
+                "dept": 400,
+                "dept_name": "Insumos Beb. MP",
+                "group_no": 121
+            },
+            {
+                "dept": 9007,
+                "dept_name": "Papeleria y Uts.Ofna",
+                "group_no": 9000
+            },
+            {
+                "dept": 9013,
+                "dept_name": "Material Electrico",
+                "group_no": 9000
+            },
+            {
+                "dept": 406,
+                "dept_name": "Refresco maq. MP",
+                "group_no": 124
+            },
+            {
+                "dept": 1110,
+                "dept_name": "Molletes Mprop",
+                "group_no": 279
+            },
+            {
+                "dept": 9005,
+                "dept_name": "Arts.mtto. Fast Food",
+                "group_no": 9000
+            },
+            {
+                "dept": 9095,
+                "dept_name": "Extra",
+                "group_no": 296
+            },
+            {
+                "dept": 9112,
+                "dept_name": "Energeticos Personal",
+                "group_no": 263
+            },
+            {
+                "dept": 359,
+                "dept_name": "Sopes/huarach/gordit",
+                "group_no": 84
+            },
+            {
+                "dept": 360,
+                "dept_name": "Tortillas Harina",
+                "group_no": 84
+            },
+            {
+                "dept": 362,
+                "dept_name": "Insumos Tortillas",
+                "group_no": 84
+            },
+            {
+                "dept": 387,
+                "dept_name": "Espumoso",
+                "group_no": 115
+            },
+            {
+                "dept": 389,
+                "dept_name": "Tinto",
+                "group_no": 115
+            },
+            {
+                "dept": 399,
+                "dept_name": "Aguas frescas. MProv",
+                "group_no": 120
+            },
+            {
+                "dept": 401,
+                "dept_name": "Insumos Beb. MProv",
+                "group_no": 121
+            },
+            {
+                "dept": 402,
+                "dept_name": "Te frio. MP",
+                "group_no": 122
+            },
+            {
+                "dept": 408,
+                "dept_name": "Malteada. MP",
+                "group_no": 125
+            },
+            {
+                "dept": 410,
+                "dept_name": "Atole. MP",
+                "group_no": 126
+            },
+            {
+                "dept": 415,
+                "dept_name": "Garrafon",
+                "group_no": 127
+            },
+            {
+                "dept": 417,
+                "dept_name": "Retornable Familiar",
+                "group_no": 128
+            },
+            {
+                "dept": 418,
+                "dept_name": "Retornable Plasticos",
+                "group_no": 128
+            },
+            {
+                "dept": 419,
+                "dept_name": "Roller",
+                "group_no": 129
+            },
+            {
+                "dept": 424,
+                "dept_name": "Panera . MP",
+                "group_no": 132
+            },
+            {
+                "dept": 425,
+                "dept_name": "Panera . MProv",
+                "group_no": 132
+            },
+            {
+                "dept": 432,
+                "dept_name": "Insumos Comestibles",
+                "group_no": 136
+            },
+            {
+                "dept": 433,
+                "dept_name": "Insumo no-comestible",
+                "group_no": 136
+            },
+            {
+                "dept": 442,
+                "dept_name": "Pan Tos Arts. Promos",
+                "group_no": 141
+            },
+            {
+                "dept": 469,
+                "dept_name": "Repo Integ C/Relleno",
+                "group_no": 149
+            },
+            {
+                "dept": 470,
+                "dept_name": "Repo No Int C/Rellen",
+                "group_no": 149
+            },
+            {
+                "dept": 471,
+                "dept_name": "Repo Integ S/Relleno",
+                "group_no": 150
+            },
+            {
+                "dept": 473,
+                "dept_name": "Reposte Arts. Promos",
+                "group_no": 151
+            },
+            {
+                "dept": 474,
+                "dept_name": "Galleta Saludables",
+                "group_no": 152
+            },
+            {
+                "dept": 805,
+                "dept_name": "Bienestar Sexual",
+                "group_no": 236
+            },
+            {
+                "dept": 843,
+                "dept_name": "Roller.Insumos",
+                "group_no": 129
+            },
+            {
+                "dept": 897,
+                "dept_name": "Paletas golosina",
+                "group_no": 257
+            },
+            {
+                "dept": 901,
+                "dept_name": "Malvavisco",
+                "group_no": 257
+            },
+            {
+                "dept": 9018,
+                "dept_name": "Ayuda Pro",
+                "group_no": 9000
+            },
+            {
+                "dept": 908,
+                "dept_name": "Yog Bebible Regular",
+                "group_no": 261
+            },
+            {
+                "dept": 909,
+                "dept_name": "Yog Bebible Saludabl",
+                "group_no": 261
+            },
+            {
+                "dept": 910,
+                "dept_name": "Yog Bebible Func",
+                "group_no": 261
+            },
+            {
+                "dept": 911,
+                "dept_name": "Yog Bebible Infantil",
+                "group_no": 261
+            },
+            {
+                "dept": 912,
+                "dept_name": "Yog Batido Regular",
+                "group_no": 262
+            },
+            {
+                "dept": 915,
+                "dept_name": "Yog Batido Infantil",
+                "group_no": 262
+            },
+            {
+                "dept": 917,
+                "dept_name": "Energeticos M Empaq",
+                "group_no": 263
+            },
+            {
+                "dept": 918,
+                "dept_name": "Isotonicos Personal",
+                "group_no": 264
+            },
+            {
+                "dept": 920,
+                "dept_name": "Te LPB Personal",
+                "group_no": 265
+            },
+            {
+                "dept": 922,
+                "dept_name": "Funcionales Personal",
+                "group_no": 266
+            },
+            {
+                "dept": 962,
+                "dept_name": "Gift cards SKU",
+                "group_no": 157
+            },
+            {
+                "dept": 963,
+                "dept_name": "Seguros",
+                "group_no": 157
+            },
+            {
+                "dept": 964,
+                "dept_name": "Seguros SKU",
+                "group_no": 157
+            },
+            {
+                "dept": 965,
+                "dept_name": "Base Licor",
+                "group_no": 113
+            },
+            {
+                "dept": 966,
+                "dept_name": "FIGURAS",
+                "group_no": 238
+            },
+            {
+                "dept": 976,
+                "dept_name": "Comidas Gravadas",
+                "group_no": 278
+            },
+            {
+                "dept": 980,
+                "dept_name": "Materia Prima",
+                "group_no": 278
+            },
+            {
+                "dept": 981,
+                "dept_name": "Panaderia",
+                "group_no": 278
+            },
+            {
+                "dept": 978,
+                "dept_name": "Hojaldre y Crossaint",
+                "group_no": 278
+            },
+            {
+                "dept": 9033,
+                "dept_name": "Bolsas",
+                "group_no": 9000
+            },
+            {
+                "dept": 1024,
+                "dept_name": "Palomitas explotada",
+                "group_no": 163
+            },
+            {
+                "dept": 1028,
+                "dept_name": "AmericanoMProv.Insum",
+                "group_no": 117
+            },
+            {
+                "dept": 1029,
+                "dept_name": "AmericanoMP.Insum",
+                "group_no": 117
+            },
+            {
+                "dept": 1033,
+                "dept_name": "Nieve",
+                "group_no": 283
+            },
+            {
+                "dept": 1035,
+                "dept_name": "Sidra",
+                "group_no": 113
+            },
+            {
+                "dept": 1036,
+                "dept_name": "Cajeros Automaticos",
+                "group_no": 156
+            },
+            {
+                "dept": 1037,
+                "dept_name": "Videocajeros",
+                "group_no": 156
+            },
+            {
+                "dept": 1043,
+                "dept_name": "Saldazo",
+                "group_no": 157
+            },
+            {
+                "dept": 1046,
+                "dept_name": "Bolsas de Basura",
+                "group_no": 285
+            },
+            {
+                "dept": 1050,
+                "dept_name": "Kleen Pack",
+                "group_no": 286
+            },
+            {
+                "dept": 1063,
+                "dept_name": "Internet",
+                "group_no": 156
+            },
+            {
+                "dept": 1119,
+                "dept_name": "Smoothies",
+                "group_no": 173
+            },
+            {
+                "dept": 9041,
+                "dept_name": "LATTE",
+                "group_no": 296
+            },
+            {
+                "dept": 9043,
+                "dept_name": "AMERICANO",
+                "group_no": 296
+            },
+            {
+                "dept": 9046,
+                "dept_name": "EXTRAS",
+                "group_no": 296
+            },
+            {
+                "dept": 741,
+                "dept_name": "Utensilios de cocina",
+                "group_no": 212
+            },
+            {
+                "dept": 851,
+                "dept_name": "Kumis",
+                "group_no": 247
+            },
+            {
+                "dept": 852,
+                "dept_name": "Plato crema",
+                "group_no": 248
+            },
+            {
+                "dept": 853,
+                "dept_name": "Secos Fruta y Verdur",
+                "group_no": 23
+            },
+            {
+                "dept": 879,
+                "dept_name": "Chicle Confitado",
+                "group_no": 254
+            },
+            {
+                "dept": 880,
+                "dept_name": "Chicle Tipo Americ",
+                "group_no": 254
+            },
+            {
+                "dept": 882,
+                "dept_name": "Chocolate Confitado",
+                "group_no": 255
+            },
+            {
+                "dept": 884,
+                "dept_name": "Chocolate Relleno",
+                "group_no": 255
+            },
+            {
+                "dept": 906,
+                "dept_name": "Saborizada UHT",
+                "group_no": 260
+            },
+            {
+                "dept": 907,
+                "dept_name": "Saborizada con cafe",
+                "group_no": 260
+            },
+            {
+                "dept": 1116,
+                "dept_name": "Evento familiar",
+                "group_no": 295
+            },
+            {
+                "dept": 1117,
+                "dept_name": "Articulos Varios",
+                "group_no": 295
+            },
+            {
+                "dept": 9053,
+                "dept_name": "Cables y Adaptadores",
+                "group_no": 205
+            },
+            {
+                "dept": 9054,
+                "dept_name": "Almacena de memorias",
+                "group_no": 205
+            },
+            {
+                "dept": 9064,
+                "dept_name": "OtrosComidaCaliente",
+                "group_no": 279
+            },
+            {
+                "dept": 9085,
+                "dept_name": "Mezcal",
+                "group_no": 112
+            },
+            {
+                "dept": 9104,
+                "dept_name": "Comida",
+                "group_no": 296
+            },
+            {
+                "dept": 1157,
+                "dept_name": "Light",
+                "group_no": 110
+            },
+            {
+                "dept": 1160,
+                "dept_name": "Regular",
+                "group_no": 110
+            },
+            {
+                "dept": 1165,
+                "dept_name": "Cosmeticos",
+                "group_no": 227
+            },
+            {
+                "dept": 1166,
+                "dept_name": "Fragancias",
+                "group_no": 227
+            },
+            {
+                "dept": 1192,
+                "dept_name": "Cargadores Telefonia",
+                "group_no": 324
+            },
+            {
+                "dept": 1195,
+                "dept_name": "Acce Financieros",
+                "group_no": 324
+            },
+            {
+                "dept": 9138,
+                "dept_name": "Featurephone",
+                "group_no": 9005
+            },
+            {
+                "dept": 941,
+                "dept_name": "Agua s Sabor Fmiliar",
+                "group_no": 272
+            },
+            {
+                "dept": 943,
+                "dept_name": "Agua c Sabor Prsonal",
+                "group_no": 273
+            },
+            {
+                "dept": 944,
+                "dept_name": "Agua c Sabor Fmiliar",
+                "group_no": 273
+            },
+            {
+                "dept": 945,
+                "dept_name": "Agua c Sabor M Empq",
+                "group_no": 273
+            },
+            {
+                "dept": 9020,
+                "dept_name": "AmericanoMProv.Insum",
+                "group_no": 117
+            },
+            {
+                "dept": 9022,
+                "dept_name": "CapuchinoMProv.Insum",
+                "group_no": 118
+            },
+            {
+                "dept": 9027,
+                "dept_name": "Te caliente.Insum",
+                "group_no": 123
+            },
+            {
+                "dept": 9030,
+                "dept_name": "Atole.Insum",
+                "group_no": 126
+            },
+            {
+                "dept": 954,
+                "dept_name": "Sidras",
+                "group_no": 115
+            },
+            {
+                "dept": 955,
+                "dept_name": "Tortas",
+                "group_no": 172
+            },
+            {
+                "dept": 9048,
+                "dept_name": "Gift cards SKU",
+                "group_no": 156
+            },
+            {
+                "dept": 9070,
+                "dept_name": "OSABOR",
+                "group_no": 279
+            },
+            {
+                "dept": 1126,
+                "dept_name": "IngresoFueradeTienda",
+                "group_no": 157
+            },
+            {
+                "dept": 1134,
+                "dept_name": "Refill",
+                "group_no": 276
+            },
+            {
+                "dept": 9086,
+                "dept_name": "Recepcion de paquete",
+                "group_no": 304
+            },
+            {
+                "dept": 9082,
+                "dept_name": "Base Ginebra",
+                "group_no": 113
+            },
+            {
+                "dept": 9103,
+                "dept_name": "Regalo",
+                "group_no": 296
+            },
+            {
+                "dept": 9109,
+                "dept_name": "Jugo Natural",
+                "group_no": 296
+            },
+            {
+                "dept": 9110,
+                "dept_name": "Pollos",
+                "group_no": 279
+            },
+            {
+                "dept": 413,
+                "dept_name": "Americano. MProv",
+                "group_no": 117
+            },
+            {
+                "dept": 823,
+                "dept_name": "Chorizo",
+                "group_no": 244
+            },
+            {
+                "dept": 396,
+                "dept_name": "Frappe andatti",
+                "group_no": 119
+            },
+            {
+                "dept": 685,
+                "dept_name": "Otros juguetes",
+                "group_no": 206
+            },
+            {
+                "dept": 686,
+                "dept_name": "Herramientas",
+                "group_no": 207
+            },
+            {
+                "dept": 9052,
+                "dept_name": "AccesorioElectronica",
+                "group_no": 205
+            },
+            {
+                "dept": 193,
+                "dept_name": "Hielo",
+                "group_no": 46
+            },
+            {
+                "dept": 9000,
+                "dept_name": "Consumo Inter Varios",
+                "group_no": 9000
+            },
+            {
+                "dept": 9011,
+                "dept_name": "Otros prods.Cons.Int",
+                "group_no": 9000
+            },
+            {
+                "dept": 9014,
+                "dept_name": "Arts.mtto. Cto.Frio",
+                "group_no": 9000
+            },
+            {
+                "dept": 1112,
+                "dept_name": "Sincronizada Mprop",
+                "group_no": 279
+            },
+            {
+                "dept": 361,
+                "dept_name": "Tortillas Maiz",
+                "group_no": 84
+            },
+            {
+                "dept": 388,
+                "dept_name": "Rosado",
+                "group_no": 115
+            },
+            {
+                "dept": 407,
+                "dept_name": "Refresco maq. MProv",
+                "group_no": 124
+            },
+            {
+                "dept": 421,
+                "dept_name": "Koxka. MP",
+                "group_no": 130
+            },
+            {
+                "dept": 423,
+                "dept_name": "Quesera",
+                "group_no": 131
+            },
+            {
+                "dept": 435,
+                "dept_name": "Paq. Promocionales",
+                "group_no": 138
+            },
+            {
+                "dept": 472,
+                "dept_name": "Repo No Int S/Rellen",
+                "group_no": 150
+            },
+            {
+                "dept": 475,
+                "dept_name": "Galletas Rellenas",
+                "group_no": 152
+            },
+            {
+                "dept": 804,
+                "dept_name": "Panales para adulto",
+                "group_no": 236
+            },
+            {
+                "dept": 913,
+                "dept_name": "Yog BatidoSaludable",
+                "group_no": 262
+            },
+            {
+                "dept": 916,
+                "dept_name": "Energetico Personal",
+                "group_no": 263
+            },
+            {
+                "dept": 921,
+                "dept_name": "Te LPB M Empaq",
+                "group_no": 265
+            },
+            {
+                "dept": 923,
+                "dept_name": "Funcionales M Empaq",
+                "group_no": 266
+            },
+            {
+                "dept": 961,
+                "dept_name": "Gift cards",
+                "group_no": 157
+            },
+            {
+                "dept": 967,
+                "dept_name": "Capuchino. MP (Col)",
+                "group_no": 118
+            },
+            {
+                "dept": 982,
+                "dept_name": "Quesos Frescos",
+                "group_no": 278
+            },
+            {
+                "dept": 9035,
+                "dept_name": "Etiquet. Preciadoras",
+                "group_no": 9000
+            },
+            {
+                "dept": 1026,
+                "dept_name": "CapuchinoMProv.Insum",
+                "group_no": 118
+            },
+            {
+                "dept": 1027,
+                "dept_name": "FrappeMP.Insum",
+                "group_no": 119
+            },
+            {
+                "dept": 1032,
+                "dept_name": "FrappeMProv.Insum",
+                "group_no": 119
+            },
+            {
+                "dept": 1044,
+                "dept_name": "Servilletas Ind.",
+                "group_no": 284
+            },
+            {
+                "dept": 1045,
+                "dept_name": "Servitoallas",
+                "group_no": 284
+            },
+            {
+                "dept": 1047,
+                "dept_name": "Bolsas Multiusos",
+                "group_no": 285
+            },
+            {
+                "dept": 1049,
+                "dept_name": "Papel Encerado",
+                "group_no": 286
+            },
+            {
+                "dept": 1051,
+                "dept_name": "Filtros Cafe",
+                "group_no": 286
+            },
+            {
+                "dept": 1053,
+                "dept_name": "Salsas",
+                "group_no": 287
+            },
+            {
+                "dept": 9045,
+                "dept_name": "NIEVE",
+                "group_no": 296
+            },
+            {
+                "dept": 881,
+                "dept_name": "Chicle Slab y Otros",
+                "group_no": 254
+            },
+            {
+                "dept": 885,
+                "dept_name": "Con juguete",
+                "group_no": 255
+            },
+            {
+                "dept": 905,
+                "dept_name": "Saborizada Pasteuriz",
+                "group_no": 260
+            },
+            {
+                "dept": 9062,
+                "dept_name": "Hielera",
+                "group_no": 279
+            },
+            {
+                "dept": 9063,
+                "dept_name": "Insumos CC",
+                "group_no": 279
+            },
+            {
+                "dept": 9065,
+                "dept_name": "Porcion extra",
+                "group_no": 279
+            },
+            {
+                "dept": 9069,
+                "dept_name": "Tisana",
+                "group_no": 296
+            },
+            {
+                "dept": 9073,
+                "dept_name": "TarjeTelefoniCelular",
+                "group_no": 299
+            },
+            {
+                "dept": 1159,
+                "dept_name": "Obscura",
+                "group_no": 110
+            },
+            {
+                "dept": 1164,
+                "dept_name": "Regular",
+                "group_no": 111
+            },
+            {
+                "dept": 1190,
+                "dept_name": "Cuidado De Piel Bebe",
+                "group_no": 229
+            },
+            {
+                "dept": 1193,
+                "dept_name": "Otros Acc Telefonia",
+                "group_no": 324
+            },
+            {
+                "dept": 948,
+                "dept_name": "Agua Lig Gas M Empq",
+                "group_no": 274
+            },
+            {
+                "dept": 9021,
+                "dept_name": "CapuchinoMP.Insum",
+                "group_no": 118
+            },
+            {
+                "dept": 1120,
+                "dept_name": "Otros",
+                "group_no": 205
+            },
+            {
+                "dept": 9049,
+                "dept_name": "Cajeros Automaticos",
+                "group_no": 157
+            },
+            {
+                "dept": 9075,
+                "dept_name": "Carrier",
+                "group_no": 300
+            },
+            {
+                "dept": 1130,
+                "dept_name": "Panera Barra",
+                "group_no": 296
+            },
+            {
+                "dept": 1131,
+                "dept_name": "Bidon",
+                "group_no": 302
+            },
+            {
+                "dept": 1133,
+                "dept_name": "Mayor 10 Lts",
+                "group_no": 302
+            },
+            {
+                "dept": 9087,
+                "dept_name": "Puntos de entrega",
+                "group_no": 156
+            },
+            {
+                "dept": 9096,
+                "dept_name": "Capuchino",
+                "group_no": 296
+            },
+            {
+                "dept": 438,
+                "dept_name": "Pan Seco",
+                "group_no": 139
+            },
+            {
+                "dept": 850,
+                "dept_name": "Avena",
+                "group_no": 247
+            },
+            {
+                "dept": 9031,
+                "dept_name": "Nieve",
+                "group_no": 283
+            },
+            {
+                "dept": 1124,
+                "dept_name": "Ali Ref Arts. Promos",
+                "group_no": 301
+            },
+            {
+                "dept": 946,
+                "dept_name": "Agua Lig Gas Prsonal",
+                "group_no": 274
+            },
+            {
+                "dept": 9113,
+                "dept_name": "Otros",
+                "group_no": 9001
+            },
+            {
+                "dept": 9115,
+                "dept_name": "Unicel",
+                "group_no": 9001
+            },
+            {
+                "dept": 9116,
+                "dept_name": "Otras Carnes Frías",
+                "group_no": 244
+            },
+            {
+                "dept": 9117,
+                "dept_name": "Otros Lacteos y Deri",
+                "group_no": 247
+            },
+            {
+                "dept": 9126,
+                "dept_name": "Labios",
+                "group_no": 310
+            },
+            {
+                "dept": 9128,
+                "dept_name": "Rostro",
+                "group_no": 310
+            },
+            {
+                "dept": 9129,
+                "dept_name": "Uñas",
+                "group_no": 310
+            },
+            {
+                "dept": 9131,
+                "dept_name": "Medios de Pago",
+                "group_no": 157
+            },
+            {
+                "dept": 9134,
+                "dept_name": "Multibebida Andatti",
+                "group_no": 9004
+            },
+            {
+                "dept": 971,
+                "dept_name": "Tarjetas",
+                "group_no": 157
+            },
+            {
+                "dept": 688,
+                "dept_name": "Hogar",
+                "group_no": 207
+            },
+            {
+                "dept": 689,
+                "dept_name": "Acceso Ferreteria",
+                "group_no": 207
+            },
+            {
+                "dept": 690,
+                "dept_name": "Envolturas -Bolsas",
+                "group_no": 208
+            },
+            {
+                "dept": 691,
+                "dept_name": "Acceso Papeleria",
+                "group_no": 208
+            },
+            {
+                "dept": 692,
+                "dept_name": "Plumas",
+                "group_no": 208
+            },
+            {
+                "dept": 694,
+                "dept_name": "Peluches",
+                "group_no": 209
+            },
+            {
+                "dept": 697,
+                "dept_name": "Llaveros",
+                "group_no": 209
+            },
+            {
+                "dept": 698,
+                "dept_name": "Flores",
+                "group_no": 209
+            },
+            {
+                "dept": 701,
+                "dept_name": "Gorras",
+                "group_no": 210
+            },
+            {
+                "dept": 702,
+                "dept_name": "Playeras",
+                "group_no": 210
+            },
+            {
+                "dept": 703,
+                "dept_name": "Paraguas",
+                "group_no": 210
+            },
+            {
+                "dept": 705,
+                "dept_name": "Accesorios Ropa",
+                "group_no": 210
+            },
+            {
+                "dept": 706,
+                "dept_name": "Balones",
+                "group_no": 211
+            },
+            {
+                "dept": 710,
+                "dept_name": "Electricos",
+                "group_no": 212
+            },
+            {
+                "dept": 722,
+                "dept_name": "Pila carbon",
+                "group_no": 214
+            },
+            {
+                "dept": 723,
+                "dept_name": "Pila recargable",
+                "group_no": 214
+            },
+            {
+                "dept": 724,
+                "dept_name": "Pila especializada",
+                "group_no": 214
+            },
+            {
+                "dept": 725,
+                "dept_name": "Cargadores",
+                "group_no": 214
+            },
+            {
+                "dept": 726,
+                "dept_name": "Velas p  pastel",
+                "group_no": 215
+            },
+            {
+                "dept": 731,
+                "dept_name": "Aceite Automotriz",
+                "group_no": 216
+            },
+            {
+                "dept": 732,
+                "dept_name": "Anticongelante",
+                "group_no": 216
+            },
+            {
+                "dept": 733,
+                "dept_name": "Aditivos",
+                "group_no": 216
+            },
+            {
+                "dept": 734,
+                "dept_name": "Otros Automotriz",
+                "group_no": 216
+            },
+            {
+                "dept": 877,
+                "dept_name": "Base Cognac",
+                "group_no": 113
+            },
+            {
+                "dept": 887,
+                "dept_name": "Caramelo Macizo",
+                "group_no": 256
+            },
+            {
+                "dept": 888,
+                "dept_name": "Polvo Comprimido",
+                "group_no": 256
+            },
+            {
+                "dept": 889,
+                "dept_name": "Caramelo Confitado",
+                "group_no": 256
+            },
+            {
+                "dept": 950,
+                "dept_name": "Mayor 19 lts",
+                "group_no": 275
+            },
+            {
+                "dept": 957,
+                "dept_name": "CALENDARIOS",
+                "group_no": 237
+            },
+            {
+                "dept": 958,
+                "dept_name": "Mezcla cacah/semilla",
+                "group_no": 164
+            },
+            {
+                "dept": 1004,
+                "dept_name": "Pizzas",
+                "group_no": 279
+            },
+            {
+                "dept": 1005,
+                "dept_name": "Molletes",
+                "group_no": 279
+            },
+            {
+                "dept": 1006,
+                "dept_name": "Nuggets",
+                "group_no": 279
+            },
+            {
+                "dept": 1008,
+                "dept_name": "Comida China.",
+                "group_no": 279
+            },
+            {
+                "dept": 1009,
+                "dept_name": "Bisquets",
+                "group_no": 279
+            },
+            {
+                "dept": 1010,
+                "dept_name": "Hot Cakes",
+                "group_no": 279
+            },
+            {
+                "dept": 1014,
+                "dept_name": "Otros Com. Caliente",
+                "group_no": 279
+            },
+            {
+                "dept": 1066,
+                "dept_name": "Vasos",
+                "group_no": 289
+            },
+            {
+                "dept": 1067,
+                "dept_name": "Servilleta",
+                "group_no": 289
+            },
+            {
+                "dept": 1070,
+                "dept_name": "Palillos",
+                "group_no": 289
+            },
+            {
+                "dept": 1072,
+                "dept_name": "Filtros p cafe",
+                "group_no": 289
+            },
+            {
+                "dept": 1073,
+                "dept_name": "Cubiertos desechable",
+                "group_no": 289
+            },
+            {
+                "dept": 1074,
+                "dept_name": "Bolsas desechables",
+                "group_no": 289
+            },
+            {
+                "dept": 1075,
+                "dept_name": "Papel alum y encera",
+                "group_no": 289
+            },
+            {
+                "dept": 1079,
+                "dept_name": "Iniciador de Fuego",
+                "group_no": 290
+            },
+            {
+                "dept": 1080,
+                "dept_name": "Lena",
+                "group_no": 290
+            },
+            {
+                "dept": 1083,
+                "dept_name": "Para Licores",
+                "group_no": 291
+            },
+            {
+                "dept": 1106,
+                "dept_name": "Gorditas Mprop",
+                "group_no": 279
+            },
+            {
+                "dept": 9055,
+                "dept_name": "Audio",
+                "group_no": 205
+            },
+            {
+                "dept": 9057,
+                "dept_name": "Malteada",
+                "group_no": 296
+            },
+            {
+                "dept": 9058,
+                "dept_name": "Nieve",
+                "group_no": 296
+            },
+            {
+                "dept": 584,
+                "dept_name": "Agua",
+                "group_no": 181
+            },
+            {
+                "dept": 585,
+                "dept_name": "Crema",
+                "group_no": 182
+            },
+            {
+                "dept": 591,
+                "dept_name": "Barquillo",
+                "group_no": 186
+            },
+            {
+                "dept": 588,
+                "dept_name": "Crema",
+                "group_no": 184
+            },
+            {
+                "dept": 1188,
+                "dept_name": "Modifica. de Leche",
+                "group_no": 203
+            },
+            {
+                "dept": 1189,
+                "dept_name": "Postres no refrig.",
+                "group_no": 202
+            },
+            {
+                "dept": 597,
+                "dept_name": "Medio",
+                "group_no": 188
+            },
+            {
+                "dept": 898,
+                "dept_name": "Pulpas",
+                "group_no": 258
+            },
+            {
+                "dept": 969,
+                "dept_name": "Procesados",
+                "group_no": 23
+            },
+            {
+                "dept": 990,
+                "dept_name": "Burritos",
+                "group_no": 279
+            },
+            {
+                "dept": 993,
+                "dept_name": "Guisados",
+                "group_no": 279
+            },
+            {
+                "dept": 995,
+                "dept_name": "Gorditas",
+                "group_no": 279
+            },
+            {
+                "dept": 997,
+                "dept_name": "Tamales.",
+                "group_no": 279
+            },
+            {
+                "dept": 9037,
+                "dept_name": "CAFÉ ESPRESSO",
+                "group_no": 296
+            },
+            {
+                "dept": 9038,
+                "dept_name": "MALTEADA",
+                "group_no": 296
+            },
+            {
+                "dept": 1125,
+                "dept_name": "Capuchinos frios",
+                "group_no": 118
+            },
+            {
+                "dept": 1139,
+                "dept_name": "Personal",
+                "group_no": 269
+            },
+            {
+                "dept": 1144,
+                "dept_name": "Personal",
+                "group_no": 271
+            },
+            {
+                "dept": 678,
+                "dept_name": "VideoJuegos",
+                "group_no": 205
+            },
+            {
+                "dept": 680,
+                "dept_name": "Juguetes para Ninos",
+                "group_no": 206
+            },
+            {
+                "dept": 621,
+                "dept_name": "Azucar Estandar",
+                "group_no": 193
+            },
+            {
+                "dept": 622,
+                "dept_name": "Sustitutos de Azucar",
+                "group_no": 193
+            },
+            {
+                "dept": 627,
+                "dept_name": "Cereal chocolate",
+                "group_no": 195
+            },
+            {
+                "dept": 645,
+                "dept_name": "Leche Condensada",
+                "group_no": 199
+            },
+            {
+                "dept": 646,
+                "dept_name": "Leche Evaporada",
+                "group_no": 199
+            },
+            {
+                "dept": 670,
+                "dept_name": "Pastas",
+                "group_no": 204
+            },
+            {
+                "dept": 743,
+                "dept_name": "Aromatizante Liquido",
+                "group_no": 218
+            },
+            {
+                "dept": 744,
+                "dept_name": "Aromatizante Aerosol",
+                "group_no": 218
+            },
+            {
+                "dept": 747,
+                "dept_name": "Jergas fibras telas",
+                "group_no": 219
+            },
+            {
+                "dept": 748,
+                "dept_name": "Crema liquida calzad",
+                "group_no": 220
+            },
+            {
+                "dept": 750,
+                "dept_name": "Pasta lustradora",
+                "group_no": 220
+            },
+            {
+                "dept": 751,
+                "dept_name": "Ropa Barra",
+                "group_no": 221
+            },
+            {
+                "dept": 757,
+                "dept_name": "Trastes Liquido",
+                "group_no": 222
+            },
+            {
+                "dept": 765,
+                "dept_name": "Acido Muriatico",
+                "group_no": 224
+            },
+            {
+                "dept": 770,
+                "dept_name": "Limpiador de vidrios",
+                "group_no": 224
+            },
+            {
+                "dept": 771,
+                "dept_name": "Limpiador de muebles",
+                "group_no": 224
+            },
+            {
+                "dept": 812,
+                "dept_name": "Cassettes",
+                "group_no": 239
+            },
+            {
+                "dept": 813,
+                "dept_name": "CD",
+                "group_no": 239
+            },
+            {
+                "dept": 815,
+                "dept_name": "VHS",
+                "group_no": 240
+            },
+            {
+                "dept": 774,
+                "dept_name": "Espuma para rasurar",
+                "group_no": 226
+            },
+            {
+                "dept": 778,
+                "dept_name": "Desodorante",
+                "group_no": 227
+            },
+            {
+                "dept": 779,
+                "dept_name": "Tintes",
+                "group_no": 227
+            },
+            {
+                "dept": 784,
+                "dept_name": "Toallas humedas bebe",
+                "group_no": 229
+            },
+            {
+                "dept": 786,
+                "dept_name": "Panales desechables",
+                "group_no": 229
+            },
+            {
+                "dept": 788,
+                "dept_name": "Geles y Fijadores",
+                "group_no": 230
+            },
+            {
+                "dept": 790,
+                "dept_name": "Acondicionadores",
+                "group_no": 230
+            },
+            {
+                "dept": 798,
+                "dept_name": "Pantiprotectores",
+                "group_no": 235
+            },
+            {
+                "dept": 799,
+                "dept_name": "Toallas sanitarias",
+                "group_no": 235
+            },
+            {
+                "dept": 802,
+                "dept_name": "Articulosde Curacion",
+                "group_no": 236
+            },
+            {
+                "dept": 803,
+                "dept_name": "Medicinas OTC",
+                "group_no": 236
+            },
+            {
+                "dept": 1198,
+                "dept_name": "GOURMET Capuchino",
+                "group_no": 326
+            },
+            {
+                "dept": 1212,
+                "dept_name": "Paqueteria",
+                "group_no": 327
+            },
+            {
+                "dept": 1203,
+                "dept_name": "GOURMET Chocolate",
+                "group_no": 326
+            },
+            {
+                "dept": 1204,
+                "dept_name": "Franke AP Capuchino ",
+                "group_no": 326
+            },
+            {
+                "dept": 1216,
+                "dept_name": "Dips",
+                "group_no": 130
+            },
+            {
+                "dept": 1250,
+                "dept_name": "Extras",
+                "group_no": 326
+            },
+            {
+                "dept": 1791,
+                "dept_name": "Crema IEPS",
+                "group_no": 179
+            },
+            {
+                "dept": 9313,
+                "dept_name": "CD",
+                "group_no": 9013
+            },
+            {
+                "dept": 1090,
+                "dept_name": "Bolsas",
+                "group_no": 289
+            },
+            {
+                "dept": 1781,
+                "dept_name": "Crema IEPS",
+                "group_no": 178
+            },
+            {
+                "dept": 1802,
+                "dept_name": "Agua IEPS",
+                "group_no": 180
+            },
+            {
+                "dept": 1822,
+                "dept_name": "Agua IEPS",
+                "group_no": 181
+            },
+            {
+                "dept": 422,
+                "dept_name": "Koxka. MProv",
+                "group_no": 130
+            },
+            {
+                "dept": 817,
+                "dept_name": "Vta Boletos Eventos",
+                "group_no": 242
+            },
+            {
+                "dept": 914,
+                "dept_name": "Yog Batido Funcional",
+                "group_no": 262
+            },
+            {
+                "dept": 919,
+                "dept_name": "Isotonicos M Empaq",
+                "group_no": 264
+            },
+            {
+                "dept": 972,
+                "dept_name": "Insumos",
+                "group_no": 23
+            },
+            {
+                "dept": 1048,
+                "dept_name": "Papel Aluminio",
+                "group_no": 286
+            },
+            {
+                "dept": 1118,
+                "dept_name": "Licuados",
+                "group_no": 173
+            },
+            {
+                "dept": 9040,
+                "dept_name": "CAPUCHINO FRIO",
+                "group_no": 296
+            },
+            {
+                "dept": 9044,
+                "dept_name": "FRAPPE",
+                "group_no": 296
+            },
+            {
+                "dept": 9047,
+                "dept_name": "Gift cards",
+                "group_no": 156
+            },
+            {
+                "dept": 849,
+                "dept_name": "Alim. Preparados",
+                "group_no": 246
+            },
+            {
+                "dept": 1114,
+                "dept_name": "Articulo de cocina",
+                "group_no": 295
+            },
+            {
+                "dept": 1115,
+                "dept_name": "Entretenimiento",
+                "group_no": 295
+            },
+            {
+                "dept": 9107,
+                "dept_name": "Promocionales",
+                "group_no": 296
+            },
+            {
+                "dept": 9118,
+                "dept_name": "Otros Acces Cigarros",
+                "group_no": 9002
+            },
+            {
+                "dept": 1158,
+                "dept_name": "Mezclas",
+                "group_no": 110
+            },
+            {
+                "dept": 1161,
+                "dept_name": "Ultra",
+                "group_no": 110
+            },
+            {
+                "dept": 1162,
+                "dept_name": "Light",
+                "group_no": 111
+            },
+            {
+                "dept": 1191,
+                "dept_name": "Fundas Telefonia",
+                "group_no": 324
+            },
+            {
+                "dept": 940,
+                "dept_name": "Agua s Sabor Prsonal",
+                "group_no": 272
+            },
+            {
+                "dept": 942,
+                "dept_name": "Agua s Sabor M Empaq",
+                "group_no": 272
+            },
+            {
+                "dept": 947,
+                "dept_name": "Agua Lig Gas Fmiliar",
+                "group_no": 274
+            },
+            {
+                "dept": 9019,
+                "dept_name": "AmericanoMP.Insum",
+                "group_no": 117
+            },
+            {
+                "dept": 9023,
+                "dept_name": "FrappeMP.Insum",
+                "group_no": 119
+            },
+            {
+                "dept": 9024,
+                "dept_name": "FrappeMProv.Insum",
+                "group_no": 119
+            },
+            {
+                "dept": 9025,
+                "dept_name": "Aguas frescas.Insum",
+                "group_no": 120
+            },
+            {
+                "dept": 9029,
+                "dept_name": "Malteada.Insum",
+                "group_no": 125
+            },
+            {
+                "dept": 977,
+                "dept_name": "Galletas",
+                "group_no": 278
+            },
+            {
+                "dept": 1094,
+                "dept_name": "Varios",
+                "group_no": 257
+            },
+            {
+                "dept": 9074,
+                "dept_name": "TarjetasTelefoniFija",
+                "group_no": 299
+            },
+            {
+                "dept": 9076,
+                "dept_name": "Operador Virtual",
+                "group_no": 300
+            },
+            {
+                "dept": 9080,
+                "dept_name": "Koxka. NAC",
+                "group_no": 130
+            },
+            {
+                "dept": 1132,
+                "dept_name": "Galon",
+                "group_no": 302
+            },
+            {
+                "dept": 9114,
+                "dept_name": "Plástico",
+                "group_no": 9001
+            },
+            {
+                "dept": 9125,
+                "dept_name": "Juguetes",
+                "group_no": 309
+            },
+            {
+                "dept": 9127,
+                "dept_name": "Ojos",
+                "group_no": 310
+            },
+            {
+                "dept": 970,
+                "dept_name": "Insumos",
+                "group_no": 245
+            },
+            {
+                "dept": 973,
+                "dept_name": "Bebidas",
+                "group_no": 278
+            },
+            {
+                "dept": 693,
+                "dept_name": "Libretas -Agendas",
+                "group_no": 208
+            },
+            {
+                "dept": 696,
+                "dept_name": "Tarjetas",
+                "group_no": 209
+            },
+            {
+                "dept": 699,
+                "dept_name": "Otros regalos",
+                "group_no": 209
+            },
+            {
+                "dept": 700,
+                "dept_name": "Articulos de Fiesta",
+                "group_no": 209
+            },
+            {
+                "dept": 704,
+                "dept_name": "Lentes",
+                "group_no": 210
+            },
+            {
+                "dept": 707,
+                "dept_name": "Accesorios Deportes",
+                "group_no": 211
+            },
+            {
+                "dept": 708,
+                "dept_name": "Articulos de Playa",
+                "group_no": 211
+            },
+            {
+                "dept": 721,
+                "dept_name": "Pila alcalina",
+                "group_no": 214
+            },
+            {
+                "dept": 728,
+                "dept_name": "Velas tradicionales",
+                "group_no": 215
+            },
+            {
+                "dept": 729,
+                "dept_name": "Velas aromaticas",
+                "group_no": 215
+            },
+            {
+                "dept": 730,
+                "dept_name": "Cuidado Automotriz",
+                "group_no": 216
+            },
+            {
+                "dept": 956,
+                "dept_name": "POSTERS",
+                "group_no": 238
+            },
+            {
+                "dept": 959,
+                "dept_name": "Mezclas Frituras",
+                "group_no": 163
+            },
+            {
+                "dept": 1011,
+                "dept_name": "Waffles",
+                "group_no": 279
+            },
+            {
+                "dept": 1012,
+                "dept_name": "Esquite / Elote",
+                "group_no": 279
+            },
+            {
+                "dept": 1013,
+                "dept_name": "Porcion extra",
+                "group_no": 279
+            },
+            {
+                "dept": 1015,
+                "dept_name": "Insumos c.caliente",
+                "group_no": 279
+            },
+            {
+                "dept": 1068,
+                "dept_name": "Platos desechables",
+                "group_no": 289
+            },
+            {
+                "dept": 1069,
+                "dept_name": "Papel alum y encera",
+                "group_no": 289
+            },
+            {
+                "dept": 1076,
+                "dept_name": "Acceso Carne Asada",
+                "group_no": 290
+            },
+            {
+                "dept": 1081,
+                "dept_name": "Carbon",
+                "group_no": 290
+            },
+            {
+                "dept": 1082,
+                "dept_name": "Para Cerveza",
+                "group_no": 291
+            },
+            {
+                "dept": 9056,
+                "dept_name": "Frappe",
+                "group_no": 296
+            },
+            {
+                "dept": 9059,
+                "dept_name": "Espresso",
+                "group_no": 296
+            },
+            {
+                "dept": 9060,
+                "dept_name": "Canasta",
+                "group_no": 279
+            },
+            {
+                "dept": 586,
+                "dept_name": "Crema",
+                "group_no": 183
+            },
+            {
+                "dept": 587,
+                "dept_name": "Agua",
+                "group_no": 184
+            },
+            {
+                "dept": 589,
+                "dept_name": "Agua",
+                "group_no": 185
+            },
+            {
+                "dept": 590,
+                "dept_name": "Crema",
+                "group_no": 185
+            },
+            {
+                "dept": 1196,
+                "dept_name": "SPIN",
+                "group_no": 157
+            },
+            {
+                "dept": 595,
+                "dept_name": "Premium",
+                "group_no": 188
+            },
+            {
+                "dept": 596,
+                "dept_name": "Alto",
+                "group_no": 188
+            },
+            {
+                "dept": 598,
+                "dept_name": "Bajo",
+                "group_no": 188
+            },
+            {
+                "dept": 600,
+                "dept_name": "Tabaco Masticable",
+                "group_no": 189
+            },
+            {
+                "dept": 899,
+                "dept_name": "Polvos tamar/acidit",
+                "group_no": 258
+            },
+            {
+                "dept": 994,
+                "dept_name": "Tortas Calientes",
+                "group_no": 279
+            },
+            {
+                "dept": 996,
+                "dept_name": "Salbutes / Panuches",
+                "group_no": 279
+            },
+            {
+                "dept": 998,
+                "dept_name": "Hamburguesas",
+                "group_no": 279
+            },
+            {
+                "dept": 9097,
+                "dept_name": "Grano",
+                "group_no": 296
+            },
+            {
+                "dept": 9098,
+                "dept_name": "Recarga",
+                "group_no": 296
+            },
+            {
+                "dept": 1141,
+                "dept_name": "Infantil",
+                "group_no": 269
+            },
+            {
+                "dept": 1142,
+                "dept_name": "Multipack",
+                "group_no": 269
+            },
+            {
+                "dept": 1143,
+                "dept_name": "Familiar",
+                "group_no": 271
+            },
+            {
+                "dept": 675,
+                "dept_name": "Video Electronica",
+                "group_no": 205
+            },
+            {
+                "dept": 676,
+                "dept_name": "Fotografia",
+                "group_no": 205
+            },
+            {
+                "dept": 619,
+                "dept_name": "Otros Envasados",
+                "group_no": 192
+            },
+            {
+                "dept": 620,
+                "dept_name": "Azucar Refinada",
+                "group_no": 193
+            },
+            {
+                "dept": 623,
+                "dept_name": "Cafe",
+                "group_no": 194
+            },
+            {
+                "dept": 625,
+                "dept_name": "Cereal basico",
+                "group_no": 195
+            },
+            {
+                "dept": 626,
+                "dept_name": "Cereal endulzado",
+                "group_no": 195
+            },
+            {
+                "dept": 633,
+                "dept_name": "Arroz",
+                "group_no": 197
+            },
+            {
+                "dept": 636,
+                "dept_name": "Semillas",
+                "group_no": 197
+            },
+            {
+                "dept": 648,
+                "dept_name": "Sustitutos de Crema",
+                "group_no": 199
+            },
+            {
+                "dept": 745,
+                "dept_name": "Aromatiza electrico",
+                "group_no": 218
+            },
+            {
+                "dept": 746,
+                "dept_name": "Jarcieria",
+                "group_no": 219
+            },
+            {
+                "dept": 753,
+                "dept_name": "Ropa Liquido",
+                "group_no": 221
+            },
+            {
+                "dept": 755,
+                "dept_name": "Trastes en pasta",
+                "group_no": 222
+            },
+            {
+                "dept": 756,
+                "dept_name": "Trastes en polvo",
+                "group_no": 222
+            },
+            {
+                "dept": 758,
+                "dept_name": "Insecticidas Aerosol",
+                "group_no": 223
+            },
+            {
+                "dept": 759,
+                "dept_name": "Insecticidas liquido",
+                "group_no": 223
+            },
+            {
+                "dept": 760,
+                "dept_name": "Veneno en pasta",
+                "group_no": 223
+            },
+            {
+                "dept": 761,
+                "dept_name": "Trampas",
+                "group_no": 223
+            },
+            {
+                "dept": 762,
+                "dept_name": "Insecticid electrico",
+                "group_no": 223
+            },
+            {
+                "dept": 764,
+                "dept_name": "Repelen corporales",
+                "group_no": 223
+            },
+            {
+                "dept": 766,
+                "dept_name": "Cloros",
+                "group_no": 224
+            },
+            {
+                "dept": 767,
+                "dept_name": "Limpiadores de bano",
+                "group_no": 224
+            },
+            {
+                "dept": 768,
+                "dept_name": "Limpiado de cocina",
+                "group_no": 224
+            },
+            {
+                "dept": 769,
+                "dept_name": "Limpiadores de pisos",
+                "group_no": 224
+            },
+            {
+                "dept": 807,
+                "dept_name": "Revistas",
+                "group_no": 237
+            },
+            {
+                "dept": 809,
+                "dept_name": "Libros",
+                "group_no": 237
+            },
+            {
+                "dept": 810,
+                "dept_name": "Album",
+                "group_no": 238
+            },
+            {
+                "dept": 814,
+                "dept_name": "DVD",
+                "group_no": 240
+            },
+            {
+                "dept": 776,
+                "dept_name": "ArtBelleza e higiene",
+                "group_no": 227
+            },
+            {
+                "dept": 777,
+                "dept_name": "Cuidado de la piel",
+                "group_no": 227
+            },
+            {
+                "dept": 780,
+                "dept_name": "Cepillos de dientes",
+                "group_no": 228
+            },
+            {
+                "dept": 781,
+                "dept_name": "Crema dental",
+                "group_no": 228
+            },
+            {
+                "dept": 782,
+                "dept_name": "Enjuague bucal",
+                "group_no": 228
+            },
+            {
+                "dept": 783,
+                "dept_name": "Hilo dental",
+                "group_no": 228
+            },
+            {
+                "dept": 789,
+                "dept_name": "Shampoos",
+                "group_no": 230
+            },
+            {
+                "dept": 791,
+                "dept_name": "Jabones de tocador",
+                "group_no": 231
+            },
+            {
+                "dept": 792,
+                "dept_name": "Gel antibacterial",
+                "group_no": 232
+            },
+            {
+                "dept": 794,
+                "dept_name": "Panuelos desechables",
+                "group_no": 233
+            },
+            {
+                "dept": 795,
+                "dept_name": "Papel higien. medio",
+                "group_no": 234
+            },
+            {
+                "dept": 796,
+                "dept_name": "Papel higien.alto",
+                "group_no": 234
+            },
+            {
+                "dept": 797,
+                "dept_name": "Papel higienico bajo",
+                "group_no": 234
+            },
+            {
+                "dept": 800,
+                "dept_name": "Tampones",
+                "group_no": 235
+            },
+            {
+                "dept": 801,
+                "dept_name": "Antisepticos",
+                "group_no": 236
+            },
+            {
+                "dept": 1205,
+                "dept_name": "Franke AP Latte frio",
+                "group_no": 326
+            },
+            {
+                "dept": 1206,
+                "dept_name": "Franke AP Chocolate ",
+                "group_no": 326
+            },
+            {
+                "dept": 1207,
+                "dept_name": "Franke AP Americano ",
+                "group_no": 326
+            },
+            {
+                "dept": 1210,
+                "dept_name": "Pagos",
+                "group_no": 327
+            },
+            {
+                "dept": 1211,
+                "dept_name": "Gift cards",
+                "group_no": 327
+            },
+            {
+                "dept": 1199,
+                "dept_name": "GOURMET Espresso",
+                "group_no": 326
+            },
+            {
+                "dept": 1200,
+                "dept_name": "GOURMET Americano",
+                "group_no": 326
+            },
+            {
+                "dept": 1208,
+                "dept_name": "GOURMET  Nieve",
+                "group_no": 326
+            },
+            {
+                "dept": 1214,
+                "dept_name": "Postres",
+                "group_no": 130
+            },
+            {
+                "dept": 1215,
+                "dept_name": "Snacks",
+                "group_no": 130
+            },
+            {
+                "dept": 9150,
+                "dept_name": "Tela",
+                "group_no": 9001
+            },
+            {
+                "dept": 1,
+                "dept_name": "Gelatinas",
+                "group_no": 130
+            },
+            {
+                "dept": 695,
+                "dept_name": "Portabilidad",
+                "group_no": 209
+            },
+            {
+                "dept": 1078,
+                "dept_name": "Cerillo Carbon",
+                "group_no": 290
+            },
+            {
+                "dept": 742,
+                "dept_name": "Base Whisky",
+                "group_no": 113
+            },
+            {
+                "dept": 992,
+                "dept_name": "Sincronizada",
+                "group_no": 279
+            },
+            {
+                "dept": 1020,
+                "dept_name": "Insumos No Comestib.",
+                "group_no": 282
+            },
+            {
+                "dept": 677,
+                "dept_name": "Computacion",
+                "group_no": 205
+            },
+            {
+                "dept": 672,
+                "dept_name": "Sopas Preparadas",
+                "group_no": 204
+            },
+            {
+                "dept": 749,
+                "dept_name": "Esponja lustradora",
+                "group_no": 220
+            },
+            {
+                "dept": 754,
+                "dept_name": "Desmanchadores ropa",
+                "group_no": 221
+            },
+            {
+                "dept": 808,
+                "dept_name": "Mapas",
+                "group_no": 237
+            },
+            {
+                "dept": 787,
+                "dept_name": "Alimentos para bebe",
+                "group_no": 229
+            },
+            {
+                "dept": 1201,
+                "dept_name": "GOURMET Lechero",
+                "group_no": 326
+            },
+            {
+                "dept": 1197,
+                "dept_name": "Tarjeta física",
+                "group_no": 325
+            },
+            {
+                "dept": 5,
+                "dept_name": "Burritos",
+                "group_no": 130
+            },
+            {
+                "dept": 9654,
+                "dept_name": "Revistas",
+                "group_no": 9012
+            },
+            {
+                "dept": 9712,
+                "dept_name": "Smartphone OXXO CEL",
+                "group_no": 9017
+            },
+            {
+                "dept": 2,
+                "dept_name": "Sandwich",
+                "group_no": 130
+            },
+            {
+                "dept": 3,
+                "dept_name": "Tortas y baguettes",
+                "group_no": 130
+            },
+            {
+                "dept": 9181,
+                "dept_name": "POSTERS",
+                "group_no": 9011
+            },
+            {
+                "dept": 9166,
+                "dept_name": "FIGURAS",
+                "group_no": 9011
+            },
+            {
+                "dept": 9874,
+                "dept_name": "Periodicos",
+                "group_no": 9012
+            },
+            {
+                "dept": 6,
+                "dept_name": "Pizzas",
+                "group_no": 130
+            },
+            {
+                "dept": 7,
+                "dept_name": "Comidas RTE",
+                "group_no": 130
+            },
+            {
+                "dept": 1792,
+                "dept_name": "Agua IEPS",
+                "group_no": 179
+            },
+            {
+                "dept": 9152,
+                "dept_name": "Smartphone",
+                "group_no": 9006
+            },
+            {
+                "dept": 9171,
+                "dept_name": "Album",
+                "group_no": 9011
+            },
+            {
+                "dept": 9212,
+                "dept_name": "CALENDARIOS",
+                "group_no": 9012
+            },
+            {
+                "dept": 9222,
+                "dept_name": "Libros",
+                "group_no": 9012
+            },
+            {
+                "dept": 9711,
+                "dept_name": "Featurephone OXXO CE",
+                "group_no": 9017
+            },
+            {
+                "dept": 9717,
+                "dept_name": "Dispositivos",
+                "group_no": 9006
+            },
+            {
+                "dept": 5555,
+                "dept_name": "Americano frios",
+                "group_no": 117
+            },
+            {
+                "dept": 1771,
+                "dept_name": "Crema IEPS",
+                "group_no": 177
+            },
+            {
+                "dept": 1772,
+                "dept_name": "Agua IEPS",
+                "group_no": 177
+            },
+            {
+                "dept": 1801,
+                "dept_name": "Crema IEPS",
+                "group_no": 180
+            },
+            {
+                "dept": 1811,
+                "dept_name": "Crema IEPS",
+                "group_no": 181
+            },
+            {
+                "dept": 1831,
+                "dept_name": "Crema IEPS",
+                "group_no": 183
+            },
+            {
+                "dept": 9714,
+                "dept_name": "Paquete Oxxo Cel",
+                "group_no": 9017
+            },
+            {
+                "dept": 9715,
+                "dept_name": "Recargas Oxxo Cel",
+                "group_no": 9017
+            },
+            {
+                "dept": 903,
+                "dept_name": "Blanca pasteurizada",
+                "group_no": 259
+            },
+            {
+                "dept": 989,
+                "dept_name": "Tacos",
+                "group_no": 279
+            },
+            {
+                "dept": 1003,
+                "dept_name": "Tostadas",
+                "group_no": 279
+            },
+            {
+                "dept": 679,
+                "dept_name": "Juegos de Mesa",
+                "group_no": 206
+            },
+            {
+                "dept": 628,
+                "dept_name": "Cereal saludable",
+                "group_no": 195
+            },
+            {
+                "dept": 634,
+                "dept_name": "Frijol",
+                "group_no": 197
+            },
+            {
+                "dept": 772,
+                "dept_name": "Suavizan tradicional",
+                "group_no": 225
+            },
+            {
+                "dept": 806,
+                "dept_name": "Periodicos",
+                "group_no": 237
+            },
+            {
+                "dept": 1031,
+                "dept_name": "Aguas frescas.Insum",
+                "group_no": 120
+            },
+            {
+                "dept": 9039,
+                "dept_name": "CHOCOLATE",
+                "group_no": 296
+            },
+            {
+                "dept": 1194,
+                "dept_name": "Cables Telefonia",
+                "group_no": 324
+            },
+            {
+                "dept": 9092,
+                "dept_name": "Capuchino Kobalto",
+                "group_no": 305
+            },
+            {
+                "dept": 9093,
+                "dept_name": "Mantel",
+                "group_no": 289
+            },
+            {
+                "dept": 9124,
+                "dept_name": "Ropa y Accesorios",
+                "group_no": 309
+            },
+            {
+                "dept": 709,
+                "dept_name": "Mecanicos",
+                "group_no": 212
+            },
+            {
+                "dept": 727,
+                "dept_name": "Veladora Religiosas",
+                "group_no": 215
+            },
+            {
+                "dept": 1007,
+                "dept_name": "Alitas",
+                "group_no": 279
+            },
+            {
+                "dept": 904,
+                "dept_name": "Blanca UHT",
+                "group_no": 259
+            },
+            {
+                "dept": 599,
+                "dept_name": "Puros",
+                "group_no": 189
+            },
+            {
+                "dept": 991,
+                "dept_name": "Quesadillas",
+                "group_no": 279
+            },
+            {
+                "dept": 999,
+                "dept_name": "Papas a la francesa.",
+                "group_no": 279
+            },
+            {
+                "dept": 1019,
+                "dept_name": "Insumos comestibles",
+                "group_no": 281
+            },
+            {
+                "dept": 9072,
+                "dept_name": "capuchino",
+                "group_no": 298
+            },
+            {
+                "dept": 9099,
+                "dept_name": "Reposteria",
+                "group_no": 296
+            },
+            {
+                "dept": 607,
+                "dept_name": "Mayonesas",
+                "group_no": 191
+            },
+            {
+                "dept": 624,
+                "dept_name": "Te",
+                "group_no": 194
+            },
+            {
+                "dept": 647,
+                "dept_name": "Leche en Polvo",
+                "group_no": 199
+            },
+            {
+                "dept": 649,
+                "dept_name": "Media Crema",
+                "group_no": 199
+            },
+            {
+                "dept": 650,
+                "dept_name": "Alimento para perro",
+                "group_no": 200
+            },
+            {
+                "dept": 651,
+                "dept_name": "Alimento para gato",
+                "group_no": 200
+            },
+            {
+                "dept": 669,
+                "dept_name": "Cremas",
+                "group_no": 204
+            },
+            {
+                "dept": 671,
+                "dept_name": "Pure Instantaneo",
+                "group_no": 204
+            },
+            {
+                "dept": 752,
+                "dept_name": "Ropa en polvo",
+                "group_no": 221
+            },
+            {
+                "dept": 763,
+                "dept_name": "Insectici en espiral",
+                "group_no": 223
+            },
+            {
+                "dept": 773,
+                "dept_name": "Suaviz especializado",
+                "group_no": 225
+            },
+            {
+                "dept": 811,
+                "dept_name": "Estampas",
+                "group_no": 238
+            },
+            {
+                "dept": 816,
+                "dept_name": "Loteria Instantanea",
+                "group_no": 241
+            },
+            {
+                "dept": 775,
+                "dept_name": "Rastrillos",
+                "group_no": 226
+            },
+            {
+                "dept": 785,
+                "dept_name": "Accesorios para bebe",
+                "group_no": 229
+            },
+            {
+                "dept": 793,
+                "dept_name": "Toallitas Y Gel Anti",
+                "group_no": 232
+            },
+            {
+                "dept": 1202,
+                "dept_name": "GOURMET Latte",
+                "group_no": 326
+            },
+            {
+                "dept": 9140,
+                "dept_name": "Ultra Bajo",
+                "group_no": 188
+            },
+            {
+                "dept": 1209,
+                "dept_name": "GOURMET  Frappe",
+                "group_no": 326
+            },
+            {
+                "dept": 9130,
+                "dept_name": "Termos",
+                "group_no": 311
+            },
+            {
+                "dept": 674,
+                "dept_name": "Audio",
+                "group_no": 205
+            },
+            {
+                "dept": 9161,
+                "dept_name": "Vta Boletos Eventos",
+                "group_no": 9016
+            },
+            {
+                "dept": 9151,
+                "dept_name": "VHS",
+                "group_no": 9015
+            },
+            {
+                "dept": 9153,
+                "dept_name": "Featurephone",
+                "group_no": 9006
+            },
+            {
+                "dept": 9155,
+                "dept_name": "DVD",
+                "group_no": 9015
+            },
+            {
+                "dept": 4,
+                "dept_name": "Ensaladas",
+                "group_no": 130
+            },
+            {
+                "dept": 9141,
+                "dept_name": "Loteria Instantanea",
+                "group_no": 9014
+            },
+            {
+                "dept": 1782,
+                "dept_name": "Agua IEPS",
+                "group_no": 178
+            },
+            {
+                "dept": 9515,
+                "dept_name": "Estampas",
+                "group_no": 9011
+            },
+            {
+                "dept": 9716,
+                "dept_name": "CHIP OXXO CEL",
+                "group_no": 9017
+            },
+            {
+                "dept": 9713,
+                "dept_name": "Internet Oxxo Cel",
+                "group_no": 9017
+            },
+            {
+                "dept": 1002,
+                "dept_name": "Enchiladas",
+                "group_no": 279
+            },
+            {
+                "dept": 1140,
+                "dept_name": "Familiar",
+                "group_no": 269
+            },
+            {
+                "dept": 1213,
+                "dept_name": "Pasteles",
+                "group_no": 130
+            },
+            {
+                "dept": 9292,
+                "dept_name": "Mapas",
+                "group_no": 9012
+            },
+            {
+                "dept": 100285,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 285
+            },
+            {
+                "dept": 100286,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 286
+            },
+            {
+                "dept": 100294,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 294
+            },
+            {
+                "dept": 100300,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 300
+            },
+            {
+                "dept": 100317,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 317
+            },
+            {
+                "dept": 100318,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 318
+            },
+            {
+                "dept": 100319,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 319
+            },
+            {
+                "dept": 100320,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 320
+            },
+            {
+                "dept": 100321,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 321
+            },
+            {
+                "dept": 100323,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 323
+            },
+            {
+                "dept": 100103,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 103
+            },
+            {
+                "dept": 100108,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 108
+            },
+            {
+                "dept": 100113,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 113
+            },
+            {
+                "dept": 100178,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 178
+            },
+            {
+                "dept": 100180,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 180
+            },
+            {
+                "dept": 100181,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 181
+            },
+            {
+                "dept": 100182,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 182
+            },
+            {
+                "dept": 100183,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 183
+            },
+            {
+                "dept": 100186,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 186
+            },
+            {
+                "dept": 100191,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 191
+            },
+            {
+                "dept": 100192,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 192
+            },
+            {
+                "dept": 100193,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 193
+            },
+            {
+                "dept": 100196,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 196
+            },
+            {
+                "dept": 100198,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 198
+            },
+            {
+                "dept": 100200,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 200
+            },
+            {
+                "dept": 100240,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 240
+            },
+            {
+                "dept": 100241,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 241
+            },
+            {
+                "dept": 100267,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 267
+            },
+            {
+                "dept": 1009004,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 9004
+            },
+            {
+                "dept": 100313,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 313
+            },
+            {
+                "dept": 100315,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 315
+            },
+            {
+                "dept": 100164,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 164
+            },
+            {
+                "dept": 100206,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 206
+            },
+            {
+                "dept": 100209,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 209
+            },
+            {
+                "dept": 100231,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 231
+            },
+            {
+                "dept": 1009002,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 9002
+            },
+            {
+                "dept": 1009005,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 9005
+            },
+            {
+                "dept": 1003,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 3
+            },
+            {
+                "dept": 100114,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 114
+            },
+            {
+                "dept": 100184,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 184
+            },
+            {
+                "dept": 100195,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 195
+            },
+            {
+                "dept": 100203,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 203
+            },
+            {
+                "dept": 100268,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 268
+            },
+            {
+                "dept": 100271,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 271
+            },
+            {
+                "dept": 100287,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 287
+            },
+            {
+                "dept": 100291,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 291
+            },
+            {
+                "dept": 100298,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 298
+            },
+            {
+                "dept": 100106,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 106
+            },
+            {
+                "dept": 100142,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 142
+            },
+            {
+                "dept": 100147,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 147
+            },
+            {
+                "dept": 100165,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 165
+            },
+            {
+                "dept": 100172,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 172
+            },
+            {
+                "dept": 100233,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 233
+            },
+            {
+                "dept": 100310,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 310
+            },
+            {
+                "dept": 100116,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 116
+            },
+            {
+                "dept": 100249,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 249
+            },
+            {
+                "dept": 10037,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 37
+            },
+            {
+                "dept": 1001000,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 1000
+            },
+            {
+                "dept": 100204,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 204
+            },
+            {
+                "dept": 1006,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 6
+            },
+            {
+                "dept": 10027,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 27
+            },
+            {
+                "dept": 10091,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 91
+            },
+            {
+                "dept": 100132,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 132
+            },
+            {
+                "dept": 1009016,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 9016
+            },
+            {
+                "dept": 100312,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 312
+            },
+            {
+                "dept": 100185,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 185
+            },
+            {
+                "dept": 100190,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 190
+            },
+            {
+                "dept": 100194,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 194
+            },
+            {
+                "dept": 100197,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 197
+            },
+            {
+                "dept": 100238,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 238
+            },
+            {
+                "dept": 100270,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 270
+            },
+            {
+                "dept": 100316,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 316
+            },
+            {
+                "dept": 100170,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 170
+            },
+            {
+                "dept": 100207,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 207
+            },
+            {
+                "dept": 100208,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 208
+            },
+            {
+                "dept": 100235,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 235
+            },
+            {
+                "dept": 100301,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 301
+            },
+            {
+                "dept": 100259,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 259
+            },
+            {
+                "dept": 100304,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 304
+            },
+            {
+                "dept": 1002,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 2
+            },
+            {
+                "dept": 10012,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 12
+            },
+            {
+                "dept": 10016,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 16
+            },
+            {
+                "dept": 10026,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 26
+            },
+            {
+                "dept": 10077,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 77
+            },
+            {
+                "dept": 100115,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 115
+            },
+            {
+                "dept": 100199,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 199
+            },
+            {
+                "dept": 100202,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 202
+            },
+            {
+                "dept": 100237,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 237
+            },
+            {
+                "dept": 100239,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 239
+            },
+            {
+                "dept": 100242,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 242
+            },
+            {
+                "dept": 100276,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 276
+            },
+            {
+                "dept": 100290,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 290
+            },
+            {
+                "dept": 100144,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 144
+            },
+            {
+                "dept": 100145,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 145
+            },
+            {
+                "dept": 100146,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 146
+            },
+            {
+                "dept": 100166,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 166
+            },
+            {
+                "dept": 100168,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 168
+            },
+            {
+                "dept": 100171,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 171
+            },
+            {
+                "dept": 100173,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 173
+            },
+            {
+                "dept": 100210,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 210
+            },
+            {
+                "dept": 100211,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 211
+            },
+            {
+                "dept": 100213,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 213
+            },
+            {
+                "dept": 100214,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 214
+            },
+            {
+                "dept": 100226,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 226
+            },
+            {
+                "dept": 100227,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 227
+            },
+            {
+                "dept": 100229,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 229
+            },
+            {
+                "dept": 100232,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 232
+            },
+            {
+                "dept": 100252,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 252
+            },
+            {
+                "dept": 100299,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 299
+            },
+            {
+                "dept": 100307,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 307
+            },
+            {
+                "dept": 100104,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 104
+            },
+            {
+                "dept": 100153,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 153
+            },
+            {
+                "dept": 100154,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 154
+            },
+            {
+                "dept": 100248,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 248
+            },
+            {
+                "dept": 100260,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 260
+            },
+            {
+                "dept": 100302,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 302
+            },
+            {
+                "dept": 100303,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 303
+            },
+            {
+                "dept": 100324,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 324
+            },
+            {
+                "dept": 1001,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 1
+            },
+            {
+                "dept": 10096,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 96
+            },
+            {
+                "dept": 10014,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 14
+            },
+            {
+                "dept": 10019,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 19
+            },
+            {
+                "dept": 10020,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 20
+            },
+            {
+                "dept": 10023,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 23
+            },
+            {
+                "dept": 10024,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 24
+            },
+            {
+                "dept": 10028,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 28
+            },
+            {
+                "dept": 10029,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 29
+            },
+            {
+                "dept": 10031,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 31
+            },
+            {
+                "dept": 10038,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 38
+            },
+            {
+                "dept": 10041,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 41
+            },
+            {
+                "dept": 10057,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 57
+            },
+            {
+                "dept": 100179,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 179
+            },
+            {
+                "dept": 100289,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 289
+            },
+            {
+                "dept": 100212,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 212
+            },
+            {
+                "dept": 100228,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 228
+            },
+            {
+                "dept": 100230,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 230
+            },
+            {
+                "dept": 100236,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 236
+            },
+            {
+                "dept": 100297,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 297
+            },
+            {
+                "dept": 100254,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 254
+            },
+            {
+                "dept": 100257,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 257
+            },
+            {
+                "dept": 100100,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 100
+            },
+            {
+                "dept": 1007,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 7
+            },
+            {
+                "dept": 10013,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 13
+            },
+            {
+                "dept": 10017,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 17
+            },
+            {
+                "dept": 10032,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 32
+            },
+            {
+                "dept": 10033,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 33
+            },
+            {
+                "dept": 10058,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 58
+            },
+            {
+                "dept": 10084,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 84
+            },
+            {
+                "dept": 100101,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 101
+            },
+            {
+                "dept": 10061,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 61
+            },
+            {
+                "dept": 10071,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 71
+            },
+            {
+                "dept": 100127,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 127
+            },
+            {
+                "dept": 100141,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 141
+            },
+            {
+                "dept": 100273,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 273
+            },
+            {
+                "dept": 1009003,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 9003
+            },
+            {
+                "dept": 100110,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 110
+            },
+            {
+                "dept": 100120,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 120
+            },
+            {
+                "dept": 100122,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 122
+            },
+            {
+                "dept": 100123,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 123
+            },
+            {
+                "dept": 100155,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 155
+            },
+            {
+                "dept": 100156,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 156
+            },
+            {
+                "dept": 100157,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 157
+            },
+            {
+                "dept": 100158,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 158
+            },
+            {
+                "dept": 100246,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 246
+            },
+            {
+                "dept": 100325,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 325
+            },
+            {
+                "dept": 1009011,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 9011
+            },
+            {
+                "dept": 100160,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 160
+            },
+            {
+                "dept": 100136,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 136
+            },
+            {
+                "dept": 100225,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 225
+            },
+            {
+                "dept": 100177,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 177
+            },
+            {
+                "dept": 100201,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 201
+            },
+            {
+                "dept": 100314,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 314
+            },
+            {
+                "dept": 100169,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 169
+            },
+            {
+                "dept": 100215,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 215
+            },
+            {
+                "dept": 100322,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 322
+            },
+            {
+                "dept": 100112,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 112
+            },
+            {
+                "dept": 100269,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 269
+            },
+            {
+                "dept": 100275,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 275
+            },
+            {
+                "dept": 100281,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 281
+            },
+            {
+                "dept": 100309,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 309
+            },
+            {
+                "dept": 100105,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 105
+            },
+            {
+                "dept": 100250,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 250
+            },
+            {
+                "dept": 100258,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 258
+            },
+            {
+                "dept": 1005,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 5
+            },
+            {
+                "dept": 1009,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 9
+            },
+            {
+                "dept": 10011,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 11
+            },
+            {
+                "dept": 10018,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 18
+            },
+            {
+                "dept": 10036,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 36
+            },
+            {
+                "dept": 10039,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 39
+            },
+            {
+                "dept": 10042,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 42
+            },
+            {
+                "dept": 10046,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 46
+            },
+            {
+                "dept": 10050,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 50
+            },
+            {
+                "dept": 10051,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 51
+            },
+            {
+                "dept": 10067,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 67
+            },
+            {
+                "dept": 10079,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 79
+            },
+            {
+                "dept": 10090,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 90
+            },
+            {
+                "dept": 100109,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 109
+            },
+            {
+                "dept": 100143,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 143
+            },
+            {
+                "dept": 100163,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 163
+            },
+            {
+                "dept": 100167,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 167
+            },
+            {
+                "dept": 100205,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 205
+            },
+            {
+                "dept": 100216,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 216
+            },
+            {
+                "dept": 100217,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 217
+            },
+            {
+                "dept": 100234,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 234
+            },
+            {
+                "dept": 100253,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 253
+            },
+            {
+                "dept": 100261,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 261
+            },
+            {
+                "dept": 100296,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 296
+            },
+            {
+                "dept": 1009001,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 9001
+            },
+            {
+                "dept": 100308,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 308
+            },
+            {
+                "dept": 100311,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 311
+            },
+            {
+                "dept": 100107,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 107
+            },
+            {
+                "dept": 100255,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 255
+            },
+            {
+                "dept": 100256,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 256
+            },
+            {
+                "dept": 1008,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 8
+            },
+            {
+                "dept": 10010,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 10
+            },
+            {
+                "dept": 10021,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 21
+            },
+            {
+                "dept": 10025,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 25
+            },
+            {
+                "dept": 10040,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 40
+            },
+            {
+                "dept": 10043,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 43
+            },
+            {
+                "dept": 10044,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 44
+            },
+            {
+                "dept": 10045,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 45
+            },
+            {
+                "dept": 10048,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 48
+            },
+            {
+                "dept": 10049,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 49
+            },
+            {
+                "dept": 10052,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 52
+            },
+            {
+                "dept": 10053,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 53
+            },
+            {
+                "dept": 10054,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 54
+            },
+            {
+                "dept": 10059,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 59
+            },
+            {
+                "dept": 10060,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 60
+            },
+            {
+                "dept": 10062,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 62
+            },
+            {
+                "dept": 10063,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 63
+            },
+            {
+                "dept": 10065,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 65
+            },
+            {
+                "dept": 10068,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 68
+            },
+            {
+                "dept": 10069,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 69
+            },
+            {
+                "dept": 10070,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 70
+            },
+            {
+                "dept": 10073,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 73
+            },
+            {
+                "dept": 10074,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 74
+            },
+            {
+                "dept": 10078,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 78
+            },
+            {
+                "dept": 10080,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 80
+            },
+            {
+                "dept": 10081,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 81
+            },
+            {
+                "dept": 10082,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 82
+            },
+            {
+                "dept": 10086,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 86
+            },
+            {
+                "dept": 10087,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 87
+            },
+            {
+                "dept": 10089,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 89
+            },
+            {
+                "dept": 10093,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 93
+            },
+            {
+                "dept": 1009000,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 9000
+            },
+            {
+                "dept": 100102,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 102
+            },
+            {
+                "dept": 10095,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 95
+            },
+            {
+                "dept": 10097,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 97
+            },
+            {
+                "dept": 10098,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 98
+            },
+            {
+                "dept": 1004,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 4
+            },
+            {
+                "dept": 10022,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 22
+            },
+            {
+                "dept": 10055,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 55
+            },
+            {
+                "dept": 10056,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 56
+            },
+            {
+                "dept": 10064,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 64
+            },
+            {
+                "dept": 10088,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 88
+            },
+            {
+                "dept": 100128,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 128
+            },
+            {
+                "dept": 100139,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 139
+            },
+            {
+                "dept": 100140,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 140
+            },
+            {
+                "dept": 100149,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 149
+            },
+            {
+                "dept": 100150,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 150
+            },
+            {
+                "dept": 100159,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 159
+            },
+            {
+                "dept": 100187,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 187
+            },
+            {
+                "dept": 100188,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 188
+            },
+            {
+                "dept": 100189,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 189
+            },
+            {
+                "dept": 100272,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 272
+            },
+            {
+                "dept": 100274,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 274
+            },
+            {
+                "dept": 100280,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 280
+            },
+            {
+                "dept": 100283,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 283
+            },
+            {
+                "dept": 100292,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 292
+            },
+            {
+                "dept": 100295,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 295
+            },
+            {
+                "dept": 100111,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 111
+            },
+            {
+                "dept": 100124,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 124
+            },
+            {
+                "dept": 100126,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 126
+            },
+            {
+                "dept": 100129,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 129
+            },
+            {
+                "dept": 100130,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 130
+            },
+            {
+                "dept": 100131,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 131
+            },
+            {
+                "dept": 100133,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 133
+            },
+            {
+                "dept": 100134,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 134
+            },
+            {
+                "dept": 100137,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 137
+            },
+            {
+                "dept": 100138,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 138
+            },
+            {
+                "dept": 100175,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 175
+            },
+            {
+                "dept": 100176,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 176
+            },
+            {
+                "dept": 100221,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 221
+            },
+            {
+                "dept": 100223,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 223
+            },
+            {
+                "dept": 100224,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 224
+            },
+            {
+                "dept": 100243,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 243
+            },
+            {
+                "dept": 100244,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 244
+            },
+            {
+                "dept": 100245,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 245
+            },
+            {
+                "dept": 100247,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 247
+            },
+            {
+                "dept": 100263,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 263
+            },
+            {
+                "dept": 100264,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 264
+            },
+            {
+                "dept": 100265,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 265
+            },
+            {
+                "dept": 100266,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 266
+            },
+            {
+                "dept": 100277,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 277
+            },
+            {
+                "dept": 100326,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 326
+            },
+            {
+                "dept": 1009012,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 9012
+            },
+            {
+                "dept": 1009013,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 9013
+            },
+            {
+                "dept": 1009006,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 9006
+            },
+            {
+                "dept": 100251,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 251
+            },
+            {
+                "dept": 100121,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 121
+            },
+            {
+                "dept": 100135,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 135
+            },
+            {
+                "dept": 100327,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 327
+            },
+            {
+                "dept": 1009014,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 9014
+            },
+            {
+                "dept": 100306,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 306
+            },
+            {
+                "dept": 10015,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 15
+            },
+            {
+                "dept": 10083,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 83
+            },
+            {
+                "dept": 100262,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 262
+            },
+            {
+                "dept": 100278,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 278
+            },
+            {
+                "dept": 100288,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 288
+            },
+            {
+                "dept": 10030,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 30
+            },
+            {
+                "dept": 10034,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 34
+            },
+            {
+                "dept": 10035,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 35
+            },
+            {
+                "dept": 10066,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 66
+            },
+            {
+                "dept": 10072,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 72
+            },
+            {
+                "dept": 10075,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 75
+            },
+            {
+                "dept": 10092,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 92
+            },
+            {
+                "dept": 10094,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 94
+            },
+            {
+                "dept": 100282,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 282
+            },
+            {
+                "dept": 100152,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 152
+            },
+            {
+                "dept": 100151,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 151
+            },
+            {
+                "dept": 100161,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 161
+            },
+            {
+                "dept": 100162,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 162
+            },
+            {
+                "dept": 100279,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 279
+            },
+            {
+                "dept": 100117,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 117
+            },
+            {
+                "dept": 100118,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 118
+            },
+            {
+                "dept": 100119,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 119
+            },
+            {
+                "dept": 100174,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 174
+            },
+            {
+                "dept": 100218,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 218
+            },
+            {
+                "dept": 100220,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 220
+            },
+            {
+                "dept": 100222,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 222
+            },
+            {
+                "dept": 100284,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 284
+            },
+            {
+                "dept": 1009015,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 9015
+            },
+            {
+                "dept": 1009017,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 9017
+            },
+            {
+                "dept": 100125,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 125
+            },
+            {
+                "dept": 100148,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 148
+            },
+            {
+                "dept": 10085,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 85
+            },
+            {
+                "dept": 10099,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 99
+            },
+            {
+                "dept": 100305,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 305
+            },
+            {
+                "dept": 10047,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 47
+            },
+            {
+                "dept": 100293,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 293
+            },
+            {
+                "dept": 100219,
+                "dept_name": "Sin Subcategoria",
+                "group_no": 219
+            }
+        ]
+    }
+}

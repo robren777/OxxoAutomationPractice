@@ -1,0 +1,20 @@
+{
+    "method": "POST",
+    "headers": {
+        "x-functions-key": "ScPhqviIcwKd_JT0r-JDxqRTHyDQ_ytiIsLNLXK3bNEeAzFueWTHsg==",
+        "Authorization": "Bearer eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjEwOCwidXR5cGlkIjoyLCJpYXQiOjE3Nzk3MzIzNTQsImV4cCI6MTc3OTczNTk1NH0.CkzCaPtpOw0UaHLJCdgpv_mhKcPvaYYklHnknbItes4"
+    },
+    "url": "https://mcstaging.oxxoespacios.com/rest/all/V1/oxxo/ebs-formas-pago/create",
+    "body": {
+        "paymentMethods": [
+            {
+                "flex_value": "FP_ELECTRONICO",
+                "description": "Transferencia"
+            },
+            {
+                "flex_value": "FP_FOLIO",
+                "description": "Folio de Pago"
+            }
+        ]
+    }
+}

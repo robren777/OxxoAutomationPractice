@@ -1,0 +1,222 @@
+{
+    "method": "POST",
+    "headers": {
+        "x-functions-key": "ScPhqviIcwKd_JT0r-JDxqRTHyDQ_ytiIsLNLXK3bNEeAzFueWTHsg==",
+        "Authorization": "Bearer \"eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjQwLCJ1dHlwaWQiOjIsImlhdCI6MTc3MDI2NTk0OSwiZXhwIjoxNzcwMjY5NTQ5fQ.Z0YrDy9j1khFWbAa2J_CI1_o__BXvPOiNpHI3ZQ1E-Q\""
+    },
+    "url": "https://oxzfuncpepromd01.azurewebsites.net/api/rest/all/V1/oxxo/ebs-division/create",
+    "body": {
+        "division": [
+            {
+                "DIVISION": 30,
+                "DIV_NAME": "Concentrados Bebidas",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 9,
+                "DIV_NAME": "Higiene y salud pers",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 17,
+                "DIV_NAME": "Arts. Promocionales",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 7,
+                "DIV_NAME": "Hielo",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 15,
+                "DIV_NAME": "Gasolinas y Diesel",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 33,
+                "DIV_NAME": "Fast Food Bebidas",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 48,
+                "DIV_NAME": "Complementos Reunion",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 24,
+                "DIV_NAME": "Reposteria",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 40,
+                "DIV_NAME": "Gasolinas",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 44,
+                "DIV_NAME": "Envases",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 25,
+                "DIV_NAME": "No usar",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 36,
+                "DIV_NAME": "Leche",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 10,
+                "DIV_NAME": "Mercancias generales",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 21,
+                "DIV_NAME": "Dulces",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 14,
+                "DIV_NAME": "Telefonia",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 39,
+                "DIV_NAME": "Cigarros",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 8,
+                "DIV_NAME": "Higiene Hogar",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 18,
+                "DIV_NAME": "Fruta y Verdura",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 42,
+                "DIV_NAME": "Servicios",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 41,
+                "DIV_NAME": "Yoghurt",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 4,
+                "DIV_NAME": "Bebidas Alcoholicas",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 31,
+                "DIV_NAME": "Jugos",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 13,
+                "DIV_NAME": "Tabaco",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 28,
+                "DIV_NAME": "Agua Purificada",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 11,
+                "DIV_NAME": "Productos de Diario",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 5,
+                "DIV_NAME": "Bebidas Refrescantes",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 38,
+                "DIV_NAME": "Pan tost y tortillas",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 34,
+                "DIV_NAME": "Fast Food Alimentos",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 26,
+                "DIV_NAME": "Cerveza",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 12,
+                "DIV_NAME": "Entretenimiento",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 9000,
+                "DIV_NAME": "Arts. No Vendibles",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 45,
+                "DIV_NAME": "Agua en Garrafon",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 22,
+                "DIV_NAME": "Galletas",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 27,
+                "DIV_NAME": "Vinos y Licores",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 23,
+                "DIV_NAME": "Helados",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 1,
+                "DIV_NAME": "Abarrotes Comestible",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 2,
+                "DIV_NAME": "Alim. Refrig. y Fres",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 16,
+                "DIV_NAME": "Arts. a Consignacion",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 32,
+                "DIV_NAME": "Refrescos",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 6,
+                "DIV_NAME": "Comida Rapida",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 20,
+                "DIV_NAME": "Botanas",
+                "ID_SUPERGRUPO": null
+            },
+            {
+                "DIVISION": 29,
+                "DIV_NAME": "Bebidas Alternativas",
+                "ID_SUPERGRUPO": null
+            }
+        ]
+    }
+}

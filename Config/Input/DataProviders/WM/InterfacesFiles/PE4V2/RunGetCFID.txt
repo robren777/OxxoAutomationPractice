@@ -1,0 +1,27 @@
+http://<<host>>/invoke/PE4v2.Pub/runGetCFDi?xmlIn= version="1.0"?>
+<TPEFacturaInput version="3.0">
+<OxxoData plaza="<<plaza>>" tienda="<<tienda>>" noTicket="<<noTicket>>" notaCredito="<<notaCredito>>" reattempt="<<reattempt>>" source="<<source>>"/>
+<Comprobante formaDePago="<<formaDePago>>" subTotal="<<subTotal>>" total="<<total>>" metodoDePago="<<metodoDePago>>" tipoDeComprobante="I" lugarExpedicion="<<lugarExpedicion>>" moneda="<<moneda>>">
+<Emisor rfc="<<rfcEmisor>>" nombre="<<nombreEmisor>>">
+<RegimenFiscal Regimen="<<Regimen>>"/>
+</Emisor>
+<Receptor rfc="<<rfcReceptor>>" nombre="<<nombreReceptor>>" usoCFDI="<<usoCFDI>>">
+<Domicilio calle="<<calle>>" noExterior="<<noExterior>>" colonia="<<colonia>>" estado="<<estado>>" pais="<<pais>>" codigoPostal="<<codigoPostal>>"/>
+</Receptor>
+<Conceptos>
+<Concepto cantidad="<<cantidad>>" descripcion="<<descripcion>>" valorUnitario="<<valorUnitario>>" importe="<<importeConcepto>>" claveProdServ="<<claveProdServ>>" claveUnidad="<<claveUnidad>>">
+<Impuestos>
+<Traslados>
+<Traslado impuesto="<<impuesto>>" base="<<base>>" tipoFactor="<<tipoFactor>>" tasaOCuota="<<tasaOCuota>>" importe="<<importe>>"/>
+</Traslados>
+</Impuestos>
+</Concepto>
+</Conceptos>
+<Impuestos totalImpuestosTrasladados="<<totalImpuestosTrasladados>>">
+<Traslados>
+<Traslado impuesto="<<impuesto>>" importe="<<importe>>" tipoFactor="<<tipoFactor>>" tasaOCuota="<<tasaOCuota>>"/>
+</Traslados>
+</Impuestos>
+<DatosAdicionales descripcionFormaPago="<<descripcionFormaPago>>" descripcionRegimen="<<descripcionRegimen>>" descripcionTipoComprobante="<<descripcionTipoComprobante>>" descripcionUsoCFDI="<<descripcionUsoCFDI>>" descripcionMetodoPago="<<descripcionMetodoPago>>"/>
+</Comprobante>
+</TPEFacturaInput>

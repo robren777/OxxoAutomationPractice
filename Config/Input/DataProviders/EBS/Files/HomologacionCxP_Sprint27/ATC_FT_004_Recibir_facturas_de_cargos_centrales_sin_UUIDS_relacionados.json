@@ -1,0 +1,65 @@
+{
+  "Entity": {
+    "ID_COMPANIA": "00099",
+    "ORG_ID": "168",
+    "INVOICE_TYPE_LOOKUP_CODE": "STANDARD",
+    "VENDOR_SITE_ID": "183932",
+    "VENDOR_ID": "1096",
+    "INVOICE_NUM": "30015",
+    "INVOICE_CURRENCY_CODE": "MXN",
+    "AMOUNT": "1000",
+    "SOURCE": "XPERTAL-PORTAL FI",
+    "DESCRIPTION": "JESUS30015",
+    "EXISTE_UUID": "N",
+    "FIRMANTES": "DLR-DS29",
+    "FECHA_EMBARQUE": "2023-08-04 15:27:00",
+    "PRORRATEO": "PR",
+    "ID_PROCESO": "21",
+    "NOMBRE_PROVEEDOR": null,
+    "FECHA_FACT_INICIO": "2023-08-04 15:27:00",
+    "FECHA_FACT_FIN": "2023-08-10 19:30:00",
+    "NIS": null,
+    "lines": [
+      {
+        "LINE_TYPE": "Articulo",
+        "IMPORTE": "1000.00",
+        "CODIGO_IMPUESTO": "TASAEXENTO",
+        "CODIGO_RETENCION": null,
+        "COMBINACION_CONTABLE": "00099.01QRF.32AQS.72SU1112.00000000.000000.00000",
+        "COMENTARIOS": "Prueba Automatizada 004",
+        "ORDEN_SERVICIO": "1234",
+        "SI_LEGACY": null,
+        "SI_ORACLE": null,
+        "NO_REQUISICION": null,
+        "PUESTO": "Gerente",
+        "MODELO": "2023",
+        "ARTICULO": "A.02",
+        "PIEZAS": "10",
+        "COSTO_UNITARIO": "10.05",
+        "PERIODO": null,
+        "CONCEPTO": null,
+        "NOMBRE_CAMPANA": null
+      }
+    ],
+    "uuids": [
+      {
+        "UUID": "29jesusf0-eb00-000c-a0a0-c0dbe17jun24",
+        "RFC": null,
+        "VENDOR_ID": "1096",
+        "INVOICE_NUM": "30015",
+        "TIPO_DOCUMENTO": null,
+        "FOLIO": "TENSXMLEX040823",
+        "SERIE": "TENSXMLEX040823",
+        "FECHA_EMISION_XML": "2023-08-04T15:27:00",
+        "FECHA_RECEPCION_XML": "2023-08-04T09:27:00",
+        "SUBTOTAL": "1000.00",
+        "IMPUESTOS": "0.00",
+        "RETENCIONES": "0.00",
+        "TOTAL_XML": "1000.00",
+        "MONEDA": "MXN"
+      }
+    ]
+  }
+}
+
+

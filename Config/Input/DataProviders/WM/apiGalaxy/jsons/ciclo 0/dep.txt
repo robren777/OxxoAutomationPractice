@@ -1,0 +1,5752 @@
+{
+    "method": "POST",
+    "headers": {
+        "x-functions-key": "ScPhqviIcwKd_JT0r-JDxqRTHyDQ_ytiIsLNLXK3bNEeAzFueWTHsg==",
+        "Authorization": "Bearer \"eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjQwLCJ1dHlwaWQiOjIsImlhdCI6MTc3MDI2NTk0OSwiZXhwIjoxNzcwMjY5NTQ5fQ.Z0YrDy9j1khFWbAa2J_CI1_o__BXvPOiNpHI3ZQ1E-Q\""
+    },
+    "url": "https://oxzfuncpepromd01.azurewebsites.net/api/rest/all/V1/oxxo/ebs-dep/create",
+    "body": {
+        "dep": [
+            {
+                "DEPT": 1222,
+                "DEPT_NAME": "TAE OXXO CEL",
+                "GROUP_NO": 328
+            },
+            {
+                "DEPT": 1021,
+                "DEPT_NAME": "Insumo comestible",
+                "GROUP_NO": 329
+            },
+            {
+                "DEPT": 1220,
+                "DEPT_NAME": "CHIP OXXO CEL",
+                "GROUP_NO": 328
+            },
+            {
+                "DEPT": 1023,
+                "DEPT_NAME": "Sopas Preparadas",
+                "GROUP_NO": 329
+            },
+            {
+                "DEPT": 1022,
+                "DEPT_NAME": "Sopas",
+                "GROUP_NO": 329
+            },
+            {
+                "DEPT": 1221,
+                "DEPT_NAME": "CELULARES OXXO CEL",
+                "GROUP_NO": 328
+            },
+            {
+                "DEPT": 1233,
+                "DEPT_NAME": "Porcion hielo",
+                "GROUP_NO": 118
+            },
+            {
+                "DEPT": 1223,
+                "DEPT_NAME": "Dispositivos",
+                "GROUP_NO": 328
+            },
+            {
+                "DEPT": 100328,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 328
+            },
+            {
+                "DEPT": 100329,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 329
+            },
+            {
+                "DEPT": 974,
+                "DEPT_NAME": "Bebidas Zumo",
+                "GROUP_NO": 278
+            },
+            {
+                "DEPT": 975,
+                "DEPT_NAME": "Cafes",
+                "GROUP_NO": 278
+            },
+            {
+                "DEPT": 1038,
+                "DEPT_NAME": "Burritos Mprop",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 1039,
+                "DEPT_NAME": "Pizzas Mprop",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 1040,
+                "DEPT_NAME": "Tacos Mprop",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 1041,
+                "DEPT_NAME": "Tamales Mprop",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 1042,
+                "DEPT_NAME": "Tortas Calientes MP",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 9051,
+                "DEPT_NAME": "Warmer Mprop",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 9067,
+                "DEPT_NAME": "Vaporera",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 9068,
+                "DEPT_NAME": "Warmer",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 9088,
+                "DEPT_NAME": "Salsas",
+                "GROUP_NO": 245
+            },
+            {
+                "DEPT": 9089,
+                "DEPT_NAME": "Verduras",
+                "GROUP_NO": 245
+            },
+            {
+                "DEPT": 9091,
+                "DEPT_NAME": "Avena (Col)",
+                "GROUP_NO": 261
+            },
+            {
+                "DEPT": 9105,
+                "DEPT_NAME": "Base mezcal",
+                "GROUP_NO": 113
+            },
+            {
+                "DEPT": 1135,
+                "DEPT_NAME": "Familiar",
+                "GROUP_NO": 267
+            },
+            {
+                "DEPT": 1137,
+                "DEPT_NAME": "Infantil",
+                "GROUP_NO": 267
+            },
+            {
+                "DEPT": 1145,
+                "DEPT_NAME": "PET",
+                "GROUP_NO": 313
+            },
+            {
+                "DEPT": 1146,
+                "DEPT_NAME": "Lata",
+                "GROUP_NO": 313
+            },
+            {
+                "DEPT": 1147,
+                "DEPT_NAME": "PET",
+                "GROUP_NO": 314
+            },
+            {
+                "DEPT": 1151,
+                "DEPT_NAME": "Lata",
+                "GROUP_NO": 315
+            },
+            {
+                "DEPT": 9139,
+                "DEPT_NAME": "Smartphone",
+                "GROUP_NO": 9005
+            },
+            {
+                "DEPT": 818,
+                "DEPT_NAME": "Huevo blanco",
+                "GROUP_NO": 243
+            },
+            {
+                "DEPT": 832,
+                "DEPT_NAME": "Carne cerdo",
+                "GROUP_NO": 245
+            },
+            {
+                "DEPT": 836,
+                "DEPT_NAME": "Verduras Congeladas",
+                "GROUP_NO": 246
+            },
+            {
+                "DEPT": 838,
+                "DEPT_NAME": "Pastas",
+                "GROUP_NO": 246
+            },
+            {
+                "DEPT": 841,
+                "DEPT_NAME": "Mantequillas y marga",
+                "GROUP_NO": 247
+            },
+            {
+                "DEPT": 844,
+                "DEPT_NAME": "Margarinas (Col)",
+                "GROUP_NO": 190
+            },
+            {
+                "DEPT": 1055,
+                "DEPT_NAME": "FF Alim Arts. Promos",
+                "GROUP_NO": 288
+            },
+            {
+                "DEPT": 1060,
+                "DEPT_NAME": "Porcion de Agua",
+                "GROUP_NO": 288
+            },
+            {
+                "DEPT": 1167,
+                "DEPT_NAME": "Formulas Infantiles",
+                "GROUP_NO": 229
+            },
+            {
+                "DEPT": 1177,
+                "DEPT_NAME": "Frijol Procesado",
+                "GROUP_NO": 322
+            },
+            {
+                "DEPT": 478,
+                "DEPT_NAME": "Galleta c/Malvavisco",
+                "GROUP_NO": 152
+            },
+            {
+                "DEPT": 512,
+                "DEPT_NAME": "Extruido tipo cheeto",
+                "GROUP_NO": 163
+            },
+            {
+                "DEPT": 517,
+                "DEPT_NAME": "Cacahuate",
+                "GROUP_NO": 164
+            },
+            {
+                "DEPT": 373,
+                "DEPT_NAME": "Licor",
+                "GROUP_NO": 112
+            },
+            {
+                "DEPT": 386,
+                "DEPT_NAME": "Blanco",
+                "GROUP_NO": 115
+            },
+            {
+                "DEPT": 498,
+                "DEPT_NAME": "Servicios Publicos",
+                "GROUP_NO": 158
+            },
+            {
+                "DEPT": 528,
+                "DEPT_NAME": "Dips otros",
+                "GROUP_NO": 167
+            },
+            {
+                "DEPT": 9135,
+                "DEPT_NAME": "Almendra",
+                "GROUP_NO": 312
+            },
+            {
+                "DEPT": 9090,
+                "DEPT_NAME": "Kumis (Col)",
+                "GROUP_NO": 261
+            },
+            {
+                "DEPT": 1136,
+                "DEPT_NAME": "Personal",
+                "GROUP_NO": 267
+            },
+            {
+                "DEPT": 1138,
+                "DEPT_NAME": "Multipack",
+                "GROUP_NO": 267
+            },
+            {
+                "DEPT": 1152,
+                "DEPT_NAME": "Vidrio",
+                "GROUP_NO": 315
+            },
+            {
+                "DEPT": 834,
+                "DEPT_NAME": "Pescados y Mariscos",
+                "GROUP_NO": 245
+            },
+            {
+                "DEPT": 9094,
+                "DEPT_NAME": "Remesas",
+                "GROUP_NO": 157
+            },
+            {
+                "DEPT": 9120,
+                "DEPT_NAME": "Encendedores",
+                "GROUP_NO": 9002
+            },
+            {
+                "DEPT": 1178,
+                "DEPT_NAME": "Frutas Envasadas",
+                "GROUP_NO": 321
+            },
+            {
+                "DEPT": 1181,
+                "DEPT_NAME": "Azucar Especialidad",
+                "GROUP_NO": 193
+            },
+            {
+                "DEPT": 886,
+                "DEPT_NAME": "Cubierto d Chocolate",
+                "GROUP_NO": 255
+            },
+            {
+                "DEPT": 486,
+                "DEPT_NAME": "Galleta Arts. Promos",
+                "GROUP_NO": 154
+            },
+            {
+                "DEPT": 985,
+                "DEPT_NAME": "Servicios",
+                "GROUP_NO": 278
+            },
+            {
+                "DEPT": 987,
+                "DEPT_NAME": "Tamales",
+                "GROUP_NO": 278
+            },
+            {
+                "DEPT": 383,
+                "DEPT_NAME": "Base Vodka",
+                "GROUP_NO": 113
+            },
+            {
+                "DEPT": 487,
+                "DEPT_NAME": "Local",
+                "GROUP_NO": 155
+            },
+            {
+                "DEPT": 504,
+                "DEPT_NAME": "SIM Card",
+                "GROUP_NO": 160
+            },
+            {
+                "DEPT": 579,
+                "DEPT_NAME": "Crema",
+                "GROUP_NO": 179
+            },
+            {
+                "DEPT": 1170,
+                "DEPT_NAME": "Especias y Sazonador",
+                "GROUP_NO": 317
+            },
+            {
+                "DEPT": 1058,
+                "DEPT_NAME": "Opciones Desayunos",
+                "GROUP_NO": 288
+            },
+            {
+                "DEPT": 480,
+                "DEPT_NAME": "Galletas Crackers",
+                "GROUP_NO": 153
+            },
+            {
+                "DEPT": 391,
+                "DEPT_NAME": "Barril",
+                "GROUP_NO": 116
+            },
+            {
+                "DEPT": 555,
+                "DEPT_NAME": "Tradicionales",
+                "GROUP_NO": 172
+            },
+            {
+                "DEPT": 409,
+                "DEPT_NAME": "Malteada. MProv",
+                "GROUP_NO": 125
+            },
+            {
+                "DEPT": 1054,
+                "DEPT_NAME": "Mantecas",
+                "GROUP_NO": 247
+            },
+            {
+                "DEPT": 883,
+                "DEPT_NAME": "Chocolate Macizo",
+                "GROUP_NO": 255
+            },
+            {
+                "DEPT": 1104,
+                "DEPT_NAME": "Tamarindo",
+                "GROUP_NO": 258
+            },
+            {
+                "DEPT": 9066,
+                "DEPT_NAME": "Plancha",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 1148,
+                "DEPT_NAME": "Lata",
+                "GROUP_NO": 314
+            },
+            {
+                "DEPT": 1176,
+                "DEPT_NAME": "Chiles Envasados",
+                "GROUP_NO": 321
+            },
+            {
+                "DEPT": 821,
+                "DEPT_NAME": "Salchicha",
+                "GROUP_NO": 244
+            },
+            {
+                "DEPT": 828,
+                "DEPT_NAME": "Salchichon",
+                "GROUP_NO": 244
+            },
+            {
+                "DEPT": 833,
+                "DEPT_NAME": "Carne pavo",
+                "GROUP_NO": 245
+            },
+            {
+                "DEPT": 835,
+                "DEPT_NAME": "Frutas Congeladas",
+                "GROUP_NO": 246
+            },
+            {
+                "DEPT": 1057,
+                "DEPT_NAME": "Guisados Preparados",
+                "GROUP_NO": 288
+            },
+            {
+                "DEPT": 1061,
+                "DEPT_NAME": "Caldos y Sopas",
+                "GROUP_NO": 288
+            },
+            {
+                "DEPT": 1187,
+                "DEPT_NAME": "Merm.miel y cajeta",
+                "GROUP_NO": 201
+            },
+            {
+                "DEPT": 892,
+                "DEPT_NAME": "Polvo comprimido",
+                "GROUP_NO": 257
+            },
+            {
+                "DEPT": 893,
+                "DEPT_NAME": "Dulces tipicos",
+                "GROUP_NO": 257
+            },
+            {
+                "DEPT": 371,
+                "DEPT_NAME": "Crema",
+                "GROUP_NO": 112
+            },
+            {
+                "DEPT": 380,
+                "DEPT_NAME": "Base Ron",
+                "GROUP_NO": 113
+            },
+            {
+                "DEPT": 382,
+                "DEPT_NAME": "Base Vino",
+                "GROUP_NO": 113
+            },
+            {
+                "DEPT": 414,
+                "DEPT_NAME": "Capuchino andatti",
+                "GROUP_NO": 118
+            },
+            {
+                "DEPT": 505,
+                "DEPT_NAME": "Larga distancia",
+                "GROUP_NO": 161
+            },
+            {
+                "DEPT": 578,
+                "DEPT_NAME": "Agua",
+                "GROUP_NO": 178
+            },
+            {
+                "DEPT": 9108,
+                "DEPT_NAME": "Apps",
+                "GROUP_NO": 158
+            },
+            {
+                "DEPT": 1149,
+                "DEPT_NAME": "Vidrio",
+                "GROUP_NO": 314
+            },
+            {
+                "DEPT": 1150,
+                "DEPT_NAME": "PET",
+                "GROUP_NO": 315
+            },
+            {
+                "DEPT": 1153,
+                "DEPT_NAME": "PET",
+                "GROUP_NO": 316
+            },
+            {
+                "DEPT": 1154,
+                "DEPT_NAME": "Lata",
+                "GROUP_NO": 316
+            },
+            {
+                "DEPT": 1155,
+                "DEPT_NAME": "Vidrio",
+                "GROUP_NO": 316
+            },
+            {
+                "DEPT": 819,
+                "DEPT_NAME": "Huevo rojo",
+                "GROUP_NO": 243
+            },
+            {
+                "DEPT": 820,
+                "DEPT_NAME": "Jamon",
+                "GROUP_NO": 244
+            },
+            {
+                "DEPT": 840,
+                "DEPT_NAME": "Quesos",
+                "GROUP_NO": 247
+            },
+            {
+                "DEPT": 847,
+                "DEPT_NAME": "Germicidas",
+                "GROUP_NO": 223
+            },
+            {
+                "DEPT": 1025,
+                "DEPT_NAME": "CapuchinoMP.Insum",
+                "GROUP_NO": 118
+            },
+            {
+                "DEPT": 1059,
+                "DEPT_NAME": "Paquetes Armados",
+                "GROUP_NO": 288
+            },
+            {
+                "DEPT": 9100,
+                "DEPT_NAME": "Capuchino",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 9123,
+                "DEPT_NAME": "Higiene y Limpieza",
+                "GROUP_NO": 309
+            },
+            {
+                "DEPT": 1179,
+                "DEPT_NAME": "Pesca Y Marisc Env.",
+                "GROUP_NO": 323
+            },
+            {
+                "DEPT": 1184,
+                "DEPT_NAME": "Polvo",
+                "GROUP_NO": 196
+            },
+            {
+                "DEPT": 895,
+                "DEPT_NAME": "Con juguete",
+                "GROUP_NO": 257
+            },
+            {
+                "DEPT": 896,
+                "DEPT_NAME": "Gomitas golosina",
+                "GROUP_NO": 257
+            },
+            {
+                "DEPT": 482,
+                "DEPT_NAME": "Gall Salada Integral",
+                "GROUP_NO": 153
+            },
+            {
+                "DEPT": 484,
+                "DEPT_NAME": "Galletas Habaneras",
+                "GROUP_NO": 153
+            },
+            {
+                "DEPT": 485,
+                "DEPT_NAME": "Galleta Salada Otros",
+                "GROUP_NO": 153
+            },
+            {
+                "DEPT": 515,
+                "DEPT_NAME": "Pellet Tipo Sabriton",
+                "GROUP_NO": 163
+            },
+            {
+                "DEPT": 518,
+                "DEPT_NAME": "Semillas",
+                "GROUP_NO": 164
+            },
+            {
+                "DEPT": 960,
+                "DEPT_NAME": "Envio de dinero",
+                "GROUP_NO": 157
+            },
+            {
+                "DEPT": 986,
+                "DEPT_NAME": "Snacks",
+                "GROUP_NO": 278
+            },
+            {
+                "DEPT": 988,
+                "DEPT_NAME": "Yogourt",
+                "GROUP_NO": 278
+            },
+            {
+                "DEPT": 369,
+                "DEPT_NAME": "Brandy",
+                "GROUP_NO": 112
+            },
+            {
+                "DEPT": 381,
+                "DEPT_NAME": "Base Tequila",
+                "GROUP_NO": 113
+            },
+            {
+                "DEPT": 529,
+                "DEPT_NAME": "Frut verd deshidrat",
+                "GROUP_NO": 168
+            },
+            {
+                "DEPT": 530,
+                "DEPT_NAME": "Botanas mariscos",
+                "GROUP_NO": 168
+            },
+            {
+                "DEPT": 532,
+                "DEPT_NAME": "Otros",
+                "GROUP_NO": 168
+            },
+            {
+                "DEPT": 581,
+                "DEPT_NAME": "Crema",
+                "GROUP_NO": 180
+            },
+            {
+                "DEPT": 687,
+                "DEPT_NAME": "Iluminiacion",
+                "GROUP_NO": 207
+            },
+            {
+                "DEPT": 1173,
+                "DEPT_NAME": "Moles / Guisados",
+                "GROUP_NO": 317
+            },
+            {
+                "DEPT": 9002,
+                "DEPT_NAME": "Hielo en Barra",
+                "GROUP_NO": 9000
+            },
+            {
+                "DEPT": 9003,
+                "DEPT_NAME": "Bolsas de Hielo C.I.",
+                "GROUP_NO": 9000
+            },
+            {
+                "DEPT": 822,
+                "DEPT_NAME": "Tocino",
+                "GROUP_NO": 244
+            },
+            {
+                "DEPT": 842,
+                "DEPT_NAME": "Quesera.Insumos",
+                "GROUP_NO": 131
+            },
+            {
+                "DEPT": 890,
+                "DEPT_NAME": "Caramelo macizo",
+                "GROUP_NO": 257
+            },
+            {
+                "DEPT": 481,
+                "DEPT_NAME": "Gall Salada Tradicio",
+                "GROUP_NO": 153
+            },
+            {
+                "DEPT": 483,
+                "DEPT_NAME": "Gall Salada Rellena",
+                "GROUP_NO": 153
+            },
+            {
+                "DEPT": 521,
+                "DEPT_NAME": "Carne seca salada",
+                "GROUP_NO": 166
+            },
+            {
+                "DEPT": 523,
+                "DEPT_NAME": "Dips queso",
+                "GROUP_NO": 167
+            },
+            {
+                "DEPT": 525,
+                "DEPT_NAME": "Dips cebolla",
+                "GROUP_NO": 167
+            },
+            {
+                "DEPT": 368,
+                "DEPT_NAME": "Aguardiente",
+                "GROUP_NO": 112
+            },
+            {
+                "DEPT": 374,
+                "DEPT_NAME": "Ron",
+                "GROUP_NO": 112
+            },
+            {
+                "DEPT": 375,
+                "DEPT_NAME": "Tequila",
+                "GROUP_NO": 112
+            },
+            {
+                "DEPT": 378,
+                "DEPT_NAME": "Base Brandy",
+                "GROUP_NO": 113
+            },
+            {
+                "DEPT": 395,
+                "DEPT_NAME": "Capuchino Nescafe",
+                "GROUP_NO": 118
+            },
+            {
+                "DEPT": 398,
+                "DEPT_NAME": "Aguas frescas. MP",
+                "GROUP_NO": 120
+            },
+            {
+                "DEPT": 436,
+                "DEPT_NAME": "Barras de Pan",
+                "GROUP_NO": 139
+            },
+            {
+                "DEPT": 488,
+                "DEPT_NAME": "Casetas telefonicas",
+                "GROUP_NO": 156
+            },
+            {
+                "DEPT": 489,
+                "DEPT_NAME": "Loteria en Linea",
+                "GROUP_NO": 156
+            },
+            {
+                "DEPT": 490,
+                "DEPT_NAME": "Espacio de terceros",
+                "GROUP_NO": 156
+            },
+            {
+                "DEPT": 491,
+                "DEPT_NAME": "Venta de Boletos",
+                "GROUP_NO": 156
+            },
+            {
+                "DEPT": 494,
+                "DEPT_NAME": "Productos",
+                "GROUP_NO": 157
+            },
+            {
+                "DEPT": 497,
+                "DEPT_NAME": "Transporte",
+                "GROUP_NO": 158
+            },
+            {
+                "DEPT": 533,
+                "DEPT_NAME": "Salsas Botaneras",
+                "GROUP_NO": 169
+            },
+            {
+                "DEPT": 535,
+                "DEPT_NAME": "Botanas art promoc",
+                "GROUP_NO": 171
+            },
+            {
+                "DEPT": 556,
+                "DEPT_NAME": "Bebidas on Site",
+                "GROUP_NO": 173
+            },
+            {
+                "DEPT": 1064,
+                "DEPT_NAME": "Snack",
+                "GROUP_NO": 288
+            },
+            {
+                "DEPT": 1099,
+                "DEPT_NAME": "Gomita Enchilada",
+                "GROUP_NO": 258
+            },
+            {
+                "DEPT": 9132,
+                "DEPT_NAME": "Vapor",
+                "GROUP_NO": 9003
+            },
+            {
+                "DEPT": 1169,
+                "DEPT_NAME": "Aderezos y Condiment",
+                "GROUP_NO": 191
+            },
+            {
+                "DEPT": 1171,
+                "DEPT_NAME": "Especias y Condiment",
+                "GROUP_NO": 317
+            },
+            {
+                "DEPT": 1172,
+                "DEPT_NAME": "Consomes Y Caldos",
+                "GROUP_NO": 318
+            },
+            {
+                "DEPT": 1174,
+                "DEPT_NAME": "Salsas Abarrotes",
+                "GROUP_NO": 319
+            },
+            {
+                "DEPT": 9006,
+                "DEPT_NAME": "Arts.Telefonia y Fax",
+                "GROUP_NO": 9000
+            },
+            {
+                "DEPT": 9015,
+                "DEPT_NAME": "Arts. mtto. Refrig.",
+                "GROUP_NO": 9000
+            },
+            {
+                "DEPT": 1000,
+                "DEPT_NAME": "Arts. Dummy",
+                "GROUP_NO": 1000
+            },
+            {
+                "DEPT": 1113,
+                "DEPT_NAME": "Jugos MP",
+                "GROUP_NO": 294
+            },
+            {
+                "DEPT": 439,
+                "DEPT_NAME": "Otros Panes",
+                "GROUP_NO": 139
+            },
+            {
+                "DEPT": 108,
+                "DEPT_NAME": "Verduras",
+                "GROUP_NO": 23
+            },
+            {
+                "DEPT": 9106,
+                "DEPT_NAME": "Electronicos",
+                "GROUP_NO": 188
+            },
+            {
+                "DEPT": 9017,
+                "DEPT_NAME": "Productos p/ surtido",
+                "GROUP_NO": 9000
+            },
+            {
+                "DEPT": 420,
+                "DEPT_NAME": "Roller. MProv",
+                "GROUP_NO": 129
+            },
+            {
+                "DEPT": 403,
+                "DEPT_NAME": "Te frio. MProv",
+                "GROUP_NO": 122
+            },
+            {
+                "DEPT": 411,
+                "DEPT_NAME": "Atole. MProv",
+                "GROUP_NO": 126
+            },
+            {
+                "DEPT": 416,
+                "DEPT_NAME": "Retornable Personal",
+                "GROUP_NO": 128
+            },
+            {
+                "DEPT": 440,
+                "DEPT_NAME": "Tostada",
+                "GROUP_NO": 140
+            },
+            {
+                "DEPT": 441,
+                "DEPT_NAME": "Totopo",
+                "GROUP_NO": 140
+            },
+            {
+                "DEPT": 968,
+                "DEPT_NAME": "C.I. Perecederos",
+                "GROUP_NO": 9000
+            },
+            {
+                "DEPT": 979,
+                "DEPT_NAME": "Jugos",
+                "GROUP_NO": 278
+            },
+            {
+                "DEPT": 9034,
+                "DEPT_NAME": "Rollo para Impresora",
+                "GROUP_NO": 9000
+            },
+            {
+                "DEPT": 1030,
+                "DEPT_NAME": "Te caliente.Insum",
+                "GROUP_NO": 123
+            },
+            {
+                "DEPT": 1095,
+                "DEPT_NAME": "Confitado cn Relleno",
+                "GROUP_NO": 254
+            },
+            {
+                "DEPT": 9042,
+                "DEPT_NAME": "CAPUCHINO CALIENTE",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 878,
+                "DEPT_NAME": "Chicle Bomba",
+                "GROUP_NO": 254
+            },
+            {
+                "DEPT": 9061,
+                "DEPT_NAME": "Freidora",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 1156,
+                "DEPT_NAME": "Artesanal/Especialid",
+                "GROUP_NO": 110
+            },
+            {
+                "DEPT": 1163,
+                "DEPT_NAME": "Obscura",
+                "GROUP_NO": 111
+            },
+            {
+                "DEPT": 9026,
+                "DEPT_NAME": "Te frio.Insum",
+                "GROUP_NO": 122
+            },
+            {
+                "DEPT": 9028,
+                "DEPT_NAME": "Refresco Mprov.Insum",
+                "GROUP_NO": 124
+            },
+            {
+                "DEPT": 953,
+                "DEPT_NAME": "Videojuegos",
+                "GROUP_NO": 277
+            },
+            {
+                "DEPT": 1065,
+                "DEPT_NAME": "Popotes",
+                "GROUP_NO": 289
+            },
+            {
+                "DEPT": 9122,
+                "DEPT_NAME": "Acces VinosyLicores",
+                "GROUP_NO": 308
+            },
+            {
+                "DEPT": 983,
+                "DEPT_NAME": "Productos de Queso",
+                "GROUP_NO": 278
+            },
+            {
+                "DEPT": 601,
+                "DEPT_NAME": "Agua",
+                "GROUP_NO": 177
+            },
+            {
+                "DEPT": 830,
+                "DEPT_NAME": "Carne res",
+                "GROUP_NO": 245
+            },
+            {
+                "DEPT": 831,
+                "DEPT_NAME": "Carne pollo",
+                "GROUP_NO": 245
+            },
+            {
+                "DEPT": 1056,
+                "DEPT_NAME": "Comida Deshidratada",
+                "GROUP_NO": 288
+            },
+            {
+                "DEPT": 1105,
+                "DEPT_NAME": "Caramelo Suave",
+                "GROUP_NO": 256
+            },
+            {
+                "DEPT": 9083,
+                "DEPT_NAME": "Otras Botanas",
+                "GROUP_NO": 168
+            },
+            {
+                "DEPT": 1182,
+                "DEPT_NAME": "Cereales",
+                "GROUP_NO": 195
+            },
+            {
+                "DEPT": 1183,
+                "DEPT_NAME": "Liquido",
+                "GROUP_NO": 196
+            },
+            {
+                "DEPT": 1186,
+                "DEPT_NAME": "Otros Aliment Mascot",
+                "GROUP_NO": 200
+            },
+            {
+                "DEPT": 891,
+                "DEPT_NAME": "Caramelo suave",
+                "GROUP_NO": 257
+            },
+            {
+                "DEPT": 476,
+                "DEPT_NAME": "Galletas sin Relleno",
+                "GROUP_NO": 152
+            },
+            {
+                "DEPT": 477,
+                "DEPT_NAME": "Galletas Surtidas",
+                "GROUP_NO": 152
+            },
+            {
+                "DEPT": 511,
+                "DEPT_NAME": "Cerdo chicharron",
+                "GROUP_NO": 163
+            },
+            {
+                "DEPT": 513,
+                "DEPT_NAME": "Maiz Frito",
+                "GROUP_NO": 163
+            },
+            {
+                "DEPT": 516,
+                "DEPT_NAME": "Botana Saludable",
+                "GROUP_NO": 163
+            },
+            {
+                "DEPT": 522,
+                "DEPT_NAME": "Carne seca condiment",
+                "GROUP_NO": 166
+            },
+            {
+                "DEPT": 984,
+                "DEPT_NAME": "Reposteria",
+                "GROUP_NO": 278
+            },
+            {
+                "DEPT": 376,
+                "DEPT_NAME": "Vodka",
+                "GROUP_NO": 112
+            },
+            {
+                "DEPT": 379,
+                "DEPT_NAME": "Base Malta",
+                "GROUP_NO": 113
+            },
+            {
+                "DEPT": 412,
+                "DEPT_NAME": "Americano andatti",
+                "GROUP_NO": 117
+            },
+            {
+                "DEPT": 493,
+                "DEPT_NAME": "Servicios en Tienda",
+                "GROUP_NO": 156
+            },
+            {
+                "DEPT": 495,
+                "DEPT_NAME": "Corresponsalias",
+                "GROUP_NO": 157
+            },
+            {
+                "DEPT": 507,
+                "DEPT_NAME": "Local",
+                "GROUP_NO": 161
+            },
+            {
+                "DEPT": 508,
+                "DEPT_NAME": "Tarjeta celular",
+                "GROUP_NO": 162
+            },
+            {
+                "DEPT": 681,
+                "DEPT_NAME": "Juguetes para Ninas",
+                "GROUP_NO": 206
+            },
+            {
+                "DEPT": 683,
+                "DEPT_NAME": "Preescolar",
+                "GROUP_NO": 206
+            },
+            {
+                "DEPT": 107,
+                "DEPT_NAME": "Frutas",
+                "GROUP_NO": 23
+            },
+            {
+                "DEPT": 317,
+                "DEPT_NAME": "Diesel",
+                "GROUP_NO": 92
+            },
+            {
+                "DEPT": 9137,
+                "DEPT_NAME": "Soya",
+                "GROUP_NO": 312
+            },
+            {
+                "DEPT": 1107,
+                "DEPT_NAME": "Esquites-ElotesMProp",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 404,
+                "DEPT_NAME": "Te caliente. MP",
+                "GROUP_NO": 123
+            },
+            {
+                "DEPT": 9016,
+                "DEPT_NAME": "Arts.mtto. Impresora",
+                "GROUP_NO": 9000
+            },
+            {
+                "DEPT": 1111,
+                "DEPT_NAME": "Hamburguesas Mprop",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 837,
+                "DEPT_NAME": "Papas a la francesa",
+                "GROUP_NO": 246
+            },
+            {
+                "DEPT": 839,
+                "DEPT_NAME": "Cremas",
+                "GROUP_NO": 247
+            },
+            {
+                "DEPT": 9119,
+                "DEPT_NAME": "Cerillo",
+                "GROUP_NO": 9002
+            },
+            {
+                "DEPT": 1180,
+                "DEPT_NAME": "Vegetales Envasados",
+                "GROUP_NO": 321
+            },
+            {
+                "DEPT": 1185,
+                "DEPT_NAME": "Harinas y complement",
+                "GROUP_NO": 198
+            },
+            {
+                "DEPT": 479,
+                "DEPT_NAME": "Galleta Wafer(nieve)",
+                "GROUP_NO": 152
+            },
+            {
+                "DEPT": 510,
+                "DEPT_NAME": "Papas fritas",
+                "GROUP_NO": 163
+            },
+            {
+                "DEPT": 520,
+                "DEPT_NAME": "Palomitas microondas",
+                "GROUP_NO": 165
+            },
+            {
+                "DEPT": 370,
+                "DEPT_NAME": "Cognac",
+                "GROUP_NO": 112
+            },
+            {
+                "DEPT": 372,
+                "DEPT_NAME": "Ginebra",
+                "GROUP_NO": 112
+            },
+            {
+                "DEPT": 377,
+                "DEPT_NAME": "Whisky",
+                "GROUP_NO": 112
+            },
+            {
+                "DEPT": 390,
+                "DEPT_NAME": "Vidrio",
+                "GROUP_NO": 116
+            },
+            {
+                "DEPT": 437,
+                "DEPT_NAME": "Bolleria",
+                "GROUP_NO": 139
+            },
+            {
+                "DEPT": 492,
+                "DEPT_NAME": "Kiosco",
+                "GROUP_NO": 156
+            },
+            {
+                "DEPT": 506,
+                "DEPT_NAME": "Internet",
+                "GROUP_NO": 161
+            },
+            {
+                "DEPT": 509,
+                "DEPT_NAME": "Tiempo Aire Electron",
+                "GROUP_NO": 162
+            },
+            {
+                "DEPT": 538,
+                "DEPT_NAME": "Nacional",
+                "GROUP_NO": 155
+            },
+            {
+                "DEPT": 577,
+                "DEPT_NAME": "Crema",
+                "GROUP_NO": 178
+            },
+            {
+                "DEPT": 576,
+                "DEPT_NAME": "Crema",
+                "GROUP_NO": 177
+            },
+            {
+                "DEPT": 580,
+                "DEPT_NAME": "Agua",
+                "GROUP_NO": 179
+            },
+            {
+                "DEPT": 582,
+                "DEPT_NAME": "Agua",
+                "GROUP_NO": 180
+            },
+            {
+                "DEPT": 583,
+                "DEPT_NAME": "Crema",
+                "GROUP_NO": 181
+            },
+            {
+                "DEPT": 604,
+                "DEPT_NAME": "Manteca",
+                "GROUP_NO": 190
+            },
+            {
+                "DEPT": 682,
+                "DEPT_NAME": "Jgos de Aprendizaje",
+                "GROUP_NO": 206
+            },
+            {
+                "DEPT": 1098,
+                "DEPT_NAME": "Fruta Deshidratada",
+                "GROUP_NO": 258
+            },
+            {
+                "DEPT": 1100,
+                "DEPT_NAME": "Paleta Enchilada",
+                "GROUP_NO": 258
+            },
+            {
+                "DEPT": 316,
+                "DEPT_NAME": "Gasolinas",
+                "GROUP_NO": 91
+            },
+            {
+                "DEPT": 320,
+                "DEPT_NAME": "Arts. Promos",
+                "GROUP_NO": 95
+            },
+            {
+                "DEPT": 9133,
+                "DEPT_NAME": "Calentamiento",
+                "GROUP_NO": 9003
+            },
+            {
+                "DEPT": 9136,
+                "DEPT_NAME": "Otros",
+                "GROUP_NO": 312
+            },
+            {
+                "DEPT": 1168,
+                "DEPT_NAME": "Aceite Comestibles",
+                "GROUP_NO": 190
+            },
+            {
+                "DEPT": 1175,
+                "DEPT_NAME": "Carnes Envasadas",
+                "GROUP_NO": 320
+            },
+            {
+                "DEPT": 9001,
+                "DEPT_NAME": "Arti. de Limpieza",
+                "GROUP_NO": 9000
+            },
+            {
+                "DEPT": 9004,
+                "DEPT_NAME": "C.I. de Fast Food",
+                "GROUP_NO": 9000
+            },
+            {
+                "DEPT": 9008,
+                "DEPT_NAME": "Papeleria de Computo",
+                "GROUP_NO": 9000
+            },
+            {
+                "DEPT": 9009,
+                "DEPT_NAME": "Uniformes",
+                "GROUP_NO": 9000
+            },
+            {
+                "DEPT": 9010,
+                "DEPT_NAME": "Utencilios Varios",
+                "GROUP_NO": 9000
+            },
+            {
+                "DEPT": 9012,
+                "DEPT_NAME": "Arts. de Cafeteria",
+                "GROUP_NO": 9000
+            },
+            {
+                "DEPT": 405,
+                "DEPT_NAME": "Te caliente. MProv",
+                "GROUP_NO": 123
+            },
+            {
+                "DEPT": 1108,
+                "DEPT_NAME": "Quesadillas Mprop",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 1109,
+                "DEPT_NAME": "Plato de Comida MP",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 9079,
+                "DEPT_NAME": "Retiros",
+                "GROUP_NO": 157
+            },
+            {
+                "DEPT": 9081,
+                "DEPT_NAME": "Koxka NAC1",
+                "GROUP_NO": 130
+            },
+            {
+                "DEPT": 397,
+                "DEPT_NAME": "Frappe. MProv",
+                "GROUP_NO": 119
+            },
+            {
+                "DEPT": 496,
+                "DEPT_NAME": "Monedero Electronico",
+                "GROUP_NO": 157
+            },
+            {
+                "DEPT": 1001,
+                "DEPT_NAME": "Colombia",
+                "GROUP_NO": 1000
+            },
+            {
+                "DEPT": 684,
+                "DEPT_NAME": "Pelotas",
+                "GROUP_NO": 206
+            },
+            {
+                "DEPT": 400,
+                "DEPT_NAME": "Insumos Beb. MP",
+                "GROUP_NO": 121
+            },
+            {
+                "DEPT": 9007,
+                "DEPT_NAME": "Papeleria y Uts.Ofna",
+                "GROUP_NO": 9000
+            },
+            {
+                "DEPT": 9013,
+                "DEPT_NAME": "Material Electrico",
+                "GROUP_NO": 9000
+            },
+            {
+                "DEPT": 406,
+                "DEPT_NAME": "Refresco maq. MP",
+                "GROUP_NO": 124
+            },
+            {
+                "DEPT": 1110,
+                "DEPT_NAME": "Molletes Mprop",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 9005,
+                "DEPT_NAME": "Arts.mtto. Fast Food",
+                "GROUP_NO": 9000
+            },
+            {
+                "DEPT": 9095,
+                "DEPT_NAME": "Extra",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 9112,
+                "DEPT_NAME": "Energeticos Personal",
+                "GROUP_NO": 263
+            },
+            {
+                "DEPT": 359,
+                "DEPT_NAME": "Sopes/huarach/gordit",
+                "GROUP_NO": 84
+            },
+            {
+                "DEPT": 360,
+                "DEPT_NAME": "Tortillas Harina",
+                "GROUP_NO": 84
+            },
+            {
+                "DEPT": 362,
+                "DEPT_NAME": "Insumos Tortillas",
+                "GROUP_NO": 84
+            },
+            {
+                "DEPT": 387,
+                "DEPT_NAME": "Espumoso",
+                "GROUP_NO": 115
+            },
+            {
+                "DEPT": 389,
+                "DEPT_NAME": "Tinto",
+                "GROUP_NO": 115
+            },
+            {
+                "DEPT": 399,
+                "DEPT_NAME": "Aguas frescas. MProv",
+                "GROUP_NO": 120
+            },
+            {
+                "DEPT": 401,
+                "DEPT_NAME": "Insumos Beb. MProv",
+                "GROUP_NO": 121
+            },
+            {
+                "DEPT": 402,
+                "DEPT_NAME": "Te frio. MP",
+                "GROUP_NO": 122
+            },
+            {
+                "DEPT": 408,
+                "DEPT_NAME": "Malteada. MP",
+                "GROUP_NO": 125
+            },
+            {
+                "DEPT": 410,
+                "DEPT_NAME": "Atole. MP",
+                "GROUP_NO": 126
+            },
+            {
+                "DEPT": 415,
+                "DEPT_NAME": "Garrafon",
+                "GROUP_NO": 127
+            },
+            {
+                "DEPT": 417,
+                "DEPT_NAME": "Retornable Familiar",
+                "GROUP_NO": 128
+            },
+            {
+                "DEPT": 418,
+                "DEPT_NAME": "Retornable Plasticos",
+                "GROUP_NO": 128
+            },
+            {
+                "DEPT": 419,
+                "DEPT_NAME": "Roller",
+                "GROUP_NO": 129
+            },
+            {
+                "DEPT": 424,
+                "DEPT_NAME": "Panera . MP",
+                "GROUP_NO": 132
+            },
+            {
+                "DEPT": 425,
+                "DEPT_NAME": "Panera . MProv",
+                "GROUP_NO": 132
+            },
+            {
+                "DEPT": 432,
+                "DEPT_NAME": "Insumos Comestibles",
+                "GROUP_NO": 136
+            },
+            {
+                "DEPT": 433,
+                "DEPT_NAME": "Insumo no-comestible",
+                "GROUP_NO": 136
+            },
+            {
+                "DEPT": 442,
+                "DEPT_NAME": "Pan Tos Arts. Promos",
+                "GROUP_NO": 141
+            },
+            {
+                "DEPT": 469,
+                "DEPT_NAME": "Repo Integ C/Relleno",
+                "GROUP_NO": 149
+            },
+            {
+                "DEPT": 470,
+                "DEPT_NAME": "Repo No Int C/Rellen",
+                "GROUP_NO": 149
+            },
+            {
+                "DEPT": 471,
+                "DEPT_NAME": "Repo Integ S/Relleno",
+                "GROUP_NO": 150
+            },
+            {
+                "DEPT": 473,
+                "DEPT_NAME": "Reposte Arts. Promos",
+                "GROUP_NO": 151
+            },
+            {
+                "DEPT": 474,
+                "DEPT_NAME": "Galleta Saludables",
+                "GROUP_NO": 152
+            },
+            {
+                "DEPT": 805,
+                "DEPT_NAME": "Bienestar Sexual",
+                "GROUP_NO": 236
+            },
+            {
+                "DEPT": 843,
+                "DEPT_NAME": "Roller.Insumos",
+                "GROUP_NO": 129
+            },
+            {
+                "DEPT": 897,
+                "DEPT_NAME": "Paletas golosina",
+                "GROUP_NO": 257
+            },
+            {
+                "DEPT": 901,
+                "DEPT_NAME": "Malvavisco",
+                "GROUP_NO": 257
+            },
+            {
+                "DEPT": 9018,
+                "DEPT_NAME": "Ayuda Pro",
+                "GROUP_NO": 9000
+            },
+            {
+                "DEPT": 908,
+                "DEPT_NAME": "Yog Bebible Regular",
+                "GROUP_NO": 261
+            },
+            {
+                "DEPT": 909,
+                "DEPT_NAME": "Yog Bebible Saludabl",
+                "GROUP_NO": 261
+            },
+            {
+                "DEPT": 910,
+                "DEPT_NAME": "Yog Bebible Func",
+                "GROUP_NO": 261
+            },
+            {
+                "DEPT": 911,
+                "DEPT_NAME": "Yog Bebible Infantil",
+                "GROUP_NO": 261
+            },
+            {
+                "DEPT": 912,
+                "DEPT_NAME": "Yog Batido Regular",
+                "GROUP_NO": 262
+            },
+            {
+                "DEPT": 915,
+                "DEPT_NAME": "Yog Batido Infantil",
+                "GROUP_NO": 262
+            },
+            {
+                "DEPT": 917,
+                "DEPT_NAME": "Energeticos M Empaq",
+                "GROUP_NO": 263
+            },
+            {
+                "DEPT": 918,
+                "DEPT_NAME": "Isotonicos Personal",
+                "GROUP_NO": 264
+            },
+            {
+                "DEPT": 920,
+                "DEPT_NAME": "Te LPB Personal",
+                "GROUP_NO": 265
+            },
+            {
+                "DEPT": 922,
+                "DEPT_NAME": "Funcionales Personal",
+                "GROUP_NO": 266
+            },
+            {
+                "DEPT": 962,
+                "DEPT_NAME": "Gift cards SKU",
+                "GROUP_NO": 157
+            },
+            {
+                "DEPT": 963,
+                "DEPT_NAME": "Seguros",
+                "GROUP_NO": 157
+            },
+            {
+                "DEPT": 964,
+                "DEPT_NAME": "Seguros SKU",
+                "GROUP_NO": 157
+            },
+            {
+                "DEPT": 965,
+                "DEPT_NAME": "Base Licor",
+                "GROUP_NO": 113
+            },
+            {
+                "DEPT": 966,
+                "DEPT_NAME": "FIGURAS",
+                "GROUP_NO": 238
+            },
+            {
+                "DEPT": 976,
+                "DEPT_NAME": "Comidas Gravadas",
+                "GROUP_NO": 278
+            },
+            {
+                "DEPT": 980,
+                "DEPT_NAME": "Materia Prima",
+                "GROUP_NO": 278
+            },
+            {
+                "DEPT": 981,
+                "DEPT_NAME": "Panaderia",
+                "GROUP_NO": 278
+            },
+            {
+                "DEPT": 978,
+                "DEPT_NAME": "Hojaldre y Crossaint",
+                "GROUP_NO": 278
+            },
+            {
+                "DEPT": 9033,
+                "DEPT_NAME": "Bolsas",
+                "GROUP_NO": 9000
+            },
+            {
+                "DEPT": 1024,
+                "DEPT_NAME": "Palomitas explotada",
+                "GROUP_NO": 163
+            },
+            {
+                "DEPT": 1028,
+                "DEPT_NAME": "AmericanoMProv.Insum",
+                "GROUP_NO": 117
+            },
+            {
+                "DEPT": 1029,
+                "DEPT_NAME": "AmericanoMP.Insum",
+                "GROUP_NO": 117
+            },
+            {
+                "DEPT": 1033,
+                "DEPT_NAME": "Nieve",
+                "GROUP_NO": 283
+            },
+            {
+                "DEPT": 1035,
+                "DEPT_NAME": "Sidra",
+                "GROUP_NO": 113
+            },
+            {
+                "DEPT": 1036,
+                "DEPT_NAME": "Cajeros Automaticos",
+                "GROUP_NO": 156
+            },
+            {
+                "DEPT": 1037,
+                "DEPT_NAME": "Videocajeros",
+                "GROUP_NO": 156
+            },
+            {
+                "DEPT": 1043,
+                "DEPT_NAME": "Saldazo",
+                "GROUP_NO": 157
+            },
+            {
+                "DEPT": 1046,
+                "DEPT_NAME": "Bolsas de Basura",
+                "GROUP_NO": 285
+            },
+            {
+                "DEPT": 1050,
+                "DEPT_NAME": "Kleen Pack",
+                "GROUP_NO": 286
+            },
+            {
+                "DEPT": 1063,
+                "DEPT_NAME": "Internet",
+                "GROUP_NO": 156
+            },
+            {
+                "DEPT": 1119,
+                "DEPT_NAME": "Smoothies",
+                "GROUP_NO": 173
+            },
+            {
+                "DEPT": 9041,
+                "DEPT_NAME": "LATTE",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 9043,
+                "DEPT_NAME": "AMERICANO",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 9046,
+                "DEPT_NAME": "EXTRAS",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 741,
+                "DEPT_NAME": "Utensilios de cocina",
+                "GROUP_NO": 212
+            },
+            {
+                "DEPT": 851,
+                "DEPT_NAME": "Kumis",
+                "GROUP_NO": 247
+            },
+            {
+                "DEPT": 852,
+                "DEPT_NAME": "Plato crema",
+                "GROUP_NO": 248
+            },
+            {
+                "DEPT": 853,
+                "DEPT_NAME": "Secos Fruta y Verdur",
+                "GROUP_NO": 23
+            },
+            {
+                "DEPT": 879,
+                "DEPT_NAME": "Chicle Confitado",
+                "GROUP_NO": 254
+            },
+            {
+                "DEPT": 880,
+                "DEPT_NAME": "Chicle Tipo Americ",
+                "GROUP_NO": 254
+            },
+            {
+                "DEPT": 882,
+                "DEPT_NAME": "Chocolate Confitado",
+                "GROUP_NO": 255
+            },
+            {
+                "DEPT": 884,
+                "DEPT_NAME": "Chocolate Relleno",
+                "GROUP_NO": 255
+            },
+            {
+                "DEPT": 906,
+                "DEPT_NAME": "Saborizada UHT",
+                "GROUP_NO": 260
+            },
+            {
+                "DEPT": 907,
+                "DEPT_NAME": "Saborizada con cafe",
+                "GROUP_NO": 260
+            },
+            {
+                "DEPT": 1116,
+                "DEPT_NAME": "Evento familiar",
+                "GROUP_NO": 295
+            },
+            {
+                "DEPT": 1117,
+                "DEPT_NAME": "Articulos Varios",
+                "GROUP_NO": 295
+            },
+            {
+                "DEPT": 9053,
+                "DEPT_NAME": "Cables y Adaptadores",
+                "GROUP_NO": 205
+            },
+            {
+                "DEPT": 9054,
+                "DEPT_NAME": "Almacena de memorias",
+                "GROUP_NO": 205
+            },
+            {
+                "DEPT": 9064,
+                "DEPT_NAME": "OtrosComidaCaliente",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 9085,
+                "DEPT_NAME": "Mezcal",
+                "GROUP_NO": 112
+            },
+            {
+                "DEPT": 9104,
+                "DEPT_NAME": "Comida",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 1157,
+                "DEPT_NAME": "Light",
+                "GROUP_NO": 110
+            },
+            {
+                "DEPT": 1160,
+                "DEPT_NAME": "Regular",
+                "GROUP_NO": 110
+            },
+            {
+                "DEPT": 1165,
+                "DEPT_NAME": "Cosmeticos",
+                "GROUP_NO": 227
+            },
+            {
+                "DEPT": 1166,
+                "DEPT_NAME": "Fragancias",
+                "GROUP_NO": 227
+            },
+            {
+                "DEPT": 1192,
+                "DEPT_NAME": "Cargadores Telefonia",
+                "GROUP_NO": 324
+            },
+            {
+                "DEPT": 1195,
+                "DEPT_NAME": "Acce Financieros",
+                "GROUP_NO": 324
+            },
+            {
+                "DEPT": 9138,
+                "DEPT_NAME": "Featurephone",
+                "GROUP_NO": 9005
+            },
+            {
+                "DEPT": 941,
+                "DEPT_NAME": "Agua s Sabor Fmiliar",
+                "GROUP_NO": 272
+            },
+            {
+                "DEPT": 943,
+                "DEPT_NAME": "Agua c Sabor Prsonal",
+                "GROUP_NO": 273
+            },
+            {
+                "DEPT": 944,
+                "DEPT_NAME": "Agua c Sabor Fmiliar",
+                "GROUP_NO": 273
+            },
+            {
+                "DEPT": 945,
+                "DEPT_NAME": "Agua c Sabor M Empq",
+                "GROUP_NO": 273
+            },
+            {
+                "DEPT": 9020,
+                "DEPT_NAME": "AmericanoMProv.Insum",
+                "GROUP_NO": 117
+            },
+            {
+                "DEPT": 9022,
+                "DEPT_NAME": "CapuchinoMProv.Insum",
+                "GROUP_NO": 118
+            },
+            {
+                "DEPT": 9027,
+                "DEPT_NAME": "Te caliente.Insum",
+                "GROUP_NO": 123
+            },
+            {
+                "DEPT": 9030,
+                "DEPT_NAME": "Atole.Insum",
+                "GROUP_NO": 126
+            },
+            {
+                "DEPT": 954,
+                "DEPT_NAME": "Sidras",
+                "GROUP_NO": 115
+            },
+            {
+                "DEPT": 955,
+                "DEPT_NAME": "Tortas",
+                "GROUP_NO": 172
+            },
+            {
+                "DEPT": 9048,
+                "DEPT_NAME": "Gift cards SKU",
+                "GROUP_NO": 156
+            },
+            {
+                "DEPT": 9070,
+                "DEPT_NAME": "OSABOR",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 1126,
+                "DEPT_NAME": "IngresoFueradeTienda",
+                "GROUP_NO": 157
+            },
+            {
+                "DEPT": 1134,
+                "DEPT_NAME": "Refill",
+                "GROUP_NO": 276
+            },
+            {
+                "DEPT": 9086,
+                "DEPT_NAME": "Recepcion de paquete",
+                "GROUP_NO": 304
+            },
+            {
+                "DEPT": 9082,
+                "DEPT_NAME": "Base Ginebra",
+                "GROUP_NO": 113
+            },
+            {
+                "DEPT": 9103,
+                "DEPT_NAME": "Regalo",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 9109,
+                "DEPT_NAME": "Jugo Natural",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 9110,
+                "DEPT_NAME": "Pollos",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 413,
+                "DEPT_NAME": "Americano. MProv",
+                "GROUP_NO": 117
+            },
+            {
+                "DEPT": 823,
+                "DEPT_NAME": "Chorizo",
+                "GROUP_NO": 244
+            },
+            {
+                "DEPT": 396,
+                "DEPT_NAME": "Frappe andatti",
+                "GROUP_NO": 119
+            },
+            {
+                "DEPT": 685,
+                "DEPT_NAME": "Otros juguetes",
+                "GROUP_NO": 206
+            },
+            {
+                "DEPT": 686,
+                "DEPT_NAME": "Herramientas",
+                "GROUP_NO": 207
+            },
+            {
+                "DEPT": 9052,
+                "DEPT_NAME": "AccesorioElectronica",
+                "GROUP_NO": 205
+            },
+            {
+                "DEPT": 193,
+                "DEPT_NAME": "Hielo",
+                "GROUP_NO": 46
+            },
+            {
+                "DEPT": 9000,
+                "DEPT_NAME": "Consumo Inter Varios",
+                "GROUP_NO": 9000
+            },
+            {
+                "DEPT": 9011,
+                "DEPT_NAME": "Otros prods.Cons.Int",
+                "GROUP_NO": 9000
+            },
+            {
+                "DEPT": 9014,
+                "DEPT_NAME": "Arts.mtto. Cto.Frio",
+                "GROUP_NO": 9000
+            },
+            {
+                "DEPT": 1112,
+                "DEPT_NAME": "Sincronizada Mprop",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 361,
+                "DEPT_NAME": "Tortillas Maiz",
+                "GROUP_NO": 84
+            },
+            {
+                "DEPT": 388,
+                "DEPT_NAME": "Rosado",
+                "GROUP_NO": 115
+            },
+            {
+                "DEPT": 407,
+                "DEPT_NAME": "Refresco maq. MProv",
+                "GROUP_NO": 124
+            },
+            {
+                "DEPT": 421,
+                "DEPT_NAME": "Koxka. MP",
+                "GROUP_NO": 130
+            },
+            {
+                "DEPT": 423,
+                "DEPT_NAME": "Quesera",
+                "GROUP_NO": 131
+            },
+            {
+                "DEPT": 435,
+                "DEPT_NAME": "Paq. Promocionales",
+                "GROUP_NO": 138
+            },
+            {
+                "DEPT": 472,
+                "DEPT_NAME": "Repo No Int S/Rellen",
+                "GROUP_NO": 150
+            },
+            {
+                "DEPT": 475,
+                "DEPT_NAME": "Galletas Rellenas",
+                "GROUP_NO": 152
+            },
+            {
+                "DEPT": 804,
+                "DEPT_NAME": "Panales para adulto",
+                "GROUP_NO": 236
+            },
+            {
+                "DEPT": 913,
+                "DEPT_NAME": "Yog BatidoSaludable",
+                "GROUP_NO": 262
+            },
+            {
+                "DEPT": 916,
+                "DEPT_NAME": "Energetico Personal",
+                "GROUP_NO": 263
+            },
+            {
+                "DEPT": 921,
+                "DEPT_NAME": "Te LPB M Empaq",
+                "GROUP_NO": 265
+            },
+            {
+                "DEPT": 923,
+                "DEPT_NAME": "Funcionales M Empaq",
+                "GROUP_NO": 266
+            },
+            {
+                "DEPT": 961,
+                "DEPT_NAME": "Gift cards",
+                "GROUP_NO": 157
+            },
+            {
+                "DEPT": 967,
+                "DEPT_NAME": "Capuchino. MP (Col)",
+                "GROUP_NO": 118
+            },
+            {
+                "DEPT": 982,
+                "DEPT_NAME": "Quesos Frescos",
+                "GROUP_NO": 278
+            },
+            {
+                "DEPT": 9035,
+                "DEPT_NAME": "Etiquet. Preciadoras",
+                "GROUP_NO": 9000
+            },
+            {
+                "DEPT": 1026,
+                "DEPT_NAME": "CapuchinoMProv.Insum",
+                "GROUP_NO": 118
+            },
+            {
+                "DEPT": 1027,
+                "DEPT_NAME": "FrappeMP.Insum",
+                "GROUP_NO": 119
+            },
+            {
+                "DEPT": 1032,
+                "DEPT_NAME": "FrappeMProv.Insum",
+                "GROUP_NO": 119
+            },
+            {
+                "DEPT": 1044,
+                "DEPT_NAME": "Servilletas Ind.",
+                "GROUP_NO": 284
+            },
+            {
+                "DEPT": 1045,
+                "DEPT_NAME": "Servitoallas",
+                "GROUP_NO": 284
+            },
+            {
+                "DEPT": 1047,
+                "DEPT_NAME": "Bolsas Multiusos",
+                "GROUP_NO": 285
+            },
+            {
+                "DEPT": 1049,
+                "DEPT_NAME": "Papel Encerado",
+                "GROUP_NO": 286
+            },
+            {
+                "DEPT": 1051,
+                "DEPT_NAME": "Filtros Cafe",
+                "GROUP_NO": 286
+            },
+            {
+                "DEPT": 1053,
+                "DEPT_NAME": "Salsas",
+                "GROUP_NO": 287
+            },
+            {
+                "DEPT": 9045,
+                "DEPT_NAME": "NIEVE",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 881,
+                "DEPT_NAME": "Chicle Slab y Otros",
+                "GROUP_NO": 254
+            },
+            {
+                "DEPT": 885,
+                "DEPT_NAME": "Con juguete",
+                "GROUP_NO": 255
+            },
+            {
+                "DEPT": 905,
+                "DEPT_NAME": "Saborizada Pasteuriz",
+                "GROUP_NO": 260
+            },
+            {
+                "DEPT": 9062,
+                "DEPT_NAME": "Hielera",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 9063,
+                "DEPT_NAME": "Insumos CC",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 9065,
+                "DEPT_NAME": "Porcion extra",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 9069,
+                "DEPT_NAME": "Tisana",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 9073,
+                "DEPT_NAME": "TarjeTelefoniCelular",
+                "GROUP_NO": 299
+            },
+            {
+                "DEPT": 1159,
+                "DEPT_NAME": "Obscura",
+                "GROUP_NO": 110
+            },
+            {
+                "DEPT": 1164,
+                "DEPT_NAME": "Regular",
+                "GROUP_NO": 111
+            },
+            {
+                "DEPT": 1190,
+                "DEPT_NAME": "Cuidado De Piel Bebe",
+                "GROUP_NO": 229
+            },
+            {
+                "DEPT": 1193,
+                "DEPT_NAME": "Otros Acc Telefonia",
+                "GROUP_NO": 324
+            },
+            {
+                "DEPT": 948,
+                "DEPT_NAME": "Agua Lig Gas M Empq",
+                "GROUP_NO": 274
+            },
+            {
+                "DEPT": 9021,
+                "DEPT_NAME": "CapuchinoMP.Insum",
+                "GROUP_NO": 118
+            },
+            {
+                "DEPT": 1120,
+                "DEPT_NAME": "Otros",
+                "GROUP_NO": 205
+            },
+            {
+                "DEPT": 9049,
+                "DEPT_NAME": "Cajeros Automaticos",
+                "GROUP_NO": 157
+            },
+            {
+                "DEPT": 9075,
+                "DEPT_NAME": "Carrier",
+                "GROUP_NO": 300
+            },
+            {
+                "DEPT": 1130,
+                "DEPT_NAME": "Panera Barra",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 1131,
+                "DEPT_NAME": "Bidon",
+                "GROUP_NO": 302
+            },
+            {
+                "DEPT": 1133,
+                "DEPT_NAME": "Mayor 10 Lts",
+                "GROUP_NO": 302
+            },
+            {
+                "DEPT": 9087,
+                "DEPT_NAME": "Puntos de entrega",
+                "GROUP_NO": 156
+            },
+            {
+                "DEPT": 9096,
+                "DEPT_NAME": "Capuchino",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 438,
+                "DEPT_NAME": "Pan Seco",
+                "GROUP_NO": 139
+            },
+            {
+                "DEPT": 850,
+                "DEPT_NAME": "Avena",
+                "GROUP_NO": 247
+            },
+            {
+                "DEPT": 9031,
+                "DEPT_NAME": "Nieve",
+                "GROUP_NO": 283
+            },
+            {
+                "DEPT": 1124,
+                "DEPT_NAME": "Ali Ref Arts. Promos",
+                "GROUP_NO": 301
+            },
+            {
+                "DEPT": 946,
+                "DEPT_NAME": "Agua Lig Gas Prsonal",
+                "GROUP_NO": 274
+            },
+            {
+                "DEPT": 9113,
+                "DEPT_NAME": "Otros",
+                "GROUP_NO": 9001
+            },
+            {
+                "DEPT": 9115,
+                "DEPT_NAME": "Unicel",
+                "GROUP_NO": 9001
+            },
+            {
+                "DEPT": 9116,
+                "DEPT_NAME": "Otras Carnes Frías",
+                "GROUP_NO": 244
+            },
+            {
+                "DEPT": 9117,
+                "DEPT_NAME": "Otros Lacteos y Deri",
+                "GROUP_NO": 247
+            },
+            {
+                "DEPT": 9126,
+                "DEPT_NAME": "Labios",
+                "GROUP_NO": 310
+            },
+            {
+                "DEPT": 9128,
+                "DEPT_NAME": "Rostro",
+                "GROUP_NO": 310
+            },
+            {
+                "DEPT": 9129,
+                "DEPT_NAME": "Uñas",
+                "GROUP_NO": 310
+            },
+            {
+                "DEPT": 9131,
+                "DEPT_NAME": "Medios de Pago",
+                "GROUP_NO": 157
+            },
+            {
+                "DEPT": 9134,
+                "DEPT_NAME": "Multibebida Andatti",
+                "GROUP_NO": 9004
+            },
+            {
+                "DEPT": 971,
+                "DEPT_NAME": "Tarjetas",
+                "GROUP_NO": 157
+            },
+            {
+                "DEPT": 688,
+                "DEPT_NAME": "Hogar",
+                "GROUP_NO": 207
+            },
+            {
+                "DEPT": 689,
+                "DEPT_NAME": "Acceso Ferreteria",
+                "GROUP_NO": 207
+            },
+            {
+                "DEPT": 690,
+                "DEPT_NAME": "Envolturas -Bolsas",
+                "GROUP_NO": 208
+            },
+            {
+                "DEPT": 691,
+                "DEPT_NAME": "Acceso Papeleria",
+                "GROUP_NO": 208
+            },
+            {
+                "DEPT": 692,
+                "DEPT_NAME": "Plumas",
+                "GROUP_NO": 208
+            },
+            {
+                "DEPT": 694,
+                "DEPT_NAME": "Peluches",
+                "GROUP_NO": 209
+            },
+            {
+                "DEPT": 697,
+                "DEPT_NAME": "Llaveros",
+                "GROUP_NO": 209
+            },
+            {
+                "DEPT": 698,
+                "DEPT_NAME": "Flores",
+                "GROUP_NO": 209
+            },
+            {
+                "DEPT": 701,
+                "DEPT_NAME": "Gorras",
+                "GROUP_NO": 210
+            },
+            {
+                "DEPT": 702,
+                "DEPT_NAME": "Playeras",
+                "GROUP_NO": 210
+            },
+            {
+                "DEPT": 703,
+                "DEPT_NAME": "Paraguas",
+                "GROUP_NO": 210
+            },
+            {
+                "DEPT": 705,
+                "DEPT_NAME": "Accesorios Ropa",
+                "GROUP_NO": 210
+            },
+            {
+                "DEPT": 706,
+                "DEPT_NAME": "Balones",
+                "GROUP_NO": 211
+            },
+            {
+                "DEPT": 710,
+                "DEPT_NAME": "Electricos",
+                "GROUP_NO": 212
+            },
+            {
+                "DEPT": 722,
+                "DEPT_NAME": "Pila carbon",
+                "GROUP_NO": 214
+            },
+            {
+                "DEPT": 723,
+                "DEPT_NAME": "Pila recargable",
+                "GROUP_NO": 214
+            },
+            {
+                "DEPT": 724,
+                "DEPT_NAME": "Pila especializada",
+                "GROUP_NO": 214
+            },
+            {
+                "DEPT": 725,
+                "DEPT_NAME": "Cargadores",
+                "GROUP_NO": 214
+            },
+            {
+                "DEPT": 726,
+                "DEPT_NAME": "Velas p  pastel",
+                "GROUP_NO": 215
+            },
+            {
+                "DEPT": 731,
+                "DEPT_NAME": "Aceite Automotriz",
+                "GROUP_NO": 216
+            },
+            {
+                "DEPT": 732,
+                "DEPT_NAME": "Anticongelante",
+                "GROUP_NO": 216
+            },
+            {
+                "DEPT": 733,
+                "DEPT_NAME": "Aditivos",
+                "GROUP_NO": 216
+            },
+            {
+                "DEPT": 734,
+                "DEPT_NAME": "Otros Automotriz",
+                "GROUP_NO": 216
+            },
+            {
+                "DEPT": 877,
+                "DEPT_NAME": "Base Cognac",
+                "GROUP_NO": 113
+            },
+            {
+                "DEPT": 887,
+                "DEPT_NAME": "Caramelo Macizo",
+                "GROUP_NO": 256
+            },
+            {
+                "DEPT": 888,
+                "DEPT_NAME": "Polvo Comprimido",
+                "GROUP_NO": 256
+            },
+            {
+                "DEPT": 889,
+                "DEPT_NAME": "Caramelo Confitado",
+                "GROUP_NO": 256
+            },
+            {
+                "DEPT": 950,
+                "DEPT_NAME": "Mayor 19 lts",
+                "GROUP_NO": 275
+            },
+            {
+                "DEPT": 957,
+                "DEPT_NAME": "CALENDARIOS",
+                "GROUP_NO": 237
+            },
+            {
+                "DEPT": 958,
+                "DEPT_NAME": "Mezcla cacah/semilla",
+                "GROUP_NO": 164
+            },
+            {
+                "DEPT": 1004,
+                "DEPT_NAME": "Pizzas",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 1005,
+                "DEPT_NAME": "Molletes",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 1006,
+                "DEPT_NAME": "Nuggets",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 1008,
+                "DEPT_NAME": "Comida China.",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 1009,
+                "DEPT_NAME": "Bisquets",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 1010,
+                "DEPT_NAME": "Hot Cakes",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 1014,
+                "DEPT_NAME": "Otros Com. Caliente",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 1066,
+                "DEPT_NAME": "Vasos",
+                "GROUP_NO": 289
+            },
+            {
+                "DEPT": 1067,
+                "DEPT_NAME": "Servilleta",
+                "GROUP_NO": 289
+            },
+            {
+                "DEPT": 1070,
+                "DEPT_NAME": "Palillos",
+                "GROUP_NO": 289
+            },
+            {
+                "DEPT": 1072,
+                "DEPT_NAME": "Filtros p cafe",
+                "GROUP_NO": 289
+            },
+            {
+                "DEPT": 1073,
+                "DEPT_NAME": "Cubiertos desechable",
+                "GROUP_NO": 289
+            },
+            {
+                "DEPT": 1074,
+                "DEPT_NAME": "Bolsas desechables",
+                "GROUP_NO": 289
+            },
+            {
+                "DEPT": 1075,
+                "DEPT_NAME": "Papel alum y encera",
+                "GROUP_NO": 289
+            },
+            {
+                "DEPT": 1079,
+                "DEPT_NAME": "Iniciador de Fuego",
+                "GROUP_NO": 290
+            },
+            {
+                "DEPT": 1080,
+                "DEPT_NAME": "Lena",
+                "GROUP_NO": 290
+            },
+            {
+                "DEPT": 1083,
+                "DEPT_NAME": "Para Licores",
+                "GROUP_NO": 291
+            },
+            {
+                "DEPT": 1106,
+                "DEPT_NAME": "Gorditas Mprop",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 9055,
+                "DEPT_NAME": "Audio",
+                "GROUP_NO": 205
+            },
+            {
+                "DEPT": 9057,
+                "DEPT_NAME": "Malteada",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 9058,
+                "DEPT_NAME": "Nieve",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 584,
+                "DEPT_NAME": "Agua",
+                "GROUP_NO": 181
+            },
+            {
+                "DEPT": 585,
+                "DEPT_NAME": "Crema",
+                "GROUP_NO": 182
+            },
+            {
+                "DEPT": 591,
+                "DEPT_NAME": "Barquillo",
+                "GROUP_NO": 186
+            },
+            {
+                "DEPT": 588,
+                "DEPT_NAME": "Crema",
+                "GROUP_NO": 184
+            },
+            {
+                "DEPT": 1188,
+                "DEPT_NAME": "Modifica. de Leche",
+                "GROUP_NO": 203
+            },
+            {
+                "DEPT": 1189,
+                "DEPT_NAME": "Postres no refrig.",
+                "GROUP_NO": 202
+            },
+            {
+                "DEPT": 597,
+                "DEPT_NAME": "Medio",
+                "GROUP_NO": 188
+            },
+            {
+                "DEPT": 898,
+                "DEPT_NAME": "Pulpas",
+                "GROUP_NO": 258
+            },
+            {
+                "DEPT": 969,
+                "DEPT_NAME": "Procesados",
+                "GROUP_NO": 23
+            },
+            {
+                "DEPT": 990,
+                "DEPT_NAME": "Burritos",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 993,
+                "DEPT_NAME": "Guisados",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 995,
+                "DEPT_NAME": "Gorditas",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 997,
+                "DEPT_NAME": "Tamales.",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 9037,
+                "DEPT_NAME": "CAFÉ ESPRESSO",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 9038,
+                "DEPT_NAME": "MALTEADA",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 1125,
+                "DEPT_NAME": "Capuchinos frios",
+                "GROUP_NO": 118
+            },
+            {
+                "DEPT": 1139,
+                "DEPT_NAME": "Personal",
+                "GROUP_NO": 269
+            },
+            {
+                "DEPT": 1144,
+                "DEPT_NAME": "Personal",
+                "GROUP_NO": 271
+            },
+            {
+                "DEPT": 678,
+                "DEPT_NAME": "VideoJuegos",
+                "GROUP_NO": 205
+            },
+            {
+                "DEPT": 680,
+                "DEPT_NAME": "Juguetes para Ninos",
+                "GROUP_NO": 206
+            },
+            {
+                "DEPT": 621,
+                "DEPT_NAME": "Azucar Estandar",
+                "GROUP_NO": 193
+            },
+            {
+                "DEPT": 622,
+                "DEPT_NAME": "Sustitutos de Azucar",
+                "GROUP_NO": 193
+            },
+            {
+                "DEPT": 627,
+                "DEPT_NAME": "Cereal chocolate",
+                "GROUP_NO": 195
+            },
+            {
+                "DEPT": 645,
+                "DEPT_NAME": "Leche Condensada",
+                "GROUP_NO": 199
+            },
+            {
+                "DEPT": 646,
+                "DEPT_NAME": "Leche Evaporada",
+                "GROUP_NO": 199
+            },
+            {
+                "DEPT": 670,
+                "DEPT_NAME": "Pastas",
+                "GROUP_NO": 204
+            },
+            {
+                "DEPT": 743,
+                "DEPT_NAME": "Aromatizante Liquido",
+                "GROUP_NO": 218
+            },
+            {
+                "DEPT": 744,
+                "DEPT_NAME": "Aromatizante Aerosol",
+                "GROUP_NO": 218
+            },
+            {
+                "DEPT": 747,
+                "DEPT_NAME": "Jergas fibras telas",
+                "GROUP_NO": 219
+            },
+            {
+                "DEPT": 748,
+                "DEPT_NAME": "Crema liquida calzad",
+                "GROUP_NO": 220
+            },
+            {
+                "DEPT": 750,
+                "DEPT_NAME": "Pasta lustradora",
+                "GROUP_NO": 220
+            },
+            {
+                "DEPT": 751,
+                "DEPT_NAME": "Ropa Barra",
+                "GROUP_NO": 221
+            },
+            {
+                "DEPT": 757,
+                "DEPT_NAME": "Trastes Liquido",
+                "GROUP_NO": 222
+            },
+            {
+                "DEPT": 765,
+                "DEPT_NAME": "Acido Muriatico",
+                "GROUP_NO": 224
+            },
+            {
+                "DEPT": 770,
+                "DEPT_NAME": "Limpiador de vidrios",
+                "GROUP_NO": 224
+            },
+            {
+                "DEPT": 771,
+                "DEPT_NAME": "Limpiador de muebles",
+                "GROUP_NO": 224
+            },
+            {
+                "DEPT": 812,
+                "DEPT_NAME": "Cassettes",
+                "GROUP_NO": 239
+            },
+            {
+                "DEPT": 813,
+                "DEPT_NAME": "CD",
+                "GROUP_NO": 239
+            },
+            {
+                "DEPT": 815,
+                "DEPT_NAME": "VHS",
+                "GROUP_NO": 240
+            },
+            {
+                "DEPT": 774,
+                "DEPT_NAME": "Espuma para rasurar",
+                "GROUP_NO": 226
+            },
+            {
+                "DEPT": 778,
+                "DEPT_NAME": "Desodorante",
+                "GROUP_NO": 227
+            },
+            {
+                "DEPT": 779,
+                "DEPT_NAME": "Tintes",
+                "GROUP_NO": 227
+            },
+            {
+                "DEPT": 784,
+                "DEPT_NAME": "Toallas humedas bebe",
+                "GROUP_NO": 229
+            },
+            {
+                "DEPT": 786,
+                "DEPT_NAME": "Panales desechables",
+                "GROUP_NO": 229
+            },
+            {
+                "DEPT": 788,
+                "DEPT_NAME": "Geles y Fijadores",
+                "GROUP_NO": 230
+            },
+            {
+                "DEPT": 790,
+                "DEPT_NAME": "Acondicionadores",
+                "GROUP_NO": 230
+            },
+            {
+                "DEPT": 798,
+                "DEPT_NAME": "Pantiprotectores",
+                "GROUP_NO": 235
+            },
+            {
+                "DEPT": 799,
+                "DEPT_NAME": "Toallas sanitarias",
+                "GROUP_NO": 235
+            },
+            {
+                "DEPT": 802,
+                "DEPT_NAME": "Articulosde Curacion",
+                "GROUP_NO": 236
+            },
+            {
+                "DEPT": 803,
+                "DEPT_NAME": "Medicinas OTC",
+                "GROUP_NO": 236
+            },
+            {
+                "DEPT": 1198,
+                "DEPT_NAME": "GOURMET Capuchino",
+                "GROUP_NO": 326
+            },
+            {
+                "DEPT": 1212,
+                "DEPT_NAME": "Paqueteria",
+                "GROUP_NO": 327
+            },
+            {
+                "DEPT": 1203,
+                "DEPT_NAME": "GOURMET Chocolate",
+                "GROUP_NO": 326
+            },
+            {
+                "DEPT": 1204,
+                "DEPT_NAME": "Franke AP Capuchino ",
+                "GROUP_NO": 326
+            },
+            {
+                "DEPT": 1216,
+                "DEPT_NAME": "Dips",
+                "GROUP_NO": 130
+            },
+            {
+                "DEPT": 1250,
+                "DEPT_NAME": "Extras",
+                "GROUP_NO": 326
+            },
+            {
+                "DEPT": 1791,
+                "DEPT_NAME": "Crema IEPS",
+                "GROUP_NO": 179
+            },
+            {
+                "DEPT": 9313,
+                "DEPT_NAME": "CD",
+                "GROUP_NO": 9013
+            },
+            {
+                "DEPT": 1090,
+                "DEPT_NAME": "Bolsas",
+                "GROUP_NO": 289
+            },
+            {
+                "DEPT": 1781,
+                "DEPT_NAME": "Crema IEPS",
+                "GROUP_NO": 178
+            },
+            {
+                "DEPT": 1802,
+                "DEPT_NAME": "Agua IEPS",
+                "GROUP_NO": 180
+            },
+            {
+                "DEPT": 1822,
+                "DEPT_NAME": "Agua IEPS",
+                "GROUP_NO": 181
+            },
+            {
+                "DEPT": 422,
+                "DEPT_NAME": "Koxka. MProv",
+                "GROUP_NO": 130
+            },
+            {
+                "DEPT": 817,
+                "DEPT_NAME": "Vta Boletos Eventos",
+                "GROUP_NO": 242
+            },
+            {
+                "DEPT": 914,
+                "DEPT_NAME": "Yog Batido Funcional",
+                "GROUP_NO": 262
+            },
+            {
+                "DEPT": 919,
+                "DEPT_NAME": "Isotonicos M Empaq",
+                "GROUP_NO": 264
+            },
+            {
+                "DEPT": 972,
+                "DEPT_NAME": "Insumos",
+                "GROUP_NO": 23
+            },
+            {
+                "DEPT": 1048,
+                "DEPT_NAME": "Papel Aluminio",
+                "GROUP_NO": 286
+            },
+            {
+                "DEPT": 1118,
+                "DEPT_NAME": "Licuados",
+                "GROUP_NO": 173
+            },
+            {
+                "DEPT": 9040,
+                "DEPT_NAME": "CAPUCHINO FRIO",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 9044,
+                "DEPT_NAME": "FRAPPE",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 9047,
+                "DEPT_NAME": "Gift cards",
+                "GROUP_NO": 156
+            },
+            {
+                "DEPT": 849,
+                "DEPT_NAME": "Alim. Preparados",
+                "GROUP_NO": 246
+            },
+            {
+                "DEPT": 1114,
+                "DEPT_NAME": "Articulo de cocina",
+                "GROUP_NO": 295
+            },
+            {
+                "DEPT": 1115,
+                "DEPT_NAME": "Entretenimiento",
+                "GROUP_NO": 295
+            },
+            {
+                "DEPT": 9107,
+                "DEPT_NAME": "Promocionales",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 9118,
+                "DEPT_NAME": "Otros Acces Cigarros",
+                "GROUP_NO": 9002
+            },
+            {
+                "DEPT": 1158,
+                "DEPT_NAME": "Mezclas",
+                "GROUP_NO": 110
+            },
+            {
+                "DEPT": 1161,
+                "DEPT_NAME": "Ultra",
+                "GROUP_NO": 110
+            },
+            {
+                "DEPT": 1162,
+                "DEPT_NAME": "Light",
+                "GROUP_NO": 111
+            },
+            {
+                "DEPT": 1191,
+                "DEPT_NAME": "Fundas Telefonia",
+                "GROUP_NO": 324
+            },
+            {
+                "DEPT": 940,
+                "DEPT_NAME": "Agua s Sabor Prsonal",
+                "GROUP_NO": 272
+            },
+            {
+                "DEPT": 942,
+                "DEPT_NAME": "Agua s Sabor M Empaq",
+                "GROUP_NO": 272
+            },
+            {
+                "DEPT": 947,
+                "DEPT_NAME": "Agua Lig Gas Fmiliar",
+                "GROUP_NO": 274
+            },
+            {
+                "DEPT": 9019,
+                "DEPT_NAME": "AmericanoMP.Insum",
+                "GROUP_NO": 117
+            },
+            {
+                "DEPT": 9023,
+                "DEPT_NAME": "FrappeMP.Insum",
+                "GROUP_NO": 119
+            },
+            {
+                "DEPT": 9024,
+                "DEPT_NAME": "FrappeMProv.Insum",
+                "GROUP_NO": 119
+            },
+            {
+                "DEPT": 9025,
+                "DEPT_NAME": "Aguas frescas.Insum",
+                "GROUP_NO": 120
+            },
+            {
+                "DEPT": 9029,
+                "DEPT_NAME": "Malteada.Insum",
+                "GROUP_NO": 125
+            },
+            {
+                "DEPT": 977,
+                "DEPT_NAME": "Galletas",
+                "GROUP_NO": 278
+            },
+            {
+                "DEPT": 1094,
+                "DEPT_NAME": "Varios",
+                "GROUP_NO": 257
+            },
+            {
+                "DEPT": 9074,
+                "DEPT_NAME": "TarjetasTelefoniFija",
+                "GROUP_NO": 299
+            },
+            {
+                "DEPT": 9076,
+                "DEPT_NAME": "Operador Virtual",
+                "GROUP_NO": 300
+            },
+            {
+                "DEPT": 9080,
+                "DEPT_NAME": "Koxka. NAC",
+                "GROUP_NO": 130
+            },
+            {
+                "DEPT": 1132,
+                "DEPT_NAME": "Galon",
+                "GROUP_NO": 302
+            },
+            {
+                "DEPT": 9114,
+                "DEPT_NAME": "Plástico",
+                "GROUP_NO": 9001
+            },
+            {
+                "DEPT": 9125,
+                "DEPT_NAME": "Juguetes",
+                "GROUP_NO": 309
+            },
+            {
+                "DEPT": 9127,
+                "DEPT_NAME": "Ojos",
+                "GROUP_NO": 310
+            },
+            {
+                "DEPT": 970,
+                "DEPT_NAME": "Insumos",
+                "GROUP_NO": 245
+            },
+            {
+                "DEPT": 973,
+                "DEPT_NAME": "Bebidas",
+                "GROUP_NO": 278
+            },
+            {
+                "DEPT": 693,
+                "DEPT_NAME": "Libretas -Agendas",
+                "GROUP_NO": 208
+            },
+            {
+                "DEPT": 696,
+                "DEPT_NAME": "Tarjetas",
+                "GROUP_NO": 209
+            },
+            {
+                "DEPT": 699,
+                "DEPT_NAME": "Otros regalos",
+                "GROUP_NO": 209
+            },
+            {
+                "DEPT": 700,
+                "DEPT_NAME": "Articulos de Fiesta",
+                "GROUP_NO": 209
+            },
+            {
+                "DEPT": 704,
+                "DEPT_NAME": "Lentes",
+                "GROUP_NO": 210
+            },
+            {
+                "DEPT": 707,
+                "DEPT_NAME": "Accesorios Deportes",
+                "GROUP_NO": 211
+            },
+            {
+                "DEPT": 708,
+                "DEPT_NAME": "Articulos de Playa",
+                "GROUP_NO": 211
+            },
+            {
+                "DEPT": 721,
+                "DEPT_NAME": "Pila alcalina",
+                "GROUP_NO": 214
+            },
+            {
+                "DEPT": 728,
+                "DEPT_NAME": "Velas tradicionales",
+                "GROUP_NO": 215
+            },
+            {
+                "DEPT": 729,
+                "DEPT_NAME": "Velas aromaticas",
+                "GROUP_NO": 215
+            },
+            {
+                "DEPT": 730,
+                "DEPT_NAME": "Cuidado Automotriz",
+                "GROUP_NO": 216
+            },
+            {
+                "DEPT": 956,
+                "DEPT_NAME": "POSTERS",
+                "GROUP_NO": 238
+            },
+            {
+                "DEPT": 959,
+                "DEPT_NAME": "Mezclas Frituras",
+                "GROUP_NO": 163
+            },
+            {
+                "DEPT": 1011,
+                "DEPT_NAME": "Waffles",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 1012,
+                "DEPT_NAME": "Esquite / Elote",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 1013,
+                "DEPT_NAME": "Porcion extra",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 1015,
+                "DEPT_NAME": "Insumos c.caliente",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 1068,
+                "DEPT_NAME": "Platos desechables",
+                "GROUP_NO": 289
+            },
+            {
+                "DEPT": 1069,
+                "DEPT_NAME": "Papel alum y encera",
+                "GROUP_NO": 289
+            },
+            {
+                "DEPT": 1076,
+                "DEPT_NAME": "Acceso Carne Asada",
+                "GROUP_NO": 290
+            },
+            {
+                "DEPT": 1081,
+                "DEPT_NAME": "Carbon",
+                "GROUP_NO": 290
+            },
+            {
+                "DEPT": 1082,
+                "DEPT_NAME": "Para Cerveza",
+                "GROUP_NO": 291
+            },
+            {
+                "DEPT": 9056,
+                "DEPT_NAME": "Frappe",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 9059,
+                "DEPT_NAME": "Espresso",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 9060,
+                "DEPT_NAME": "Canasta",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 586,
+                "DEPT_NAME": "Crema",
+                "GROUP_NO": 183
+            },
+            {
+                "DEPT": 587,
+                "DEPT_NAME": "Agua",
+                "GROUP_NO": 184
+            },
+            {
+                "DEPT": 589,
+                "DEPT_NAME": "Agua",
+                "GROUP_NO": 185
+            },
+            {
+                "DEPT": 590,
+                "DEPT_NAME": "Crema",
+                "GROUP_NO": 185
+            },
+            {
+                "DEPT": 1196,
+                "DEPT_NAME": "SPIN",
+                "GROUP_NO": 157
+            },
+            {
+                "DEPT": 595,
+                "DEPT_NAME": "Premium",
+                "GROUP_NO": 188
+            },
+            {
+                "DEPT": 596,
+                "DEPT_NAME": "Alto",
+                "GROUP_NO": 188
+            },
+            {
+                "DEPT": 598,
+                "DEPT_NAME": "Bajo",
+                "GROUP_NO": 188
+            },
+            {
+                "DEPT": 600,
+                "DEPT_NAME": "Tabaco Masticable",
+                "GROUP_NO": 189
+            },
+            {
+                "DEPT": 899,
+                "DEPT_NAME": "Polvos tamar/acidit",
+                "GROUP_NO": 258
+            },
+            {
+                "DEPT": 994,
+                "DEPT_NAME": "Tortas Calientes",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 996,
+                "DEPT_NAME": "Salbutes / Panuches",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 998,
+                "DEPT_NAME": "Hamburguesas",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 9097,
+                "DEPT_NAME": "Grano",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 9098,
+                "DEPT_NAME": "Recarga",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 1141,
+                "DEPT_NAME": "Infantil",
+                "GROUP_NO": 269
+            },
+            {
+                "DEPT": 1142,
+                "DEPT_NAME": "Multipack",
+                "GROUP_NO": 269
+            },
+            {
+                "DEPT": 1143,
+                "DEPT_NAME": "Familiar",
+                "GROUP_NO": 271
+            },
+            {
+                "DEPT": 675,
+                "DEPT_NAME": "Video Electronica",
+                "GROUP_NO": 205
+            },
+            {
+                "DEPT": 676,
+                "DEPT_NAME": "Fotografia",
+                "GROUP_NO": 205
+            },
+            {
+                "DEPT": 619,
+                "DEPT_NAME": "Otros Envasados",
+                "GROUP_NO": 192
+            },
+            {
+                "DEPT": 620,
+                "DEPT_NAME": "Azucar Refinada",
+                "GROUP_NO": 193
+            },
+            {
+                "DEPT": 623,
+                "DEPT_NAME": "Cafe",
+                "GROUP_NO": 194
+            },
+            {
+                "DEPT": 625,
+                "DEPT_NAME": "Cereal basico",
+                "GROUP_NO": 195
+            },
+            {
+                "DEPT": 626,
+                "DEPT_NAME": "Cereal endulzado",
+                "GROUP_NO": 195
+            },
+            {
+                "DEPT": 633,
+                "DEPT_NAME": "Arroz",
+                "GROUP_NO": 197
+            },
+            {
+                "DEPT": 636,
+                "DEPT_NAME": "Semillas",
+                "GROUP_NO": 197
+            },
+            {
+                "DEPT": 648,
+                "DEPT_NAME": "Sustitutos de Crema",
+                "GROUP_NO": 199
+            },
+            {
+                "DEPT": 745,
+                "DEPT_NAME": "Aromatiza electrico",
+                "GROUP_NO": 218
+            },
+            {
+                "DEPT": 746,
+                "DEPT_NAME": "Jarcieria",
+                "GROUP_NO": 219
+            },
+            {
+                "DEPT": 753,
+                "DEPT_NAME": "Ropa Liquido",
+                "GROUP_NO": 221
+            },
+            {
+                "DEPT": 755,
+                "DEPT_NAME": "Trastes en pasta",
+                "GROUP_NO": 222
+            },
+            {
+                "DEPT": 756,
+                "DEPT_NAME": "Trastes en polvo",
+                "GROUP_NO": 222
+            },
+            {
+                "DEPT": 758,
+                "DEPT_NAME": "Insecticidas Aerosol",
+                "GROUP_NO": 223
+            },
+            {
+                "DEPT": 759,
+                "DEPT_NAME": "Insecticidas liquido",
+                "GROUP_NO": 223
+            },
+            {
+                "DEPT": 760,
+                "DEPT_NAME": "Veneno en pasta",
+                "GROUP_NO": 223
+            },
+            {
+                "DEPT": 761,
+                "DEPT_NAME": "Trampas",
+                "GROUP_NO": 223
+            },
+            {
+                "DEPT": 762,
+                "DEPT_NAME": "Insecticid electrico",
+                "GROUP_NO": 223
+            },
+            {
+                "DEPT": 764,
+                "DEPT_NAME": "Repelen corporales",
+                "GROUP_NO": 223
+            },
+            {
+                "DEPT": 766,
+                "DEPT_NAME": "Cloros",
+                "GROUP_NO": 224
+            },
+            {
+                "DEPT": 767,
+                "DEPT_NAME": "Limpiadores de bano",
+                "GROUP_NO": 224
+            },
+            {
+                "DEPT": 768,
+                "DEPT_NAME": "Limpiado de cocina",
+                "GROUP_NO": 224
+            },
+            {
+                "DEPT": 769,
+                "DEPT_NAME": "Limpiadores de pisos",
+                "GROUP_NO": 224
+            },
+            {
+                "DEPT": 807,
+                "DEPT_NAME": "Revistas",
+                "GROUP_NO": 237
+            },
+            {
+                "DEPT": 809,
+                "DEPT_NAME": "Libros",
+                "GROUP_NO": 237
+            },
+            {
+                "DEPT": 810,
+                "DEPT_NAME": "Album",
+                "GROUP_NO": 238
+            },
+            {
+                "DEPT": 814,
+                "DEPT_NAME": "DVD",
+                "GROUP_NO": 240
+            },
+            {
+                "DEPT": 776,
+                "DEPT_NAME": "ArtBelleza e higiene",
+                "GROUP_NO": 227
+            },
+            {
+                "DEPT": 777,
+                "DEPT_NAME": "Cuidado de la piel",
+                "GROUP_NO": 227
+            },
+            {
+                "DEPT": 780,
+                "DEPT_NAME": "Cepillos de dientes",
+                "GROUP_NO": 228
+            },
+            {
+                "DEPT": 781,
+                "DEPT_NAME": "Crema dental",
+                "GROUP_NO": 228
+            },
+            {
+                "DEPT": 782,
+                "DEPT_NAME": "Enjuague bucal",
+                "GROUP_NO": 228
+            },
+            {
+                "DEPT": 783,
+                "DEPT_NAME": "Hilo dental",
+                "GROUP_NO": 228
+            },
+            {
+                "DEPT": 789,
+                "DEPT_NAME": "Shampoos",
+                "GROUP_NO": 230
+            },
+            {
+                "DEPT": 791,
+                "DEPT_NAME": "Jabones de tocador",
+                "GROUP_NO": 231
+            },
+            {
+                "DEPT": 792,
+                "DEPT_NAME": "Gel antibacterial",
+                "GROUP_NO": 232
+            },
+            {
+                "DEPT": 794,
+                "DEPT_NAME": "Panuelos desechables",
+                "GROUP_NO": 233
+            },
+            {
+                "DEPT": 795,
+                "DEPT_NAME": "Papel higien. medio",
+                "GROUP_NO": 234
+            },
+            {
+                "DEPT": 796,
+                "DEPT_NAME": "Papel higien.alto",
+                "GROUP_NO": 234
+            },
+            {
+                "DEPT": 797,
+                "DEPT_NAME": "Papel higienico bajo",
+                "GROUP_NO": 234
+            },
+            {
+                "DEPT": 800,
+                "DEPT_NAME": "Tampones",
+                "GROUP_NO": 235
+            },
+            {
+                "DEPT": 801,
+                "DEPT_NAME": "Antisepticos",
+                "GROUP_NO": 236
+            },
+            {
+                "DEPT": 1205,
+                "DEPT_NAME": "Franke AP Latte frio",
+                "GROUP_NO": 326
+            },
+            {
+                "DEPT": 1206,
+                "DEPT_NAME": "Franke AP Chocolate ",
+                "GROUP_NO": 326
+            },
+            {
+                "DEPT": 1207,
+                "DEPT_NAME": "Franke AP Americano ",
+                "GROUP_NO": 326
+            },
+            {
+                "DEPT": 1210,
+                "DEPT_NAME": "Pagos",
+                "GROUP_NO": 327
+            },
+            {
+                "DEPT": 1211,
+                "DEPT_NAME": "Gift cards",
+                "GROUP_NO": 327
+            },
+            {
+                "DEPT": 1199,
+                "DEPT_NAME": "GOURMET Espresso",
+                "GROUP_NO": 326
+            },
+            {
+                "DEPT": 1200,
+                "DEPT_NAME": "GOURMET Americano",
+                "GROUP_NO": 326
+            },
+            {
+                "DEPT": 1208,
+                "DEPT_NAME": "GOURMET  Nieve",
+                "GROUP_NO": 326
+            },
+            {
+                "DEPT": 1214,
+                "DEPT_NAME": "Postres",
+                "GROUP_NO": 130
+            },
+            {
+                "DEPT": 1215,
+                "DEPT_NAME": "Snacks",
+                "GROUP_NO": 130
+            },
+            {
+                "DEPT": 9150,
+                "DEPT_NAME": "Tela",
+                "GROUP_NO": 9001
+            },
+            {
+                "DEPT": 1,
+                "DEPT_NAME": "Gelatinas",
+                "GROUP_NO": 130
+            },
+            {
+                "DEPT": 695,
+                "DEPT_NAME": "Portabilidad",
+                "GROUP_NO": 209
+            },
+            {
+                "DEPT": 1078,
+                "DEPT_NAME": "Cerillo Carbon",
+                "GROUP_NO": 290
+            },
+            {
+                "DEPT": 742,
+                "DEPT_NAME": "Base Whisky",
+                "GROUP_NO": 113
+            },
+            {
+                "DEPT": 992,
+                "DEPT_NAME": "Sincronizada",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 1020,
+                "DEPT_NAME": "Insumos No Comestib.",
+                "GROUP_NO": 282
+            },
+            {
+                "DEPT": 677,
+                "DEPT_NAME": "Computacion",
+                "GROUP_NO": 205
+            },
+            {
+                "DEPT": 672,
+                "DEPT_NAME": "Sopas Preparadas",
+                "GROUP_NO": 204
+            },
+            {
+                "DEPT": 749,
+                "DEPT_NAME": "Esponja lustradora",
+                "GROUP_NO": 220
+            },
+            {
+                "DEPT": 754,
+                "DEPT_NAME": "Desmanchadores ropa",
+                "GROUP_NO": 221
+            },
+            {
+                "DEPT": 808,
+                "DEPT_NAME": "Mapas",
+                "GROUP_NO": 237
+            },
+            {
+                "DEPT": 787,
+                "DEPT_NAME": "Alimentos para bebe",
+                "GROUP_NO": 229
+            },
+            {
+                "DEPT": 1201,
+                "DEPT_NAME": "GOURMET Lechero",
+                "GROUP_NO": 326
+            },
+            {
+                "DEPT": 1197,
+                "DEPT_NAME": "Tarjeta física",
+                "GROUP_NO": 325
+            },
+            {
+                "DEPT": 5,
+                "DEPT_NAME": "Burritos",
+                "GROUP_NO": 130
+            },
+            {
+                "DEPT": 9654,
+                "DEPT_NAME": "Revistas",
+                "GROUP_NO": 9012
+            },
+            {
+                "DEPT": 9712,
+                "DEPT_NAME": "Smartphone OXXO CEL",
+                "GROUP_NO": 9017
+            },
+            {
+                "DEPT": 2,
+                "DEPT_NAME": "Sandwich",
+                "GROUP_NO": 130
+            },
+            {
+                "DEPT": 3,
+                "DEPT_NAME": "Tortas y baguettes",
+                "GROUP_NO": 130
+            },
+            {
+                "DEPT": 9181,
+                "DEPT_NAME": "POSTERS",
+                "GROUP_NO": 9011
+            },
+            {
+                "DEPT": 9166,
+                "DEPT_NAME": "FIGURAS",
+                "GROUP_NO": 9011
+            },
+            {
+                "DEPT": 9874,
+                "DEPT_NAME": "Periodicos",
+                "GROUP_NO": 9012
+            },
+            {
+                "DEPT": 6,
+                "DEPT_NAME": "Pizzas",
+                "GROUP_NO": 130
+            },
+            {
+                "DEPT": 7,
+                "DEPT_NAME": "Comidas RTE",
+                "GROUP_NO": 130
+            },
+            {
+                "DEPT": 1792,
+                "DEPT_NAME": "Agua IEPS",
+                "GROUP_NO": 179
+            },
+            {
+                "DEPT": 9152,
+                "DEPT_NAME": "Smartphone",
+                "GROUP_NO": 9006
+            },
+            {
+                "DEPT": 9171,
+                "DEPT_NAME": "Album",
+                "GROUP_NO": 9011
+            },
+            {
+                "DEPT": 9212,
+                "DEPT_NAME": "CALENDARIOS",
+                "GROUP_NO": 9012
+            },
+            {
+                "DEPT": 9222,
+                "DEPT_NAME": "Libros",
+                "GROUP_NO": 9012
+            },
+            {
+                "DEPT": 9711,
+                "DEPT_NAME": "Featurephone OXXO CE",
+                "GROUP_NO": 9017
+            },
+            {
+                "DEPT": 9717,
+                "DEPT_NAME": "Dispositivos",
+                "GROUP_NO": 9006
+            },
+            {
+                "DEPT": 5555,
+                "DEPT_NAME": "Americano frios",
+                "GROUP_NO": 117
+            },
+            {
+                "DEPT": 1771,
+                "DEPT_NAME": "Crema IEPS",
+                "GROUP_NO": 177
+            },
+            {
+                "DEPT": 1772,
+                "DEPT_NAME": "Agua IEPS",
+                "GROUP_NO": 177
+            },
+            {
+                "DEPT": 1801,
+                "DEPT_NAME": "Crema IEPS",
+                "GROUP_NO": 180
+            },
+            {
+                "DEPT": 1811,
+                "DEPT_NAME": "Crema IEPS",
+                "GROUP_NO": 181
+            },
+            {
+                "DEPT": 1831,
+                "DEPT_NAME": "Crema IEPS",
+                "GROUP_NO": 183
+            },
+            {
+                "DEPT": 9714,
+                "DEPT_NAME": "Paquete Oxxo Cel",
+                "GROUP_NO": 9017
+            },
+            {
+                "DEPT": 9715,
+                "DEPT_NAME": "Recargas Oxxo Cel",
+                "GROUP_NO": 9017
+            },
+            {
+                "DEPT": 903,
+                "DEPT_NAME": "Blanca pasteurizada",
+                "GROUP_NO": 259
+            },
+            {
+                "DEPT": 989,
+                "DEPT_NAME": "Tacos",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 1003,
+                "DEPT_NAME": "Tostadas",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 679,
+                "DEPT_NAME": "Juegos de Mesa",
+                "GROUP_NO": 206
+            },
+            {
+                "DEPT": 628,
+                "DEPT_NAME": "Cereal saludable",
+                "GROUP_NO": 195
+            },
+            {
+                "DEPT": 634,
+                "DEPT_NAME": "Frijol",
+                "GROUP_NO": 197
+            },
+            {
+                "DEPT": 772,
+                "DEPT_NAME": "Suavizan tradicional",
+                "GROUP_NO": 225
+            },
+            {
+                "DEPT": 806,
+                "DEPT_NAME": "Periodicos",
+                "GROUP_NO": 237
+            },
+            {
+                "DEPT": 1031,
+                "DEPT_NAME": "Aguas frescas.Insum",
+                "GROUP_NO": 120
+            },
+            {
+                "DEPT": 9039,
+                "DEPT_NAME": "CHOCOLATE",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 1194,
+                "DEPT_NAME": "Cables Telefonia",
+                "GROUP_NO": 324
+            },
+            {
+                "DEPT": 9092,
+                "DEPT_NAME": "Capuchino Kobalto",
+                "GROUP_NO": 305
+            },
+            {
+                "DEPT": 9093,
+                "DEPT_NAME": "Mantel",
+                "GROUP_NO": 289
+            },
+            {
+                "DEPT": 9124,
+                "DEPT_NAME": "Ropa y Accesorios",
+                "GROUP_NO": 309
+            },
+            {
+                "DEPT": 709,
+                "DEPT_NAME": "Mecanicos",
+                "GROUP_NO": 212
+            },
+            {
+                "DEPT": 727,
+                "DEPT_NAME": "Veladora Religiosas",
+                "GROUP_NO": 215
+            },
+            {
+                "DEPT": 1007,
+                "DEPT_NAME": "Alitas",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 904,
+                "DEPT_NAME": "Blanca UHT",
+                "GROUP_NO": 259
+            },
+            {
+                "DEPT": 599,
+                "DEPT_NAME": "Puros",
+                "GROUP_NO": 189
+            },
+            {
+                "DEPT": 991,
+                "DEPT_NAME": "Quesadillas",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 999,
+                "DEPT_NAME": "Papas a la francesa.",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 1019,
+                "DEPT_NAME": "Insumos comestibles",
+                "GROUP_NO": 281
+            },
+            {
+                "DEPT": 9072,
+                "DEPT_NAME": "capuchino",
+                "GROUP_NO": 298
+            },
+            {
+                "DEPT": 9099,
+                "DEPT_NAME": "Reposteria",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 607,
+                "DEPT_NAME": "Mayonesas",
+                "GROUP_NO": 191
+            },
+            {
+                "DEPT": 624,
+                "DEPT_NAME": "Te",
+                "GROUP_NO": 194
+            },
+            {
+                "DEPT": 647,
+                "DEPT_NAME": "Leche en Polvo",
+                "GROUP_NO": 199
+            },
+            {
+                "DEPT": 649,
+                "DEPT_NAME": "Media Crema",
+                "GROUP_NO": 199
+            },
+            {
+                "DEPT": 650,
+                "DEPT_NAME": "Alimento para perro",
+                "GROUP_NO": 200
+            },
+            {
+                "DEPT": 651,
+                "DEPT_NAME": "Alimento para gato",
+                "GROUP_NO": 200
+            },
+            {
+                "DEPT": 669,
+                "DEPT_NAME": "Cremas",
+                "GROUP_NO": 204
+            },
+            {
+                "DEPT": 671,
+                "DEPT_NAME": "Pure Instantaneo",
+                "GROUP_NO": 204
+            },
+            {
+                "DEPT": 752,
+                "DEPT_NAME": "Ropa en polvo",
+                "GROUP_NO": 221
+            },
+            {
+                "DEPT": 763,
+                "DEPT_NAME": "Insectici en espiral",
+                "GROUP_NO": 223
+            },
+            {
+                "DEPT": 773,
+                "DEPT_NAME": "Suaviz especializado",
+                "GROUP_NO": 225
+            },
+            {
+                "DEPT": 811,
+                "DEPT_NAME": "Estampas",
+                "GROUP_NO": 238
+            },
+            {
+                "DEPT": 816,
+                "DEPT_NAME": "Loteria Instantanea",
+                "GROUP_NO": 241
+            },
+            {
+                "DEPT": 775,
+                "DEPT_NAME": "Rastrillos",
+                "GROUP_NO": 226
+            },
+            {
+                "DEPT": 785,
+                "DEPT_NAME": "Accesorios para bebe",
+                "GROUP_NO": 229
+            },
+            {
+                "DEPT": 793,
+                "DEPT_NAME": "Toallitas Y Gel Anti",
+                "GROUP_NO": 232
+            },
+            {
+                "DEPT": 1202,
+                "DEPT_NAME": "GOURMET Latte",
+                "GROUP_NO": 326
+            },
+            {
+                "DEPT": 9140,
+                "DEPT_NAME": "Ultra Bajo",
+                "GROUP_NO": 188
+            },
+            {
+                "DEPT": 1209,
+                "DEPT_NAME": "GOURMET  Frappe",
+                "GROUP_NO": 326
+            },
+            {
+                "DEPT": 9130,
+                "DEPT_NAME": "Termos",
+                "GROUP_NO": 311
+            },
+            {
+                "DEPT": 674,
+                "DEPT_NAME": "Audio",
+                "GROUP_NO": 205
+            },
+            {
+                "DEPT": 9161,
+                "DEPT_NAME": "Vta Boletos Eventos",
+                "GROUP_NO": 9016
+            },
+            {
+                "DEPT": 9151,
+                "DEPT_NAME": "VHS",
+                "GROUP_NO": 9015
+            },
+            {
+                "DEPT": 9153,
+                "DEPT_NAME": "Featurephone",
+                "GROUP_NO": 9006
+            },
+            {
+                "DEPT": 9155,
+                "DEPT_NAME": "DVD",
+                "GROUP_NO": 9015
+            },
+            {
+                "DEPT": 4,
+                "DEPT_NAME": "Ensaladas",
+                "GROUP_NO": 130
+            },
+            {
+                "DEPT": 9141,
+                "DEPT_NAME": "Loteria Instantanea",
+                "GROUP_NO": 9014
+            },
+            {
+                "DEPT": 1782,
+                "DEPT_NAME": "Agua IEPS",
+                "GROUP_NO": 178
+            },
+            {
+                "DEPT": 9515,
+                "DEPT_NAME": "Estampas",
+                "GROUP_NO": 9011
+            },
+            {
+                "DEPT": 9716,
+                "DEPT_NAME": "CHIP OXXO CEL",
+                "GROUP_NO": 9017
+            },
+            {
+                "DEPT": 9713,
+                "DEPT_NAME": "Internet Oxxo Cel",
+                "GROUP_NO": 9017
+            },
+            {
+                "DEPT": 1002,
+                "DEPT_NAME": "Enchiladas",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 1140,
+                "DEPT_NAME": "Familiar",
+                "GROUP_NO": 269
+            },
+            {
+                "DEPT": 1213,
+                "DEPT_NAME": "Pasteles",
+                "GROUP_NO": 130
+            },
+            {
+                "DEPT": 9292,
+                "DEPT_NAME": "Mapas",
+                "GROUP_NO": 9012
+            },
+            {
+                "DEPT": 100285,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 285
+            },
+            {
+                "DEPT": 100286,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 286
+            },
+            {
+                "DEPT": 100294,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 294
+            },
+            {
+                "DEPT": 100300,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 300
+            },
+            {
+                "DEPT": 100317,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 317
+            },
+            {
+                "DEPT": 100318,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 318
+            },
+            {
+                "DEPT": 100319,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 319
+            },
+            {
+                "DEPT": 100320,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 320
+            },
+            {
+                "DEPT": 100321,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 321
+            },
+            {
+                "DEPT": 100323,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 323
+            },
+            {
+                "DEPT": 100103,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 103
+            },
+            {
+                "DEPT": 100108,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 108
+            },
+            {
+                "DEPT": 100113,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 113
+            },
+            {
+                "DEPT": 100178,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 178
+            },
+            {
+                "DEPT": 100180,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 180
+            },
+            {
+                "DEPT": 100181,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 181
+            },
+            {
+                "DEPT": 100182,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 182
+            },
+            {
+                "DEPT": 100183,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 183
+            },
+            {
+                "DEPT": 100186,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 186
+            },
+            {
+                "DEPT": 100191,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 191
+            },
+            {
+                "DEPT": 100192,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 192
+            },
+            {
+                "DEPT": 100193,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 193
+            },
+            {
+                "DEPT": 100196,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 196
+            },
+            {
+                "DEPT": 100198,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 198
+            },
+            {
+                "DEPT": 100200,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 200
+            },
+            {
+                "DEPT": 100240,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 240
+            },
+            {
+                "DEPT": 100241,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 241
+            },
+            {
+                "DEPT": 100267,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 267
+            },
+            {
+                "DEPT": 1009004,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 9004
+            },
+            {
+                "DEPT": 100313,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 313
+            },
+            {
+                "DEPT": 100315,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 315
+            },
+            {
+                "DEPT": 100164,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 164
+            },
+            {
+                "DEPT": 100206,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 206
+            },
+            {
+                "DEPT": 100209,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 209
+            },
+            {
+                "DEPT": 100231,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 231
+            },
+            {
+                "DEPT": 1009002,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 9002
+            },
+            {
+                "DEPT": 1009005,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 9005
+            },
+            {
+                "DEPT": 1003,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 3
+            },
+            {
+                "DEPT": 100114,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 114
+            },
+            {
+                "DEPT": 100184,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 184
+            },
+            {
+                "DEPT": 100195,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 195
+            },
+            {
+                "DEPT": 100203,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 203
+            },
+            {
+                "DEPT": 100268,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 268
+            },
+            {
+                "DEPT": 100271,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 271
+            },
+            {
+                "DEPT": 100287,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 287
+            },
+            {
+                "DEPT": 100291,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 291
+            },
+            {
+                "DEPT": 100298,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 298
+            },
+            {
+                "DEPT": 100106,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 106
+            },
+            {
+                "DEPT": 100142,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 142
+            },
+            {
+                "DEPT": 100147,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 147
+            },
+            {
+                "DEPT": 100165,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 165
+            },
+            {
+                "DEPT": 100172,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 172
+            },
+            {
+                "DEPT": 100233,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 233
+            },
+            {
+                "DEPT": 100310,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 310
+            },
+            {
+                "DEPT": 100116,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 116
+            },
+            {
+                "DEPT": 100249,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 249
+            },
+            {
+                "DEPT": 10037,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 37
+            },
+            {
+                "DEPT": 1001000,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 1000
+            },
+            {
+                "DEPT": 100204,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 204
+            },
+            {
+                "DEPT": 1006,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 6
+            },
+            {
+                "DEPT": 10027,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 27
+            },
+            {
+                "DEPT": 10091,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 91
+            },
+            {
+                "DEPT": 100132,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 132
+            },
+            {
+                "DEPT": 1009016,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 9016
+            },
+            {
+                "DEPT": 100312,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 312
+            },
+            {
+                "DEPT": 100185,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 185
+            },
+            {
+                "DEPT": 100190,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 190
+            },
+            {
+                "DEPT": 100194,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 194
+            },
+            {
+                "DEPT": 100197,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 197
+            },
+            {
+                "DEPT": 100238,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 238
+            },
+            {
+                "DEPT": 100270,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 270
+            },
+            {
+                "DEPT": 100316,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 316
+            },
+            {
+                "DEPT": 100170,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 170
+            },
+            {
+                "DEPT": 100207,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 207
+            },
+            {
+                "DEPT": 100208,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 208
+            },
+            {
+                "DEPT": 100235,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 235
+            },
+            {
+                "DEPT": 100301,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 301
+            },
+            {
+                "DEPT": 100259,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 259
+            },
+            {
+                "DEPT": 100304,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 304
+            },
+            {
+                "DEPT": 1002,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 2
+            },
+            {
+                "DEPT": 10012,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 12
+            },
+            {
+                "DEPT": 10016,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 16
+            },
+            {
+                "DEPT": 10026,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 26
+            },
+            {
+                "DEPT": 10077,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 77
+            },
+            {
+                "DEPT": 100115,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 115
+            },
+            {
+                "DEPT": 100199,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 199
+            },
+            {
+                "DEPT": 100202,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 202
+            },
+            {
+                "DEPT": 100237,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 237
+            },
+            {
+                "DEPT": 100239,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 239
+            },
+            {
+                "DEPT": 100242,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 242
+            },
+            {
+                "DEPT": 100276,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 276
+            },
+            {
+                "DEPT": 100290,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 290
+            },
+            {
+                "DEPT": 100144,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 144
+            },
+            {
+                "DEPT": 100145,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 145
+            },
+            {
+                "DEPT": 100146,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 146
+            },
+            {
+                "DEPT": 100166,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 166
+            },
+            {
+                "DEPT": 100168,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 168
+            },
+            {
+                "DEPT": 100171,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 171
+            },
+            {
+                "DEPT": 100173,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 173
+            },
+            {
+                "DEPT": 100210,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 210
+            },
+            {
+                "DEPT": 100211,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 211
+            },
+            {
+                "DEPT": 100213,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 213
+            },
+            {
+                "DEPT": 100214,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 214
+            },
+            {
+                "DEPT": 100226,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 226
+            },
+            {
+                "DEPT": 100227,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 227
+            },
+            {
+                "DEPT": 100229,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 229
+            },
+            {
+                "DEPT": 100232,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 232
+            },
+            {
+                "DEPT": 100252,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 252
+            },
+            {
+                "DEPT": 100299,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 299
+            },
+            {
+                "DEPT": 100307,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 307
+            },
+            {
+                "DEPT": 100104,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 104
+            },
+            {
+                "DEPT": 100153,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 153
+            },
+            {
+                "DEPT": 100154,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 154
+            },
+            {
+                "DEPT": 100248,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 248
+            },
+            {
+                "DEPT": 100260,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 260
+            },
+            {
+                "DEPT": 100302,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 302
+            },
+            {
+                "DEPT": 100303,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 303
+            },
+            {
+                "DEPT": 100324,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 324
+            },
+            {
+                "DEPT": 1001,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 1
+            },
+            {
+                "DEPT": 10096,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 96
+            },
+            {
+                "DEPT": 10014,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 14
+            },
+            {
+                "DEPT": 10019,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 19
+            },
+            {
+                "DEPT": 10020,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 20
+            },
+            {
+                "DEPT": 10023,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 23
+            },
+            {
+                "DEPT": 10024,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 24
+            },
+            {
+                "DEPT": 10028,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 28
+            },
+            {
+                "DEPT": 10029,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 29
+            },
+            {
+                "DEPT": 10031,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 31
+            },
+            {
+                "DEPT": 10038,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 38
+            },
+            {
+                "DEPT": 10041,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 41
+            },
+            {
+                "DEPT": 10057,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 57
+            },
+            {
+                "DEPT": 100179,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 179
+            },
+            {
+                "DEPT": 100289,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 289
+            },
+            {
+                "DEPT": 100212,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 212
+            },
+            {
+                "DEPT": 100228,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 228
+            },
+            {
+                "DEPT": 100230,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 230
+            },
+            {
+                "DEPT": 100236,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 236
+            },
+            {
+                "DEPT": 100297,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 297
+            },
+            {
+                "DEPT": 100254,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 254
+            },
+            {
+                "DEPT": 100257,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 257
+            },
+            {
+                "DEPT": 100100,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 100
+            },
+            {
+                "DEPT": 1007,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 7
+            },
+            {
+                "DEPT": 10013,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 13
+            },
+            {
+                "DEPT": 10017,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 17
+            },
+            {
+                "DEPT": 10032,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 32
+            },
+            {
+                "DEPT": 10033,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 33
+            },
+            {
+                "DEPT": 10058,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 58
+            },
+            {
+                "DEPT": 10084,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 84
+            },
+            {
+                "DEPT": 100101,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 101
+            },
+            {
+                "DEPT": 10061,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 61
+            },
+            {
+                "DEPT": 10071,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 71
+            },
+            {
+                "DEPT": 100127,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 127
+            },
+            {
+                "DEPT": 100141,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 141
+            },
+            {
+                "DEPT": 100273,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 273
+            },
+            {
+                "DEPT": 1009003,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 9003
+            },
+            {
+                "DEPT": 100110,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 110
+            },
+            {
+                "DEPT": 100120,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 120
+            },
+            {
+                "DEPT": 100122,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 122
+            },
+            {
+                "DEPT": 100123,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 123
+            },
+            {
+                "DEPT": 100155,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 155
+            },
+            {
+                "DEPT": 100156,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 156
+            },
+            {
+                "DEPT": 100157,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 157
+            },
+            {
+                "DEPT": 100158,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 158
+            },
+            {
+                "DEPT": 100246,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 246
+            },
+            {
+                "DEPT": 100325,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 325
+            },
+            {
+                "DEPT": 1009011,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 9011
+            },
+            {
+                "DEPT": 100160,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 160
+            },
+            {
+                "DEPT": 100136,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 136
+            },
+            {
+                "DEPT": 100225,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 225
+            },
+            {
+                "DEPT": 100177,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 177
+            },
+            {
+                "DEPT": 100201,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 201
+            },
+            {
+                "DEPT": 100314,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 314
+            },
+            {
+                "DEPT": 100169,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 169
+            },
+            {
+                "DEPT": 100215,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 215
+            },
+            {
+                "DEPT": 100322,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 322
+            },
+            {
+                "DEPT": 100112,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 112
+            },
+            {
+                "DEPT": 100269,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 269
+            },
+            {
+                "DEPT": 100275,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 275
+            },
+            {
+                "DEPT": 100281,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 281
+            },
+            {
+                "DEPT": 100309,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 309
+            },
+            {
+                "DEPT": 100105,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 105
+            },
+            {
+                "DEPT": 100250,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 250
+            },
+            {
+                "DEPT": 100258,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 258
+            },
+            {
+                "DEPT": 1005,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 5
+            },
+            {
+                "DEPT": 1009,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 9
+            },
+            {
+                "DEPT": 10011,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 11
+            },
+            {
+                "DEPT": 10018,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 18
+            },
+            {
+                "DEPT": 10036,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 36
+            },
+            {
+                "DEPT": 10039,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 39
+            },
+            {
+                "DEPT": 10042,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 42
+            },
+            {
+                "DEPT": 10046,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 46
+            },
+            {
+                "DEPT": 10050,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 50
+            },
+            {
+                "DEPT": 10051,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 51
+            },
+            {
+                "DEPT": 10067,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 67
+            },
+            {
+                "DEPT": 10079,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 79
+            },
+            {
+                "DEPT": 10090,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 90
+            },
+            {
+                "DEPT": 100109,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 109
+            },
+            {
+                "DEPT": 100143,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 143
+            },
+            {
+                "DEPT": 100163,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 163
+            },
+            {
+                "DEPT": 100167,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 167
+            },
+            {
+                "DEPT": 100205,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 205
+            },
+            {
+                "DEPT": 100216,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 216
+            },
+            {
+                "DEPT": 100217,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 217
+            },
+            {
+                "DEPT": 100234,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 234
+            },
+            {
+                "DEPT": 100253,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 253
+            },
+            {
+                "DEPT": 100261,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 261
+            },
+            {
+                "DEPT": 100296,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 296
+            },
+            {
+                "DEPT": 1009001,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 9001
+            },
+            {
+                "DEPT": 100308,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 308
+            },
+            {
+                "DEPT": 100311,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 311
+            },
+            {
+                "DEPT": 100107,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 107
+            },
+            {
+                "DEPT": 100255,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 255
+            },
+            {
+                "DEPT": 100256,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 256
+            },
+            {
+                "DEPT": 1008,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 8
+            },
+            {
+                "DEPT": 10010,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 10
+            },
+            {
+                "DEPT": 10021,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 21
+            },
+            {
+                "DEPT": 10025,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 25
+            },
+            {
+                "DEPT": 10040,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 40
+            },
+            {
+                "DEPT": 10043,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 43
+            },
+            {
+                "DEPT": 10044,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 44
+            },
+            {
+                "DEPT": 10045,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 45
+            },
+            {
+                "DEPT": 10048,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 48
+            },
+            {
+                "DEPT": 10049,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 49
+            },
+            {
+                "DEPT": 10052,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 52
+            },
+            {
+                "DEPT": 10053,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 53
+            },
+            {
+                "DEPT": 10054,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 54
+            },
+            {
+                "DEPT": 10059,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 59
+            },
+            {
+                "DEPT": 10060,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 60
+            },
+            {
+                "DEPT": 10062,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 62
+            },
+            {
+                "DEPT": 10063,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 63
+            },
+            {
+                "DEPT": 10065,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 65
+            },
+            {
+                "DEPT": 10068,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 68
+            },
+            {
+                "DEPT": 10069,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 69
+            },
+            {
+                "DEPT": 10070,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 70
+            },
+            {
+                "DEPT": 10073,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 73
+            },
+            {
+                "DEPT": 10074,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 74
+            },
+            {
+                "DEPT": 10078,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 78
+            },
+            {
+                "DEPT": 10080,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 80
+            },
+            {
+                "DEPT": 10081,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 81
+            },
+            {
+                "DEPT": 10082,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 82
+            },
+            {
+                "DEPT": 10086,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 86
+            },
+            {
+                "DEPT": 10087,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 87
+            },
+            {
+                "DEPT": 10089,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 89
+            },
+            {
+                "DEPT": 10093,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 93
+            },
+            {
+                "DEPT": 1009000,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 9000
+            },
+            {
+                "DEPT": 100102,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 102
+            },
+            {
+                "DEPT": 10095,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 95
+            },
+            {
+                "DEPT": 10097,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 97
+            },
+            {
+                "DEPT": 10098,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 98
+            },
+            {
+                "DEPT": 1004,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 4
+            },
+            {
+                "DEPT": 10022,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 22
+            },
+            {
+                "DEPT": 10055,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 55
+            },
+            {
+                "DEPT": 10056,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 56
+            },
+            {
+                "DEPT": 10064,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 64
+            },
+            {
+                "DEPT": 10088,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 88
+            },
+            {
+                "DEPT": 100128,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 128
+            },
+            {
+                "DEPT": 100139,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 139
+            },
+            {
+                "DEPT": 100140,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 140
+            },
+            {
+                "DEPT": 100149,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 149
+            },
+            {
+                "DEPT": 100150,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 150
+            },
+            {
+                "DEPT": 100159,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 159
+            },
+            {
+                "DEPT": 100187,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 187
+            },
+            {
+                "DEPT": 100188,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 188
+            },
+            {
+                "DEPT": 100189,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 189
+            },
+            {
+                "DEPT": 100272,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 272
+            },
+            {
+                "DEPT": 100274,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 274
+            },
+            {
+                "DEPT": 100280,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 280
+            },
+            {
+                "DEPT": 100283,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 283
+            },
+            {
+                "DEPT": 100292,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 292
+            },
+            {
+                "DEPT": 100295,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 295
+            },
+            {
+                "DEPT": 100111,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 111
+            },
+            {
+                "DEPT": 100124,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 124
+            },
+            {
+                "DEPT": 100126,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 126
+            },
+            {
+                "DEPT": 100129,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 129
+            },
+            {
+                "DEPT": 100130,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 130
+            },
+            {
+                "DEPT": 100131,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 131
+            },
+            {
+                "DEPT": 100133,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 133
+            },
+            {
+                "DEPT": 100134,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 134
+            },
+            {
+                "DEPT": 100137,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 137
+            },
+            {
+                "DEPT": 100138,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 138
+            },
+            {
+                "DEPT": 100175,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 175
+            },
+            {
+                "DEPT": 100176,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 176
+            },
+            {
+                "DEPT": 100221,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 221
+            },
+            {
+                "DEPT": 100223,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 223
+            },
+            {
+                "DEPT": 100224,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 224
+            },
+            {
+                "DEPT": 100243,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 243
+            },
+            {
+                "DEPT": 100244,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 244
+            },
+            {
+                "DEPT": 100245,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 245
+            },
+            {
+                "DEPT": 100247,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 247
+            },
+            {
+                "DEPT": 100263,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 263
+            },
+            {
+                "DEPT": 100264,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 264
+            },
+            {
+                "DEPT": 100265,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 265
+            },
+            {
+                "DEPT": 100266,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 266
+            },
+            {
+                "DEPT": 100277,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 277
+            },
+            {
+                "DEPT": 100326,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 326
+            },
+            {
+                "DEPT": 1009012,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 9012
+            },
+            {
+                "DEPT": 1009013,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 9013
+            },
+            {
+                "DEPT": 1009006,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 9006
+            },
+            {
+                "DEPT": 100251,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 251
+            },
+            {
+                "DEPT": 100121,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 121
+            },
+            {
+                "DEPT": 100135,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 135
+            },
+            {
+                "DEPT": 100327,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 327
+            },
+            {
+                "DEPT": 1009014,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 9014
+            },
+            {
+                "DEPT": 100306,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 306
+            },
+            {
+                "DEPT": 10015,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 15
+            },
+            {
+                "DEPT": 10083,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 83
+            },
+            {
+                "DEPT": 100262,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 262
+            },
+            {
+                "DEPT": 100278,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 278
+            },
+            {
+                "DEPT": 100288,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 288
+            },
+            {
+                "DEPT": 10030,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 30
+            },
+            {
+                "DEPT": 10034,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 34
+            },
+            {
+                "DEPT": 10035,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 35
+            },
+            {
+                "DEPT": 10066,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 66
+            },
+            {
+                "DEPT": 10072,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 72
+            },
+            {
+                "DEPT": 10075,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 75
+            },
+            {
+                "DEPT": 10092,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 92
+            },
+            {
+                "DEPT": 10094,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 94
+            },
+            {
+                "DEPT": 100282,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 282
+            },
+            {
+                "DEPT": 100152,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 152
+            },
+            {
+                "DEPT": 100151,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 151
+            },
+            {
+                "DEPT": 100161,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 161
+            },
+            {
+                "DEPT": 100162,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 162
+            },
+            {
+                "DEPT": 100279,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 279
+            },
+            {
+                "DEPT": 100117,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 117
+            },
+            {
+                "DEPT": 100118,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 118
+            },
+            {
+                "DEPT": 100119,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 119
+            },
+            {
+                "DEPT": 100174,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 174
+            },
+            {
+                "DEPT": 100218,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 218
+            },
+            {
+                "DEPT": 100220,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 220
+            },
+            {
+                "DEPT": 100222,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 222
+            },
+            {
+                "DEPT": 100284,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 284
+            },
+            {
+                "DEPT": 1009015,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 9015
+            },
+            {
+                "DEPT": 1009017,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 9017
+            },
+            {
+                "DEPT": 100125,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 125
+            },
+            {
+                "DEPT": 100148,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 148
+            },
+            {
+                "DEPT": 10085,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 85
+            },
+            {
+                "DEPT": 10099,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 99
+            },
+            {
+                "DEPT": 100305,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 305
+            },
+            {
+                "DEPT": 10047,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 47
+            },
+            {
+                "DEPT": 100293,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 293
+            },
+            {
+                "DEPT": 100219,
+                "DEPT_NAME": "Sin Subcategoria",
+                "GROUP_NO": 219
+            }
+        ]
+    }
+}

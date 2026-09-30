@@ -1,0 +1,36 @@
+{
+    "method": "POST",
+    "headers": {
+        "x-functions-key": "ScPhqviIcwKd_JT0r-JDxqRTHyDQ_ytiIsLNLXK3bNEeAzFueWTHsg==",
+        "Authorization": "Bearer \"eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjQwLCJ1dHlwaWQiOjIsImlhdCI6MTc3MDI2NTk0OSwiZXhwIjoxNzcwMjY5NTQ5fQ.Z0YrDy9j1khFWbAa2J_CI1_o__BXvPOiNpHI3ZQ1E-Q\""
+    },
+    "url": "https://oxzfuncpepromd01.azurewebsites.net/api/rest/all/V1/oxxo/ebs-tipos-impuesto/create",
+    "body": {
+        "taxType": [
+            {
+                "lookup_code": "EXENTO",
+                "meaning": "Exento"
+            },
+            {
+                "lookup_code": "GRAVABLE10",
+                "meaning": "Gravable 10%"
+            },
+            {
+                "lookup_code": "GRAVABLE15",
+                "meaning": "Gravable 15%"
+            },
+            {
+                "lookup_code": "GRAVABLEFRO",
+                "meaning": "Gravable Frontera"
+            },
+            {
+                "lookup_code": "GRAVABLEINT",
+                "meaning": "Gravable Interior"
+            },
+            {
+                "lookup_code": "TASA0",
+                "meaning": "Tasa 0%"
+            }
+        ]
+    }
+}

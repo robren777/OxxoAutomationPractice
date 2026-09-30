@@ -1,0 +1,478 @@
+name: Manager Ejecución Appium Reusable
+
+on:
+  workflow_call:
+    inputs:
+      runner:
+        required: true
+        type: string
+      azure_org:
+        required: true
+        type: string
+      azure_project_name:
+        required: true
+        type: string
+      test_suite_id:
+        required: true
+        type: string
+      test_plan_id:
+        required: true
+        type: string
+      device_udid:
+        required: true
+        type: string
+        default: "emulator-5554"
+      appium_port:
+        required: false
+        type: string
+        default: "4723"
+      java_version:
+        required: false
+        type: string
+        default: "17"
+      tester_name:
+        required: false
+        type: string
+        default: ""
+      gh_repository_tests:
+        required: true
+        type: string
+      gh_branch_tests:
+        required: true
+        type: string
+        default: "main"
+      rerun_failing_tests_count:
+        required: false
+        type: string
+        default: "1"
+    secrets:
+      gh_token_tests:
+        required: true
+      azure_pat:
+        required: true
+
+jobs:
+  run-appium-tests:
+    timeout-minutes: 1440
+    runs-on: ${{ inputs.runner }}
+
+    env:
+      SYSTEM_ACCESSTOKEN: ${{ secrets.azure_pat }}
+      AZURE_ORG: "${{ inputs.azure_org }}"
+      AZURE_PROJECT_NAME: "${{ inputs.azure_project_name }}"
+      TEST_SUITE_ID: "${{ inputs.test_suite_id }}"
+      TEST_PLAN_ID: "${{ inputs.test_plan_id }}"
+      BUILD_ID: "0"
+      IS_USER_TOKEN: "true"
+      JAVA_TOOL_OPTIONS: "-Dfile.encoding=UTF-8"
+      DEVICE_UDID: "${{ inputs.device_udid }}"
+      APPIUM_PORT: "${{ inputs.appium_port }}"
+      APPIUM_URL: "http://127.0.0.1:${{ inputs.appium_port }}"
+
+    steps:
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: "temurin"
+          java-version: "${{ inputs.java_version }}"
+
+      - name: Enable long paths on Windows
+        run: git config --system core.longpaths true
+
+      - name: Tune git network resiliency
+        shell: pwsh
+        run: |
+          git config --global http.version HTTP/1.1
+          git config --global http.lowSpeedLimit 1000
+          git config --global http.lowSpeedTime 60
+          git config --global http.postBuffer 524288000
+          git config --global core.compression 0
+          Write-Host "Git network resiliency settings applied."
+
+      - name: Checkout code (primary)
+        id: checkout_primary
+        continue-on-error: true
+        uses: actions/checkout@v6.0.2
+        with:
+          repository: "${{ inputs.gh_repository_tests }}"
+          token: ${{ secrets.gh_token_tests }}
+          ref: "${{ inputs.gh_branch_tests }}"
+          fetch-depth: 1
+
+      - name: Backoff before checkout retry
+        if: steps.checkout_primary.outcome == 'failure'
+        shell: pwsh
+        run: |
+          $runnerName = "${{ inputs.runner }}"
+          $backoffSeconds = 90
+          Write-Host "Primary checkout failed on runner $runnerName. Waiting $backoffSeconds seconds before retry..."
+          Start-Sleep -Seconds $backoffSeconds
+
+      - name: Checkout code (retry)
+        id: checkout_retry
+        if: steps.checkout_primary.outcome == 'failure'
+        continue-on-error: true
+        uses: actions/checkout@v6.0.2
+        with:
+          repository: "${{ inputs.gh_repository_tests }}"
+          token: ${{ secrets.gh_token_tests }}
+          ref: "${{ inputs.gh_branch_tests }}"
+          fetch-depth: 1
+
+      - name: Validate checkout result
+        if: always()
+        shell: pwsh
+        run: |
+          $primary = "${{ steps.checkout_primary.outcome }}"
+          $retry = "${{ steps.checkout_retry.outcome }}"
+
+          if ($primary -eq "success" -or $retry -eq "success") {
+            Write-Host "Checkout completed successfully."
+            exit 0
+          }
+
+          throw "Checkout failed after primary and retry attempts."
+
+      - name: Verificar herramientas (Maven, Node, adb)
+        shell: pwsh
+        run: |
+          mvn -version
+          node --version
+          npm --version
+          adb version
+
+      - name: Preparar Appium y driver UiAutomator2
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = "Stop"
+
+          if (-not (Get-Command appium -ErrorAction SilentlyContinue)) {
+            Write-Host "Appium no encontrado. Instalando globalmente..."
+            npm install -g appium
+          }
+          appium --version
+
+          $drivers = appium driver list --installed 2>&1 | Out-String
+          if ($drivers -notmatch "uiautomator2") {
+            Write-Host "Instalando driver uiautomator2..."
+            appium driver install uiautomator2
+          } else {
+            Write-Host "Driver uiautomator2 ya instalado."
+          }
+
+      - name: Pre-suite cleanup del dispositivo
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = "Stop"
+          Write-Host "Suite: $env:TEST_SUITE_ID | Plan: $env:TEST_PLAN_ID | Device: $env:DEVICE_UDID"
+
+          # Cierra instancias previas de Appium que hayan quedado colgadas en el runner.
+          Get-CimInstance Win32_Process -Filter "Name = 'node.exe'" |
+            Where-Object { $_.CommandLine -match "appium" } |
+            ForEach-Object {
+              Write-Host "Deteniendo instancia previa de Appium. PID=$($_.ProcessId)"
+              Stop-Process -Id $_.ProcessId -Force -ErrorAction SilentlyContinue
+            }
+
+          adb kill-server | Out-Null
+          adb start-server | Out-Null
+
+          $device = adb devices | Select-String -Pattern "^$([regex]::Escape($env:DEVICE_UDID))\s+device$"
+          if (-not $device) {
+            Write-Host "Dispositivos detectados:"
+            adb devices
+            throw "El dispositivo '$env:DEVICE_UDID' no esta disponible o no esta autorizado."
+          }
+
+          $release = adb -s $env:DEVICE_UDID shell getprop ro.build.version.release
+          Write-Host "Dispositivo listo. Android version: $release"
+
+      - name: Iniciar servidor Appium
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = "Stop"
+
+          $logDir = Join-Path $env:GITHUB_WORKSPACE "appium-logs"
+          New-Item -ItemType Directory -Force -Path $logDir | Out-Null
+          $logFile = Join-Path $logDir "appium-$env:TEST_SUITE_ID-$env:APPIUM_PORT.log"
+
+          $proc = Start-Process -FilePath "cmd.exe" `
+            -ArgumentList "/c appium --address 127.0.0.1 --port $env:APPIUM_PORT --log-level info --log `"$logFile`"" `
+            -PassThru -WindowStyle Hidden
+          "APPIUM_PID=$($proc.Id)" >> $env:GITHUB_ENV
+
+          $ready = $false
+          for ($i = 1; $i -le 30; $i++) {
+            Start-Sleep -Seconds 2
+            try {
+              $status = Invoke-RestMethod -Uri "$env:APPIUM_URL/status" -TimeoutSec 5
+              if ($status) { $ready = $true; break }
+            } catch {
+              Write-Host "Esperando a Appium... intento $i"
+            }
+          }
+
+          if (-not $ready) {
+            if (Test-Path $logFile) { Get-Content $logFile -Tail 50 }
+            throw "El servidor Appium no respondio en $env:APPIUM_URL"
+          }
+
+          Write-Host "Servidor Appium disponible en $env:APPIUM_URL (PID $($proc.Id))"
+
+      - name: Compile and prepare tests
+        shell: cmd
+        run: |
+          mvn clean install -DskipTests
+
+      - name: Create env variables for framework
+        shell: bash
+        run: |
+          echo "AZURE_RUN_TITLE=GITHUB ACTIONS RUN ID - $GITHUB_RUN_ID" >> $GITHUB_ENV
+          echo "AZURE_RUN_COMMENTS=[GITHUB ACTIONS RUN ID - $GITHUB_RUN_ID]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID)" >> $GITHUB_ENV
+          echo "AZURE_ORG_URL=https://dev.azure.com/$AZURE_ORG/$AZURE_PROJECT_NAME/" >> $GITHUB_ENV
+
+      - name: Run Maven task - Generate test names
+        shell: powershell
+        env:
+          AZURE_ORG_URL: ${{ env.AZURE_ORG_URL }}
+        run: |
+          cmd /c "mvn -e exec:java -Dexec.mainClass=start.AzureGetTestNames > AzureGetTestNames.log 2>&1 || exit /b 0"
+          Get-Content AzureGetTestNames.log
+          Write-Host "Maven execution finished (errors ignored)"
+
+      - name: Buscar en log del paso anterior y guardar variable limpia
+        shell: bash
+        run: |
+          testsToRun=$(grep '^##vso\[task\.setvariable variable=testsToRun\]' AzureGetTestNames.log | awk -F ']' '{print $2}' | xargs)
+          echo "testsToRun: $testsToRun"
+          echo "testsToRun=$testsToRun" >> $GITHUB_ENV
+
+      - name: Validar casos de prueba obtenidos
+        shell: pwsh
+        run: |
+          if ([string]::IsNullOrWhiteSpace($env:testsToRun)) {
+            throw "No se obtuvieron casos de prueba para la suite $env:TEST_SUITE_ID (plan $env:TEST_PLAN_ID)."
+          }
+          Write-Host "Casos a ejecutar: $env:testsToRun"
+
+      - name: Resolver nombre del ejecutor
+        id: resolve_executor
+        shell: pwsh
+        run: |
+          $testerName = "${{ inputs.tester_name }}".Trim()
+          $name = $null
+          $source = $null
+
+          # Prioridad 1: tester_name proporcionado explicitamente.
+          if (-not [string]::IsNullOrWhiteSpace($testerName)) {
+            $name = $testerName
+            $source = "tester_name"
+            Write-Host "tester_name informado explicitamente: $name"
+          }
+          else {
+            Write-Host "tester_name vacio. Consultando perfil de GitHub para actor '${{ github.actor }}'..."
+
+            try {
+              $headers = @{
+                Authorization = "Bearer ${{ github.token }}"
+                Accept        = "application/vnd.github+json"
+              }
+
+              $response = Invoke-RestMethod `
+                -Uri "https://api.github.com/users/${{ github.actor }}" `
+                -Headers $headers `
+                -Method Get `
+                -TimeoutSec 20
+
+              if (-not [string]::IsNullOrWhiteSpace($response.name)) {
+                $name = $response.name.Trim()
+                $source = "github_profile"
+              }
+            }
+            catch {
+              Write-Warning "No fue posible consultar el perfil de GitHub: $($_.Exception.Message)"
+            }
+
+            # Prioridad 3: ultimo fallback tecnico.
+            if ([string]::IsNullOrWhiteSpace($name)) {
+              $name = "${{ github.actor }}"
+              $source = "github_actor"
+            }
+          }
+
+          Write-Host "----------------------------------------"
+          Write-Host "Executor Name   : $name"
+          Write-Host "Executor Source : $source"
+          Write-Host "GitHub Actor    : ${{ github.actor }}"
+          Write-Host "----------------------------------------"
+
+          "executor_name=$name" >> $env:GITHUB_OUTPUT
+          "executor_source=$source" >> $env:GITHUB_OUTPUT
+
+      - name: Run specified tests
+        shell: pwsh
+        env:
+          AZURE_ORG_URL: ${{ env.AZURE_ORG_URL }}
+          RERUN_FAILING_TESTS_COUNT: ${{ inputs.rerun_failing_tests_count }}
+        run: |
+          $retryCount = 0
+          if (-not [int]::TryParse($env:RERUN_FAILING_TESTS_COUNT, [ref]$retryCount)) {
+            $retryCount = 1
+          }
+          if ($retryCount -lt 0) {
+            $retryCount = 0
+          }
+
+          Write-Host "Reintentos de suite fallida configurados: $retryCount"
+          $rerunsExecuted = 0
+          $failedSuitePath = Join-Path $env:GITHUB_WORKSPACE "target\surefire-reports\testng-failed.xml"
+
+          $appiumArgs = @(
+            "-Dmaven.test.failure.ignore=true",
+            "-DfailIfNoTests=false",
+            "-Dappium.url=$env:APPIUM_URL",
+            "-Dandroid.udid=$env:DEVICE_UDID",
+            "-Dexecutor.name=${{ steps.resolve_executor.outputs.executor_name }}"
+          )
+
+          function Test-RunHasFailures {
+            param([string]$logPath)
+
+            if (-not (Test-Path $logPath)) {
+              return $true
+            }
+
+            $logContent = Get-Content $logPath -Raw
+            return ($logContent -match "Failures:\s*[1-9][0-9]*") -or ($logContent -match "Errors:\s*[1-9][0-9]*")
+          }
+
+          # Evita que un archivo residual de otra corrida dispare reruns falsos.
+          if (Test-Path $failedSuitePath) {
+            Remove-Item $failedSuitePath -Force -ErrorAction SilentlyContinue
+          }
+
+          mvn surefire:test "-Dtest=$env:testsToRun" @appiumArgs | Tee-Object -FilePath test-output.log
+          $finalFlakyFailed = Test-RunHasFailures "test-output.log"
+          $finalResultSource = "test-output.log"
+
+          for ($attempt = 1; $attempt -le $retryCount; $attempt++) {
+            if (-not $finalFlakyFailed) {
+              Write-Host "La ejecucion ya no reporta fallidos. No se requieren reejecuciones adicionales."
+              break
+            }
+
+            if (-not (Test-Path $failedSuitePath)) {
+              Write-Host "No hay archivo testng-failed.xml para relanzar un rerun dirigido."
+              break
+            }
+
+            Write-Host "::warning::INICIO REEJECUCION FLAKY | Suite $env:TEST_SUITE_ID | Intento $attempt de $retryCount"
+            Write-Host "::group::Reejecucion flaky - Suite $env:TEST_SUITE_ID - Intento $attempt/$retryCount"
+            $rerunsExecuted++
+
+            $rerunLog = "rerun-$attempt.log"
+            mvn surefire:test "-Dsurefire.suiteXmlFiles=$failedSuitePath" @appiumArgs | Tee-Object -FilePath $rerunLog
+            Write-Host "::endgroup::"
+
+            Get-Content $rerunLog | Add-Content test-output.log
+            $finalFlakyFailed = Test-RunHasFailures $rerunLog
+            $finalResultSource = $rerunLog
+          }
+
+          $finalFlakyStatus = if ($finalFlakyFailed) { "FAILED" } else { "PASSED" }
+          $remainingFailedSuiteText = if ($finalFlakyFailed) { "true" } else { "false" }
+          "REMAINING_FAILED_SUITE=$remainingFailedSuiteText" >> $env:GITHUB_ENV
+
+          Add-Content $env:GITHUB_STEP_SUMMARY "## Appium Run Summary"
+          Add-Content $env:GITHUB_STEP_SUMMARY "- Suite Azure: $env:TEST_SUITE_ID"
+          Add-Content $env:GITHUB_STEP_SUMMARY "- Plan Azure: $env:TEST_PLAN_ID"
+          Add-Content $env:GITHUB_STEP_SUMMARY "- Dispositivo: $env:DEVICE_UDID"
+          Add-Content $env:GITHUB_STEP_SUMMARY "- Reintentos configurados: $retryCount"
+          Add-Content $env:GITHUB_STEP_SUMMARY "- Reruns ejecutados: $rerunsExecuted"
+          Add-Content $env:GITHUB_STEP_SUMMARY "- Resultado tecnico final del ultimo intento: $finalFlakyStatus"
+          Add-Content $env:GITHUB_STEP_SUMMARY "- Fuente: $finalResultSource"
+          Add-Content $env:GITHUB_STEP_SUMMARY ""
+          Write-Host "::notice::Suite $env:TEST_SUITE_ID | Reruns $rerunsExecuted/$retryCount | Final $finalFlakyStatus"
+
+      - name: Extract Azure DevOps run id
+        id: extract_ado
+        if: always()
+        continue-on-error: true
+        shell: pwsh
+        run: |
+          if (-not (Test-Path "test-output.log")) {
+            Write-Host "::warning::No existe test-output.log para extraer el run id de Azure DevOps."
+            exit 0
+          }
+
+          $match = Select-String "Azure DevOps run id:\s*(\d+)" test-output.log
+          if (-not $match) {
+            Write-Host "::warning::No se encontro Azure DevOps run id en el log."
+            exit 0
+          }
+
+          $ids = @()
+          foreach ($entry in $match) {
+            foreach ($m in $entry.Matches) {
+              $ids += $m.Groups[1].Value
+            }
+          }
+
+          $id = $ids[-1]
+          Write-Host "Azure DevOps run ids detectados: $($ids -join ', ')"
+          Write-Host "Azure DevOps run id seleccionado (ultimo): $id"
+          "ado_run_id=$id" >> $env:GITHUB_OUTPUT
+
+      - name: Use Azure Test plan run summary
+        if: always()
+        shell: pwsh
+        run: |
+          $runId = "${{ steps.extract_ado.outputs.ado_run_id }}"
+          if ([string]::IsNullOrWhiteSpace($runId)) {
+            Write-Host "Sin run id de Azure DevOps disponible."
+            exit 0
+          }
+          $org = "${{ inputs.azure_org }}"
+          $project = "${{ inputs.azure_project_name }}"
+          Write-Host "https://dev.azure.com/$org/$project/_testManagement/runs?runId=$runId&_a=runSummary"
+
+      - name: Detener servidor Appium
+        if: always()
+        shell: pwsh
+        run: |
+          if (-not [string]::IsNullOrWhiteSpace($env:APPIUM_PID)) {
+            Get-Process -Id $env:APPIUM_PID -ErrorAction SilentlyContinue |
+              Stop-Process -Force -ErrorAction SilentlyContinue
+            Write-Host "Servidor Appium detenido (PID $env:APPIUM_PID)."
+          }
+
+          Get-CimInstance Win32_Process -Filter "Name = 'node.exe'" |
+            Where-Object { $_.CommandLine -match "appium" } |
+            ForEach-Object {
+              Write-Host "Deteniendo proceso Appium remanente. PID=$($_.ProcessId)"
+              Stop-Process -Id $_.ProcessId -Force -ErrorAction SilentlyContinue
+            }
+
+      - name: Upload Appium test reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: appium-reports-suite-${{ inputs.test_suite_id }}-${{ github.run_id }}-${{ github.run_attempt }}
+          if-no-files-found: warn
+          retention-days: 15
+          path: |
+            target/surefire-reports/**
+            test-output/**
+            Output/**
+            appium-logs/**
+            test-output.log
+            rerun-*.log
+            AzureGetTestNames.log
+
+      - name: Enforce failed suite status in workflow
+        if: always()
+        shell: pwsh
+        run: |
+          if ("${{ env.REMAINING_FAILED_SUITE }}" -eq "true") {
+            throw "Se detectaron fallos al finalizar reruns. Se marca el workflow como fallido para reflejar el resultado real de TestNG/Surefire."
+          }

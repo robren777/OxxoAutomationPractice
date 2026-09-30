@@ -1,0 +1,20 @@
+{
+    "method": "POST",
+    "headers": {
+        "x-functions-key": "ScPhqviIcwKd_JT0r-JDxqRTHyDQ_ytiIsLNLXK3bNEeAzFueWTHsg==",
+        "Authorization": "Bearer eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjEwOCwidXR5cGlkIjoyLCJpYXQiOjE3Nzk3MzI0MjEsImV4cCI6MTc3OTczNjAyMX0.cDYfDrNDm3llkGtxBxz9yXdGMo4P3Pp2vcMFkiyQi2M"
+    },
+    "url": "https://mcstaging.oxxoespacios.com/rest/all/V1/oxxo/ebs-tipo-bonificacion/create",
+    "body": {
+        "bonusTypes": [
+            {
+                "flex_value": "L",
+                "description": "Local"
+            },
+            {
+                "flex_value": "C",
+                "description": "Central"
+            }
+        ]
+    }
+}

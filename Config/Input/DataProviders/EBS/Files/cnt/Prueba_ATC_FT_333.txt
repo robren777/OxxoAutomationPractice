@@ -1,0 +1,51 @@
+SELECT  tt.cr_superior||tt.cr_tienda ID_TIENDA -->Identificador Unico.
+,TC.PLAZO_CONTRATO PLAZO_CONTRATO
+,UPPER(UTILS.descripcion(TC.LID_CONDICION_PROPIEDAD)) CONDICION_PROPIEDAD
+,TO_CHAR(TC.FECHA_INICIO_CONTRATO,'DD-MM-YYYY HH:MI:SS') FECHA_INICIO_CONTRATO ,TO_CHAR(TC.FECHA_FIN_CONTRATO,'DD-MM-YYYY HH:MI:SS')  FECHA_FIN_CONTRATO
+,TL.NUM_CUENTA_PREDIAL NUM_CUENTA_PREDIAL,TL.PEM_VTA_VINOS PEM_VTA_VINOS
+,TF.ES_FRANJA_FRONTERIZA  ES_FRANJA_FRONT, TF.LID_SEGMENTO
+, (select tt.cr_tienda from t_tiendas tt where tt.id_tienda  = TF.retek_sister_store and rownum = 1) RETEK_SISTER_STORE
+,(select tt1.cr_tienda from t_tiendas tt1 where tt1.retek_loc_id = tf.retek_like_store and rownum = 1) RETEK_LIKE_STORE
+,UPPER(UTILS.descripcion(TF.LID_UBICACION_TIENDA)) LID_UBICACION_TIENDA
+,UPPER(UTILS.descripcion(TF.LID_SUBTIPO_UBICACION_TIENDA)) LID_SUB_UBIC_TIENDA,TF.REFERENCIA_UBICACION REF_UBICACION
+,UPPER(UTILS.descripcion(TF.LID_CEDIS_QUE_SURTE)) LID_CEDIS_QUE_SURTE
+,UPPER(utils.descripcion(tf.lid_formato_tienda)) formato_tienda
+,UPPER(utils.descripcion(tf.lid_tamanio_tienda)) tamanio_tienda
+,decode(OP.LID_EMPRESA_PERTENECE,'EP_OXXO_EXPRESS',rpad(upper('OXXO EXPRESS, S.A. de C.V.'),40),decode(OP.LID_EMPRESA_PERTENECE,'CC_OXXO',rpad(upper('Cadena Comercial Oxxo, S.A. de C.V.'),40),'')) RAZON_SOCIAL
+,decode(OP.LID_EMPRESA_PERTENECE,'EP_OXXO_EXPRESS',rpad('OEX-950605-MJ6',40),decode(OP.LID_EMPRESA_PERTENECE,'CC_OXXO',rpad('CCO-860523-1N4',40),'')) RFC
+,(SELECT TC1.NUM_CONTRATO FROM T_CONTRATOS TC1 where TC1.id_tienda = TT.id_tienda AND TC1.LID_TIPO_CONTRATO = 'CONTRATO_TDC' and  tc1.lid_nombre_emisor = 'EMI_TDC_BANCOMER' and rownum < 2) T_NUMCONT_BANC
+,(SELECT TC1.NUM_CONTRATO FROM T_CONTRATOS TC1 where TC1.id_tienda = TT.id_tienda AND TC1.LID_TIPO_CONTRATO = 'CONTRATO_TDC' and  tc1.lid_nombre_emisor = 'EMI_TDC_AMEX' and rownum < 2) T_NUMCONT_AMEX
+,UPPER(SUBSTR(tt.status, 3,LENGTH(tt.status))) STATUS
+,UPPER(decode(OP.MESANO,'1','Si Operativa',decode(OP.MESANO,'0','No Operativa','No Operativa'))) OPERATIVA_VTA
+,tdc.NUM_NIVELES NUM_NIVELES
+,tdc.NUM_PUERTAS NUM_PUERTAS
+, TF.SIC_ESTACION SIC_ESTACION
+, TF.NUMERO_DE_ESTACION NUMERO_DE_ESTACION
+,tc.AREA_DEL_TERRENO AREA_DEL_TERRENO
+,(SELECT TT1.CR_TIENDA FROM  T_TIENDAS TT1 WHERE TT1.ID_TIENDA = tf.ID_TIENDA_GAS) CR_TIENDA_GAS
+, tdc.NUM_DESLIZADORES NUM_DESLIZADORES
+,tt.LAST_UPDATE_BY ACTUALIZADO_POR, TO_CHAR(tt.LAST_UPDATE_DATE,'DD-MM-YYYY HH:MI:SS') FECHA_ACTUAL
+,FS.MAESTRO_SEGMENTO_DESC SEGMENTO_MAESTRO
+,FS.CONCEPTO_DIFERENCIADOR
+, STV.P_COMIDA
+, STV.P_DESAYUNO
+, STV.P_HOGAR
+, STV.O_COMIDA
+, STV.O_DESAYUNO
+, STV.O_HOGAR
+FROM  t_tiendas tt,t_formato_entorno tf, t_operacion op,T_CONDICIONES_PROPIEDAD TC,
+(SELECT id_tienda,rtrim(xmlagg (xmlelement (e,UPPER(UTILS.descripcion(TDC1.LID_CATEGORIA_EXHIBICION))||'='||nvl(TDC1.NUM_NIVELES,'0') ||',')).extract ('//text()'), ',') NUM_NIVELES
+,rtrim(xmlagg (xmlelement (e,UPPER(UTILS.descripcion(TDC1.LID_CATEGORIA_EXHIBICION))||'='||nvl(TDC1.NUM_PUERTAS,'0') ||',')).extract ('//text()'), ',')  NUM_PUERTAS
+,rtrim(xmlagg (xmlelement (e,UPPER(UTILS.descripcion(TDC1.LID_CATEGORIA_EXHIBICION))||'='||nvl(TDC1.NUM_DESLIZADORES,'0') ||',')).extract ('//text()'), ',')  NUM_DESLIZADORES
+from t_detalle_cuarto_frio TDC1 group by id_tienda) tdc,
+(SELECT id_tienda,rtrim(xmlagg (xmlelement (e,'Num Cuenta Predial'||'='||nvl(convert(TL1.NUM_CUENTA_PREDIAL,'UTF8','US7ASCII') ,'0') ||',')).extract ('//text()'), ',')  NUM_CUENTA_PREDIAL
+,rtrim (xmlagg (xmlelement (e,'Permiso Venta Vinos'||'='||nvl(TL1.PEM_VTA_VINOS,'N') ||',')).extract ('//text()'), ',')  PEM_VTA_VINOS
+from T_LEGALES TL1 group by id_tienda) TL,
+t_formato_segmento FS, T_SEGMENTO_TIENDA_V STV
+WHERE  tt.id_tienda = tf.id_tienda
+and tt.id_tienda = op.id_tienda
+and tt.id_tienda = tc.id_tienda(+)
+and tt.id_tienda = tdc.id_tienda(+)
+and tt.id_tienda = tl.id_tienda(+)
+and tt.id_tienda = FS.id_tienda(+)
+AND TT.ID_TIENDA = STV.ID_TIENDA(+)

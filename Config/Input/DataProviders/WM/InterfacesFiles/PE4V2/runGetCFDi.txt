@@ -1,0 +1,34 @@
+http://<<host>>/invoke/PE4v2.Pub/runGetCFDi?xmlIn=<?xml version="1.0" encoding="utf-8"?>
+<TPEFacturaInput version="4.0">
+<OxxoData plaza="<<plaza>>" tienda="<<tienda>>" caja="<<caja>>" adminDate="<<adminDate>>" noTicket="<<noTicket>>" notaCredito="<<notaCredito>>" reattempt="<<reattempt>>" movDate="<<movDate>>" source="<<source>>"/>
+<Comprobante formaDePago="<<formaDePago>>" subTotal="<<subTotal>>" total="<<total>>" metodoDePago="<<metodoDePago>>" lugarExpedicion="<<lugarExpedicion>>" tipoDeComprobante="<<tipoDeComprobante>>" moneda="<<moneda>>" exportacion="<<exportacion>>">
+<Emisor rfc="<<rfcEmisor>>" nombre="<<nombreEmisor>>">
+<RegimenFiscal Regimen="<<regimenEmisor>>"/>
+</Emisor>
+<Receptor rfc="<<rfcReceptor>>" nombre="" usoCFDI="<<usoCfdiReceptor>>" domicilioFiscalReceptor="" regimenFiscalReceptor="<<regimenFiscalReceptor>>">
+<Domicilio calle="<<calle>>" noExterior="<<noExterior>>" colonia="<<colonia>>" municipio="<<municipio>>" estado="<<estado>>" pais="<<pais>>" codigoPostal="<<codigoPostal>>"/>
+</Receptor>
+<Conceptos>
+<Concepto claveProdServ="<<claveProdServ>>" cantidad="<<cantidad>>" claveUnidad="<<claveUnidad>>" descripcion="<<descripcion>>" valorUnitario="<<valorUnitario>>" importe="<<importeConcepto>>" objetoImp="<<objetoImp>>">
+<Impuestos>
+<Traslados>
+<Traslado base="<<base1>>" impuesto="<<impuesto1>>" tipoFactor="<<tipoFactor1>>" tasaOCuota="<<tasaOCuota1>>" importe="<<importeTraslado1>>"/>
+<Traslado base="<<base2>>" impuesto="<<impuesto2>>" tipoFactor="<<tipoFactor2>>" tasaOCuota="<<tasaOCuota2>>" importe="<<importeTraslado2>>"/>
+</Traslados>
+</Impuestos>
+</Concepto>
+</Conceptos>
+<Impuestos totalImpuestosTrasladados="<<totalImpuestosTrasladados>>">
+<Traslados>
+<Traslado base="<<base3>>" impuesto="<<impuesto3>>" tasaOCuota="<<tasaOCuota3>>" importe="<<importeTraslado3>>" tipoFactor="<<tipoFactor3>>"/>
+<Traslado base="<<base4>>" impuesto="<<impuesto4>>" tasaOCuota="<<tasaOCuota4>>" importe="<<importeTraslado4>>" tipoFactor="<<tipoFactor4>>"/>
+</Traslados>
+</Impuestos>
+<Complemento>
+<ImpuestosLocales totalDeRetenciones="<<totalDeRetenciones>>" totalDeTraslados="<<totalDeTraslados>>">
+<RetencionesLocales tasaDeRetencion="<<tasaDeRetencion>>" impLocRetenido="<<impLocRetenido>>" importe="<<importeRetencionesLocales>>" />
+</ImpuestosLocales>
+</Complemento>
+<DatosAdicionales descripcionRegimen="<<descripcionRegimen>>" descripcionTipoComprobante="<<descripcionTipoComprobante>>" descripcionUsoCFDI="<<descripcionUsoCFDI>>" descripcionMetodoPago="<<descripcionMetodoPago>>"/>
+</Comprobante>
+</TPEFacturaInput>

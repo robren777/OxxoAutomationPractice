@@ -1,0 +1,67 @@
+{
+    "method": "POST",
+    "headers": {
+        "x-functions-key": "ScPhqviIcwKd_JT0r-JDxqRTHyDQ_ytiIsLNLXK3bNEeAzFueWTHsg==",
+        "Authorization": "Bearer eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjEwOCwidXR5cGlkIjoyLCJpYXQiOjE3Nzk3MzI0ODEsImV4cCI6MTc3OTczNjA4MX0.9B41qWEfUtdINB5W6ZeiNodMhdEI6e1mpXRW1YPXJO0\n"
+    },
+    "url": "https://mcstaging.oxxoespacios.com/rest/all/V1/oxxo/ebs-supergpoadmin/create",
+    "body": {
+        "superGpoAdmin": [
+            {
+                "id_supergrupo": 110,
+                "administrador": "AC_VMR",
+                "descripcion": "Mercancias Generales"
+            },
+            {
+                "id_supergrupo": 90,
+                "administrador": "AC_SINSG",
+                "descripcion": "Sin Supergrupo Asignado"
+            },
+            {
+                "id_supergrupo": 70,
+                "administrador": "AC_ACM",
+                "descripcion": "Optimizacion"
+            },
+            {
+                "id_supergrupo": 50,
+                "administrador": "AC_GMDM",
+                "descripcion": "Hambre"
+            },
+            {
+                "id_supergrupo": 30,
+                "administrador": "AC_GG",
+                "descripcion": "Antojo"
+            },
+            {
+                "id_supergrupo": 10,
+                "administrador": "AC_OES",
+                "descripcion": "Diario y Reposicion"
+            },
+            {
+                "id_supergrupo": 100,
+                "administrador": "AC_SER",
+                "descripcion": "Importaciones"
+            },
+            {
+                "id_supergrupo": 80,
+                "administrador": "AC_JLM",
+                "descripcion": "Marca Propia"
+            },
+            {
+                "id_supergrupo": 60,
+                "administrador": "AC_BARA",
+                "descripcion": "Estrategia Comercial BARA"
+            },
+            {
+                "id_supergrupo": 40,
+                "administrador": "AC_RFB",
+                "descripcion": "Reunion"
+            },
+            {
+                "id_supergrupo": 20,
+                "administrador": "AC_HCM",
+                "descripcion": "Sed"
+            }
+        ]
+    }
+}

@@ -1,0 +1,49 @@
+field,value
+rentFolio,null
+rentFolio,""
+rentFolio,"5137"
+rentFolio,-1
+rentFolio,1.5
+rentFolio,"ABC123"
+rentFolio,1234567890
+rentFolio,no enviar
+year,null
+year,"2026"
+year,99
+year,99999
+year,-2026
+year,2026.5
+year,"abcd"
+year,no enviar
+periodName,null
+periodName,""
+periodName,"P120260001"
+periodName,"<script>"
+periodName,"' OR 1=1 --"
+periodName,no enviar
+rentFolioStatus,123
+rentFolioStatus,true
+rentFolioStatus,""
+rentFolioStatus,"Pendiente"
+rentFolioStatus,"activo"
+rentFolioStatus,"CANCELADOOOOO"
+rentFolioStatus,"<script>alert(1)</script>"
+rentFolioStatus,"' OR 1=1 --"
+items,null
+items,{}
+items,[]
+items,"["invalid"]"
+items,no enviar
+items[0].subPackageId,null
+items[0].subPackageId,""
+items[0].subPackageId,"<script>alert(1)</script>"
+items[0].subPackageId,"' OR 1=1 --"
+items[0].subPackageId,no enviar
+items[0].subPackageStatus,123
+items[0].subPackageStatus,true
+items[0].subPackageStatus,""
+items[0].subPackageStatus,"Pendiente"
+items[0].subPackageStatus,"activo"
+items[0].subPackageStatus,"CANCELADOOOO"
+items[0].subPackageStatus,"<script>alert(1)</script>"
+

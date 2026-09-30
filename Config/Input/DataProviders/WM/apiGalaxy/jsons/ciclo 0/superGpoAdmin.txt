@@ -1,0 +1,67 @@
+{
+    "method": "POST",
+    "headers": {
+        "x-functions-key": "ScPhqviIcwKd_JT0r-JDxqRTHyDQ_ytiIsLNLXK3bNEeAzFueWTHsg==",
+        "Authorization": "Bearer \"eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjQwLCJ1dHlwaWQiOjIsImlhdCI6MTc3MDI2NTk0OSwiZXhwIjoxNzcwMjY5NTQ5fQ.Z0YrDy9j1khFWbAa2J_CI1_o__BXvPOiNpHI3ZQ1E-Q\""
+    },
+    "url": "https://oxzfuncpepromd01.azurewebsites.net/api/rest/all/V1/oxxo/ebs-supergpoadmin/create",
+    "body": {
+        "superGpoAdmin": [
+            {
+                "ID_SUPERGRUPO": 110,
+                "ADMINISTRADOR": "AC_VMR",
+                "DESCRIPCION": "Mercancias Generales"
+            },
+            {
+                "ID_SUPERGRUPO": 90,
+                "ADMINISTRADOR": "AC_SINSG",
+                "DESCRIPCION": "Sin Supergrupo Asignado"
+            },
+            {
+                "ID_SUPERGRUPO": 70,
+                "ADMINISTRADOR": "AC_ACM",
+                "DESCRIPCION": "Optimizacion"
+            },
+            {
+                "ID_SUPERGRUPO": 50,
+                "ADMINISTRADOR": "AC_GMDM",
+                "DESCRIPCION": "Hambre"
+            },
+            {
+                "ID_SUPERGRUPO": 30,
+                "ADMINISTRADOR": "AC_GG",
+                "DESCRIPCION": "Antojo"
+            },
+            {
+                "ID_SUPERGRUPO": 10,
+                "ADMINISTRADOR": "AC_OES",
+                "DESCRIPCION": "Diario y Reposicion"
+            },
+            {
+                "ID_SUPERGRUPO": 100,
+                "ADMINISTRADOR": "AC_SER",
+                "DESCRIPCION": "Importaciones"
+            },
+            {
+                "ID_SUPERGRUPO": 80,
+                "ADMINISTRADOR": "AC_JLM",
+                "DESCRIPCION": "Marca Propia"
+            },
+            {
+                "ID_SUPERGRUPO": 60,
+                "ADMINISTRADOR": "AC_BARA",
+                "DESCRIPCION": "Estrategia Comercial BARA"
+            },
+            {
+                "ID_SUPERGRUPO": 40,
+                "ADMINISTRADOR": "AC_RFB",
+                "DESCRIPCION": "Reunion"
+            },
+            {
+                "ID_SUPERGRUPO": 20,
+                "ADMINISTRADOR": "AC_HCM",
+                "DESCRIPCION": "Sed"
+            }
+        ]
+    }
+}

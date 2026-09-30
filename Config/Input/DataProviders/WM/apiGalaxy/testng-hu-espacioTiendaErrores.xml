@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="errores">
+  <test thread-count="1" name="Test">
+
+ <classes>
+     <class name="WM.apigalaxy.folios.ATC_FT_050_ValidarError403ParaEndpointAgreementFolios"/>
+     <class name="WM.apigalaxy.folios.ATC_FT_053_ValidarError408ParaEndpointAgreementFolios"/>
+     <class name="WM.apigalaxy.cancelacion.ATC_FT_144_ValidarError403ParaEndpointRentaDeEspacio"/>
+     <class name="WM.apigalaxy.convenios.ATC_FT_102_ValidarError403ParaEndpointAgreement"/>
+     <class name="WM.apigalaxy.calendarios.ATC_FT_075_ValidarError403ParaEndpointPromotionalCalendars"/>
+ <!--  
+ <class name="WM.apigalaxy.cancelacion.ATC_FT_147_ValidarErrorPorMultiplesRequestsParaEndpointRentaDeEspacio"/>
+       <class name="WM.apigalaxy.folios.ATC_FT_054_ValidarErrorPorMultiplesRequestsParaEndpointAgreementFolios"/>
+       <class name="WM.apigalaxy.convenios.ATC_FT_105_ValidarErrorPorMultiplesRequestsParaEndpointAgreement"/>-->
+        </classes>
+
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->

@@ -1,0 +1,20 @@
+{
+    "method": "POST",
+    "headers": {
+        "x-functions-key": "ScPhqviIcwKd_JT0r-JDxqRTHyDQ_ytiIsLNLXK3bNEeAzFueWTHsg==",
+        "Authorization": "Bearer eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjEwOCwidXR5cGlkIjoyLCJpYXQiOjE3Nzk3MzI1NTMsImV4cCI6MTc3OTczNjE1M30.wH5WFxSKQAa9h3QWaVhw9j5XZK8SCRsvrlImbfgjGqc\n"
+    },
+    "url": "https://mcstaging.oxxoespacios.com/rest/all/V1/oxxo/ebs-businesstypes/create",
+    "body": {
+        "bussinesTypes": [
+            {
+                "id_tipo_negociacion": 382,
+                "tipo_negociacion": "POP Espacio"
+            },
+            {
+                "id_tipo_negociacion": 390,
+                "tipo_negociacion": "POP Publicidad"
+            }
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+  "promotionalCalendar": [
+    {
+      "finalDate": "2026-12-31",
+      "initialDate": "2026-01-01",
+      "periodsId": 73,
+      "periodName": "P1",
+      "position": 1,
+      "projectionPercentage": 1,
+      "isShortPeriods": false,
+      "yearCalendar": 2026,
+      "type": "cerveza",
+      "activityName": "Actividad corta",
+      "nDays": 0,
+      "nDate": "2025-12-01"
+    },
+    {
+      "finalDate": "2026-06-30",
+      "initialDate": "2026-06-01",
+      "periodsId": 73,
+      "periodName": "Periodo con caracteres especiales ÁÉÍÓÚÑ @#-_",
+      "position": 500,
+      "projectionPercentage": 50,
+      "isShortPeriods": true,
+      "yearCalendar": 2026,
+      "type": "cerveza-industrial_regional#MX",
+      "activityName": "Proveedores: Cierre de promociones locales para compartir a plazas QA-Test @2026 \u0027 #Automatización",
+      "nDays": 100,
+      "nDate": "2026-05-30"
+    },
+    {
+      "finalDate": "2026-03-31",
+      "initialDate": "2026-03-01",
+      "periodsId": 73,
+      "periodName": "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP",
+      "position": 9999,
+      "projectionPercentage": 10000,
+      "isShortPeriods": false,
+      "yearCalendar": 2026,
+      "type": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT",
+      "activityName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "nDays": -366,
+      "nDate": "2026-02-28"
+    }
+  ]
+}

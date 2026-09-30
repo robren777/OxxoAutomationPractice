@@ -1,0 +1,52 @@
+[
+    {
+        "agreementInformation": {
+            "marketplaceId": 706,
+            "initialPeriod": "P5 2026",
+            "finalPeriod": "P6 2026",
+            "actionAgreement": "N",
+            "cancellationMarketplaceId": null,
+            "invoiceConcept": "Renta Espacio x FA\u0027s, por concepto de colocación de exhibidor de piso $900.54 x tienda, 52 tiendas totales",
+            "billingMethod": "FC_FACT",
+            "paymentMethod": "FP_FOLIO",
+            "customerProviderId": 250,
+            "taxCode": "GRAVABLEINT",
+            "mechanics": "Renta Espacio para Exhibidor; P\u0027s: P12",
+            "bonusDescription": "Renta de espacio",
+            "calendarBusiness": "Promocional Oxxo",
+            "bonusType": "C",
+            "bonusTypeDescription": "Renta Espacio",
+            "negotiationType": "Renta Espacio",
+            "frequency": "P_PERIODO_OXXO",
+            "contributionType": "MONTO_FIJO_X_TIENDA",
+            "contributionDescription": null,
+            "contributionAmount": 365,
+            "superGroupId": 305,
+            "divisionId": 125,
+            "groupNumberId": 8,
+            "departmentId": 54,
+            "commercialRepresentativeFullName": "4AEF28F659ED396478CAE528861033E59BE53EEDB84EE6598EDD19013FB2BE460195F3452D3971E165E1EB45891CCEA4313195",
+            "commercialRepresentativeEmail": "0553F872013D00B91188357828D10DED1CE80D2EC2386E7A1E60F58D4D9F47932E5D502830603D609AEFC691E6B23404785631A5F1BABD8F1948",
+            "commercialRepresentativePhone": "B0228F565EDD397173643A01E250958B3FD680636618286D0939A3FFC5E1EFE7BB89A284FD5DB564CD8F56C65512BC69D068",
+            "userCategoryId": 1163,
+            "customerRfc": "85DFB13B6655ABCF4532B95884B53F234161738E36500B3466BDDE097A0465519E85271F4F3162DC472E0B1B28BA76865778"
+        },
+        "coverage": {
+            "regions": [
+                "10MEX",
+                "10VCZ"
+            ],
+            "empoweredPlazas": [
+                "32NJD",
+                "32WUB"
+            ],
+            "masterSegments": [
+                "Barrio Competido"
+            ],
+            "potentials": [
+                "Hogar_Alto"
+            ],
+            "alcoholPermits": "ALTA,BAJA,CERVEZA,SIN"
+        }
+    }
+]

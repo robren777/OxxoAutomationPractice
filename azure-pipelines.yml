@@ -1,0 +1,195 @@
+trigger: none
+pr: none
+ 
+parameters:
+- name: TEST_PLAN_ID
+  displayName: 'Test Plan ID'
+  type: string
+  default: ''
+ 
+- name: TEST_SUITE_ID_1
+  displayName: 'Test Suite ID 1'
+  type: string
+  default: ''
+ 
+- name: TEST_SUITE_ID_2
+  displayName: 'Test Suite ID 2 opcional'
+  type: string
+  default: 'NA'
+ 
+variables:
+  JAVA_TOOL_OPTIONS: "-Dfile.encoding=UTF-8"
+ 
+jobs:
+- job: Suite1
+  displayName: 'Ejecución Suite 1'
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 10
+
+  pool:
+    name: $(AGENT_POOL)
+    demands:
+    - Agent.Name -equals $(AGENT_NAME_1)
+ 
+  steps:
+  - task: Bash@3
+    displayName: 'Validar configuración Suite 1'
+    inputs:
+      targetType: 'inline'
+      script: |
+        echo "Proyecto Azure: $PROJECT_NAME"
+        echo "Rama actual: $BUILD_SOURCEBRANCHNAME"
+        echo "Rama esperada: $EXPECTED_BRANCH"
+        echo "Test Plan ID: $TEST_PLAN_ID"
+        echo "Test Suite ID 1: $TEST_SUITE_ID_1"
+        echo "Agente Suite 1: $AGENT_NAME_1"
+ 
+        if [ "$BUILD_SOURCEBRANCHNAME" != "$EXPECTED_BRANCH" ]; then
+          echo "ERROR: Rama no autorizada. Debe ejecutarse desde: $EXPECTED_BRANCH"
+          exit 30
+        fi
+ 
+        if [ -z "$TEST_PLAN_ID" ]; then
+          echo "ERROR: TEST_PLAN_ID no capturado"
+          exit 40
+        fi
+ 
+        if [ -z "$TEST_SUITE_ID_1" ]; then
+          echo "ERROR: TEST_SUITE_ID_1 no capturado"
+          exit 50
+        fi
+ 
+        echo "Configuración Suite 1 validada correctamente"
+    env:
+      AZURE_PROJECT_NAME: $(PROJECT_NAME)
+      EXPECTED_BRANCH: $(EXPECTED_BRANCH)
+      AGENT_NAME_1: $(AGENT_NAME_1)
+      TEST_PLAN_ID: ${{ parameters.TEST_PLAN_ID }}
+      TEST_SUITE_ID_1: ${{ parameters.TEST_SUITE_ID_1 }}
+ 
+  - task: Maven@4
+    displayName: 'Compile and prepare tests - Suite 1'
+    inputs:
+      mavenPomFile: 'pom.xml'
+      goals: 'clean install'
+      options: '-DskipTests'
+ 
+  - task: Maven@4
+    name: generateTestNamesSuite1
+    displayName: 'Generate test names - Suite 1'
+    inputs:
+      mavenPomFile: 'pom.xml'
+      goals: 'exec:java'
+      options: '-Dexec.mainClass=start.AzureGetTestNames'
+    env:
+      SYSTEM_ACCESSTOKEN: $(System.AccessToken)
+      AZURE_ORG_URL: $(System.TeamFoundationCollectionUri)
+      AZURE_PROJECT_NAME: $(PROJECT_NAME)
+      TEST_PLAN_ID: ${{ parameters.TEST_PLAN_ID }}
+      TEST_SUITE_ID: ${{ parameters.TEST_SUITE_ID_1 }}
+      BUILD_ID: $(Build.BuildId)
+ 
+  - task: Maven@4
+    displayName: 'Run specified tests - Suite 1'
+    inputs:
+      mavenPomFile: 'pom.xml'
+      goals: 'surefire:test'
+      options: '-Dtest=$(testsToRun) -Dmaven.test.failure.ignore=true -DfailIfNoTests=false'
+      publishJUnitResults: true
+      testResultsFiles: '**/surefire-reports/TEST-*.xml'
+      javaHomeOption: 'JDKVersion'
+      mavenVersionOption: 'Default'
+    env:
+      SYSTEM_ACCESSTOKEN: $(System.AccessToken)
+      AZURE_ORG_URL: $(System.TeamFoundationCollectionUri)
+      AZURE_PROJECT_NAME: $(PROJECT_NAME)
+      TEST_PLAN_ID: ${{ parameters.TEST_PLAN_ID }}
+      TEST_SUITE_ID: ${{ parameters.TEST_SUITE_ID_1 }}
+      BUILD_ID: $(Build.BuildId)
+ 
+- ${{ if ne(parameters.TEST_SUITE_ID_2, 'NA') }}:
+  - job: Suite2
+    displayName: 'Ejecución Suite 2'
+    timeoutInMinutes: 360
+    cancelTimeoutInMinutes: 10
+ 
+    pool:
+      name: $(AGENT_POOL)
+      demands:
+      - Agent.Name -equals $(AGENT_NAME_2)
+ 
+    steps:
+    - task: Bash@3
+      displayName: 'Validar configuración Suite 2'
+      inputs:
+        targetType: 'inline'
+        script: |
+          echo "Proyecto Azure: $PROJECT_NAME"
+          echo "Rama actual: $BUILD_SOURCEBRANCHNAME"
+          echo "Rama esperada: $EXPECTED_BRANCH"
+          echo "Test Plan ID: $TEST_PLAN_ID"
+          echo "Test Suite ID 2: $TEST_SUITE_ID_2"
+          echo "Agente Suite 2: $AGENT_NAME_2"
+ 
+          if [ "$BUILD_SOURCEBRANCHNAME" != "$EXPECTED_BRANCH" ]; then
+            echo "ERROR: Rama no autorizada. Debe ejecutarse desde: $EXPECTED_BRANCH"
+            exit 30
+          fi
+ 
+          if [ -z "$TEST_PLAN_ID" ]; then
+            echo "ERROR: TEST_PLAN_ID no capturado"
+            exit 40
+          fi
+ 
+          if [ -z "$TEST_SUITE_ID_2" ]; then
+            echo "ERROR: TEST_SUITE_ID_2 no capturado"
+            exit 50
+          fi
+ 
+          echo "Configuración Suite 2 validada correctamente"
+      env:
+        AZURE_PROJECT_NAME: $(PROJECT_NAME)
+        EXPECTED_BRANCH: $(EXPECTED_BRANCH)
+        AGENT_NAME_2: $(AGENT_NAME_2)
+        TEST_PLAN_ID: ${{ parameters.TEST_PLAN_ID }}
+        TEST_SUITE_ID_2: ${{ parameters.TEST_SUITE_ID_2 }}
+ 
+    - task: Maven@4
+      displayName: 'Compile and prepare tests - Suite 2'
+      inputs:
+        mavenPomFile: 'pom.xml'
+        goals: 'clean install'
+        options: '-DskipTests'
+ 
+    - task: Maven@4
+      name: generateTestNamesSuite2
+      displayName: 'Generate test names - Suite 2'
+      inputs:
+        mavenPomFile: 'pom.xml'
+        goals: 'exec:java'
+        options: '-Dexec.mainClass=start.AzureGetTestNames'
+      env:
+        SYSTEM_ACCESSTOKEN: $(System.AccessToken)
+        AZURE_ORG_URL: $(System.TeamFoundationCollectionUri)
+        AZURE_PROJECT_NAME: $(PROJECT_NAME)
+        TEST_PLAN_ID: ${{ parameters.TEST_PLAN_ID }}
+        TEST_SUITE_ID: ${{ parameters.TEST_SUITE_ID_2 }}
+        BUILD_ID: $(Build.BuildId)
+ 
+    - task: Maven@4
+      displayName: 'Run specified tests - Suite 2'
+      inputs:
+        mavenPomFile: 'pom.xml'
+        goals: 'surefire:test'
+        options: '-Dtest=$(testsToRun) -Dmaven.test.failure.ignore=true -DfailIfNoTests=false'
+        publishJUnitResults: true
+        testResultsFiles: '**/surefire-reports/TEST-*.xml'
+        javaHomeOption: 'JDKVersion'
+        mavenVersionOption: 'Default'
+      env:
+        SYSTEM_ACCESSTOKEN: $(System.AccessToken)
+        AZURE_ORG_URL: $(System.TeamFoundationCollectionUri)
+        AZURE_PROJECT_NAME: $(PROJECT_NAME)
+        TEST_PLAN_ID: ${{ parameters.TEST_PLAN_ID }}
+        TEST_SUITE_ID: ${{ parameters.TEST_SUITE_ID_2 }}
+        BUILD_ID: $(Build.BuildId)

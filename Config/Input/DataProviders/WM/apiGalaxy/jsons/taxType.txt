@@ -1,0 +1,36 @@
+{
+    "method": "POST",
+    "headers": {
+        "x-functions-key": "ScPhqviIcwKd_JT0r-JDxqRTHyDQ_ytiIsLNLXK3bNEeAzFueWTHsg==",
+        "Authorization": "Bearer eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjEwOCwidXR5cGlkIjoyLCJpYXQiOjE3Nzk3MzIzNjgsImV4cCI6MTc3OTczNTk2OH0.OCkjmmsLzJDkGoB1gqv7UUro8MpC_7wy4Mw054UFiPc"
+    },
+    "url": "https://mcstaging.oxxoespacios.com/rest/all/V1/oxxo/ebs-tipos-impuesto/create",
+    "body": {
+        "taxType": [
+            {
+                "lookup_code": "EXENTO",
+                "meaning": "Exento"
+            },
+            {
+                "lookup_code": "GRAVABLE10",
+                "meaning": "Gravable 10%"
+            },
+            {
+                "lookup_code": "GRAVABLE15",
+                "meaning": "Gravable 15%"
+            },
+            {
+                "lookup_code": "GRAVABLEFRO",
+                "meaning": "Gravable Frontera"
+            },
+            {
+                "lookup_code": "GRAVABLEINT",
+                "meaning": "Gravable Interior"
+            },
+            {
+                "lookup_code": "TASA0",
+                "meaning": "Tasa 0%"
+            }
+        ]
+    }
+}

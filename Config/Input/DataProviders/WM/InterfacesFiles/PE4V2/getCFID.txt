@@ -1,0 +1,27 @@
+http://10.80.20.103:8889/invoke/PE4v2.Pub/runGetCFDi?xmlIn= version="1.0"?>
+<TPEFacturaInput version="3.0">
+<OxxoData plaza="14COM" tienda="" noTicket="916179" notaCredito="N" reattempt="N" source="IMXAR"/>
+<Comprobante formaDePago="01" subTotal="41.81" total="48.50" metodoDePago="PUE" tipoDeComprobante="I" lugarExpedicion="64480" moneda="MXN">
+<Emisor rfc="IMM861215HH0" nombre="IMPULSORA DE MERCADOS DE MEXICO SA DE CV">
+<RegimenFiscal Regimen="623"/>
+</Emisor>
+<Receptor rfc="XAXX010101000" nombre="VENTAS AL PUBLICO EN GENERAL" usoCFDI="G03">
+<Domicilio calle="EDISON" noExterior="1235" colonia="TALLERES" estado="NUEVO LEON" pais="Mexico" codigoPostal="64480"/>
+</Receptor>
+<Conceptos>
+<Concepto cantidad="1" descripcion="PALL MALL XL 20S TOKYO CAPS" valorUnitario="41.81" importe="41.81" claveProdServ="50211502" claveUnidad="H87">
+<Impuestos>
+<Traslados>
+<Traslado impuesto="002" base="41.81" tipoFactor="Tasa" tasaOCuota="0.160000" importe="6.69"/>
+</Traslados>
+</Impuestos>
+</Concepto>
+</Conceptos>
+<Impuestos totalImpuestosTrasladados="6.69">
+<Traslados>
+<Traslado impuesto="002" importe="6.69" tipoFactor="Tasa" tasaOCuota="0.160000"/>
+</Traslados>
+</Impuestos>
+<DatosAdicionales descripcionFormaPago="01" descripcionRegimen="Opcional para Grupos de Sociedades" descripcionTipoComprobante="ingreso" descripcionUsoCFDI="Gastos en general" descripcionMetodoPago="Pago en una sola exhibicion"/>
+</Comprobante>
+</TPEFacturaInput>

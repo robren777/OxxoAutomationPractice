@@ -1,0 +1,80 @@
+{
+  "Entity": {
+    "ID_COMPANIA": "00099",
+    "ORG_ID": "168",
+    "INVOICE_TYPE_LOOKUP_CODE": "STANDARD",
+    "VENDOR_SITE_ID": "183932",
+    "VENDOR_ID": "1096",
+    "INVOICE_NUM": "30001",
+    "INVOICE_CURRENCY_CODE": "MXN",
+    "AMOUNT": "1000",
+    "SOURCE": "XPERTAL-PORTAL FI",
+    "DESCRIPTION": "10045",
+    "EXISTE_UUID": "N",
+    "FIRMANTES": "DLR-DS29",
+    "FECHA_EMBARQUE": "2023-08-04 15:27:00",
+    "PRORRATEO": "PR",
+    "ID_PROCESO": "21",
+    "NOMBRE_PROVEEDOR": null,
+    "FECHA_FACT_INICIO": "2023-08-04 15:27:00",
+    "FECHA_FACT_FIN": "2023-08-04 15:27:00",
+    "NIS": null,
+    "lines": [
+      {
+        "LINE_TYPE": "Articulo",
+        "IMPORTE": "1000.00",
+        "CODIGO_IMPUESTO": "TASAEXENTO",
+        "CODIGO_RETENCION": null,
+        "COMBINACION_CONTABLE": "00099.01QRF.32AQS.72SU1112.00000000.000000.00000",
+        "COMENTARIOS": "Prueba Automatizada 003",
+        "ORDEN_SERVICIO": "1234",
+        "SI_LEGACY": null,
+        "SI_ORACLE": null,
+        "NO_REQUISICION": null,
+        "PUESTO": "Gerente",
+        "MODELO": "2023",
+        "ARTICULO": "A.02",
+        "PIEZAS": "10",
+        "COSTO_UNITARIO": "10.05",
+        "PERIODO": null,
+        "CONCEPTO": null,
+        "NOMBRE_CAMPANA": null
+      }
+    ],
+    "uuids": [
+      {
+        "UUID": "19b5e5f6-eb41-458c-a9a1-c5dbe7d947c3",
+        "RFC": "LOMW800829LL3",
+        "VENDOR_ID": "6757",
+        "INVOICE_NUM": "30011",
+        "TIPO_DOCUMENTO": "E",
+        "FOLIO": "TENSXMLEX040823",
+        "SERIE": "TENSXMLEX040823",
+        "FECHA_EMISION_XML": "2023-08-04T15:27:00",
+        "FECHA_RECEPCION_XML": "2023-08-04T09:27:00",
+        "SUBTOTAL": "1000.00",
+        "IMPUESTOS": "10.00",
+        "RETENCIONES": "10.00",
+        "TOTAL_XML": "1000.00",
+        "MONEDA": "MXN"
+      }
+    ],
+    "uuids_relacionados": [
+      {
+        "UUID": "19b5e5f6-eb41-458c-a9a1-c5dbe7d947c3",
+        "TIPO_RELACION": "03",
+        "UUID_RELACIONADO_XML": "85e18b85-dc13-4608-a65d-490c45801171;525feede-ffc9-48f8-8e31-6b849809e55e;68a77027-0679-4622-bcc7-3a93972cdcf3"
+      },
+      {
+        "UUID": "19b5e5f6-eb41-458c-a9a1-c5dbe7d947c3",
+        "TIPO_RELACION": "03",
+        "UUID_RELACIONADO_XML": "ca92dd70-d2aa-47ab-a3c9-a29c27672540;23ec0040-4b01-4796-9520-c3aeadcb8576"
+      },
+      {
+        "UUID": "19b5e5f6-eb41-458c-a9a1-c5dbe7d947c3",
+        "TIPO_RELACION": "03",
+        "UUID_RELACIONADO_XML": "16E918E7-71FE-466B-B8EC-B26BE108D7E3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+    "promotionalRents": [
+        {
+            "rentFolio": 7016,
+            "year": 2026,
+            "periodName": "P1",
+            "providerName": "COCA-COLAs",
+            "providerId": "0002",
+            "emailCategory": "0553F872013D00B91188357828D10DED1CE80D2EC2386E7A1E60F58D4D9F47932E5D502830603D609AEFC691E6B23404785631A5F1BABD8F1948",
+            "coverage": {
+                "potentials": [
+                    "Hogar_Alto",
+                    "Hogar_Bajo"
+                ],
+                "masterSegments": [
+                    "Barrio Competido",
+                    "Oficinistas"
+                ],
+                "region": [
+                    "10MEX",
+                    "10VCZ"
+                ],
+                "alcoholPermits": [
+                    "ALTA",
+                    "BAJA",
+                    "CERVEZA",
+                    "SIN"
+                ],
+                "empoweredPlazas": [
+                    "32NJD",
+                    "32WUB",
+                    "32BQS"
+                ]
+            },
+            "items": [
+                {
+                    "spaceId": "100219",
+                    "packageId": "563",
+                    "subPackageId": "100219-563-0",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                 {
+                    "spaceId": "100220",
+                    "packageId": "563",
+                    "subPackageId": "100220-563-1",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                }
+            ]
+        }
+    ]
+}

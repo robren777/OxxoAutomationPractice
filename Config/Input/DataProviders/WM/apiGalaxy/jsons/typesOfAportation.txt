@@ -1,0 +1,84 @@
+{
+    "method": "POST",
+    "headers": {
+        "x-functions-key": "ScPhqviIcwKd_JT0r-JDxqRTHyDQ_ytiIsLNLXK3bNEeAzFueWTHsg==",
+        "Authorization": "Bearer eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjEwOCwidXR5cGlkIjoyLCJpYXQiOjE3Nzk3MzI1NzEsImV4cCI6MTc3OTczNjE3MX0.vK4RXKkpkyUXxkff3DvBV3IO7FA_yivRkgzfCwjWdY4"
+    },
+    "url": "https://mcstaging.oxxoespacios.com/rest/all/V1/oxxo/ebs-typesofaportation/create",
+    "body": {
+        "typesOfAportation": [
+            {
+                "id_tipo_aportacion": 6671,
+                "tipo_aportacion": "MONTO_FIJO_X_TIENDA",
+                "id_tipo_bonificacion": 9504,
+                "aportacion": "se castea para pasar la validacion"
+            },
+            {
+                "id_tipo_aportacion": 6672,
+                "tipo_aportacion": "MONTO_FIJO_X_TIENDA",
+                "id_tipo_bonificacion": 9396,
+                "aportacion": null
+            },
+            {
+                "id_tipo_aportacion": 8265,
+                "tipo_aportacion": "MONTO_UNICO_X_CIA",
+                "id_tipo_bonificacion": 9504,
+                "aportacion": null
+            },
+            {
+                "id_tipo_aportacion": 6756,
+                "tipo_aportacion": "MONTO_FIJO_X_TIENDA",
+                "id_tipo_bonificacion": 9589,
+                "aportacion": null
+            },
+            {
+                "id_tipo_aportacion": 6757,
+                "tipo_aportacion": "MONTO_UNICO_X_CIA",
+                "id_tipo_bonificacion": 9589,
+                "aportacion": null
+            },
+            {
+                "id_tipo_aportacion": 6960,
+                "tipo_aportacion": "MONTO_FIJO_X_TIENDA",
+                "id_tipo_bonificacion": 9433,
+                "aportacion": null
+            },
+            {
+                "id_tipo_aportacion": 6961,
+                "tipo_aportacion": "MONTO_UNICO_X_CIA",
+                "id_tipo_bonificacion": 9433,
+                "aportacion": null
+            },
+            {
+                "id_tipo_aportacion": 7859,
+                "tipo_aportacion": "MONTO_UNICO_X_CIA",
+                "id_tipo_bonificacion": 9396,
+                "aportacion": null
+            },
+            {
+                "id_tipo_aportacion": 7158,
+                "tipo_aportacion": "MONTO_FIJO_X_TIENDA",
+                "id_tipo_bonificacion": 9708,
+                "aportacion": null
+            },
+            {
+                "id_tipo_aportacion": 7159,
+                "tipo_aportacion": "MONTO_UNICO_X_CIA",
+                "id_tipo_bonificacion": 9708,
+                "aportacion": null
+            },
+            {
+                "id_tipo_aportacion": 7172,
+                "tipo_aportacion": "MONTO_FIJO_X_TIENDA",
+                "id_tipo_bonificacion": 10066,
+                "aportacion": null
+            },
+            {
+                "id_tipo_aportacion": 7173,
+                "tipo_aportacion": "MONTO_UNICO_X_CIA",
+                "id_tipo_bonificacion": 10066,
+                "aportacion": null
+            }
+        ]
+    }
+}

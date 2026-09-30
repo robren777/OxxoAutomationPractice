@@ -1,0 +1,96 @@
+{
+    "promotionalRents": [
+	{
+  "rentFolio": 7100,
+  "year": 2026,
+  "periodName": "P1 2026",
+  "providerName": "EMBOTELLADORA COCA-COLA MÉXICO Ñ",
+  "providerId": "123400000000000000000000000000000000000000000001",
+  "emailCategory": "QWxhZGRpbjpvcGVuIHNlc2FtZSDDsWHDqcOt8J+YgA==",
+  "coverage": {
+    "potentials": [
+      "Hogar_Alto",
+      "Niños",
+      "Tecnología",
+      "Lácteos-Premium"
+    ],
+    "masterSegments": [
+      "Barrio Competido",
+      "Zona Élite",
+      "Tráfico Alto"
+    ],
+    "region": [
+      "10MEX",
+      "10VCZ",
+      "10PCK"
+    ],
+    "alcoholPermits": [
+      "ALTA",
+      "BAJA",
+      "CERVEZA",
+      "SIN"
+    ],
+    "empoweredPlazas": [
+      "32NJD",
+      "32WUB",
+      "45CDMX"
+    ]
+  },
+  "items": [
+    {
+      "spaceId": "100219",
+      "packageId": "563",
+      "subPackageId": "100219-563-0",
+      "superGroup": "Agua Purificada",
+      "oxxoCategories": "Desayuno"
+    },
+    {
+      "spaceId": "100220",
+      "packageId": "99999999999999999999999999999999999999999999999999",
+      "subPackageId": "100220-999-222",
+      "superGroup": "Bebidas Energéticas Élite",
+      "oxxoCategories": "Snacks  Café"
+    }
+  ]
+},{
+  "rentFolio": 7100,
+  "year": 2026,
+  "periodName": "ABCDEFGHIJ",
+  "providerName": "Proveedor Internacional de Comercialización México Latinoamérica División Norte Región Pacífico con Caracteres Especiales ÁÉÍÓÚ Ñ",
+  "providerId": "12341234567890123456789012345678901234567890123",
+  "emailCategory": "VGhpcyBpcyBhIHZlcnkgbG9uZyBlbmNyeXB0ZWQgZW1haWwgY2F0ZWdvcnkgZm9yIHRlc3RpbmcgcHVycG9zZXM=",
+  "coverage": {
+    "potentials": [
+      "Hogar_Alto",
+      "Mascotas",
+      "Premium"
+    ],
+    "masterSegments": [
+      "Barrio Competido"
+    ],
+    "region": [
+      "10MEX",
+      "10VCZ",
+      "10PCK"
+    ],
+    "alcoholPermits": [
+      "ALTA",
+      "CERVEZA"
+    ],
+    "empoweredPlazas": [
+      "32NJD",
+      "32WUB"
+    ]
+  },
+  "items": [
+    {
+      "spaceId": "99999999999999999999999999999999999999999999999999",
+      "packageId": "88888888888888888888888888888888888888888888888888",
+      "subPackageId": "12345678901234567890-12345678901234567890-1234567",
+      "superGroup": "Bebidas Funcionales Premium Edición Especial",
+      "oxxoCategories": "Nutrición Deportiva"
+    }
+  ]
+}
+    ]
+}

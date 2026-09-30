@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SiV">
+	<test name="RegresionSiV">
+		<classes>
+			<!-- 
+			<class
+			name="Siv.ATC_001_Plaza_Alta_CBNvo_AprobarCategory_AprobarCatalogos_Planogramador"/>
+			<class
+			name="Siv.ATC_002_Plaza_Alta_CBNvo_RechazarCategoryConjuntos_AceptarRechazo_Abortado"/>
+			<class
+			name="Siv.ATC_003_Plaza_Alta_CBNvo_RechazarCategory_AceptarRechazo_Abortado"/>	
+			<class
+			name="Siv.ATC_004_Plaza_Alta_CBNvo_RechazarCategory_ReenvioCategory_AprobarCatalogos_Planogramador"/>
+			<class
+			name="Siv.ATC_005_Plaza_Alta_CBNvo_RechazarCgory_ReenvioCgory_RechazarCgos_ReenvioCgos_Planogramador"/>
+			<class
+			name="Siv.ATC_006_Plaza_Alta_CBNvo_RechazarCgory_ReenvioCgory_RechazarCgos_AceptarRechazo_Abortado"/>
+			<class
+			name="Siv.ATC_007_Plaza_Alta_CBNvo_AprobarCategory_RechazarCatalogos_AceptarRechazo_Abortado"/>
+			<class
+			name="Siv.ATC_008_Plaza_Alta_CBNvo_AprobarCategory_RechazarCatalogos_ReenviarCatalogos_Planogramador"/>
+			-->
+			<class
+				name="Siv.ATC_009_Category_Alta_CBNvo_AprobarCatalogos_Planogramador" />
+			<!-- <class
+			name="Siv.ATC_010_Category_Alta_CBNvo_RechazarCatalogos_AceptarRechazo_Abortado"/> -->
+			<class
+				name="Siv.ATC_011_Category_Alta_CBNvo_RechazarCatalogos_ReenviarCatalogos_Planogramador" />
+		</classes>
+	</test>
+</suite>

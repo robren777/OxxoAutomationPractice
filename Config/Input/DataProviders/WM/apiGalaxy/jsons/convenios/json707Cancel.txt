@@ -1,0 +1,8 @@
+[
+    {
+        "agreementInformation": {
+            "marketplaceId": 707,
+            "actionAgreement": "C"
+        }
+    }
+]

@@ -1,0 +1,167 @@
+package Mobile.cedis.mvp3.tablet.sprint2;
+
+import static org.testng.Assert.assertTrue;
+
+import java.util.HashMap;
+
+import org.openqa.selenium.SessionNotCreatedException;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import io.appium.java_client.remote.AutomationName;
+import modelo.BaseExecution;
+import utils.AppiumUtil;
+import utils.password.PasswordUtil;
+
+
+public class ATC_FT_021_RedaccionDeInstruccionesPantallaDanadosVerificacionTABLET extends BaseExecution{
+	
+	@Test(dataProvider = "data-provider", enabled = true)
+
+public void ATC_FT_021_RedaccionDeInstruccionesPantallaDanadosVerificacionTABLET_Test(HashMap<String, String> data) throws Exception {
+
+		/******************************* Inicio - Configuracion Pre eliminar de Dispositivo a Ejecutar Script  ********************/
+		DesiredCapabilities cap = new DesiredCapabilities();
+		
+		cap.setCapability("appium:automationName", AutomationName.ANDROID_UIAUTOMATOR2);
+		cap.setCapability("deviceName", data.get("deviceName"));
+		cap.setCapability("platformVersion", data.get("platformVersion"));
+		cap.setCapability("platformName", data.get("platformName"));
+		cap.setCapability("appium:appPackage", data.get("appPackageP"));
+		cap.setCapability("appium:appActivity", data.get("appActivityP"));
+		cap.setCapability("ip", data.get("ip"));
+		cap.setCapability("userLogin", data.get("userLogin"));
+		cap.setCapability("passwordLogin", data.get("passwordLogin"));
+		cap.setCapability("numTransferencia", data.get("numTransferencia"));
+		//cap.setCapability("noReset", true); // Se debe de dejar est� opcion en true para que no se borre el cache y asi lograr evitar la vista de ingresar la IP y puerto
+		
+		String url = "http://127.0.0.1:4723/";
+ 
+		// Cerrar Apps
+		Runtime.getRuntime().exec("adb shell pm clear " + data.get("appPackage"));
+				
+    	AppiumUtil appiumUtil = null;
+    	try {
+    		appiumUtil = new AppiumUtil(url, cap);
+		} catch (SessionNotCreatedException e) {
+			assertTrue(false, "Hubo un problema al acceder a la aplicaci�n. \n"
+					+ e.getMessage());
+			e.printStackTrace();
+		}
+    	
+    	//Abre la aplicación 
+		Runtime.getRuntime().exec("adb shell am start " + data.get("appPackage"));
+		
+		//Ejecuta el logeo hacia el punto de venta
+		Mobile.cedis.om.A01_Login_Punto_De_Venta login = new Mobile.cedis.om.A01_Login_Punto_De_Venta(testCase, appiumUtil, this); 
+		login.loginPV(data.get("ip"));
+		
+		//Ejecuta el logeo del lider
+		Mobile.cedis.om.A02_Login_Lider loginLider = new Mobile.cedis.om.A02_Login_Lider(testCase, appiumUtil, this); 
+		//Obtiene valor del DataProvaider
+		loginLider.login(data.get("userLogin"), PasswordUtil.decryptPassword(data.get("passwordLogin")));
+		
+		//Ejecuta los pasos para llegar al menu de Herramientas de CEDIS
+		Mobile.cedis.om.Tablet_A03_Menus_y_submenus herramienta = new Mobile.cedis.om.Tablet_A03_Menus_y_submenus(testCase, appiumUtil, this);
+		herramienta.logeoInicioHerramientasTT();
+		
+		Mobile.cedis.om.A04_MenuHerramientas menuCedis =  new Mobile.cedis.om.A04_MenuHerramientas(testCase, appiumUtil, this);
+		menuCedis.clickBtnVerificacionMercanciaCEDIS();
+		
+		Mobile.cedis.om.C01_Listado_de_transferencias_a_verificar listadoverificacion = new Mobile.cedis.om.C01_Listado_de_transferencias_a_verificar(testCase, appiumUtil, this);
+		listadoverificacion.busquedaNumTransferencia(data.get("numTransferencia"));//Realiza la busqueda de una verificación
+		
+		Mobile.cedis.om.C02_Verificacion_De_Pedido_Y_Permisos verificacion = new Mobile.cedis.om.C02_Verificacion_De_Pedido_Y_Permisos(testCase, appiumUtil, this);
+		verificacion.EsperaPantallaVerificacion(50000);
+		verificacion.darClickBotonBultos();
+		Thread.sleep(2000);
+		verificacion.hacerClickEnElPrimerBultoDelPadre();
+		Thread.sleep(2000);
+		verificacion.tomarFoto();
+		Thread.sleep(2000);
+		verificacion.verificarArticulo();
+		Thread.sleep(2000);
+		verificacion.darClickBotonBultos();
+		Thread.sleep(2000);
+		verificacion.hacerClickEnElSegundoBultoDelPadre();
+		Thread.sleep(2000);
+		verificacion.tomarFoto();
+		Thread.sleep(2000);
+		verificacion.verificarArticulo();
+		Thread.sleep(2000);
+		verificacion.continuarDanadosHH();
+		Thread.sleep(2000);
+		
+	    Mobile.cedis.om.C03_Acreditacion_de_Danados pantalladanados = new Mobile.cedis.om.C03_Acreditacion_de_Danados(testCase, appiumUtil, this);
+	    
+		/*Paso 1 Posicionarse en la pantalla de Acreditación, para capturar el listado de articulos dañados.".
+		 Resultado: ? Se muestra pantalla para capturar el listado de articulos dañados".
+		*/
+	   addStep("Se muestra pantalla para capturar el listado de articulos dañados");
+	    pantalladanados.pantallaDanados();
+	    Thread.sleep(5000);
+	    testCase.addScreenShotCurrentStep(appiumUtil, "testImage");
+	    
+	    /*Paso 2 Ir al apartado instrucciones y validar que se muestre correctamente el orden de las instrucciones en la pantalla de dañados en acreditación.".
+		 Resultado: ? Se muestra correctamente homologado el orden de la siguiente manera:
+		 1.	Escanea o da clic al botón “Ingresar código SKU” para registrar cada uno de los artículos dañados.
+		 2.	Coloca la cantidad de productos que recibiste.
+		 3.	Toma fotografía de cada uno de los artículos dañados.".
+		*/
+	    addStep("Se muestra homologado correctamente el orden de las instrucciones");
+	    pantalladanados.validacionInstruccionesDanadosTablet();
+	    testCase.addScreenShotCurrentStep(appiumUtil, "testImage");
+	}
+	
+	
+	
+	/*
+	  CEDIS MVP3: ATC_FT_021_RedaccionDeInstruccionesPantallaDanadosVerificacionTABLET
+	  Desc: "Validar que las instrucciones que se muestran en la pantalla de dañados en verificación estén actualizadas de acuerdo al cambio de redacción."
+	  @autor: Ricardo Hdz
+	  @date: 21/08/2024
+	 */
+	
+	@BeforeTest
+	public void beforeTest() {
+	}
+
+	@Override
+	public String setPrerequisites() {
+		return "1.App Oxxo al día instalada en TABLET.\r\n" +
+			   "2. Usuario y Contraseña de Aplicación Oxxo al día. \r\n" +
+			   "3. Comunicación entre TABLET y POS (red wifi (Handheld) y cableada (POS), que permitan conexión entre ambos dispositivos).\r\n" +
+			   "4. P.V con acceso a la Herramienta de compra.  \r\n" +
+			   "5. Realizar flujo de verificación hasta llegar a la pantalla de dañados";
+	}
+
+	@Override
+	public String setTestDescription() {
+		return "Validar que las instrucciones que se muestran en la pantalla de dañados en verificación estén actualizadas de acuerdo al cambio de redacción.";
+	}
+
+	@Override
+	public String setTestDesigner() {
+		return "Ricardo Hdz Rios";
+	}
+
+	@Override
+	public String setTestFullName() {
+		return "ATC_FT_021_RedaccionDeInstruccionesPantallaDanadosVerificacionTABLET";
+	}
+
+	@Override
+	public String setTestInstanceID() {
+		// TODO Auto-generated method stub
+		return null;
+
+
+	}
+
+}
+
+
+
+
+

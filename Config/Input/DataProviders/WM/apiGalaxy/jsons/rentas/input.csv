@@ -1,0 +1,95 @@
+field,value
+rentFolio,null
+rentFolio,""
+rentFolio,"5137"
+rentFolio,-1
+rentFolio,1.5
+rentFolio,"ABC123"
+rentFolio,99999999999999999999999999999999999999
+rentFolio,no enviar
+year,null
+year,"2026"
+year,99
+year,99999
+year,-2026
+year,2026.5
+year,"abcd"
+year,no enviar
+periodName,null
+periodName,""
+periodName,"P120260001"
+periodName,"<script>"
+periodName,"' OR 1=1 --"
+periodName,no enviar
+providerName,null
+providerName,""
+providerName,"??????????"
+providerName,"<script>alert(1)</script>"
+providerName,"' DROP TABLE providers --"
+providerName,"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+providerName,no enviar
+providerId,null
+providerId,""
+providerId,"@@@###"
+providerId,"123456789012345678901234567890123456789012345678901"
+providerId,no enviar
+emailCategory,null
+emailCategory,""
+emailCategory,"pedro.lopez@oxxo.com"
+emailCategory,"%%%%INVALIDBASE64%%%%"
+emailCategory,"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+emailCategory,no enviar
+coverage,null
+coverage,[]
+coverage,""
+coverage,{}
+coverage,no enviar
+coverage.potentials,[]
+coverage.potentials,"Hogar_Alto"
+coverage.potentials,[1 2 3]
+coverage.potentials,["Hogar_Alto" null]
+coverage.masterSegments,[]
+coverage.masterSegments,123
+coverage.masterSegments,[true]
+coverage.masterSegments,["" "Barrio Competido"]
+coverage.region,"10MEX"
+coverage.region,[true]
+coverage.region,[123]
+coverage.region,[]
+coverage.region,["123456789012345678901234567890"]
+coverage.alcoholPermits,["INVALID"]
+coverage.alcoholPermits,[123]
+coverage.alcoholPermits,[null]
+coverage.empoweredPlazas,[]
+coverage.empoweredPlazas,["###"]
+coverage.empoweredPlazas,[12345]
+items,null
+items,{}
+items,[]
+items,["invalid"]
+items,no enviar
+items[0].spaceId,null
+items[0].spaceId,""
+items[0].spaceId,100219
+items[0].spaceId,"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+items[0].spaceId,no enviar
+items[0].packageId,null
+items[0].packageId,""
+items[0].packageId,"[]"
+items[0].packageId,"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+items[0].packageId,no enviar
+items[0].subPackageId,null
+items[0].subPackageId,""
+items[0].subPackageId,"<script>alert(1)</script>"
+items[0].subPackageId,"OR 1=1 --"
+items[0].subPackageId,no enviar
+items[0].superGroup,null
+items[0].superGroup,""
+items[0].superGroup,12345
+items[0].superGroup,"[]"
+items[0].superGroup,no enviar
+items[0].oxxoCategories,null
+items[0].oxxoCategories,""
+items[0].oxxoCategories,"[]"
+items[0].oxxoCategories,no enviar
+items[0].oxxoCategories,"<script>alert(xss)</script>"

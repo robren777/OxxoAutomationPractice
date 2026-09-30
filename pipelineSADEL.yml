@@ -1,0 +1,77 @@
+#trigger:
+#- master
+#schedules:
+#- cron: '* * * * *'
+#  displayName: Ejecución planeada
+#  branches:
+#    include:
+#    - 
+#  always: true 
+ 
+trigger: none
+pr: none
+variables:  
+    JAVA_TOOL_OPTIONS: "-Dfile.encoding=UTF-8"
+ 
+jobs:
+- job: job
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 10
+
+  pool:
+   name: locales
+   demands: Agent.Name -equals CARLOS-MARTINEZ
+   timeoutInMinutes: 10
+ 
+# Define pipeline-wide variables
+   variables:
+   solution: '**/*.sln'
+   buildPlatform: 'Any CPU'
+   buildConfiguration: 'Release'
+
+# Define the steps of the pipeline
+  steps:
+
+  - task: Maven@4
+    displayName: 'Compile and prepare tests'
+    inputs:
+     mavenPomFile: 'pom.xml'
+     goals: 'clean install'
+     options: '-DskipTests'
+
+  - task: Maven@4
+    inputs:
+     mavenPomFile: 'pom.xml'
+     goals: 'exec:java'
+     options: '-Dexec.mainClass=start.AzureGetTestNames'
+    name: ejecucionSuite1
+    displayName: 'Generate test names for execution'
+    env:
+     SYSTEM_ACCESSTOKEN: $(System.AccessToken)
+     AZURE_ORG_URL: $(System.TeamFoundationCollectionUri)  # Azure DevOps Organization URL
+     AZURE_PROJECT_NAME: PTI251110-Seguridad%20SADEL  
+     TEST_SUITE_ID: '2156'
+     TEST_PLAN_ID: '2154'
+     BUILD_ID: $(Build.BuildId)
+
+# Maven task to run the specified tests
+# This step executes the tests that were determined in the previous step, publishes JUnit results, and handles test execution failures
+  - task: Maven@4
+    displayName: 'Run specified tests'
+    inputs:
+     mavenPomFile: 'pom.xml'
+     goals: 'surefire:test'
+     options: '-Dtest=$(testsToRun) -Dmaven.test.failure.ignore=true -DfailIfNoTests=false'
+     publishJUnitResults: true
+     testResultsFiles: '**/surefire-reports/TEST-*.xml'
+     javaHomeOption: 'JDKVersion'
+     mavenVersionOption: 'Default'
+ 
+    env:
+     testsToRun: $(generateTestNames.testsToRun)
+     SYSTEM_ACCESSTOKEN: $(System.AccessToken)
+     AZURE_ORG_URL: $(System.TeamFoundationCollectionUri)  # Azure DevOps Organization URL
+     AZURE_PROJECT_NAME: PTI251110-Seguridad%20SADEL  
+     TEST_SUITE_ID: '2156'
+     TEST_PLAN_ID: '2154'
+     BUILD_ID: $(Build.BuildId)

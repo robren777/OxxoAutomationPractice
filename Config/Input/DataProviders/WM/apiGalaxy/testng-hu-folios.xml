@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="RetornoDeFolios">
+  <test thread-count="1" name="Test">
+
+ <packages>
+    <package name="WM.apigalaxy.folios"/>
+</packages>
+
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->

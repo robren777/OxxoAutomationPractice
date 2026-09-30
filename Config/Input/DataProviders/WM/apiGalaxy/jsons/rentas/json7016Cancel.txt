@@ -1,0 +1,19 @@
+{
+    "promotionalRentCancellations": [
+        {
+            "rentFolio": 7016,
+            "year": 2026,
+            "periodName": "P1",
+            "items": [
+    {
+        "subPackageId": "100219-563-0",
+        "subPackageStatus": "Cancelado"
+    },    
+{
+        "subPackageId": "100220-563-1",
+        "subPackageStatus": "Cancelado"
+    }
+]
+        }
+    ]
+}

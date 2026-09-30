@@ -1,0 +1,140 @@
+package WEB.cometa.scripts.mvp5;
+
+import static org.testng.Assert.assertTrue;
+import java.util.HashMap;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import WEB.cometa.om.CometaNuevaIdentidadVisualPage;
+import WEB.cometa.om.PortalCometaMVP4;
+import WEB.cometa.om.generaDuplicadosCambFisPendiente;
+import WEB.cometa.om.generaDuplicadosCambFisPendiente.ResultadoValidacionDuplicadosCambFisPendiente;
+import modelo.BaseExecution;
+import utils.selenium.MEdgeTest;
+import utils.selenium.SeleniumUtil;
+
+/**DESCRIPCION: Validar formato monetario con simbolo $ en columna Precio en pantalla Cambios Fisicos Pendientes - Comercial.
+ *
+ * NOMBRE CASOS DE PRUEBA MANUAL QUE SE ABARCAN:
+ * MTC_FT_288 [CA04, CA07] - Validar formato monetario con simbolo $ en columna Precio en pantalla Cambios Fisicos Pendientes - Comercial.
+ *
+ * PREREQUISITOS:
+ * 1. Usuario activo en ambiente QA con perfil COMERCIAL (usuario 2222222).
+ * 2. Datos de prueba con al menos 1 registro con sale_price mayor a cero.
+ *
+ * INSUMOS:
+ * Datos en xxcm_cambios_fisicos_pendientes con sale_price poblado para la consulta.
+ * Liga externa de red libre https://pruebasweb.oxxo.com/AuthFemcoProx/
+ *
+ * @author Michelle Ceja
+ * @date agosto 2026
+ */
+public class ATC_FT_288_ValidarFormatoMonetarioPrecioGridCFPendientesComercial extends BaseExecution {
+
+	SeleniumUtil u;
+
+	@Test(dataProvider = "data-provider")
+	public void ATC_FT_288_ValidarFormatoMonetarioPrecioGridCFPendientesComercial_test(HashMap<String, String> data) throws Exception {
+
+		testCase.setProject_Name("I22089-Evolucion del proceso de recibo en Tienda Cedis | MVP5");
+		u = new SeleniumUtil(new MEdgeTest(), true);
+
+		PortalCometaMVP4 pc4 = new PortalCometaMVP4(u, testCase);
+		CometaNuevaIdentidadVisualPage idPage = new CometaNuevaIdentidadVisualPage(u, testCase);
+		generaDuplicadosCambFisPendiente gen = new generaDuplicadosCambFisPendiente(testCase);
+
+		String user = data.get("user");
+		String url = data.get("Url");
+
+		addStep("Precondicion: obtener credenciales del perfil COMERCIAL y validar usuario configurado");
+		testCase.addBoldTextEvidenceCurrentStep("Perfil: COMERCIAL | Usuario: " + user);
+		assertTrue("2222222".equals(user), "El data provider no corresponde al perfil COMERCIAL (usuario esperado: 2222222)");
+
+		String password = pc4.obtenerPasswordPorUsuario(user);
+		assertTrue(password != null && !password.trim().isEmpty(), "No se encontro password para el usuario: " + user);
+
+		ResultadoValidacionDuplicadosCambFisPendiente val = gen.validarMinimoRegistrosPorUsuario(user, 1);
+
+		addStep("Ingresar a la URL del portal COMETA");
+		assertTrue(pc4.IngresarURL(url, true), "CA04/CA07 fallido - Paso 1");
+		testCase.addTextEvidenceCurrentStep("Se visualiza la pantalla de inicio de sesion del portal COMETA.");
+		pc4.PrivatePortal();
+
+		addStep("Ingresar las credenciales correspondientes al perfil de Cometa para el inicio de sesion (perfil COMERCIAL)");
+		assertTrue(pc4.IniciarSesionNoToken(user, password, true), "CA04/CA07 fallido - Paso 2");
+		testCase.addTextEvidenceCurrentStep("El sistema autentica correctamente y redirige a Access Control.");
+
+		addStep("Seleccionar la opcion Portal COMETA en Access Control");
+		assertTrue(pc4.seleccionarPortalCometaQAConRefresh(true), "CA04/CA07 fallido - Paso 3");
+		testCase.addTextEvidenceCurrentStep("Se visualiza la pantalla principal del portal COMETA.");
+
+		addStep("Seleccionar el modulo DIRECTOS en el menu principal");
+		assertTrue(pc4.clicBotonCometaDirectos(true), "CA04/CA07 fallido - Paso 4");
+		testCase.addTextEvidenceCurrentStep("Se despliega el menu del modulo Directos con sus opciones disponibles.");
+
+		addStep("Seleccionar la opcion Cambios Fisicos");
+		assertTrue(pc4.ClicBotonCF(true), "CA04/CA07 fallido - Paso 5");
+		testCase.addTextEvidenceCurrentStep("Se visualiza la pantalla Cambios Fisicos con sus filtros.");
+
+		addStep("Ingresar a Cambios Fisicos Pendientes");
+		assertTrue(pc4.clickCambiosFisicosPendientesPantalla(true), "CA04/CA07 fallido - Paso 6");
+		testCase.addTextEvidenceCurrentStep("Se visualiza la pantalla Cambios Fisicos Pendientes con los filtros disponibles.");
+
+		addStep("Seleccionar un rango de fechas valido que incluya registros con sale_price poblado y presionar Consultar");
+		String filtro = gen.aplicarFiltrosNecesariosParaConsulta(user, pc4, val, true);
+		assertTrue(filtro != null && !filtro.trim().isEmpty(), "CA04/CA07 fallido - Paso 7: No fue posible aplicar filtros");
+		assertTrue(pc4.consultarComprobantes(true), "CA04/CA07 fallido - Paso 7: El grid no se cargo con registros visibles");
+		testCase.addTextEvidenceCurrentStep("El grid se carga con registros visibles incluyendo valores en la columna Precio.");
+		testCase.addTextEvidenceCurrentStep("Filtro aplicado: " + filtro);
+
+		addStep("Identificar los valores mostrados en la columna Precio del grid");
+		assertTrue(idPage.validarValoresPrecioVisiblesEnGrid(true), "CA04/CA07 fallido - Paso 8: No se identifican valores en la columna Precio");
+		testCase.addTextEvidenceCurrentStep("Los valores de la columna Precio son visibles en el grid.");
+
+		addStep("Verificar que cada valor en la columna Precio incluye el simbolo de pesos mexicanos ($)");
+		assertTrue(idPage.validarSimboloPesosEnColumnaPrecioGrid(true), "CA04/CA07 fallido - Paso 9: Al menos un valor de la columna Precio no incluye el simbolo $");
+		testCase.addTextEvidenceCurrentStep("Todos los valores de la columna Precio se muestran con el simbolo $ (ejemplo: $12.50).");
+
+		addStep("Verificar que los valores tienen formato numerico decimal consistente con formato monetario (dos decimales o formato estandar MXN)");
+		assertTrue(idPage.validarFormatoDecimalColumnaPrecioGrid(true), "CA04/CA07 fallido - Paso 10: Al menos un valor de la columna Precio no cumple el formato monetario");
+		testCase.addTextEvidenceCurrentStep("Los valores se presentan con formato monetario en pesos mexicanos sin errores de visualizacion.");
+	}
+
+	@AfterMethod
+	public void afterMethod() {
+		if (u != null) {
+			u.quit();
+		}
+	}
+
+	@Override
+	public void beforeTest() {
+
+	}
+
+	@Override
+	public String setPrerequisites() {
+		return "*1. Usuario COMERCIAL activo en QA (2222222).\r\n"
+				+ "*2. Al menos 1 registro con sale_price mayor a cero.\r\n"
+				+ "*3. Liga de Portal Cometa.";
+	}
+
+	@Override
+	public String setTestDescription() {
+		return "Validar formato monetario con simbolo $ en columna Precio en pantalla Cambios Fisicos Pendientes - Comercial.";
+	}
+
+	@Override
+	public String setTestDesigner() {
+		return "Michelle Ceja";
+	}
+
+	@Override
+	public String setTestFullName() {
+		return "ATC_FT_288_ValidarFormatoMonetarioPrecioGridCFPendientesComercial_test";
+	}
+
+	@Override
+	public String setTestInstanceID() {
+		return null;
+	}
+}

@@ -1,0 +1,3531 @@
+{
+    "promotionalRents": [
+        {
+            "rentFolio": 7040,
+            "year": 2026,
+            "periodName": "P1",
+            "providerName": "COCA-COLA",
+            "providerId": "0002",
+            "emailCategory": "0553F872013D00B91188357828D10DED1CE80D2EC2386E7A1E60F58D4D9F47932E5D502830603D609AEFC691E6B23404785631A5F1BABD8F1948",
+            "coverage": {
+                "potentials": [
+                    "Hogar_Alto"
+                ],
+                "masterSegments": [
+                    "Barrio Competido"
+                ],
+                "region": [
+                    "10MEX"
+                ],
+                "alcoholPermits": [
+                    "ALTA"
+                ],
+                "empoweredPlazas": [
+                    "32NJD"
+                ]
+            },
+            "items": [
+                {
+                    "spaceId": "100220",
+                    "packageId": "001",
+                    "subPackageId": "100220-563-0",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100221",
+                    "packageId": "002",
+                    "subPackageId": "100220-563-1",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100222",
+                    "packageId": "003",
+                    "subPackageId": "100220-563-2",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100223",
+                    "packageId": "004",
+                    "subPackageId": "100220-563-3",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100224",
+                    "packageId": "005",
+                    "subPackageId": "100220-563-4",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100225",
+                    "packageId": "006",
+                    "subPackageId": "100220-563-5",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100226",
+                    "packageId": "007",
+                    "subPackageId": "100220-563-6",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100227",
+                    "packageId": "008",
+                    "subPackageId": "100220-563-7",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100228",
+                    "packageId": "009",
+                    "subPackageId": "100220-563-8",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100229",
+                    "packageId": "010",
+                    "subPackageId": "100220-563-9",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100230",
+                    "packageId": "011",
+                    "subPackageId": "100220-563-10",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100231",
+                    "packageId": "012",
+                    "subPackageId": "100220-563-11",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100232",
+                    "packageId": "013",
+                    "subPackageId": "100220-563-12",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100233",
+                    "packageId": "014",
+                    "subPackageId": "100220-563-13",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100234",
+                    "packageId": "015",
+                    "subPackageId": "100220-563-14",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100235",
+                    "packageId": "016",
+                    "subPackageId": "100220-563-15",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100236",
+                    "packageId": "017",
+                    "subPackageId": "100220-563-16",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100237",
+                    "packageId": "018",
+                    "subPackageId": "100220-563-17",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100238",
+                    "packageId": "019",
+                    "subPackageId": "100220-563-18",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100239",
+                    "packageId": "020",
+                    "subPackageId": "100220-563-19",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100240",
+                    "packageId": "021",
+                    "subPackageId": "100220-563-20",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100241",
+                    "packageId": "022",
+                    "subPackageId": "100220-563-21",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100242",
+                    "packageId": "023",
+                    "subPackageId": "100220-563-22",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100243",
+                    "packageId": "024",
+                    "subPackageId": "100220-563-23",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100244",
+                    "packageId": "025",
+                    "subPackageId": "100220-563-24",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100245",
+                    "packageId": "026",
+                    "subPackageId": "100220-563-25",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100246",
+                    "packageId": "027",
+                    "subPackageId": "100220-563-26",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100247",
+                    "packageId": "028",
+                    "subPackageId": "100220-563-27",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100248",
+                    "packageId": "029",
+                    "subPackageId": "100220-563-28",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100249",
+                    "packageId": "030",
+                    "subPackageId": "100220-563-29",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100250",
+                    "packageId": "031",
+                    "subPackageId": "100220-563-30",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100251",
+                    "packageId": "032",
+                    "subPackageId": "100220-563-31",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100252",
+                    "packageId": "033",
+                    "subPackageId": "100220-563-32",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100253",
+                    "packageId": "034",
+                    "subPackageId": "100220-563-33",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100254",
+                    "packageId": "035",
+                    "subPackageId": "100220-563-34",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100255",
+                    "packageId": "036",
+                    "subPackageId": "100220-563-35",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100256",
+                    "packageId": "037",
+                    "subPackageId": "100220-563-36",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100257",
+                    "packageId": "038",
+                    "subPackageId": "100220-563-37",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100258",
+                    "packageId": "039",
+                    "subPackageId": "100220-563-38",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100259",
+                    "packageId": "040",
+                    "subPackageId": "100220-563-39",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100260",
+                    "packageId": "041",
+                    "subPackageId": "100220-563-40",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100261",
+                    "packageId": "042",
+                    "subPackageId": "100220-563-41",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100262",
+                    "packageId": "043",
+                    "subPackageId": "100220-563-42",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100263",
+                    "packageId": "044",
+                    "subPackageId": "100220-563-43",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100264",
+                    "packageId": "045",
+                    "subPackageId": "100220-563-44",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100265",
+                    "packageId": "046",
+                    "subPackageId": "100220-563-45",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100266",
+                    "packageId": "047",
+                    "subPackageId": "100220-563-46",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100267",
+                    "packageId": "048",
+                    "subPackageId": "100220-563-47",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100268",
+                    "packageId": "049",
+                    "subPackageId": "100220-563-48",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100269",
+                    "packageId": "050",
+                    "subPackageId": "100220-563-49",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100270",
+                    "packageId": "051",
+                    "subPackageId": "100220-563-50",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100271",
+                    "packageId": "052",
+                    "subPackageId": "100220-563-51",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100272",
+                    "packageId": "053",
+                    "subPackageId": "100220-563-52",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100273",
+                    "packageId": "054",
+                    "subPackageId": "100220-563-53",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100274",
+                    "packageId": "055",
+                    "subPackageId": "100220-563-54",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100275",
+                    "packageId": "056",
+                    "subPackageId": "100220-563-55",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100276",
+                    "packageId": "057",
+                    "subPackageId": "100220-563-56",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100277",
+                    "packageId": "058",
+                    "subPackageId": "100220-563-57",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100278",
+                    "packageId": "059",
+                    "subPackageId": "100220-563-58",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100279",
+                    "packageId": "060",
+                    "subPackageId": "100220-563-59",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100280",
+                    "packageId": "061",
+                    "subPackageId": "100220-563-60",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100281",
+                    "packageId": "062",
+                    "subPackageId": "100220-563-61",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100282",
+                    "packageId": "063",
+                    "subPackageId": "100220-563-62",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100283",
+                    "packageId": "064",
+                    "subPackageId": "100220-563-63",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100284",
+                    "packageId": "065",
+                    "subPackageId": "100220-563-64",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100285",
+                    "packageId": "066",
+                    "subPackageId": "100220-563-65",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100286",
+                    "packageId": "067",
+                    "subPackageId": "100220-563-66",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100287",
+                    "packageId": "068",
+                    "subPackageId": "100220-563-67",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100288",
+                    "packageId": "069",
+                    "subPackageId": "100220-563-68",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100289",
+                    "packageId": "070",
+                    "subPackageId": "100220-563-69",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100290",
+                    "packageId": "071",
+                    "subPackageId": "100220-563-70",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100291",
+                    "packageId": "072",
+                    "subPackageId": "100220-563-71",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100292",
+                    "packageId": "073",
+                    "subPackageId": "100220-563-72",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100293",
+                    "packageId": "074",
+                    "subPackageId": "100220-563-73",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100294",
+                    "packageId": "075",
+                    "subPackageId": "100220-563-74",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100295",
+                    "packageId": "076",
+                    "subPackageId": "100220-563-75",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100296",
+                    "packageId": "077",
+                    "subPackageId": "100220-563-76",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100297",
+                    "packageId": "078",
+                    "subPackageId": "100220-563-77",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100298",
+                    "packageId": "079",
+                    "subPackageId": "100220-563-78",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100299",
+                    "packageId": "080",
+                    "subPackageId": "100220-563-79",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100300",
+                    "packageId": "081",
+                    "subPackageId": "100220-563-80",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100301",
+                    "packageId": "082",
+                    "subPackageId": "100220-563-81",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100302",
+                    "packageId": "083",
+                    "subPackageId": "100220-563-82",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100303",
+                    "packageId": "084",
+                    "subPackageId": "100220-563-83",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100304",
+                    "packageId": "085",
+                    "subPackageId": "100220-563-84",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100305",
+                    "packageId": "086",
+                    "subPackageId": "100220-563-85",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100306",
+                    "packageId": "087",
+                    "subPackageId": "100220-563-86",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100307",
+                    "packageId": "088",
+                    "subPackageId": "100220-563-87",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100308",
+                    "packageId": "089",
+                    "subPackageId": "100220-563-88",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100309",
+                    "packageId": "090",
+                    "subPackageId": "100220-563-89",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100310",
+                    "packageId": "091",
+                    "subPackageId": "100220-563-90",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100311",
+                    "packageId": "092",
+                    "subPackageId": "100220-563-91",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100312",
+                    "packageId": "093",
+                    "subPackageId": "100220-563-92",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100313",
+                    "packageId": "094",
+                    "subPackageId": "100220-563-93",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100314",
+                    "packageId": "095",
+                    "subPackageId": "100220-563-94",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100315",
+                    "packageId": "096",
+                    "subPackageId": "100220-563-95",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100316",
+                    "packageId": "097",
+                    "subPackageId": "100220-563-96",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100317",
+                    "packageId": "098",
+                    "subPackageId": "100220-563-97",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100318",
+                    "packageId": "099",
+                    "subPackageId": "100220-563-98",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100319",
+                    "packageId": "100",
+                    "subPackageId": "100220-563-99",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100320",
+                    "packageId": "101",
+                    "subPackageId": "100220-563-100",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100321",
+                    "packageId": "102",
+                    "subPackageId": "100220-563-101",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100322",
+                    "packageId": "103",
+                    "subPackageId": "100220-563-102",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100323",
+                    "packageId": "104",
+                    "subPackageId": "100220-563-103",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100324",
+                    "packageId": "105",
+                    "subPackageId": "100220-563-104",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100325",
+                    "packageId": "106",
+                    "subPackageId": "100220-563-105",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100326",
+                    "packageId": "107",
+                    "subPackageId": "100220-563-106",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100327",
+                    "packageId": "108",
+                    "subPackageId": "100220-563-107",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100328",
+                    "packageId": "109",
+                    "subPackageId": "100220-563-108",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100329",
+                    "packageId": "110",
+                    "subPackageId": "100220-563-109",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100330",
+                    "packageId": "111",
+                    "subPackageId": "100220-563-110",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100331",
+                    "packageId": "112",
+                    "subPackageId": "100220-563-111",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100332",
+                    "packageId": "113",
+                    "subPackageId": "100220-563-112",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100333",
+                    "packageId": "114",
+                    "subPackageId": "100220-563-113",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100334",
+                    "packageId": "115",
+                    "subPackageId": "100220-563-114",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100335",
+                    "packageId": "116",
+                    "subPackageId": "100220-563-115",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100336",
+                    "packageId": "117",
+                    "subPackageId": "100220-563-116",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100337",
+                    "packageId": "118",
+                    "subPackageId": "100220-563-117",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100338",
+                    "packageId": "119",
+                    "subPackageId": "100220-563-118",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100339",
+                    "packageId": "120",
+                    "subPackageId": "100220-563-119",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100340",
+                    "packageId": "121",
+                    "subPackageId": "100220-563-120",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100341",
+                    "packageId": "122",
+                    "subPackageId": "100220-563-121",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100342",
+                    "packageId": "123",
+                    "subPackageId": "100220-563-122",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100343",
+                    "packageId": "124",
+                    "subPackageId": "100220-563-123",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100344",
+                    "packageId": "125",
+                    "subPackageId": "100220-563-124",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100345",
+                    "packageId": "126",
+                    "subPackageId": "100220-563-125",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100346",
+                    "packageId": "127",
+                    "subPackageId": "100220-563-126",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100347",
+                    "packageId": "128",
+                    "subPackageId": "100220-563-127",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100348",
+                    "packageId": "129",
+                    "subPackageId": "100220-563-128",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100349",
+                    "packageId": "130",
+                    "subPackageId": "100220-563-129",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100350",
+                    "packageId": "131",
+                    "subPackageId": "100220-563-130",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100351",
+                    "packageId": "132",
+                    "subPackageId": "100220-563-131",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100352",
+                    "packageId": "133",
+                    "subPackageId": "100220-563-132",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100353",
+                    "packageId": "134",
+                    "subPackageId": "100220-563-133",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100354",
+                    "packageId": "135",
+                    "subPackageId": "100220-563-134",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100355",
+                    "packageId": "136",
+                    "subPackageId": "100220-563-135",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100356",
+                    "packageId": "137",
+                    "subPackageId": "100220-563-136",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100357",
+                    "packageId": "138",
+                    "subPackageId": "100220-563-137",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100358",
+                    "packageId": "139",
+                    "subPackageId": "100220-563-138",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100359",
+                    "packageId": "140",
+                    "subPackageId": "100220-563-139",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100360",
+                    "packageId": "141",
+                    "subPackageId": "100220-563-140",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100361",
+                    "packageId": "142",
+                    "subPackageId": "100220-563-141",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100362",
+                    "packageId": "143",
+                    "subPackageId": "100220-563-142",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100363",
+                    "packageId": "144",
+                    "subPackageId": "100220-563-143",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100364",
+                    "packageId": "145",
+                    "subPackageId": "100220-563-144",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100365",
+                    "packageId": "146",
+                    "subPackageId": "100220-563-145",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100366",
+                    "packageId": "147",
+                    "subPackageId": "100220-563-146",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100367",
+                    "packageId": "148",
+                    "subPackageId": "100220-563-147",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100368",
+                    "packageId": "149",
+                    "subPackageId": "100220-563-148",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100369",
+                    "packageId": "150",
+                    "subPackageId": "100220-563-149",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100370",
+                    "packageId": "151",
+                    "subPackageId": "100220-563-150",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100371",
+                    "packageId": "152",
+                    "subPackageId": "100220-563-151",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100372",
+                    "packageId": "153",
+                    "subPackageId": "100220-563-152",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100373",
+                    "packageId": "154",
+                    "subPackageId": "100220-563-153",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100374",
+                    "packageId": "155",
+                    "subPackageId": "100220-563-154",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100375",
+                    "packageId": "156",
+                    "subPackageId": "100220-563-155",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100376",
+                    "packageId": "157",
+                    "subPackageId": "100220-563-156",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100377",
+                    "packageId": "158",
+                    "subPackageId": "100220-563-157",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100378",
+                    "packageId": "159",
+                    "subPackageId": "100220-563-158",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100379",
+                    "packageId": "160",
+                    "subPackageId": "100220-563-159",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100380",
+                    "packageId": "161",
+                    "subPackageId": "100220-563-160",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100381",
+                    "packageId": "162",
+                    "subPackageId": "100220-563-161",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100382",
+                    "packageId": "163",
+                    "subPackageId": "100220-563-162",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100383",
+                    "packageId": "164",
+                    "subPackageId": "100220-563-163",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100384",
+                    "packageId": "165",
+                    "subPackageId": "100220-563-164",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100385",
+                    "packageId": "166",
+                    "subPackageId": "100220-563-165",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100386",
+                    "packageId": "167",
+                    "subPackageId": "100220-563-166",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100387",
+                    "packageId": "168",
+                    "subPackageId": "100220-563-167",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100388",
+                    "packageId": "169",
+                    "subPackageId": "100220-563-168",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100389",
+                    "packageId": "170",
+                    "subPackageId": "100220-563-169",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100390",
+                    "packageId": "171",
+                    "subPackageId": "100220-563-170",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100391",
+                    "packageId": "172",
+                    "subPackageId": "100220-563-171",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100392",
+                    "packageId": "173",
+                    "subPackageId": "100220-563-172",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100393",
+                    "packageId": "174",
+                    "subPackageId": "100220-563-173",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100394",
+                    "packageId": "175",
+                    "subPackageId": "100220-563-174",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100395",
+                    "packageId": "176",
+                    "subPackageId": "100220-563-175",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100396",
+                    "packageId": "177",
+                    "subPackageId": "100220-563-176",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100397",
+                    "packageId": "178",
+                    "subPackageId": "100220-563-177",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100398",
+                    "packageId": "179",
+                    "subPackageId": "100220-563-178",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100399",
+                    "packageId": "180",
+                    "subPackageId": "100220-563-179",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100400",
+                    "packageId": "181",
+                    "subPackageId": "100220-563-180",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100401",
+                    "packageId": "182",
+                    "subPackageId": "100220-563-181",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100402",
+                    "packageId": "183",
+                    "subPackageId": "100220-563-182",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100403",
+                    "packageId": "184",
+                    "subPackageId": "100220-563-183",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100404",
+                    "packageId": "185",
+                    "subPackageId": "100220-563-184",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100405",
+                    "packageId": "186",
+                    "subPackageId": "100220-563-185",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100406",
+                    "packageId": "187",
+                    "subPackageId": "100220-563-186",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100407",
+                    "packageId": "188",
+                    "subPackageId": "100220-563-187",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100408",
+                    "packageId": "189",
+                    "subPackageId": "100220-563-188",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100409",
+                    "packageId": "190",
+                    "subPackageId": "100220-563-189",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100410",
+                    "packageId": "191",
+                    "subPackageId": "100220-563-190",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100411",
+                    "packageId": "192",
+                    "subPackageId": "100220-563-191",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100412",
+                    "packageId": "193",
+                    "subPackageId": "100220-563-192",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100413",
+                    "packageId": "194",
+                    "subPackageId": "100220-563-193",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100414",
+                    "packageId": "195",
+                    "subPackageId": "100220-563-194",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100415",
+                    "packageId": "196",
+                    "subPackageId": "100220-563-195",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100416",
+                    "packageId": "197",
+                    "subPackageId": "100220-563-196",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100417",
+                    "packageId": "198",
+                    "subPackageId": "100220-563-197",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100418",
+                    "packageId": "199",
+                    "subPackageId": "100220-563-198",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100419",
+                    "packageId": "200",
+                    "subPackageId": "100220-563-199",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100420",
+                    "packageId": "201",
+                    "subPackageId": "100220-563-200",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100421",
+                    "packageId": "202",
+                    "subPackageId": "100220-563-201",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100422",
+                    "packageId": "203",
+                    "subPackageId": "100220-563-202",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100423",
+                    "packageId": "204",
+                    "subPackageId": "100220-563-203",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100424",
+                    "packageId": "205",
+                    "subPackageId": "100220-563-204",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100425",
+                    "packageId": "206",
+                    "subPackageId": "100220-563-205",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100426",
+                    "packageId": "207",
+                    "subPackageId": "100220-563-206",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100427",
+                    "packageId": "208",
+                    "subPackageId": "100220-563-207",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100428",
+                    "packageId": "209",
+                    "subPackageId": "100220-563-208",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100429",
+                    "packageId": "210",
+                    "subPackageId": "100220-563-209",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100430",
+                    "packageId": "211",
+                    "subPackageId": "100220-563-210",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100431",
+                    "packageId": "212",
+                    "subPackageId": "100220-563-211",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100432",
+                    "packageId": "213",
+                    "subPackageId": "100220-563-212",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100433",
+                    "packageId": "214",
+                    "subPackageId": "100220-563-213",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100434",
+                    "packageId": "215",
+                    "subPackageId": "100220-563-214",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100435",
+                    "packageId": "216",
+                    "subPackageId": "100220-563-215",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100436",
+                    "packageId": "217",
+                    "subPackageId": "100220-563-216",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100437",
+                    "packageId": "218",
+                    "subPackageId": "100220-563-217",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100438",
+                    "packageId": "219",
+                    "subPackageId": "100220-563-218",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100439",
+                    "packageId": "220",
+                    "subPackageId": "100220-563-219",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100440",
+                    "packageId": "221",
+                    "subPackageId": "100220-563-220",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100441",
+                    "packageId": "222",
+                    "subPackageId": "100220-563-221",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100442",
+                    "packageId": "223",
+                    "subPackageId": "100220-563-222",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100443",
+                    "packageId": "224",
+                    "subPackageId": "100220-563-223",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100444",
+                    "packageId": "225",
+                    "subPackageId": "100220-563-224",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100445",
+                    "packageId": "226",
+                    "subPackageId": "100220-563-225",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100446",
+                    "packageId": "227",
+                    "subPackageId": "100220-563-226",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100447",
+                    "packageId": "228",
+                    "subPackageId": "100220-563-227",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100448",
+                    "packageId": "229",
+                    "subPackageId": "100220-563-228",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100449",
+                    "packageId": "230",
+                    "subPackageId": "100220-563-229",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100450",
+                    "packageId": "231",
+                    "subPackageId": "100220-563-230",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100451",
+                    "packageId": "232",
+                    "subPackageId": "100220-563-231",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100452",
+                    "packageId": "233",
+                    "subPackageId": "100220-563-232",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100453",
+                    "packageId": "234",
+                    "subPackageId": "100220-563-233",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100454",
+                    "packageId": "235",
+                    "subPackageId": "100220-563-234",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100455",
+                    "packageId": "236",
+                    "subPackageId": "100220-563-235",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100456",
+                    "packageId": "237",
+                    "subPackageId": "100220-563-236",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100457",
+                    "packageId": "238",
+                    "subPackageId": "100220-563-237",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100458",
+                    "packageId": "239",
+                    "subPackageId": "100220-563-238",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100459",
+                    "packageId": "240",
+                    "subPackageId": "100220-563-239",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100460",
+                    "packageId": "241",
+                    "subPackageId": "100220-563-240",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100461",
+                    "packageId": "242",
+                    "subPackageId": "100220-563-241",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100462",
+                    "packageId": "243",
+                    "subPackageId": "100220-563-242",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100463",
+                    "packageId": "244",
+                    "subPackageId": "100220-563-243",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100464",
+                    "packageId": "245",
+                    "subPackageId": "100220-563-244",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100465",
+                    "packageId": "246",
+                    "subPackageId": "100220-563-245",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100466",
+                    "packageId": "247",
+                    "subPackageId": "100220-563-246",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100467",
+                    "packageId": "248",
+                    "subPackageId": "100220-563-247",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100468",
+                    "packageId": "249",
+                    "subPackageId": "100220-563-248",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100469",
+                    "packageId": "250",
+                    "subPackageId": "100220-563-249",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100470",
+                    "packageId": "251",
+                    "subPackageId": "100220-563-250",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100471",
+                    "packageId": "252",
+                    "subPackageId": "100220-563-251",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100472",
+                    "packageId": "253",
+                    "subPackageId": "100220-563-252",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100473",
+                    "packageId": "254",
+                    "subPackageId": "100220-563-253",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100474",
+                    "packageId": "255",
+                    "subPackageId": "100220-563-254",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100475",
+                    "packageId": "256",
+                    "subPackageId": "100220-563-255",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100476",
+                    "packageId": "257",
+                    "subPackageId": "100220-563-256",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100477",
+                    "packageId": "258",
+                    "subPackageId": "100220-563-257",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100478",
+                    "packageId": "259",
+                    "subPackageId": "100220-563-258",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100479",
+                    "packageId": "260",
+                    "subPackageId": "100220-563-259",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100480",
+                    "packageId": "261",
+                    "subPackageId": "100220-563-260",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100481",
+                    "packageId": "262",
+                    "subPackageId": "100220-563-261",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100482",
+                    "packageId": "263",
+                    "subPackageId": "100220-563-262",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100483",
+                    "packageId": "264",
+                    "subPackageId": "100220-563-263",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100484",
+                    "packageId": "265",
+                    "subPackageId": "100220-563-264",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100485",
+                    "packageId": "266",
+                    "subPackageId": "100220-563-265",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100486",
+                    "packageId": "267",
+                    "subPackageId": "100220-563-266",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100487",
+                    "packageId": "268",
+                    "subPackageId": "100220-563-267",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100488",
+                    "packageId": "269",
+                    "subPackageId": "100220-563-268",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100489",
+                    "packageId": "270",
+                    "subPackageId": "100220-563-269",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100490",
+                    "packageId": "271",
+                    "subPackageId": "100220-563-270",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100491",
+                    "packageId": "272",
+                    "subPackageId": "100220-563-271",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100492",
+                    "packageId": "273",
+                    "subPackageId": "100220-563-272",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100493",
+                    "packageId": "274",
+                    "subPackageId": "100220-563-273",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100494",
+                    "packageId": "275",
+                    "subPackageId": "100220-563-274",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100495",
+                    "packageId": "276",
+                    "subPackageId": "100220-563-275",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100496",
+                    "packageId": "277",
+                    "subPackageId": "100220-563-276",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100497",
+                    "packageId": "278",
+                    "subPackageId": "100220-563-277",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100498",
+                    "packageId": "279",
+                    "subPackageId": "100220-563-278",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100499",
+                    "packageId": "280",
+                    "subPackageId": "100220-563-279",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100500",
+                    "packageId": "281",
+                    "subPackageId": "100220-563-280",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100501",
+                    "packageId": "282",
+                    "subPackageId": "100220-563-281",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100502",
+                    "packageId": "283",
+                    "subPackageId": "100220-563-282",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100503",
+                    "packageId": "284",
+                    "subPackageId": "100220-563-283",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100504",
+                    "packageId": "285",
+                    "subPackageId": "100220-563-284",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100505",
+                    "packageId": "286",
+                    "subPackageId": "100220-563-285",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100506",
+                    "packageId": "287",
+                    "subPackageId": "100220-563-286",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100507",
+                    "packageId": "288",
+                    "subPackageId": "100220-563-287",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100508",
+                    "packageId": "289",
+                    "subPackageId": "100220-563-288",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100509",
+                    "packageId": "290",
+                    "subPackageId": "100220-563-289",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100510",
+                    "packageId": "291",
+                    "subPackageId": "100220-563-290",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100511",
+                    "packageId": "292",
+                    "subPackageId": "100220-563-291",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100512",
+                    "packageId": "293",
+                    "subPackageId": "100220-563-292",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100513",
+                    "packageId": "294",
+                    "subPackageId": "100220-563-293",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100514",
+                    "packageId": "295",
+                    "subPackageId": "100220-563-294",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100515",
+                    "packageId": "296",
+                    "subPackageId": "100220-563-295",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100516",
+                    "packageId": "297",
+                    "subPackageId": "100220-563-296",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100517",
+                    "packageId": "298",
+                    "subPackageId": "100220-563-297",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100518",
+                    "packageId": "299",
+                    "subPackageId": "100220-563-298",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100519",
+                    "packageId": "300",
+                    "subPackageId": "100220-563-299",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100520",
+                    "packageId": "301",
+                    "subPackageId": "100220-563-300",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100521",
+                    "packageId": "302",
+                    "subPackageId": "100220-563-301",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100522",
+                    "packageId": "303",
+                    "subPackageId": "100220-563-302",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100523",
+                    "packageId": "304",
+                    "subPackageId": "100220-563-303",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100524",
+                    "packageId": "305",
+                    "subPackageId": "100220-563-304",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100525",
+                    "packageId": "306",
+                    "subPackageId": "100220-563-305",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100526",
+                    "packageId": "307",
+                    "subPackageId": "100220-563-306",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100527",
+                    "packageId": "308",
+                    "subPackageId": "100220-563-307",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100528",
+                    "packageId": "309",
+                    "subPackageId": "100220-563-308",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100529",
+                    "packageId": "310",
+                    "subPackageId": "100220-563-309",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100530",
+                    "packageId": "311",
+                    "subPackageId": "100220-563-310",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100531",
+                    "packageId": "312",
+                    "subPackageId": "100220-563-311",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100532",
+                    "packageId": "313",
+                    "subPackageId": "100220-563-312",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100533",
+                    "packageId": "314",
+                    "subPackageId": "100220-563-313",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100534",
+                    "packageId": "315",
+                    "subPackageId": "100220-563-314",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100535",
+                    "packageId": "316",
+                    "subPackageId": "100220-563-315",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100536",
+                    "packageId": "317",
+                    "subPackageId": "100220-563-316",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100537",
+                    "packageId": "318",
+                    "subPackageId": "100220-563-317",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100538",
+                    "packageId": "319",
+                    "subPackageId": "100220-563-318",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100539",
+                    "packageId": "320",
+                    "subPackageId": "100220-563-319",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100540",
+                    "packageId": "321",
+                    "subPackageId": "100220-563-320",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100541",
+                    "packageId": "322",
+                    "subPackageId": "100220-563-321",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100542",
+                    "packageId": "323",
+                    "subPackageId": "100220-563-322",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100543",
+                    "packageId": "324",
+                    "subPackageId": "100220-563-323",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100544",
+                    "packageId": "325",
+                    "subPackageId": "100220-563-324",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100545",
+                    "packageId": "326",
+                    "subPackageId": "100220-563-325",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100546",
+                    "packageId": "327",
+                    "subPackageId": "100220-563-326",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100547",
+                    "packageId": "328",
+                    "subPackageId": "100220-563-327",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100548",
+                    "packageId": "329",
+                    "subPackageId": "100220-563-328",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100549",
+                    "packageId": "330",
+                    "subPackageId": "100220-563-329",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100550",
+                    "packageId": "331",
+                    "subPackageId": "100220-563-330",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100551",
+                    "packageId": "332",
+                    "subPackageId": "100220-563-331",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100552",
+                    "packageId": "333",
+                    "subPackageId": "100220-563-332",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100553",
+                    "packageId": "334",
+                    "subPackageId": "100220-563-333",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100554",
+                    "packageId": "335",
+                    "subPackageId": "100220-563-334",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100555",
+                    "packageId": "336",
+                    "subPackageId": "100220-563-335",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100556",
+                    "packageId": "337",
+                    "subPackageId": "100220-563-336",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100557",
+                    "packageId": "338",
+                    "subPackageId": "100220-563-337",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100558",
+                    "packageId": "339",
+                    "subPackageId": "100220-563-338",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100559",
+                    "packageId": "340",
+                    "subPackageId": "100220-563-339",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100560",
+                    "packageId": "341",
+                    "subPackageId": "100220-563-340",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100561",
+                    "packageId": "342",
+                    "subPackageId": "100220-563-341",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100562",
+                    "packageId": "343",
+                    "subPackageId": "100220-563-342",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100563",
+                    "packageId": "344",
+                    "subPackageId": "100220-563-343",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100564",
+                    "packageId": "345",
+                    "subPackageId": "100220-563-344",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100565",
+                    "packageId": "346",
+                    "subPackageId": "100220-563-345",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100566",
+                    "packageId": "347",
+                    "subPackageId": "100220-563-346",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100567",
+                    "packageId": "348",
+                    "subPackageId": "100220-563-347",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100568",
+                    "packageId": "349",
+                    "subPackageId": "100220-563-348",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100569",
+                    "packageId": "350",
+                    "subPackageId": "100220-563-349",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100570",
+                    "packageId": "351",
+                    "subPackageId": "100220-563-350",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100571",
+                    "packageId": "352",
+                    "subPackageId": "100220-563-351",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100572",
+                    "packageId": "353",
+                    "subPackageId": "100220-563-352",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100573",
+                    "packageId": "354",
+                    "subPackageId": "100220-563-353",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100574",
+                    "packageId": "355",
+                    "subPackageId": "100220-563-354",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100575",
+                    "packageId": "356",
+                    "subPackageId": "100220-563-355",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100576",
+                    "packageId": "357",
+                    "subPackageId": "100220-563-356",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100577",
+                    "packageId": "358",
+                    "subPackageId": "100220-563-357",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100578",
+                    "packageId": "359",
+                    "subPackageId": "100220-563-358",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100579",
+                    "packageId": "360",
+                    "subPackageId": "100220-563-359",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100580",
+                    "packageId": "361",
+                    "subPackageId": "100220-563-360",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100581",
+                    "packageId": "362",
+                    "subPackageId": "100220-563-361",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100582",
+                    "packageId": "363",
+                    "subPackageId": "100220-563-362",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100583",
+                    "packageId": "364",
+                    "subPackageId": "100220-563-363",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100584",
+                    "packageId": "365",
+                    "subPackageId": "100220-563-364",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100585",
+                    "packageId": "366",
+                    "subPackageId": "100220-563-365",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100586",
+                    "packageId": "367",
+                    "subPackageId": "100220-563-366",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100587",
+                    "packageId": "368",
+                    "subPackageId": "100220-563-367",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100588",
+                    "packageId": "369",
+                    "subPackageId": "100220-563-368",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100589",
+                    "packageId": "370",
+                    "subPackageId": "100220-563-369",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100590",
+                    "packageId": "371",
+                    "subPackageId": "100220-563-370",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100591",
+                    "packageId": "372",
+                    "subPackageId": "100220-563-371",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100592",
+                    "packageId": "373",
+                    "subPackageId": "100220-563-372",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100593",
+                    "packageId": "374",
+                    "subPackageId": "100220-563-373",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100594",
+                    "packageId": "375",
+                    "subPackageId": "100220-563-374",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100595",
+                    "packageId": "376",
+                    "subPackageId": "100220-563-375",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100596",
+                    "packageId": "377",
+                    "subPackageId": "100220-563-376",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100597",
+                    "packageId": "378",
+                    "subPackageId": "100220-563-377",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100598",
+                    "packageId": "379",
+                    "subPackageId": "100220-563-378",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100599",
+                    "packageId": "380",
+                    "subPackageId": "100220-563-379",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100600",
+                    "packageId": "381",
+                    "subPackageId": "100220-563-380",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100601",
+                    "packageId": "382",
+                    "subPackageId": "100220-563-381",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100602",
+                    "packageId": "383",
+                    "subPackageId": "100220-563-382",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100603",
+                    "packageId": "384",
+                    "subPackageId": "100220-563-383",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100604",
+                    "packageId": "385",
+                    "subPackageId": "100220-563-384",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100605",
+                    "packageId": "386",
+                    "subPackageId": "100220-563-385",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100606",
+                    "packageId": "387",
+                    "subPackageId": "100220-563-386",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100607",
+                    "packageId": "388",
+                    "subPackageId": "100220-563-387",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100608",
+                    "packageId": "389",
+                    "subPackageId": "100220-563-388",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100609",
+                    "packageId": "390",
+                    "subPackageId": "100220-563-389",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100610",
+                    "packageId": "391",
+                    "subPackageId": "100220-563-390",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100611",
+                    "packageId": "392",
+                    "subPackageId": "100220-563-391",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100612",
+                    "packageId": "393",
+                    "subPackageId": "100220-563-392",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100613",
+                    "packageId": "394",
+                    "subPackageId": "100220-563-393",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100614",
+                    "packageId": "395",
+                    "subPackageId": "100220-563-394",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100615",
+                    "packageId": "396",
+                    "subPackageId": "100220-563-395",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100616",
+                    "packageId": "397",
+                    "subPackageId": "100220-563-396",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100617",
+                    "packageId": "398",
+                    "subPackageId": "100220-563-397",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100618",
+                    "packageId": "399",
+                    "subPackageId": "100220-563-398",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100619",
+                    "packageId": "400",
+                    "subPackageId": "100220-563-399",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100620",
+                    "packageId": "401",
+                    "subPackageId": "100220-563-400",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100621",
+                    "packageId": "402",
+                    "subPackageId": "100220-563-401",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100622",
+                    "packageId": "403",
+                    "subPackageId": "100220-563-402",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100623",
+                    "packageId": "404",
+                    "subPackageId": "100220-563-403",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100624",
+                    "packageId": "405",
+                    "subPackageId": "100220-563-404",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100625",
+                    "packageId": "406",
+                    "subPackageId": "100220-563-405",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100626",
+                    "packageId": "407",
+                    "subPackageId": "100220-563-406",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100627",
+                    "packageId": "408",
+                    "subPackageId": "100220-563-407",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100628",
+                    "packageId": "409",
+                    "subPackageId": "100220-563-408",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100629",
+                    "packageId": "410",
+                    "subPackageId": "100220-563-409",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100630",
+                    "packageId": "411",
+                    "subPackageId": "100220-563-410",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100631",
+                    "packageId": "412",
+                    "subPackageId": "100220-563-411",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100632",
+                    "packageId": "413",
+                    "subPackageId": "100220-563-412",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100633",
+                    "packageId": "414",
+                    "subPackageId": "100220-563-413",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100634",
+                    "packageId": "415",
+                    "subPackageId": "100220-563-414",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100635",
+                    "packageId": "416",
+                    "subPackageId": "100220-563-415",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100636",
+                    "packageId": "417",
+                    "subPackageId": "100220-563-416",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100637",
+                    "packageId": "418",
+                    "subPackageId": "100220-563-417",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100638",
+                    "packageId": "419",
+                    "subPackageId": "100220-563-418",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100639",
+                    "packageId": "420",
+                    "subPackageId": "100220-563-419",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100640",
+                    "packageId": "421",
+                    "subPackageId": "100220-563-420",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100641",
+                    "packageId": "422",
+                    "subPackageId": "100220-563-421",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100642",
+                    "packageId": "423",
+                    "subPackageId": "100220-563-422",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100643",
+                    "packageId": "424",
+                    "subPackageId": "100220-563-423",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100644",
+                    "packageId": "425",
+                    "subPackageId": "100220-563-424",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100645",
+                    "packageId": "426",
+                    "subPackageId": "100220-563-425",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100646",
+                    "packageId": "427",
+                    "subPackageId": "100220-563-426",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100647",
+                    "packageId": "428",
+                    "subPackageId": "100220-563-427",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100648",
+                    "packageId": "429",
+                    "subPackageId": "100220-563-428",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100649",
+                    "packageId": "430",
+                    "subPackageId": "100220-563-429",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100650",
+                    "packageId": "431",
+                    "subPackageId": "100220-563-430",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100651",
+                    "packageId": "432",
+                    "subPackageId": "100220-563-431",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100652",
+                    "packageId": "433",
+                    "subPackageId": "100220-563-432",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100653",
+                    "packageId": "434",
+                    "subPackageId": "100220-563-433",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100654",
+                    "packageId": "435",
+                    "subPackageId": "100220-563-434",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100655",
+                    "packageId": "436",
+                    "subPackageId": "100220-563-435",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100656",
+                    "packageId": "437",
+                    "subPackageId": "100220-563-436",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100657",
+                    "packageId": "438",
+                    "subPackageId": "100220-563-437",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100658",
+                    "packageId": "439",
+                    "subPackageId": "100220-563-438",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100659",
+                    "packageId": "440",
+                    "subPackageId": "100220-563-439",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100660",
+                    "packageId": "441",
+                    "subPackageId": "100220-563-440",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100661",
+                    "packageId": "442",
+                    "subPackageId": "100220-563-441",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100662",
+                    "packageId": "443",
+                    "subPackageId": "100220-563-442",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100663",
+                    "packageId": "444",
+                    "subPackageId": "100220-563-443",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100664",
+                    "packageId": "445",
+                    "subPackageId": "100220-563-444",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100665",
+                    "packageId": "446",
+                    "subPackageId": "100220-563-445",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100666",
+                    "packageId": "447",
+                    "subPackageId": "100220-563-446",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100667",
+                    "packageId": "448",
+                    "subPackageId": "100220-563-447",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100668",
+                    "packageId": "449",
+                    "subPackageId": "100220-563-448",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100669",
+                    "packageId": "450",
+                    "subPackageId": "100220-563-449",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100670",
+                    "packageId": "451",
+                    "subPackageId": "100220-563-450",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100671",
+                    "packageId": "452",
+                    "subPackageId": "100220-563-451",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100672",
+                    "packageId": "453",
+                    "subPackageId": "100220-563-452",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100673",
+                    "packageId": "454",
+                    "subPackageId": "100220-563-453",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100674",
+                    "packageId": "455",
+                    "subPackageId": "100220-563-454",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100675",
+                    "packageId": "456",
+                    "subPackageId": "100220-563-455",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100676",
+                    "packageId": "457",
+                    "subPackageId": "100220-563-456",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100677",
+                    "packageId": "458",
+                    "subPackageId": "100220-563-457",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100678",
+                    "packageId": "459",
+                    "subPackageId": "100220-563-458",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100679",
+                    "packageId": "460",
+                    "subPackageId": "100220-563-459",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100680",
+                    "packageId": "461",
+                    "subPackageId": "100220-563-460",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100681",
+                    "packageId": "462",
+                    "subPackageId": "100220-563-461",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100682",
+                    "packageId": "463",
+                    "subPackageId": "100220-563-462",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100683",
+                    "packageId": "464",
+                    "subPackageId": "100220-563-463",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100684",
+                    "packageId": "465",
+                    "subPackageId": "100220-563-464",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100685",
+                    "packageId": "466",
+                    "subPackageId": "100220-563-465",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100686",
+                    "packageId": "467",
+                    "subPackageId": "100220-563-466",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100687",
+                    "packageId": "468",
+                    "subPackageId": "100220-563-467",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100688",
+                    "packageId": "469",
+                    "subPackageId": "100220-563-468",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100689",
+                    "packageId": "470",
+                    "subPackageId": "100220-563-469",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100690",
+                    "packageId": "471",
+                    "subPackageId": "100220-563-470",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100691",
+                    "packageId": "472",
+                    "subPackageId": "100220-563-471",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100692",
+                    "packageId": "473",
+                    "subPackageId": "100220-563-472",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100693",
+                    "packageId": "474",
+                    "subPackageId": "100220-563-473",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100694",
+                    "packageId": "475",
+                    "subPackageId": "100220-563-474",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100695",
+                    "packageId": "476",
+                    "subPackageId": "100220-563-475",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100696",
+                    "packageId": "477",
+                    "subPackageId": "100220-563-476",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100697",
+                    "packageId": "478",
+                    "subPackageId": "100220-563-477",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100698",
+                    "packageId": "479",
+                    "subPackageId": "100220-563-478",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100699",
+                    "packageId": "480",
+                    "subPackageId": "100220-563-479",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100700",
+                    "packageId": "481",
+                    "subPackageId": "100220-563-480",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100701",
+                    "packageId": "482",
+                    "subPackageId": "100220-563-481",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100702",
+                    "packageId": "483",
+                    "subPackageId": "100220-563-482",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100703",
+                    "packageId": "484",
+                    "subPackageId": "100220-563-483",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100704",
+                    "packageId": "485",
+                    "subPackageId": "100220-563-484",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100705",
+                    "packageId": "486",
+                    "subPackageId": "100220-563-485",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100706",
+                    "packageId": "487",
+                    "subPackageId": "100220-563-486",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100707",
+                    "packageId": "488",
+                    "subPackageId": "100220-563-487",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100708",
+                    "packageId": "489",
+                    "subPackageId": "100220-563-488",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100709",
+                    "packageId": "490",
+                    "subPackageId": "100220-563-489",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100710",
+                    "packageId": "491",
+                    "subPackageId": "100220-563-490",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100711",
+                    "packageId": "492",
+                    "subPackageId": "100220-563-491",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100712",
+                    "packageId": "493",
+                    "subPackageId": "100220-563-492",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100713",
+                    "packageId": "494",
+                    "subPackageId": "100220-563-493",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100714",
+                    "packageId": "495",
+                    "subPackageId": "100220-563-494",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100715",
+                    "packageId": "496",
+                    "subPackageId": "100220-563-495",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100716",
+                    "packageId": "497",
+                    "subPackageId": "100220-563-496",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100717",
+                    "packageId": "498",
+                    "subPackageId": "100220-563-497",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100718",
+                    "packageId": "499",
+                    "subPackageId": "100220-563-498",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                },
+                {
+                    "spaceId": "100719",
+                    "packageId": "500",
+                    "subPackageId": "100220-563-499",
+                    "superGroup": "Agua Purificada",
+                    "oxxoCategories": "Desayuno"
+                }
+            ]
+        }
+    ]
+}

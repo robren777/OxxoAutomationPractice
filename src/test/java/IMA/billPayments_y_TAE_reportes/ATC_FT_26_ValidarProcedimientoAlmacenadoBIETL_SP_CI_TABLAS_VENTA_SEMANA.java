@@ -1,0 +1,99 @@
+package IMA.billPayments_y_TAE_reportes;
+
+import static org.testng.Assert.assertFalse;
+
+import java.sql.Statement;
+import java.util.HashMap;
+
+import org.testng.annotations.Test;
+
+import IMA.util.GlobalVariables;
+import IMA.util.IMATools;
+import modelo.BaseExecution;
+import utils.sql.SQLResult;
+
+public class ATC_FT_26_ValidarProcedimientoAlmacenadoBIETL_SP_CI_TABLAS_VENTA_SEMANA extends BaseExecution {
+
+	@Test(dataProvider = "data-provider")
+	public void ATC_FT_26_ValidarProcedimientoAlmacenadoBIETL_SP_CI_TABLAS_VENTA_SEMANA_test(HashMap<String, String> data)
+			throws Exception {
+		
+		IMATools ima = new IMATools(null, testCase);
+		
+		SQLResult connectionResult;
+		
+		utils.sql.SQLUtil db = new utils.sql.SQLUtil(GlobalVariables.DB_HOST_FCDW4QA, GlobalVariables.DB_USER_FCDW4QA, GlobalVariables.DB_PASSWORD_FCDW4QA);
+
+
+		//Paso 1.  //el paso 1 falla ya que en la tabla no existe ningun registro con NULL,
+	        addStep("Validar que los registros de la tabla BIDMMKT.DM_FACT_VENTA_SEMANA tengan el campo ID_ZONA_DIGITAL = NULL");
+	        
+	     String query1 = "select * from BIDMMKT.DM_FACT_VENTA_SEMANA where ID_ZONA_DIGITAL = null";
+	        
+	  	connectionResult = executeQuery(db, query1);
+		ima.validarConexion(connectionResult);
+		System.out.println("se valida conexion");
+		ima.validarContenidoTablas(connectionResult, query1);
+		testCase.addQueryEvidenceCurrentStep(connectionResult);
+		
+		 
+		//Paso 2. 
+        addStep("Ejecutar el SP: execute BIETL.SP_CI_TABLAS_VENTA_SEMANA");
+        String query4 = "EXECUTE SP_CI_TABLAS_VENTA_SEMANA";
+		 
+         Statement stmt = db.getConn().createStatement();
+         boolean execute= stmt.execute(query1);
+         System.out.println("res execute: "+ execute);
+         
+        if(execute == false) {
+                testCase.addTextEvidenceCurrentStep("PL/SQL Procedimiento completado exitosamente.");
+                System.out.println("completado existosamente");	
+        }else {
+            testCase.addTextEvidenceCurrentStep("PL/SQL Procedimiento no completado.");
+            System.out.println("no completado");
+        }
+        assertFalse(execute,"No se ejecuto correctamente el procedimiento BIETL.SP_CI_TABLAS_VENTA_SEMANA");
+
+        //Paso 3. Falla por que no existe la tabla  MIOXXO_ZD.FILE_TAE_CI
+        addStep("Validar que se haya actualizado la tabla BIDMMKT.DM_FACT_VENTA_SEMANA con los productos de  MIOXXO_ZD.FILE_TAE_CI");
+        
+  
+	}
+
+	@Override
+	public void beforeTest() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public String setTestDescription() {
+		// TODO Auto-generated method stub
+		return "Validar Procedimiento Almacenado";
+	}
+
+	@Override
+	public String setTestDesigner() {
+		// TODO Auto-generated method stub
+		return "EQUIPO AUTOMATIZACION";
+	}
+
+	@Override
+	public String setTestFullName() {
+		// TODO Auto-generated method stub
+		return "ATC_FT_26_ValidarProcedimientoAlmacenadoBIETL_SP_CI_TABLAS_VENTA_SEMANA_test";
+	}
+
+	@Override
+	public String setTestInstanceID() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String setPrerequisites() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
